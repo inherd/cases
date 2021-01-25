@@ -1,0 +1,5709 @@
+[
+  {
+    "language": "Autoconf",
+    "blanks": 1038,
+    "code": 8507,
+    "comments": 1326,
+    "reports": [
+      {
+        "blanks": 5,
+        "code": 8,
+        "comments": 0,
+        "file_name": "hiredis-config.cmake.in",
+        "path": "deps/hiredis/hiredis-config.cmake.in"
+      },
+      {
+        "blanks": 1,
+        "code": 11,
+        "comments": 0,
+        "file_name": "hiredis_ssl.pc.in",
+        "path": "deps/hiredis/hiredis_ssl.pc.in"
+      },
+      {
+        "blanks": 1,
+        "code": 11,
+        "comments": 0,
+        "file_name": "hiredis.pc.in",
+        "path": "deps/hiredis/hiredis.pc.in"
+      },
+      {
+        "blanks": 5,
+        "code": 8,
+        "comments": 0,
+        "file_name": "hiredis_ssl-config.cmake.in",
+        "path": "deps/hiredis/hiredis_ssl-config.cmake.in"
+      },
+      {
+        "blanks": 0,
+        "code": 4,
+        "comments": 0,
+        "file_name": "manpages.xsl.in",
+        "path": "deps/jemalloc/doc/manpages.xsl.in"
+      },
+      {
+        "blanks": 0,
+        "code": 5,
+        "comments": 0,
+        "file_name": "html.xsl.in",
+        "path": "deps/jemalloc/doc/html.xsl.in"
+      },
+      {
+        "blanks": 60,
+        "code": 494,
+        "comments": 15,
+        "file_name": "Makefile.in",
+        "path": "deps/jemalloc/Makefile.in"
+      },
+      {
+        "blanks": 1,
+        "code": 11,
+        "comments": 0,
+        "file_name": "jemalloc.pc.in",
+        "path": "deps/jemalloc/jemalloc.pc.in"
+      },
+      {
+        "blanks": 0,
+        "code": 0,
+        "comments": 0,
+        "file_name": "config.stamp.in",
+        "path": "deps/jemalloc/config.stamp.in"
+      },
+      {
+        "blanks": 3,
+        "code": 79,
+        "comments": 1,
+        "file_name": "jemalloc-config.in",
+        "path": "deps/jemalloc/bin/jemalloc-config.in"
+      },
+      {
+        "blanks": 2,
+        "code": 6,
+        "comments": 1,
+        "file_name": "jemalloc.sh.in",
+        "path": "deps/jemalloc/bin/jemalloc.sh.in"
+      },
+      {
+        "blanks": 6,
+        "code": 65,
+        "comments": 9,
+        "file_name": "test.sh.in",
+        "path": "deps/jemalloc/test/test.sh.in"
+      },
+      {
+        "blanks": 23,
+        "code": 60,
+        "comments": 90,
+        "file_name": "jemalloc_test.h.in",
+        "path": "deps/jemalloc/test/include/test/jemalloc_test.h.in"
+      },
+      {
+        "blanks": 1,
+        "code": 4,
+        "comments": 4,
+        "file_name": "jemalloc_test_defs.h.in",
+        "path": "deps/jemalloc/test/include/test/jemalloc_test_defs.h.in"
+      },
+      {
+        "blanks": 238,
+        "code": 3139,
+        "comments": 2,
+        "file_name": "jemalloc.xml.in",
+        "path": "deps/jemalloc/doc/jemalloc.xml.in"
+      },
+      {
+        "blanks": 6,
+        "code": 27,
+        "comments": 93,
+        "file_name": "jemalloc_macros.h.in",
+        "path": "deps/jemalloc/include/jemalloc/jemalloc_macros.h.in"
+      },
+      {
+        "blanks": 73,
+        "code": 204,
+        "comments": 89,
+        "file_name": "jemalloc_internal_defs.h.in",
+        "path": "deps/jemalloc/include/jemalloc/internal/jemalloc_internal_defs.h.in"
+      },
+      {
+        "blanks": 5,
+        "code": 57,
+        "comments": 4,
+        "file_name": "jemalloc_protos.h.in",
+        "path": "deps/jemalloc/include/jemalloc/jemalloc_protos.h.in"
+      },
+      {
+        "blanks": 9,
+        "code": 68,
+        "comments": 0,
+        "file_name": "jemalloc_typedefs.h.in",
+        "path": "deps/jemalloc/include/jemalloc/jemalloc_typedefs.h.in"
+      },
+      {
+        "blanks": 8,
+        "code": 21,
+        "comments": 16,
+        "file_name": "jemalloc_defs.h.in",
+        "path": "deps/jemalloc/include/jemalloc/jemalloc_defs.h.in"
+      },
+      {
+        "blanks": 581,
+        "code": 4138,
+        "comments": 905,
+        "file_name": "jeprof.in",
+        "path": "deps/jemalloc/bin/jeprof.in"
+      },
+      {
+        "blanks": 10,
+        "code": 87,
+        "comments": 97,
+        "file_name": "jemalloc_preamble.h.in",
+        "path": "deps/jemalloc/include/jemalloc/internal/jemalloc_preamble.h.in"
+      }
+    ]
+  },
+  {
+    "language": "BASH",
+    "blanks": 14,
+    "code": 99,
+    "comments": 5,
+    "reports": [
+      {
+        "blanks": 14,
+        "code": 99,
+        "comments": 5,
+        "file_name": "create-cluster",
+        "path": "utils/create-cluster/create-cluster"
+      }
+    ]
+  },
+  {
+    "language": "Batch",
+    "blanks": 2,
+    "code": 26,
+    "comments": 0,
+    "reports": [
+      {
+        "blanks": 2,
+        "code": 26,
+        "comments": 0,
+        "file_name": "luavs.bat",
+        "path": "deps/lua/etc/luavs.bat"
+      }
+    ]
+  },
+  {
+    "language": "C",
+    "blanks": 20056,
+    "code": 125842,
+    "comments": 30925,
+    "reports": [
+      {
+        "blanks": 15,
+        "code": 51,
+        "comments": 9,
+        "file_name": "ltm.c",
+        "path": "deps/lua/src/ltm.c"
+      },
+      {
+        "blanks": 16,
+        "code": 58,
+        "comments": 32,
+        "file_name": "ae_select.c",
+        "path": "src/ae_select.c"
+      },
+      {
+        "blanks": 26,
+        "code": 152,
+        "comments": 80,
+        "file_name": "geohash_helper.c",
+        "path": "src/geohash_helper.c"
+      },
+      {
+        "blanks": 67,
+        "code": 425,
+        "comments": 27,
+        "file_name": "ldo.c",
+        "path": "deps/lua/src/ldo.c"
+      },
+      {
+        "blanks": 16,
+        "code": 139,
+        "comments": 34,
+        "file_name": "lua_bit.c",
+        "path": "deps/lua/src/lua_bit.c"
+      },
+      {
+        "blanks": 56,
+        "code": 391,
+        "comments": 16,
+        "file_name": "llex.c",
+        "path": "deps/lua/src/llex.c"
+      },
+      {
+        "blanks": 217,
+        "code": 857,
+        "comments": 81,
+        "file_name": "hdr_histogram.c",
+        "path": "deps/hdr_histogram/hdr_histogram.c"
+      },
+      {
+        "blanks": 6,
+        "code": 29,
+        "comments": 62,
+        "file_name": "gopher.c",
+        "path": "src/gopher.c"
+      },
+      {
+        "blanks": 61,
+        "code": 324,
+        "comments": 119,
+        "file_name": "ae.c",
+        "path": "src/ae.c"
+      },
+      {
+        "blanks": 89,
+        "code": 549,
+        "comments": 111,
+        "file_name": "t_string.c",
+        "path": "src/t_string.c"
+      },
+      {
+        "blanks": 18,
+        "code": 85,
+        "comments": 33,
+        "file_name": "ae_epoll.c",
+        "path": "src/ae_epoll.c"
+      },
+      {
+        "blanks": 32,
+        "code": 158,
+        "comments": 103,
+        "file_name": "bio.c",
+        "path": "src/bio.c"
+      },
+      {
+        "blanks": 83,
+        "code": 532,
+        "comments": 23,
+        "file_name": "ldebug.c",
+        "path": "deps/lua/src/ldebug.c"
+      },
+      {
+        "blanks": 196,
+        "code": 853,
+        "comments": 38,
+        "file_name": "lapi.c",
+        "path": "deps/lua/src/lapi.c"
+      },
+      {
+        "blanks": 57,
+        "code": 308,
+        "comments": 64,
+        "file_name": "lua_struct.c",
+        "path": "deps/lua/src/lua_struct.c"
+      },
+      {
+        "blanks": 39,
+        "code": 230,
+        "comments": 18,
+        "file_name": "ltablib.c",
+        "path": "deps/lua/src/ltablib.c"
+      },
+      {
+        "blanks": 19,
+        "code": 42,
+        "comments": 25,
+        "file_name": "lmem.c",
+        "path": "deps/lua/src/lmem.c"
+      },
+      {
+        "blanks": 121,
+        "code": 691,
+        "comments": 19,
+        "file_name": "lcode.c",
+        "path": "deps/lua/src/lcode.c"
+      },
+      {
+        "blanks": 73,
+        "code": 366,
+        "comments": 282,
+        "file_name": "blocked.c",
+        "path": "src/blocked.c"
+      },
+      {
+        "blanks": 69,
+        "code": 234,
+        "comments": 130,
+        "file_name": "connection.c",
+        "path": "src/connection.c"
+      },
+      {
+        "blanks": 102,
+        "code": 523,
+        "comments": 28,
+        "file_name": "lbaselib.c",
+        "path": "deps/lua/src/lbaselib.c"
+      },
+      {
+        "blanks": 16,
+        "code": 59,
+        "comments": 7,
+        "file_name": "lzio.c",
+        "path": "deps/lua/src/lzio.c"
+      },
+      {
+        "blanks": 182,
+        "code": 1072,
+        "comments": 85,
+        "file_name": "lparser.c",
+        "path": "deps/lua/src/lparser.c"
+      },
+      {
+        "blanks": 52,
+        "code": 153,
+        "comments": 46,
+        "file_name": "strbuf.c",
+        "path": "deps/lua/src/strbuf.c"
+      },
+      {
+        "blanks": 151,
+        "code": 771,
+        "comments": 379,
+        "file_name": "dict.c",
+        "path": "src/dict.c"
+      },
+      {
+        "blanks": 18,
+        "code": 62,
+        "comments": 48,
+        "file_name": "endianconv.c",
+        "path": "src/endianconv.c"
+      },
+      {
+        "blanks": 56,
+        "code": 166,
+        "comments": 101,
+        "file_name": "ae_evport.c",
+        "path": "src/ae_evport.c"
+      },
+      {
+        "blanks": 61,
+        "code": 331,
+        "comments": 6,
+        "file_name": "ldblib.c",
+        "path": "deps/lua/src/ldblib.c"
+      },
+      {
+        "blanks": 20,
+        "code": 107,
+        "comments": 67,
+        "file_name": "cli_common.c",
+        "path": "src/cli_common.c"
+      },
+      {
+        "blanks": 43,
+        "code": 186,
+        "comments": 14,
+        "file_name": "loslib.c",
+        "path": "deps/lua/src/loslib.c"
+      },
+      {
+        "blanks": 19,
+        "code": 137,
+        "comments": 8,
+        "file_name": "ldump.c",
+        "path": "deps/lua/src/ldump.c"
+      },
+      {
+        "blanks": 53,
+        "code": 267,
+        "comments": 128,
+        "file_name": "rio.c",
+        "path": "src/rio.c"
+      },
+      {
+        "blanks": 110,
+        "code": 726,
+        "comments": 141,
+        "file_name": "lua_cmsgpack.c",
+        "path": "deps/lua/src/lua_cmsgpack.c"
+      },
+      {
+        "blanks": 86,
+        "code": 581,
+        "comments": 43,
+        "file_name": "lgc.c",
+        "path": "deps/lua/src/lgc.c"
+      },
+      {
+        "blanks": 103,
+        "code": 1173,
+        "comments": 151,
+        "file_name": "lua_cjson.c",
+        "path": "deps/lua/src/lua_cjson.c"
+      },
+      {
+        "blanks": 52,
+        "code": 267,
+        "comments": 106,
+        "file_name": "multi.c",
+        "path": "src/multi.c"
+      },
+      {
+        "blanks": 21,
+        "code": 195,
+        "comments": 11,
+        "file_name": "lundump.c",
+        "path": "deps/lua/src/lundump.c"
+      },
+      {
+        "blanks": 17,
+        "code": 178,
+        "comments": 5,
+        "file_name": "luac.c",
+        "path": "deps/lua/src/luac.c"
+      },
+      {
+        "blanks": 15,
+        "code": 116,
+        "comments": 65,
+        "file_name": "slowlog.c",
+        "path": "src/slowlog.c"
+      },
+      {
+        "blanks": 9,
+        "code": 24,
+        "comments": 5,
+        "file_name": "linit.c",
+        "path": "deps/lua/src/linit.c"
+      },
+      {
+        "blanks": 15,
+        "code": 88,
+        "comments": 8,
+        "file_name": "lstring.c",
+        "path": "deps/lua/src/lstring.c"
+      },
+      {
+        "blanks": 114,
+        "code": 700,
+        "comments": 195,
+        "file_name": "t_list.c",
+        "path": "src/t_list.c"
+      },
+      {
+        "blanks": 14,
+        "code": 52,
+        "comments": 57,
+        "file_name": "localtime.c",
+        "path": "src/localtime.c"
+      },
+      {
+        "blanks": 12,
+        "code": 87,
+        "comments": 78,
+        "file_name": "lolwut5.c",
+        "path": "src/lolwut5.c"
+      },
+      {
+        "blanks": 87,
+        "code": 410,
+        "comments": 91,
+        "file_name": "ltable.c",
+        "path": "deps/lua/src/ltable.c"
+      },
+      {
+        "blanks": 16,
+        "code": 73,
+        "comments": 46,
+        "file_name": "childinfo.c",
+        "path": "src/childinfo.c"
+      },
+      {
+        "blanks": 29,
+        "code": 136,
+        "comments": 9,
+        "file_name": "lfunc.c",
+        "path": "deps/lua/src/lfunc.c"
+      },
+      {
+        "blanks": 22,
+        "code": 178,
+        "comments": 33,
+        "file_name": "redis-check-aof.c",
+        "path": "src/redis-check-aof.c"
+      },
+      {
+        "blanks": 61,
+        "code": 323,
+        "comments": 8,
+        "file_name": "lua.c",
+        "path": "deps/lua/src/lua.c"
+      },
+      {
+        "blanks": 30,
+        "code": 156,
+        "comments": 41,
+        "file_name": "sha1.c",
+        "path": "src/sha1.c"
+      },
+      {
+        "blanks": 47,
+        "code": 206,
+        "comments": 10,
+        "file_name": "lmathlib.c",
+        "path": "deps/lua/src/lmathlib.c"
+      },
+      {
+        "blanks": 14,
+        "code": 208,
+        "comments": 5,
+        "file_name": "print.c",
+        "path": "deps/lua/src/print.c"
+      },
+      {
+        "blanks": 89,
+        "code": 564,
+        "comments": 279,
+        "file_name": "listpack.c",
+        "path": "src/listpack.c"
+      },
+      {
+        "blanks": 27,
+        "code": 175,
+        "comments": 12,
+        "file_name": "lobject.c",
+        "path": "deps/lua/src/lobject.c"
+      },
+      {
+        "blanks": 66,
+        "code": 195,
+        "comments": 70,
+        "file_name": "setproctitle.c",
+        "path": "src/setproctitle.c"
+      },
+      {
+        "blanks": 42,
+        "code": 182,
+        "comments": 67,
+        "file_name": "lzf_c.c",
+        "path": "src/lzf_c.c"
+      },
+      {
+        "blanks": 31,
+        "code": 168,
+        "comments": 15,
+        "file_name": "lstate.c",
+        "path": "deps/lua/src/lstate.c"
+      },
+      {
+        "blanks": 56,
+        "code": 689,
+        "comments": 22,
+        "file_name": "lvm.c",
+        "path": "deps/lua/src/lvm.c"
+      },
+      {
+        "blanks": 33,
+        "code": 104,
+        "comments": 68,
+        "file_name": "fpconv.c",
+        "path": "deps/lua/src/fpconv.c"
+      },
+      {
+        "blanks": 11,
+        "code": 85,
+        "comments": 6,
+        "file_name": "lopcodes.c",
+        "path": "deps/lua/src/lopcodes.c"
+      },
+      {
+        "blanks": 95,
+        "code": 755,
+        "comments": 21,
+        "file_name": "lstrlib.c",
+        "path": "deps/lua/src/lstrlib.c"
+      },
+      {
+        "blanks": 22,
+        "code": 123,
+        "comments": 40,
+        "file_name": "pqsort.c",
+        "path": "src/pqsort.c"
+      },
+      {
+        "blanks": 135,
+        "code": 461,
+        "comments": 70,
+        "file_name": "loadlib.c",
+        "path": "deps/lua/src/loadlib.c"
+      },
+      {
+        "blanks": 88,
+        "code": 507,
+        "comments": 82,
+        "file_name": "anet.c",
+        "path": "src/anet.c"
+      },
+      {
+        "blanks": 106,
+        "code": 414,
+        "comments": 36,
+        "file_name": "liolib.c",
+        "path": "deps/lua/src/liolib.c"
+      },
+      {
+        "blanks": 50,
+        "code": 407,
+        "comments": 140,
+        "file_name": "sort.c",
+        "path": "src/sort.c"
+      },
+      {
+        "blanks": 133,
+        "code": 781,
+        "comments": 247,
+        "file_name": "t_set.c",
+        "path": "src/t_set.c"
+      },
+      {
+        "blanks": 18,
+        "code": 103,
+        "comments": 69,
+        "file_name": "timeout.c",
+        "path": "src/timeout.c"
+      },
+      {
+        "blanks": 151,
+        "code": 1639,
+        "comments": 192,
+        "file_name": "debug.c",
+        "path": "src/debug.c"
+      },
+      {
+        "blanks": 66,
+        "code": 395,
+        "comments": 74,
+        "file_name": "intset.c",
+        "path": "src/intset.c"
+      },
+      {
+        "blanks": 131,
+        "code": 485,
+        "comments": 36,
+        "file_name": "lauxlib.c",
+        "path": "deps/lua/src/lauxlib.c"
+      },
+      {
+        "blanks": 19,
+        "code": 100,
+        "comments": 57,
+        "file_name": "sparkline.c",
+        "path": "src/sparkline.c"
+      },
+      {
+        "blanks": 312,
+        "code": 1951,
+        "comments": 325,
+        "file_name": "config.c",
+        "path": "src/config.c"
+      },
+      {
+        "blanks": 19,
+        "code": 91,
+        "comments": 29,
+        "file_name": "ae_kqueue.c",
+        "path": "src/ae_kqueue.c"
+      },
+      {
+        "blanks": 50,
+        "code": 356,
+        "comments": 198,
+        "file_name": "tracking.c",
+        "path": "src/tracking.c"
+      },
+      {
+        "blanks": 37,
+        "code": 277,
+        "comments": 81,
+        "file_name": "redis-check-rdb.c",
+        "path": "src/redis-check-rdb.c"
+      },
+      {
+        "blanks": 18,
+        "code": 69,
+        "comments": 73,
+        "file_name": "crc64.c",
+        "path": "src/crc64.c"
+      },
+      {
+        "blanks": 17,
+        "code": 120,
+        "comments": 21,
+        "file_name": "sha256.c",
+        "path": "src/sha256.c"
+      },
+      {
+        "blanks": 34,
+        "code": 265,
+        "comments": 66,
+        "file_name": "memtest.c",
+        "path": "src/memtest.c"
+      },
+      {
+        "blanks": 42,
+        "code": 264,
+        "comments": 55,
+        "file_name": "siphash.c",
+        "path": "src/siphash.c"
+      },
+      {
+        "blanks": 55,
+        "code": 184,
+        "comments": 60,
+        "file_name": "geohash.c",
+        "path": "src/geohash.c"
+      },
+      {
+        "blanks": 102,
+        "code": 640,
+        "comments": 189,
+        "file_name": "util.c",
+        "path": "src/util.c"
+      },
+      {
+        "blanks": 269,
+        "code": 2158,
+        "comments": 529,
+        "file_name": "rdb.c",
+        "path": "src/rdb.c"
+      },
+      {
+        "blanks": 163,
+        "code": 699,
+        "comments": 118,
+        "file_name": "tls.c",
+        "path": "src/tls.c"
+      },
+      {
+        "blanks": 207,
+        "code": 1350,
+        "comments": 416,
+        "file_name": "aof.c",
+        "path": "src/aof.c"
+      },
+      {
+        "blanks": 133,
+        "code": 1700,
+        "comments": 138,
+        "file_name": "redis-benchmark.c",
+        "path": "src/redis-benchmark.c"
+      },
+      {
+        "blanks": 99,
+        "code": 919,
+        "comments": 195,
+        "file_name": "defrag.c",
+        "path": "src/defrag.c"
+      },
+      {
+        "blanks": 20,
+        "code": 107,
+        "comments": 28,
+        "file_name": "setcpuaffinity.c",
+        "path": "src/setcpuaffinity.c"
+      },
+      {
+        "blanks": 4,
+        "code": 42,
+        "comments": 42,
+        "file_name": "crc16.c",
+        "path": "src/crc16.c"
+      },
+      {
+        "blanks": 116,
+        "code": 793,
+        "comments": 256,
+        "file_name": "bitops.c",
+        "path": "src/bitops.c"
+      },
+      {
+        "blanks": 14,
+        "code": 112,
+        "comments": 75,
+        "file_name": "lolwut6.c",
+        "path": "src/lolwut6.c"
+      },
+      {
+        "blanks": 6,
+        "code": 31,
+        "comments": 13,
+        "file_name": "noparser.c",
+        "path": "deps/lua/etc/noparser.c"
+      },
+      {
+        "blanks": 4,
+        "code": 31,
+        "comments": 3,
+        "file_name": "all.c",
+        "path": "deps/lua/etc/all.c"
+      },
+      {
+        "blanks": 386,
+        "code": 2444,
+        "comments": 863,
+        "file_name": "networking.c",
+        "path": "src/networking.c"
+      },
+      {
+        "blanks": 89,
+        "code": 458,
+        "comments": 111,
+        "file_name": "latency.c",
+        "path": "src/latency.c"
+      },
+      {
+        "blanks": 4,
+        "code": 30,
+        "comments": 5,
+        "file_name": "min.c",
+        "path": "deps/lua/etc/min.c"
+      },
+      {
+        "blanks": 352,
+        "code": 2275,
+        "comments": 971,
+        "file_name": "t_stream.c",
+        "path": "src/t_stream.c"
+      },
+      {
+        "blanks": 156,
+        "code": 1079,
+        "comments": 236,
+        "file_name": "object.c",
+        "path": "src/object.c"
+      },
+      {
+        "blanks": 190,
+        "code": 1505,
+        "comments": 578,
+        "file_name": "acl.c",
+        "path": "src/acl.c"
+      },
+      {
+        "blanks": 255,
+        "code": 1563,
+        "comments": 537,
+        "file_name": "ziplist.c",
+        "path": "src/ziplist.c"
+      },
+      {
+        "blanks": 12,
+        "code": 75,
+        "comments": 53,
+        "file_name": "notify.c",
+        "path": "src/notify.c"
+      },
+      {
+        "blanks": 125,
+        "code": 659,
+        "comments": 140,
+        "file_name": "t_hash.c",
+        "path": "src/t_hash.c"
+      },
+      {
+        "blanks": 628,
+        "code": 3691,
+        "comments": 1679,
+        "file_name": "cluster.c",
+        "path": "src/cluster.c"
+      },
+      {
+        "blanks": 352,
+        "code": 2006,
+        "comments": 1034,
+        "file_name": "replication.c",
+        "path": "src/replication.c"
+      },
+      {
+        "blanks": 34,
+        "code": 110,
+        "comments": 26,
+        "file_name": "monotonic.c",
+        "path": "src/monotonic.c"
+      },
+      {
+        "blanks": 76,
+        "code": 337,
+        "comments": 297,
+        "file_name": "evict.c",
+        "path": "src/evict.c"
+      },
+      {
+        "blanks": 8,
+        "code": 24,
+        "comments": 34,
+        "file_name": "release.c",
+        "path": "src/release.c"
+      },
+      {
+        "blanks": 49,
+        "code": 347,
+        "comments": 113,
+        "file_name": "pubsub.c",
+        "path": "src/pubsub.c"
+      },
+      {
+        "blanks": 15,
+        "code": 74,
+        "comments": 56,
+        "file_name": "syncio.c",
+        "path": "src/syncio.c"
+      },
+      {
+        "blanks": 157,
+        "code": 1077,
+        "comments": 714,
+        "file_name": "rax.c",
+        "path": "src/rax.c"
+      },
+      {
+        "blanks": 747,
+        "code": 4096,
+        "comments": 1103,
+        "file_name": "server.c",
+        "path": "src/server.c"
+      },
+      {
+        "blanks": 529,
+        "code": 3194,
+        "comments": 979,
+        "file_name": "sentinel.c",
+        "path": "src/sentinel.c"
+      },
+      {
+        "blanks": 21,
+        "code": 99,
+        "comments": 67,
+        "file_name": "mt19937-64.c",
+        "path": "src/mt19937-64.c"
+      },
+      {
+        "blanks": 8,
+        "code": 33,
+        "comments": 35,
+        "file_name": "hellotimer.c",
+        "path": "src/modules/hellotimer.c"
+      },
+      {
+        "blanks": 69,
+        "code": 299,
+        "comments": 249,
+        "file_name": "expire.c",
+        "path": "src/expire.c"
+      },
+      {
+        "blanks": 75,
+        "code": 484,
+        "comments": 121,
+        "file_name": "zmalloc.c",
+        "path": "src/zmalloc.c"
+      },
+      {
+        "blanks": 16,
+        "code": 62,
+        "comments": 54,
+        "file_name": "hellodict.c",
+        "path": "src/modules/hellodict.c"
+      },
+      {
+        "blanks": 7,
+        "code": 44,
+        "comments": 42,
+        "file_name": "rand.c",
+        "path": "src/rand.c"
+      },
+      {
+        "blanks": 64,
+        "code": 315,
+        "comments": 158,
+        "file_name": "zipmap.c",
+        "path": "src/zipmap.c"
+      },
+      {
+        "blanks": 23,
+        "code": 147,
+        "comments": 62,
+        "file_name": "lazyfree.c",
+        "path": "src/lazyfree.c"
+      },
+      {
+        "blanks": 29,
+        "code": 114,
+        "comments": 76,
+        "file_name": "helloblock.c",
+        "path": "src/modules/helloblock.c"
+      },
+      {
+        "blanks": 19,
+        "code": 91,
+        "comments": 78,
+        "file_name": "lolwut.c",
+        "path": "src/lolwut.c"
+      },
+      {
+        "blanks": 83,
+        "code": 322,
+        "comments": 55,
+        "file_name": "testmodule.c",
+        "path": "src/modules/testmodule.c"
+      },
+      {
+        "blanks": 19,
+        "code": 135,
+        "comments": 37,
+        "file_name": "lzf_d.c",
+        "path": "src/lzf_d.c"
+      },
+      {
+        "blanks": 39,
+        "code": 185,
+        "comments": 58,
+        "file_name": "crcspeed.c",
+        "path": "src/crcspeed.c"
+      },
+      {
+        "blanks": 37,
+        "code": 235,
+        "comments": 106,
+        "file_name": "adlist.c",
+        "path": "src/adlist.c"
+      },
+      {
+        "blanks": 8,
+        "code": 51,
+        "comments": 34,
+        "file_name": "hellohook.c",
+        "path": "src/modules/hellohook.c"
+      },
+      {
+        "blanks": 238,
+        "code": 1213,
+        "comments": 536,
+        "file_name": "db.c",
+        "path": "src/db.c"
+      },
+      {
+        "blanks": 35,
+        "code": 107,
+        "comments": 49,
+        "file_name": "helloacl.c",
+        "path": "src/modules/helloacl.c"
+      },
+      {
+        "blanks": 15,
+        "code": 59,
+        "comments": 44,
+        "file_name": "hellocluster.c",
+        "path": "src/modules/hellocluster.c"
+      },
+      {
+        "blanks": 9,
+        "code": 57,
+        "comments": 13,
+        "file_name": "example.c",
+        "path": "deps/linenoise/example.c"
+      },
+      {
+        "blanks": 105,
+        "code": 629,
+        "comments": 222,
+        "file_name": "geo.c",
+        "path": "src/geo.c"
+      },
+      {
+        "blanks": 49,
+        "code": 245,
+        "comments": 68,
+        "file_name": "hellotype.c",
+        "path": "src/modules/hellotype.c"
+      },
+      {
+        "blanks": 284,
+        "code": 2135,
+        "comments": 364,
+        "file_name": "quicklist.c",
+        "path": "src/quicklist.c"
+      },
+      {
+        "blanks": 93,
+        "code": 372,
+        "comments": 156,
+        "file_name": "helloworld.c",
+        "path": "src/modules/helloworld.c"
+      },
+      {
+        "blanks": 13,
+        "code": 60,
+        "comments": 0,
+        "file_name": "example-glib.c",
+        "path": "deps/hiredis/examples/example-glib.c"
+      },
+      {
+        "blanks": 8,
+        "code": 44,
+        "comments": 2,
+        "file_name": "example-libev.c",
+        "path": "deps/hiredis/examples/example-libev.c"
+      },
+      {
+        "blanks": 16,
+        "code": 72,
+        "comments": 2,
+        "file_name": "example-libevent-ssl.c",
+        "path": "deps/hiredis/examples/example-libevent-ssl.c"
+      },
+      {
+        "blanks": 14,
+        "code": 68,
+        "comments": 9,
+        "file_name": "example.c",
+        "path": "deps/hiredis/examples/example.c"
+      },
+      {
+        "blanks": 502,
+        "code": 2748,
+        "comments": 654,
+        "file_name": "t_zset.c",
+        "path": "src/t_zset.c"
+      },
+      {
+        "blanks": 12,
+        "code": 46,
+        "comments": 2,
+        "file_name": "example-ivykis.c",
+        "path": "deps/hiredis/examples/example-ivykis.c"
+      },
+      {
+        "blanks": 12,
+        "code": 47,
+        "comments": 3,
+        "file_name": "example-ae.c",
+        "path": "deps/hiredis/examples/example-ae.c"
+      },
+      {
+        "blanks": 592,
+        "code": 7009,
+        "comments": 727,
+        "file_name": "redis-cli.c",
+        "path": "src/redis-cli.c"
+      },
+      {
+        "blanks": 15,
+        "code": 45,
+        "comments": 6,
+        "file_name": "example-macosx.c",
+        "path": "deps/hiredis/examples/example-macosx.c"
+      },
+      {
+        "blanks": 10,
+        "code": 55,
+        "comments": 2,
+        "file_name": "example-libevent.c",
+        "path": "deps/hiredis/examples/example-libevent.c"
+      },
+      {
+        "blanks": 9,
+        "code": 45,
+        "comments": 2,
+        "file_name": "example-libuv.c",
+        "path": "deps/hiredis/examples/example-libuv.c"
+      },
+      {
+        "blanks": 17,
+        "code": 85,
+        "comments": 8,
+        "file_name": "example-ssl.c",
+        "path": "deps/hiredis/examples/example-ssl.c"
+      },
+      {
+        "blanks": 80,
+        "code": 464,
+        "comments": 68,
+        "file_name": "net.c",
+        "path": "deps/hiredis/net.c"
+      },
+      {
+        "blanks": 118,
+        "code": 928,
+        "comments": 303,
+        "file_name": "sds.c",
+        "path": "src/sds.c"
+      },
+      {
+        "blanks": 28,
+        "code": 83,
+        "comments": 49,
+        "file_name": "example-push.c",
+        "path": "deps/hiredis/examples/example-push.c"
+      },
+      {
+        "blanks": 181,
+        "code": 838,
+        "comments": 155,
+        "file_name": "hiredis.c",
+        "path": "deps/hiredis/hiredis.c"
+      },
+      {
+        "blanks": 13,
+        "code": 42,
+        "comments": 31,
+        "file_name": "alloc.c",
+        "path": "deps/hiredis/alloc.c"
+      },
+      {
+        "blanks": 22,
+        "code": 191,
+        "comments": 35,
+        "file_name": "sockcompat.c",
+        "path": "deps/hiredis/sockcompat.c"
+      },
+      {
+        "blanks": 278,
+        "code": 1957,
+        "comments": 525,
+        "file_name": "scripting.c",
+        "path": "src/scripting.c"
+      },
+      {
+        "blanks": 122,
+        "code": 809,
+        "comments": 294,
+        "file_name": "linenoise.c",
+        "path": "deps/linenoise/linenoise.c"
+      },
+      {
+        "blanks": 6,
+        "code": 34,
+        "comments": 5,
+        "file_name": "corrupt_rdb.c",
+        "path": "utils/corrupt_rdb.c"
+      },
+      {
+        "blanks": 22,
+        "code": 121,
+        "comments": 0,
+        "file_name": "rehashing.c",
+        "path": "utils/hashtable/rehashing.c"
+      },
+      {
+        "blanks": 81,
+        "code": 352,
+        "comments": 93,
+        "file_name": "ssl.c",
+        "path": "deps/hiredis/ssl.c"
+      },
+      {
+        "blanks": 7,
+        "code": 45,
+        "comments": 24,
+        "file_name": "tracking_collisions.c",
+        "path": "utils/tracking_collisions.c"
+      },
+      {
+        "blanks": 48,
+        "code": 213,
+        "comments": 91,
+        "file_name": "dict.c",
+        "path": "deps/hiredis/dict.c"
+      },
+      {
+        "blanks": 130,
+        "code": 854,
+        "comments": 611,
+        "file_name": "hyperloglog.c",
+        "path": "src/hyperloglog.c"
+      },
+      {
+        "blanks": 22,
+        "code": 106,
+        "comments": 30,
+        "file_name": "lfu-simulation.c",
+        "path": "utils/lru/lfu-simulation.c"
+      },
+      {
+        "blanks": 196,
+        "code": 1065,
+        "comments": 150,
+        "file_name": "test.c",
+        "path": "deps/hiredis/test.c"
+      },
+      {
+        "blanks": 138,
+        "code": 591,
+        "comments": 158,
+        "file_name": "async.c",
+        "path": "deps/hiredis/async.c"
+      },
+      {
+        "blanks": 6,
+        "code": 44,
+        "comments": 0,
+        "file_name": "bin.c",
+        "path": "deps/jemalloc/src/bin.c"
+      },
+      {
+        "blanks": 6,
+        "code": 17,
+        "comments": 32,
+        "file_name": "div.c",
+        "path": "deps/jemalloc/src/div.c"
+      },
+      {
+        "blanks": 14,
+        "code": 85,
+        "comments": 1,
+        "file_name": "witness.c",
+        "path": "deps/jemalloc/src/witness.c"
+      },
+      {
+        "blanks": 24,
+        "code": 187,
+        "comments": 13,
+        "file_name": "mutex.c",
+        "path": "deps/jemalloc/src/mutex.c"
+      },
+      {
+        "blanks": 20,
+        "code": 84,
+        "comments": 17,
+        "file_name": "bitmap.c",
+        "path": "deps/jemalloc/src/bitmap.c"
+      },
+      {
+        "blanks": 0,
+        "code": 3,
+        "comments": 0,
+        "file_name": "ticker.c",
+        "path": "deps/jemalloc/src/ticker.c"
+      },
+      {
+        "blanks": 96,
+        "code": 738,
+        "comments": 81,
+        "file_name": "background_thread.c",
+        "path": "deps/jemalloc/src/background_thread.c"
+      },
+      {
+        "blanks": 9,
+        "code": 57,
+        "comments": 12,
+        "file_name": "log.c",
+        "path": "deps/jemalloc/src/log.c"
+      },
+      {
+        "blanks": 49,
+        "code": 274,
+        "comments": 48,
+        "file_name": "large.c",
+        "path": "deps/jemalloc/src/large.c"
+      },
+      {
+        "blanks": 36,
+        "code": 133,
+        "comments": 1,
+        "file_name": "nstime.c",
+        "path": "deps/jemalloc/src/nstime.c"
+      },
+      {
+        "blanks": 10,
+        "code": 695,
+        "comments": 34,
+        "file_name": "read.c",
+        "path": "deps/hiredis/read.c"
+      },
+      {
+        "blanks": 49,
+        "code": 405,
+        "comments": 60,
+        "file_name": "base.c",
+        "path": "deps/jemalloc/src/base.c"
+      },
+      {
+        "blanks": 3,
+        "code": 15,
+        "comments": 0,
+        "file_name": "mutex_pool.c",
+        "path": "deps/jemalloc/src/mutex_pool.c"
+      },
+      {
+        "blanks": 2,
+        "code": 5,
+        "comments": 5,
+        "file_name": "hooks.c",
+        "path": "deps/jemalloc/src/hooks.c"
+      },
+      {
+        "blanks": 35,
+        "code": 190,
+        "comments": 45,
+        "file_name": "extent_dss.c",
+        "path": "deps/jemalloc/src/extent_dss.c"
+      },
+      {
+        "blanks": 51,
+        "code": 574,
+        "comments": 51,
+        "file_name": "malloc_io.c",
+        "path": "deps/jemalloc/src/malloc_io.c"
+      },
+      {
+        "blanks": 0,
+        "code": 3,
+        "comments": 0,
+        "file_name": "prng.c",
+        "path": "deps/jemalloc/src/prng.c"
+      },
+      {
+        "blanks": 3,
+        "code": 103,
+        "comments": 1,
+        "file_name": "sz.c",
+        "path": "deps/jemalloc/src/sz.c"
+      },
+      {
+        "blanks": 77,
+        "code": 371,
+        "comments": 121,
+        "file_name": "ckh.c",
+        "path": "deps/jemalloc/src/ckh.c"
+      },
+      {
+        "blanks": 36,
+        "code": 265,
+        "comments": 50,
+        "file_name": "tsd.c",
+        "path": "deps/jemalloc/src/tsd.c"
+      },
+      {
+        "blanks": 76,
+        "code": 474,
+        "comments": 56,
+        "file_name": "pages.c",
+        "path": "deps/jemalloc/src/pages.c"
+      },
+      {
+        "blanks": 0,
+        "code": 3,
+        "comments": 0,
+        "file_name": "hash.c",
+        "path": "deps/jemalloc/src/hash.c"
+      },
+      {
+        "blanks": 31,
+        "code": 262,
+        "comments": 27,
+        "file_name": "rtree.c",
+        "path": "deps/jemalloc/src/rtree.c"
+      },
+      {
+        "blanks": 92,
+        "code": 553,
+        "comments": 72,
+        "file_name": "tcache.c",
+        "path": "deps/jemalloc/src/tcache.c"
+      },
+      {
+        "blanks": 6,
+        "code": 33,
+        "comments": 3,
+        "file_name": "extent_mmap.c",
+        "path": "deps/jemalloc/src/extent_mmap.c"
+      },
+      {
+        "blanks": 1,
+        "code": 2,
+        "comments": 0,
+        "file_name": "btalloc_1.c",
+        "path": "deps/jemalloc/test/src/btalloc_1.c"
+      },
+      {
+        "blanks": 65,
+        "code": 308,
+        "comments": 96,
+        "file_name": "zone.c",
+        "path": "deps/jemalloc/src/zone.c"
+      },
+      {
+        "blanks": 6,
+        "code": 62,
+        "comments": 0,
+        "file_name": "mtx.c",
+        "path": "deps/jemalloc/test/src/mtx.c"
+      },
+      {
+        "blanks": 6,
+        "code": 49,
+        "comments": 0,
+        "file_name": "sdallocx.c",
+        "path": "deps/jemalloc/test/integration/sdallocx.c"
+      },
+      {
+        "blanks": 1,
+        "code": 5,
+        "comments": 0,
+        "file_name": "btalloc.c",
+        "path": "deps/jemalloc/test/src/btalloc.c"
+      },
+      {
+        "blanks": 3,
+        "code": 20,
+        "comments": 4,
+        "file_name": "mq.c",
+        "path": "deps/jemalloc/test/src/mq.c"
+      },
+      {
+        "blanks": 8,
+        "code": 38,
+        "comments": 0,
+        "file_name": "overflow.c",
+        "path": "deps/jemalloc/test/integration/overflow.c"
+      },
+      {
+        "blanks": 34,
+        "code": 168,
+        "comments": 15,
+        "file_name": "test.c",
+        "path": "deps/jemalloc/test/src/test.c"
+      },
+      {
+        "blanks": 4,
+        "code": 30,
+        "comments": 0,
+        "file_name": "thd.c",
+        "path": "deps/jemalloc/test/src/thd.c"
+      },
+      {
+        "blanks": 15,
+        "code": 71,
+        "comments": 1,
+        "file_name": "thread_tcache_enabled.c",
+        "path": "deps/jemalloc/test/integration/thread_tcache_enabled.c"
+      },
+      {
+        "blanks": 1,
+        "code": 2,
+        "comments": 0,
+        "file_name": "btalloc_0.c",
+        "path": "deps/jemalloc/test/src/btalloc_0.c"
+      },
+      {
+        "blanks": 0,
+        "code": 2,
+        "comments": 0,
+        "file_name": "math.c",
+        "path": "deps/jemalloc/test/src/math.c"
+      },
+      {
+        "blanks": 11,
+        "code": 55,
+        "comments": 0,
+        "file_name": "MALLOCX_ARENA.c",
+        "path": "deps/jemalloc/test/integration/MALLOCX_ARENA.c"
+      },
+      {
+        "blanks": 112,
+        "code": 881,
+        "comments": 296,
+        "file_name": "sds.c",
+        "path": "deps/hiredis/sds.c"
+      },
+      {
+        "blanks": 8,
+        "code": 45,
+        "comments": 3,
+        "file_name": "timer.c",
+        "path": "deps/jemalloc/test/src/timer.c"
+      },
+      {
+        "blanks": 14,
+        "code": 108,
+        "comments": 5,
+        "file_name": "posix_memalign.c",
+        "path": "deps/jemalloc/test/integration/posix_memalign.c"
+      },
+      {
+        "blanks": 347,
+        "code": 1916,
+        "comments": 210,
+        "file_name": "prof.c",
+        "path": "deps/jemalloc/src/prof.c"
+      },
+      {
+        "blanks": 14,
+        "code": 114,
+        "comments": 5,
+        "file_name": "aligned_alloc.c",
+        "path": "deps/jemalloc/test/integration/aligned_alloc.c"
+      },
+      {
+        "blanks": 17,
+        "code": 69,
+        "comments": 0,
+        "file_name": "thread_arena.c",
+        "path": "deps/jemalloc/test/integration/thread_arena.c"
+      },
+      {
+        "blanks": 27,
+        "code": 192,
+        "comments": 9,
+        "file_name": "mallocx.c",
+        "path": "deps/jemalloc/test/integration/mallocx.c"
+      },
+      {
+        "blanks": 35,
+        "code": 210,
+        "comments": 0,
+        "file_name": "rallocx.c",
+        "path": "deps/jemalloc/test/integration/rallocx.c"
+      },
+      {
+        "blanks": 194,
+        "code": 1026,
+        "comments": 66,
+        "file_name": "stats.c",
+        "path": "deps/jemalloc/src/stats.c"
+      },
+      {
+        "blanks": 15,
+        "code": 108,
+        "comments": 1,
+        "file_name": "allocated.c",
+        "path": "deps/jemalloc/test/integration/allocated.c"
+      },
+      {
+        "blanks": 9,
+        "code": 50,
+        "comments": 0,
+        "file_name": "zero.c",
+        "path": "deps/jemalloc/test/unit/zero.c"
+      },
+      {
+        "blanks": 26,
+        "code": 213,
+        "comments": 9,
+        "file_name": "extent.c",
+        "path": "deps/jemalloc/test/integration/extent.c"
+      },
+      {
+        "blanks": 265,
+        "code": 1652,
+        "comments": 260,
+        "file_name": "extent.c",
+        "path": "deps/jemalloc/src/extent.c"
+      },
+      {
+        "blanks": 3,
+        "code": 13,
+        "comments": 0,
+        "file_name": "a0.c",
+        "path": "deps/jemalloc/test/unit/a0.c"
+      },
+      {
+        "blanks": 72,
+        "code": 285,
+        "comments": 27,
+        "file_name": "xallocx.c",
+        "path": "deps/jemalloc/test/integration/xallocx.c"
+      },
+      {
+        "blanks": 23,
+        "code": 141,
+        "comments": 1,
+        "file_name": "microbench.c",
+        "path": "deps/jemalloc/test/stress/microbench.c"
+      },
+      {
+        "blanks": 6,
+        "code": 51,
+        "comments": 0,
+        "file_name": "bit_util.c",
+        "path": "deps/jemalloc/test/unit/bit_util.c"
+      },
+      {
+        "blanks": 28,
+        "code": 155,
+        "comments": 0,
+        "file_name": "size_classes.c",
+        "path": "deps/jemalloc/test/unit/size_classes.c"
+      },
+      {
+        "blanks": 14,
+        "code": 109,
+        "comments": 18,
+        "file_name": "fork.c",
+        "path": "deps/jemalloc/test/unit/fork.c"
+      },
+      {
+        "blanks": 15,
+        "code": 59,
+        "comments": 0,
+        "file_name": "prof_gdump.c",
+        "path": "deps/jemalloc/test/unit/prof_gdump.c"
+      },
+      {
+        "blanks": 60,
+        "code": 441,
+        "comments": 218,
+        "file_name": "SFMT.c",
+        "path": "deps/jemalloc/test/src/SFMT.c"
+      },
+      {
+        "blanks": 274,
+        "code": 1553,
+        "comments": 216,
+        "file_name": "arena.c",
+        "path": "deps/jemalloc/src/arena.c"
+      },
+      {
+        "blanks": 33,
+        "code": 380,
+        "comments": 18,
+        "file_name": "bitmap.c",
+        "path": "deps/jemalloc/test/unit/bitmap.c"
+      },
+      {
+        "blanks": 70,
+        "code": 210,
+        "comments": 0,
+        "file_name": "witness.c",
+        "path": "deps/jemalloc/test/unit/witness.c"
+      },
+      {
+        "blanks": 3,
+        "code": 29,
+        "comments": 0,
+        "file_name": "slab.c",
+        "path": "deps/jemalloc/test/unit/slab.c"
+      },
+      {
+        "blanks": 35,
+        "code": 344,
+        "comments": 11,
+        "file_name": "math.c",
+        "path": "deps/jemalloc/test/unit/math.c"
+      },
+      {
+        "blanks": 21,
+        "code": 96,
+        "comments": 3,
+        "file_name": "prof_thread_name.c",
+        "path": "deps/jemalloc/test/unit/prof_thread_name.c"
+      },
+      {
+        "blanks": 32,
+        "code": 176,
+        "comments": 3,
+        "file_name": "ckh.c",
+        "path": "deps/jemalloc/test/unit/ckh.c"
+      },
+      {
+        "blanks": 19,
+        "code": 114,
+        "comments": 8,
+        "file_name": "extent_quantize.c",
+        "path": "deps/jemalloc/test/unit/extent_quantize.c"
+      },
+      {
+        "blanks": 341,
+        "code": 2410,
+        "comments": 132,
+        "file_name": "ctl.c",
+        "path": "deps/jemalloc/src/ctl.c"
+      },
+      {
+        "blanks": 11,
+        "code": 62,
+        "comments": 0,
+        "file_name": "ticker.c",
+        "path": "deps/jemalloc/test/unit/ticker.c"
+      },
+      {
+        "blanks": 55,
+        "code": 218,
+        "comments": 13,
+        "file_name": "prof_reset.c",
+        "path": "deps/jemalloc/test/unit/prof_reset.c"
+      },
+      {
+        "blanks": 0,
+        "code": 1,
+        "comments": 0,
+        "file_name": "junk_alloc.c",
+        "path": "deps/jemalloc/test/unit/junk_alloc.c"
+      },
+      {
+        "blanks": 3,
+        "code": 26,
+        "comments": 0,
+        "file_name": "div.c",
+        "path": "deps/jemalloc/test/unit/div.c"
+      },
+      {
+        "blanks": 17,
+        "code": 101,
+        "comments": 1,
+        "file_name": "background_thread.c",
+        "path": "deps/jemalloc/test/unit/background_thread.c"
+      },
+      {
+        "blanks": 0,
+        "code": 1,
+        "comments": 0,
+        "file_name": "junk_free.c",
+        "path": "deps/jemalloc/test/unit/junk_free.c"
+      },
+      {
+        "blanks": 32,
+        "code": 150,
+        "comments": 11,
+        "file_name": "log.c",
+        "path": "deps/jemalloc/test/unit/log.c"
+      },
+      {
+        "blanks": 11,
+        "code": 31,
+        "comments": 0,
+        "file_name": "prof_idump.c",
+        "path": "deps/jemalloc/test/unit/prof_idump.c"
+      },
+      {
+        "blanks": 28,
+        "code": 133,
+        "comments": 20,
+        "file_name": "retained.c",
+        "path": "deps/jemalloc/test/unit/retained.c"
+      },
+      {
+        "blanks": 11,
+        "code": 72,
+        "comments": 19,
+        "file_name": "smoothstep.c",
+        "path": "deps/jemalloc/test/unit/smoothstep.c"
+      },
+      {
+        "blanks": 19,
+        "code": 122,
+        "comments": 0,
+        "file_name": "junk.c",
+        "path": "deps/jemalloc/test/unit/junk.c"
+      },
+      {
+        "blanks": 4,
+        "code": 14,
+        "comments": 0,
+        "file_name": "spin.c",
+        "path": "deps/jemalloc/test/unit/spin.c"
+      },
+      {
+        "blanks": 41,
+        "code": 207,
+        "comments": 1,
+        "file_name": "nstime.c",
+        "path": "deps/jemalloc/test/unit/nstime.c"
+      },
+      {
+        "blanks": 398,
+        "code": 2507,
+        "comments": 430,
+        "file_name": "jemalloc.c",
+        "path": "deps/jemalloc/src/jemalloc.c"
+      },
+      {
+        "blanks": 5,
+        "code": 24,
+        "comments": 0,
+        "file_name": "pages.c",
+        "path": "deps/jemalloc/test/unit/pages.c"
+      },
+      {
+        "blanks": 33,
+        "code": 225,
+        "comments": 0,
+        "file_name": "malloc_io.c",
+        "path": "deps/jemalloc/test/unit/malloc_io.c"
+      },
+      {
+        "blanks": 752,
+        "code": 4461,
+        "comments": 3461,
+        "file_name": "module.c",
+        "path": "src/module.c"
+      },
+      {
+        "blanks": 7,
+        "code": 39,
+        "comments": 0,
+        "file_name": "prof_tctx.c",
+        "path": "deps/jemalloc/test/unit/prof_tctx.c"
+      },
+      {
+        "blanks": 30,
+        "code": 211,
+        "comments": 2,
+        "file_name": "qr.c",
+        "path": "deps/jemalloc/test/unit/qr.c"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 0,
+        "file_name": "arena_reset_prof.c",
+        "path": "deps/jemalloc/test/unit/arena_reset_prof.c"
+      },
+      {
+        "blanks": 7,
+        "code": 31,
+        "comments": 0,
+        "file_name": "hooks.c",
+        "path": "deps/jemalloc/test/unit/hooks.c"
+      },
+      {
+        "blanks": 9,
+        "code": 48,
+        "comments": 0,
+        "file_name": "mtx.c",
+        "path": "deps/jemalloc/test/unit/mtx.c"
+      },
+      {
+        "blanks": 23,
+        "code": 106,
+        "comments": 10,
+        "file_name": "tsd.c",
+        "path": "deps/jemalloc/test/unit/tsd.c"
+      },
+      {
+        "blanks": 54,
+        "code": 313,
+        "comments": 1,
+        "file_name": "stats.c",
+        "path": "deps/jemalloc/test/unit/stats.c"
+      },
+      {
+        "blanks": 15,
+        "code": 66,
+        "comments": 0,
+        "file_name": "prof_accum.c",
+        "path": "deps/jemalloc/test/unit/prof_accum.c"
+      },
+      {
+        "blanks": 38,
+        "code": 199,
+        "comments": 0,
+        "file_name": "prng.c",
+        "path": "deps/jemalloc/test/unit/prng.c"
+      },
+      {
+        "blanks": 18,
+        "code": 71,
+        "comments": 0,
+        "file_name": "mq.c",
+        "path": "deps/jemalloc/test/unit/mq.c"
+      },
+      {
+        "blanks": 35,
+        "code": 162,
+        "comments": 7,
+        "file_name": "ql.c",
+        "path": "deps/jemalloc/test/unit/ql.c"
+      },
+      {
+        "blanks": 23,
+        "code": 124,
+        "comments": 19,
+        "file_name": "pack.c",
+        "path": "deps/jemalloc/test/unit/pack.c"
+      },
+      {
+        "blanks": 39,
+        "code": 187,
+        "comments": 1,
+        "file_name": "rtree.c",
+        "path": "deps/jemalloc/test/unit/rtree.c"
+      },
+      {
+        "blanks": 62,
+        "code": 275,
+        "comments": 18,
+        "file_name": "rb.c",
+        "path": "deps/jemalloc/test/unit/rb.c"
+      },
+      {
+        "blanks": 11,
+        "code": 65,
+        "comments": 7,
+        "file_name": "background_thread_enable.c",
+        "path": "deps/jemalloc/test/unit/background_thread_enable.c"
+      },
+      {
+        "blanks": 17,
+        "code": 123,
+        "comments": 33,
+        "file_name": "hash.c",
+        "path": "deps/jemalloc/test/unit/hash.c"
+      },
+      {
+        "blanks": 18,
+        "code": 94,
+        "comments": 5,
+        "file_name": "prof_active.c",
+        "path": "deps/jemalloc/test/unit/prof_active.c"
+      },
+      {
+        "blanks": 28,
+        "code": 193,
+        "comments": 13,
+        "file_name": "base.c",
+        "path": "deps/jemalloc/test/unit/base.c"
+      },
+      {
+        "blanks": 17,
+        "code": 196,
+        "comments": 16,
+        "file_name": "atomic.c",
+        "path": "deps/jemalloc/test/unit/atomic.c"
+      },
+      {
+        "blanks": 41,
+        "code": 267,
+        "comments": 10,
+        "file_name": "ph.c",
+        "path": "deps/jemalloc/test/unit/ph.c"
+      },
+      {
+        "blanks": 61,
+        "code": 271,
+        "comments": 12,
+        "file_name": "arena_reset.c",
+        "path": "deps/jemalloc/test/unit/arena_reset.c"
+      },
+      {
+        "blanks": 75,
+        "code": 479,
+        "comments": 45,
+        "file_name": "decay.c",
+        "path": "deps/jemalloc/test/unit/decay.c"
+      },
+      {
+        "blanks": 4,
+        "code": 399,
+        "comments": 10,
+        "file_name": "emitter.c",
+        "path": "deps/jemalloc/test/unit/emitter.c"
+      },
+      {
+        "blanks": 15,
+        "code": 1549,
+        "comments": 35,
+        "file_name": "SFMT.c",
+        "path": "deps/jemalloc/test/unit/SFMT.c"
+      },
+      {
+        "blanks": 123,
+        "code": 661,
+        "comments": 21,
+        "file_name": "mallctl.c",
+        "path": "deps/jemalloc/test/unit/mallctl.c"
+      },
+      {
+        "blanks": 20,
+        "code": 83,
+        "comments": 0,
+        "file_name": "timer.c",
+        "path": "tests/modules/timer.c"
+      },
+      {
+        "blanks": 21,
+        "code": 66,
+        "comments": 3,
+        "file_name": "auth.c",
+        "path": "tests/modules/auth.c"
+      },
+      {
+        "blanks": 23,
+        "code": 91,
+        "comments": 8,
+        "file_name": "getkeys.c",
+        "path": "tests/modules/getkeys.c"
+      },
+      {
+        "blanks": 47,
+        "code": 176,
+        "comments": 11,
+        "file_name": "defragtest.c",
+        "path": "tests/modules/defragtest.c"
+      },
+      {
+        "blanks": 13,
+        "code": 986,
+        "comments": 0,
+        "file_name": "stats_print.c",
+        "path": "deps/jemalloc/test/unit/stats_print.c"
+      },
+      {
+        "blanks": 50,
+        "code": 130,
+        "comments": 29,
+        "file_name": "blockedclient.c",
+        "path": "tests/modules/blockedclient.c"
+      },
+      {
+        "blanks": 37,
+        "code": 260,
+        "comments": 4,
+        "file_name": "testrdb.c",
+        "path": "tests/modules/testrdb.c"
+      },
+      {
+        "blanks": 17,
+        "code": 97,
+        "comments": 0,
+        "file_name": "infotest.c",
+        "path": "tests/modules/infotest.c"
+      },
+      {
+        "blanks": 23,
+        "code": 93,
+        "comments": 5,
+        "file_name": "scan.c",
+        "path": "tests/modules/scan.c"
+      },
+      {
+        "blanks": 49,
+        "code": 161,
+        "comments": 7,
+        "file_name": "datatype.c",
+        "path": "tests/modules/datatype.c"
+      },
+      {
+        "blanks": 31,
+        "code": 117,
+        "comments": 6,
+        "file_name": "commandfilter.c",
+        "path": "tests/modules/commandfilter.c"
+      },
+      {
+        "blanks": 16,
+        "code": 74,
+        "comments": 4,
+        "file_name": "fork.c",
+        "path": "tests/modules/fork.c"
+      },
+      {
+        "blanks": 30,
+        "code": 159,
+        "comments": 7,
+        "file_name": "test_lazyfree.c",
+        "path": "tests/modules/test_lazyfree.c"
+      },
+      {
+        "blanks": 38,
+        "code": 288,
+        "comments": 1,
+        "file_name": "misc.c",
+        "path": "tests/modules/misc.c"
+      },
+      {
+        "blanks": 37,
+        "code": 149,
+        "comments": 38,
+        "file_name": "keyspace_events.c",
+        "path": "tests/modules/keyspace_events.c"
+      },
+      {
+        "blanks": 49,
+        "code": 243,
+        "comments": 42,
+        "file_name": "hooks.c",
+        "path": "tests/modules/hooks.c"
+      },
+      {
+        "blanks": 86,
+        "code": 383,
+        "comments": 36,
+        "file_name": "blockonkeys.c",
+        "path": "tests/modules/blockonkeys.c"
+      },
+      {
+        "blanks": 26,
+        "code": 94,
+        "comments": 42,
+        "file_name": "propagate.c",
+        "path": "tests/modules/propagate.c"
+      }
+    ]
+  },
+  {
+    "language": "C Header",
+    "blanks": 3618,
+    "code": 21541,
+    "comments": 6948,
+    "reports": [
+      {
+        "blanks": 10,
+        "code": 14,
+        "comments": 12,
+        "file_name": "lundump.h",
+        "path": "deps/lua/src/lundump.h"
+      },
+      {
+        "blanks": 28,
+        "code": 113,
+        "comments": 5,
+        "file_name": "hdr_atomic.h",
+        "path": "deps/hdr_histogram/hdr_atomic.h"
+      },
+      {
+        "blanks": 6,
+        "code": 21,
+        "comments": 29,
+        "file_name": "sparkline.h",
+        "path": "src/sparkline.h"
+      },
+      {
+        "blanks": 7,
+        "code": 31,
+        "comments": 32,
+        "file_name": "util.h",
+        "path": "src/util.h"
+      },
+      {
+        "blanks": 4,
+        "code": 14,
+        "comments": 36,
+        "file_name": "sdsalloc.h",
+        "path": "src/sdsalloc.h"
+      },
+      {
+        "blanks": 11,
+        "code": 24,
+        "comments": 5,
+        "file_name": "ltable.h",
+        "path": "deps/lua/src/ltable.h"
+      },
+      {
+        "blanks": 31,
+        "code": 114,
+        "comments": 92,
+        "file_name": "connection.h",
+        "path": "src/connection.h"
+      },
+      {
+        "blanks": 5,
+        "code": 21,
+        "comments": 29,
+        "file_name": "intset.h",
+        "path": "src/intset.h"
+      },
+      {
+        "blanks": 10,
+        "code": 19,
+        "comments": 5,
+        "file_name": "lfunc.h",
+        "path": "deps/lua/src/lfunc.h"
+      },
+      {
+        "blanks": 56,
+        "code": 153,
+        "comments": 300,
+        "file_name": "hdr_histogram.h",
+        "path": "deps/hdr_histogram/hdr_histogram.h"
+      },
+      {
+        "blanks": 19,
+        "code": 216,
+        "comments": 40,
+        "file_name": "sds.h",
+        "path": "src/sds.h"
+      },
+      {
+        "blanks": 32,
+        "code": 209,
+        "comments": 51,
+        "file_name": "cluster.h",
+        "path": "src/cluster.h"
+      },
+      {
+        "blanks": 7,
+        "code": 25,
+        "comments": 28,
+        "file_name": "crcspeed.h",
+        "path": "src/crcspeed.h"
+      },
+      {
+        "blanks": 106,
+        "code": 180,
+        "comments": 102,
+        "file_name": "lua.h",
+        "path": "deps/lua/src/lua.h"
+      },
+      {
+        "blanks": 11,
+        "code": 15,
+        "comments": 5,
+        "file_name": "lstring.h",
+        "path": "deps/lua/src/lstring.h"
+      },
+      {
+        "blanks": 10,
+        "code": 21,
+        "comments": 5,
+        "file_name": "lvm.h",
+        "path": "deps/lua/src/lvm.h"
+      },
+      {
+        "blanks": 7,
+        "code": 29,
+        "comments": 30,
+        "file_name": "geohash_helper.h",
+        "path": "src/geohash_helper.h"
+      },
+      {
+        "blanks": 57,
+        "code": 97,
+        "comments": 20,
+        "file_name": "lauxlib.h",
+        "path": "deps/lua/src/lauxlib.h"
+      },
+      {
+        "blanks": 24,
+        "code": 131,
+        "comments": 47,
+        "file_name": "dict.h",
+        "path": "src/dict.h"
+      },
+      {
+        "blanks": 11,
+        "code": 52,
+        "comments": 33,
+        "file_name": "adlist.h",
+        "path": "src/adlist.h"
+      },
+      {
+        "blanks": 4,
+        "code": 16,
+        "comments": 2,
+        "file_name": "geo.h",
+        "path": "src/geo.h"
+      },
+      {
+        "blanks": 4,
+        "code": 10,
+        "comments": 8,
+        "file_name": "fpconv.h",
+        "path": "deps/lua/src/fpconv.h"
+      },
+      {
+        "blanks": 6,
+        "code": 14,
+        "comments": 35,
+        "file_name": "lolwut.h",
+        "path": "src/lolwut.h"
+      },
+      {
+        "blanks": 104,
+        "code": 219,
+        "comments": 58,
+        "file_name": "lobject.h",
+        "path": "deps/lua/src/lobject.h"
+      },
+      {
+        "blanks": 4,
+        "code": 1323,
+        "comments": 1,
+        "file_name": "help.h",
+        "path": "src/help.h"
+      },
+      {
+        "blanks": 71,
+        "code": 112,
+        "comments": 85,
+        "file_name": "lopcodes.h",
+        "path": "deps/lua/src/lopcodes.h"
+      },
+      {
+        "blanks": 13,
+        "code": 32,
+        "comments": 9,
+        "file_name": "ltm.h",
+        "path": "deps/lua/src/ltm.h"
+      },
+      {
+        "blanks": 37,
+        "code": 110,
+        "comments": 22,
+        "file_name": "lstate.h",
+        "path": "deps/lua/src/lstate.h"
+      },
+      {
+        "blanks": 20,
+        "code": 47,
+        "comments": 14,
+        "file_name": "llex.h",
+        "path": "deps/lua/src/llex.h"
+      },
+      {
+        "blanks": 16,
+        "code": 57,
+        "comments": 9,
+        "file_name": "lparser.h",
+        "path": "deps/lua/src/lparser.h"
+      },
+      {
+        "blanks": 12,
+        "code": 40,
+        "comments": 42,
+        "file_name": "latency.h",
+        "path": "src/latency.h"
+      },
+      {
+        "blanks": 18,
+        "code": 32,
+        "comments": 7,
+        "file_name": "ldo.h",
+        "path": "deps/lua/src/ldo.h"
+      },
+      {
+        "blanks": 6,
+        "code": 5,
+        "comments": 5,
+        "file_name": "lapi.h",
+        "path": "deps/lua/src/lapi.h"
+      },
+      {
+        "blanks": 15,
+        "code": 49,
+        "comments": 12,
+        "file_name": "lcode.h",
+        "path": "deps/lua/src/lcode.h"
+      },
+      {
+        "blanks": 10,
+        "code": 18,
+        "comments": 5,
+        "file_name": "ldebug.h",
+        "path": "deps/lua/src/ldebug.h"
+      },
+      {
+        "blanks": 10,
+        "code": 18,
+        "comments": 24,
+        "file_name": "monotonic.h",
+        "path": "src/monotonic.h"
+      },
+      {
+        "blanks": 12,
+        "code": 75,
+        "comments": 38,
+        "file_name": "stream.h",
+        "path": "src/stream.h"
+      },
+      {
+        "blanks": 7,
+        "code": 17,
+        "comments": 11,
+        "file_name": "sha256.h",
+        "path": "src/sha256.h"
+      },
+      {
+        "blanks": 20,
+        "code": 121,
+        "comments": 68,
+        "file_name": "quicklist.h",
+        "path": "src/quicklist.h"
+      },
+      {
+        "blanks": 14,
+        "code": 85,
+        "comments": 38,
+        "file_name": "geohash.h",
+        "path": "src/geohash.h"
+      },
+      {
+        "blanks": 12,
+        "code": 62,
+        "comments": 142,
+        "file_name": "rax.h",
+        "path": "src/rax.h"
+      },
+      {
+        "blanks": 4,
+        "code": 9,
+        "comments": 0,
+        "file_name": "crc64.h",
+        "path": "src/crc64.h"
+      },
+      {
+        "blanks": 21,
+        "code": 25,
+        "comments": 7,
+        "file_name": "lualib.h",
+        "path": "deps/lua/src/lualib.h"
+      },
+      {
+        "blanks": 12,
+        "code": 77,
+        "comments": 33,
+        "file_name": "zmalloc.h",
+        "path": "src/zmalloc.h"
+      },
+      {
+        "blanks": 4,
+        "code": 17,
+        "comments": 33,
+        "file_name": "zipmap.h",
+        "path": "src/zipmap.h"
+      },
+      {
+        "blanks": 28,
+        "code": 60,
+        "comments": 22,
+        "file_name": "lgc.h",
+        "path": "deps/lua/src/lgc.h"
+      },
+      {
+        "blanks": 25,
+        "code": 36,
+        "comments": 6,
+        "file_name": "lzio.h",
+        "path": "deps/lua/src/lzio.h"
+      },
+      {
+        "blanks": 3,
+        "code": 17,
+        "comments": 37,
+        "file_name": "testhelp.h",
+        "path": "src/testhelp.h"
+      },
+      {
+        "blanks": 11,
+        "code": 12,
+        "comments": 64,
+        "file_name": "mt19937-64.h",
+        "path": "src/mt19937-64.h"
+      },
+      {
+        "blanks": 23,
+        "code": 94,
+        "comments": 37,
+        "file_name": "strbuf.h",
+        "path": "deps/lua/src/strbuf.h"
+      },
+      {
+        "blanks": 15,
+        "code": 29,
+        "comments": 5,
+        "file_name": "lmem.h",
+        "path": "deps/lua/src/lmem.h"
+      },
+      {
+        "blanks": 51,
+        "code": 53,
+        "comments": 24,
+        "file_name": "llimits.h",
+        "path": "deps/lua/src/llimits.h"
+      },
+      {
+        "blanks": 5,
+        "code": 8,
+        "comments": 36,
+        "file_name": "redisassert.h",
+        "path": "src/redisassert.h"
+      },
+      {
+        "blanks": 5,
+        "code": 16,
+        "comments": 30,
+        "file_name": "bio.h",
+        "path": "src/bio.h"
+      },
+      {
+        "blanks": 32,
+        "code": 192,
+        "comments": 55,
+        "file_name": "config.h",
+        "path": "src/config.h"
+      },
+      {
+        "blanks": 21,
+        "code": 697,
+        "comments": 45,
+        "file_name": "luaconf.h",
+        "path": "deps/lua/src/luaconf.h"
+      },
+      {
+        "blanks": 15,
+        "code": 77,
+        "comments": 43,
+        "file_name": "ae.h",
+        "path": "src/ae.h"
+      },
+      {
+        "blanks": 7,
+        "code": 36,
+        "comments": 35,
+        "file_name": "endianconv.h",
+        "path": "src/endianconv.h"
+      },
+      {
+        "blanks": 3,
+        "code": 15,
+        "comments": 6,
+        "file_name": "sha1.h",
+        "path": "src/sha1.h"
+      },
+      {
+        "blanks": 4,
+        "code": 6,
+        "comments": 28,
+        "file_name": "rand.h",
+        "path": "src/rand.h"
+      },
+      {
+        "blanks": 5,
+        "code": 26,
+        "comments": 29,
+        "file_name": "ziplist.h",
+        "path": "src/ziplist.h"
+      },
+      {
+        "blanks": 6,
+        "code": 19,
+        "comments": 29,
+        "file_name": "solarisfixes.h",
+        "path": "src/solarisfixes.h"
+      },
+      {
+        "blanks": 6,
+        "code": 23,
+        "comments": 34,
+        "file_name": "listpack.h",
+        "path": "src/listpack.h"
+      },
+      {
+        "blanks": 6,
+        "code": 17,
+        "comments": 31,
+        "file_name": "slowlog.h",
+        "path": "src/slowlog.h"
+      },
+      {
+        "blanks": 10,
+        "code": 23,
+        "comments": 55,
+        "file_name": "connhelpers.h",
+        "path": "src/connhelpers.h"
+      },
+      {
+        "blanks": 7,
+        "code": 10,
+        "comments": 83,
+        "file_name": "lzf.h",
+        "path": "src/lzf.h"
+      },
+      {
+        "blanks": 5,
+        "code": 824,
+        "comments": 6,
+        "file_name": "crc16_slottable.h",
+        "path": "src/crc16_slottable.h"
+      },
+      {
+        "blanks": 13,
+        "code": 74,
+        "comments": 71,
+        "file_name": "atomicvar.h",
+        "path": "src/atomicvar.h"
+      },
+      {
+        "blanks": 15,
+        "code": 90,
+        "comments": 60,
+        "file_name": "rdb.h",
+        "path": "src/rdb.h"
+      },
+      {
+        "blanks": 9,
+        "code": 25,
+        "comments": 33,
+        "file_name": "fmacros.h",
+        "path": "src/fmacros.h"
+      },
+      {
+        "blanks": 9,
+        "code": 44,
+        "comments": 31,
+        "file_name": "anet.h",
+        "path": "src/anet.h"
+      },
+      {
+        "blanks": 3,
+        "code": 6,
+        "comments": 31,
+        "file_name": "pqsort.h",
+        "path": "src/pqsort.h"
+      },
+      {
+        "blanks": 1,
+        "code": 18,
+        "comments": 28,
+        "file_name": "asciilogo.h",
+        "path": "src/asciilogo.h"
+      },
+      {
+        "blanks": 0,
+        "code": 2,
+        "comments": 0,
+        "file_name": "version.h",
+        "path": "src/version.h"
+      },
+      {
+        "blanks": 7,
+        "code": 16,
+        "comments": 25,
+        "file_name": "cli_common.h",
+        "path": "src/cli_common.h"
+      },
+      {
+        "blanks": 1,
+        "code": 9,
+        "comments": 31,
+        "file_name": "debugmacro.h",
+        "path": "src/debugmacro.h"
+      },
+      {
+        "blanks": 2,
+        "code": 7,
+        "comments": 35,
+        "file_name": "rax_malloc.h",
+        "path": "src/rax_malloc.h"
+      },
+      {
+        "blanks": 24,
+        "code": 102,
+        "comments": 52,
+        "file_name": "rio.h",
+        "path": "src/rio.h"
+      },
+      {
+        "blanks": 2,
+        "code": 7,
+        "comments": 36,
+        "file_name": "listpack_malloc.h",
+        "path": "src/listpack_malloc.h"
+      },
+      {
+        "blanks": 22,
+        "code": 77,
+        "comments": 90,
+        "file_name": "lzfP.h",
+        "path": "src/lzfP.h"
+      },
+      {
+        "blanks": 86,
+        "code": 877,
+        "comments": 111,
+        "file_name": "redismodule.h",
+        "path": "src/redismodule.h"
+      },
+      {
+        "blanks": 7,
+        "code": 31,
+        "comments": 37,
+        "file_name": "linenoise.h",
+        "path": "deps/linenoise/linenoise.h"
+      },
+      {
+        "blanks": 17,
+        "code": 43,
+        "comments": 31,
+        "file_name": "alloc.h",
+        "path": "deps/hiredis/alloc.h"
+      },
+      {
+        "blanks": 3,
+        "code": 8,
+        "comments": 1,
+        "file_name": "fmacros.h",
+        "path": "deps/hiredis/fmacros.h"
+      },
+      {
+        "blanks": 6,
+        "code": 54,
+        "comments": 32,
+        "file_name": "sockcompat.h",
+        "path": "deps/hiredis/sockcompat.h"
+      },
+      {
+        "blanks": 19,
+        "code": 73,
+        "comments": 37,
+        "file_name": "read.h",
+        "path": "deps/hiredis/read.h"
+      },
+      {
+        "blanks": 19,
+        "code": 27,
+        "comments": 81,
+        "file_name": "hiredis_ssl.h",
+        "path": "deps/hiredis/hiredis_ssl.h"
+      },
+      {
+        "blanks": 3,
+        "code": 4,
+        "comments": 37,
+        "file_name": "sdsalloc.h",
+        "path": "deps/hiredis/sdsalloc.h"
+      },
+      {
+        "blanks": 10,
+        "code": 22,
+        "comments": 0,
+        "file_name": "example-qt.h",
+        "path": "deps/hiredis/examples/example-qt.h"
+      },
+      {
+        "blanks": 7,
+        "code": 38,
+        "comments": 30,
+        "file_name": "async_private.h",
+        "path": "deps/hiredis/async_private.h"
+      },
+      {
+        "blanks": 17,
+        "code": 63,
+        "comments": 4,
+        "file_name": "ivykis.h",
+        "path": "deps/hiredis/adapters/ivykis.h"
+      },
+      {
+        "blanks": 26,
+        "code": 82,
+        "comments": 7,
+        "file_name": "macosx.h",
+        "path": "deps/hiredis/adapters/macosx.h"
+      },
+      {
+        "blanks": 35,
+        "code": 82,
+        "comments": 0,
+        "file_name": "libuv.h",
+        "path": "deps/hiredis/adapters/libuv.h"
+      },
+      {
+        "blanks": 17,
+        "code": 71,
+        "comments": 38,
+        "file_name": "dict.h",
+        "path": "deps/hiredis/dict.h"
+      },
+      {
+        "blanks": 19,
+        "code": 219,
+        "comments": 40,
+        "file_name": "sds.h",
+        "path": "deps/hiredis/sds.h"
+      },
+      {
+        "blanks": 20,
+        "code": 91,
+        "comments": 24,
+        "file_name": "qt.h",
+        "path": "deps/hiredis/adapters/qt.h"
+      },
+      {
+        "blanks": 14,
+        "code": 42,
+        "comments": 0,
+        "file_name": "win32.h",
+        "path": "deps/hiredis/win32.h"
+      },
+      {
+        "blanks": 26,
+        "code": 126,
+        "comments": 4,
+        "file_name": "glib.h",
+        "path": "deps/hiredis/adapters/glib.h"
+      },
+      {
+        "blanks": 23,
+        "code": 73,
+        "comments": 51,
+        "file_name": "async.h",
+        "path": "deps/hiredis/async.h"
+      },
+      {
+        "blanks": 26,
+        "code": 116,
+        "comments": 33,
+        "file_name": "libevent.h",
+        "path": "deps/hiredis/adapters/libevent.h"
+      },
+      {
+        "blanks": 23,
+        "code": 123,
+        "comments": 33,
+        "file_name": "libev.h",
+        "path": "deps/hiredis/adapters/libev.h"
+      },
+      {
+        "blanks": 17,
+        "code": 81,
+        "comments": 32,
+        "file_name": "ae.h",
+        "path": "deps/hiredis/adapters/ae.h"
+      },
+      {
+        "blanks": 6,
+        "code": 17,
+        "comments": 33,
+        "file_name": "net.h",
+        "path": "deps/hiredis/net.h"
+      },
+      {
+        "blanks": 6,
+        "code": 49,
+        "comments": 39,
+        "file_name": "sdscompat.h",
+        "path": "deps/hiredis/sdscompat.h"
+      },
+      {
+        "blanks": 51,
+        "code": 170,
+        "comments": 115,
+        "file_name": "hiredis.h",
+        "path": "deps/hiredis/hiredis.h"
+      },
+      {
+        "blanks": 2,
+        "code": 4,
+        "comments": 0,
+        "file_name": "windows_extra.h",
+        "path": "deps/jemalloc/include/msvc_compat/windows_extra.h"
+      },
+      {
+        "blanks": 194,
+        "code": 2016,
+        "comments": 448,
+        "file_name": "server.h",
+        "path": "src/server.h"
+      },
+      {
+        "blanks": 9,
+        "code": 45,
+        "comments": 4,
+        "file_name": "strings.h",
+        "path": "deps/jemalloc/include/msvc_compat/strings.h"
+      },
+      {
+        "blanks": 5,
+        "code": 11,
+        "comments": 4,
+        "file_name": "stdbool.h",
+        "path": "deps/jemalloc/include/msvc_compat/C99/stdbool.h"
+      },
+      {
+        "blanks": 40,
+        "code": 152,
+        "comments": 55,
+        "file_name": "stdint.h",
+        "path": "deps/jemalloc/include/msvc_compat/C99/stdint.h"
+      },
+      {
+        "blanks": 1,
+        "code": 7,
+        "comments": 1,
+        "file_name": "thd.h",
+        "path": "deps/jemalloc/test/include/test/thd.h"
+      },
+      {
+        "blanks": 4,
+        "code": 41,
+        "comments": 36,
+        "file_name": "SFMT-params607.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-params607.h"
+      },
+      {
+        "blanks": 4,
+        "code": 41,
+        "comments": 36,
+        "file_name": "SFMT-params19937.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-params19937.h"
+      },
+      {
+        "blanks": 14,
+        "code": 49,
+        "comments": 83,
+        "file_name": "SFMT.h",
+        "path": "deps/jemalloc/test/include/test/SFMT.h"
+      },
+      {
+        "blanks": 24,
+        "code": 224,
+        "comments": 58,
+        "file_name": "math.h",
+        "path": "deps/jemalloc/test/include/test/math.h"
+      },
+      {
+        "blanks": 10,
+        "code": 99,
+        "comments": 77,
+        "file_name": "SFMT-alti.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-alti.h"
+      },
+      {
+        "blanks": 2,
+        "code": 8,
+        "comments": 1,
+        "file_name": "timer.h",
+        "path": "deps/jemalloc/test/include/test/timer.h"
+      },
+      {
+        "blanks": 4,
+        "code": 41,
+        "comments": 36,
+        "file_name": "SFMT-params216091.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-params216091.h"
+      },
+      {
+        "blanks": 4,
+        "code": 41,
+        "comments": 36,
+        "file_name": "SFMT-params132049.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-params132049.h"
+      },
+      {
+        "blanks": 4,
+        "code": 41,
+        "comments": 36,
+        "file_name": "SFMT-params86243.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-params86243.h"
+      },
+      {
+        "blanks": 25,
+        "code": 257,
+        "comments": 7,
+        "file_name": "extent_hooks.h",
+        "path": "deps/jemalloc/test/include/test/extent_hooks.h"
+      },
+      {
+        "blanks": 4,
+        "code": 41,
+        "comments": 36,
+        "file_name": "SFMT-params11213.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-params11213.h"
+      },
+      {
+        "blanks": 4,
+        "code": 41,
+        "comments": 36,
+        "file_name": "SFMT-params4253.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-params4253.h"
+      },
+      {
+        "blanks": 4,
+        "code": 41,
+        "comments": 36,
+        "file_name": "SFMT-params44497.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-params44497.h"
+      },
+      {
+        "blanks": 4,
+        "code": 41,
+        "comments": 36,
+        "file_name": "SFMT-params1279.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-params1279.h"
+      },
+      {
+        "blanks": 2,
+        "code": 79,
+        "comments": 26,
+        "file_name": "mq.h",
+        "path": "deps/jemalloc/test/include/test/mq.h"
+      },
+      {
+        "blanks": 2,
+        "code": 27,
+        "comments": 1,
+        "file_name": "btalloc.h",
+        "path": "deps/jemalloc/test/include/test/btalloc.h"
+      },
+      {
+        "blanks": 2,
+        "code": 15,
+        "comments": 6,
+        "file_name": "mtx.h",
+        "path": "deps/jemalloc/test/include/test/mtx.h"
+      },
+      {
+        "blanks": 8,
+        "code": 79,
+        "comments": 70,
+        "file_name": "SFMT-sse2.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-sse2.h"
+      },
+      {
+        "blanks": 4,
+        "code": 41,
+        "comments": 36,
+        "file_name": "SFMT-params2281.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-params2281.h"
+      },
+      {
+        "blanks": 4,
+        "code": 14,
+        "comments": 1,
+        "file_name": "hooks.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/hooks.h"
+      },
+      {
+        "blanks": 11,
+        "code": 40,
+        "comments": 81,
+        "file_name": "SFMT-params.h",
+        "path": "deps/jemalloc/test/include/test/SFMT-params.h"
+      },
+      {
+        "blanks": 7,
+        "code": 33,
+        "comments": 13,
+        "file_name": "background_thread_structs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/background_thread_structs.h"
+      },
+      {
+        "blanks": 16,
+        "code": 119,
+        "comments": 4,
+        "file_name": "tsd_win.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/tsd_win.h"
+      },
+      {
+        "blanks": 33,
+        "code": 300,
+        "comments": 5,
+        "file_name": "test.h",
+        "path": "deps/jemalloc/test/include/test/test.h"
+      },
+      {
+        "blanks": 13,
+        "code": 65,
+        "comments": 8,
+        "file_name": "jemalloc_internal_inlines_b.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/jemalloc_internal_inlines_b.h"
+      },
+      {
+        "blanks": 9,
+        "code": 63,
+        "comments": 16,
+        "file_name": "pages.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/pages.h"
+      },
+      {
+        "blanks": 10,
+        "code": 25,
+        "comments": 8,
+        "file_name": "arena_types.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/arena_types.h"
+      },
+      {
+        "blanks": 10,
+        "code": 63,
+        "comments": 0,
+        "file_name": "extent_externs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/extent_externs.h"
+      },
+      {
+        "blanks": 8,
+        "code": 49,
+        "comments": 0,
+        "file_name": "background_thread_inlines.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/background_thread_inlines.h"
+      },
+      {
+        "blanks": 19,
+        "code": 134,
+        "comments": 4,
+        "file_name": "tsd_generic.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/tsd_generic.h"
+      },
+      {
+        "blanks": 4,
+        "code": 29,
+        "comments": 0,
+        "file_name": "background_thread_externs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/background_thread_externs.h"
+      },
+      {
+        "blanks": 42,
+        "code": 358,
+        "comments": 35,
+        "file_name": "emitter.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/emitter.h"
+      },
+      {
+        "blanks": 35,
+        "code": 218,
+        "comments": 73,
+        "file_name": "tsd.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/tsd.h"
+      },
+      {
+        "blanks": 10,
+        "code": 25,
+        "comments": 21,
+        "file_name": "prof_types.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/prof_types.h"
+      },
+      {
+        "blanks": 34,
+        "code": 146,
+        "comments": 26,
+        "file_name": "prof_inlines_b.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/prof_inlines_b.h"
+      },
+      {
+        "blanks": 50,
+        "code": 369,
+        "comments": 73,
+        "file_name": "rtree.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/rtree.h"
+      },
+      {
+        "blanks": 40,
+        "code": 106,
+        "comments": 39,
+        "file_name": "prng.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/prng.h"
+      },
+      {
+        "blanks": 39,
+        "code": 219,
+        "comments": 59,
+        "file_name": "sz.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/sz.h"
+      },
+      {
+        "blanks": 11,
+        "code": 45,
+        "comments": 1,
+        "file_name": "arena_inlines_a.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/arena_inlines_a.h"
+      },
+      {
+        "blanks": 1,
+        "code": 2,
+        "comments": 0,
+        "file_name": "test_threads.h",
+        "path": "deps/jemalloc/msvc/test_threads/test_threads.h"
+      },
+      {
+        "blanks": 17,
+        "code": 69,
+        "comments": 8,
+        "file_name": "mutex_pool.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/mutex_pool.h"
+      },
+      {
+        "blanks": 13,
+        "code": 139,
+        "comments": 6,
+        "file_name": "atomic_msvc.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/atomic_msvc.h"
+      },
+      {
+        "blanks": 12,
+        "code": 54,
+        "comments": 6,
+        "file_name": "qr.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/qr.h"
+      },
+      {
+        "blanks": 8,
+        "code": 19,
+        "comments": 23,
+        "file_name": "rtree_tsd.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/rtree_tsd.h"
+      },
+      {
+        "blanks": 49,
+        "code": 280,
+        "comments": 25,
+        "file_name": "arena_inlines_b.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/arena_inlines_b.h"
+      },
+      {
+        "blanks": 10,
+        "code": 68,
+        "comments": 14,
+        "file_name": "prof_externs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/prof_externs.h"
+      },
+      {
+        "blanks": 3,
+        "code": 19,
+        "comments": 0,
+        "file_name": "base_externs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/base_externs.h"
+      },
+      {
+        "blanks": 14,
+        "code": 49,
+        "comments": 51,
+        "file_name": "cache_bin.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/cache_bin.h"
+      },
+      {
+        "blanks": 21,
+        "code": 99,
+        "comments": 11,
+        "file_name": "ctl.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/ctl.h"
+      },
+      {
+        "blanks": 8,
+        "code": 49,
+        "comments": 3,
+        "file_name": "tsd_malloc_thread_cleanup.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/tsd_malloc_thread_cleanup.h"
+      },
+      {
+        "blanks": 31,
+        "code": 182,
+        "comments": 10,
+        "file_name": "tcache_inlines.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/tcache_inlines.h"
+      },
+      {
+        "blanks": 8,
+        "code": 73,
+        "comments": 21,
+        "file_name": "malloc_io.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/malloc_io.h"
+      },
+      {
+        "blanks": 10,
+        "code": 34,
+        "comments": 50,
+        "file_name": "jemalloc_internal_includes.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/jemalloc_internal_includes.h"
+      },
+      {
+        "blanks": 7,
+        "code": 24,
+        "comments": 30,
+        "file_name": "tcache_structs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/tcache_structs.h"
+      },
+      {
+        "blanks": 8,
+        "code": 37,
+        "comments": 8,
+        "file_name": "jemalloc_internal_externs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/jemalloc_internal_externs.h"
+      },
+      {
+        "blanks": 10,
+        "code": 42,
+        "comments": 26,
+        "file_name": "ticker.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/ticker.h"
+      },
+      {
+        "blanks": 3,
+        "code": 7,
+        "comments": 1,
+        "file_name": "arena_structs_a.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/arena_structs_a.h"
+      },
+      {
+        "blanks": 6,
+        "code": 20,
+        "comments": 0,
+        "file_name": "extent_dss.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/extent_dss.h"
+      },
+      {
+        "blanks": 3,
+        "code": 85,
+        "comments": 3,
+        "file_name": "jemalloc_internal_decls.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/jemalloc_internal_decls.h"
+      },
+      {
+        "blanks": 15,
+        "code": 65,
+        "comments": 19,
+        "file_name": "mutex_prof.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/mutex_prof.h"
+      },
+      {
+        "blanks": 2,
+        "code": 11,
+        "comments": 0,
+        "file_name": "base_inlines.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/base_inlines.h"
+      },
+      {
+        "blanks": 15,
+        "code": 60,
+        "comments": 40,
+        "file_name": "log.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/log.h"
+      },
+      {
+        "blanks": 8,
+        "code": 86,
+        "comments": 0,
+        "file_name": "arena_externs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/arena_externs.h"
+      },
+      {
+        "blanks": 5,
+        "code": 8,
+        "comments": 4,
+        "file_name": "extent_types.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/extent_types.h"
+      },
+      {
+        "blanks": 8,
+        "code": 34,
+        "comments": 13,
+        "file_name": "tcache_externs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/tcache_externs.h"
+      },
+      {
+        "blanks": 10,
+        "code": 159,
+        "comments": 22,
+        "file_name": "atomic_gcc_sync.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/atomic_gcc_sync.h"
+      },
+      {
+        "blanks": 4,
+        "code": 208,
+        "comments": 20,
+        "file_name": "smoothstep.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/smoothstep.h"
+      },
+      {
+        "blanks": 7,
+        "code": 81,
+        "comments": 9,
+        "file_name": "atomic_c11.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/atomic_c11.h"
+      },
+      {
+        "blanks": 20,
+        "code": 40,
+        "comments": 41,
+        "file_name": "ckh.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/ckh.h"
+      },
+      {
+        "blanks": 61,
+        "code": 235,
+        "comments": 50,
+        "file_name": "witness.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/witness.h"
+      },
+      {
+        "blanks": 12,
+        "code": 19,
+        "comments": 25,
+        "file_name": "tcache_types.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/tcache_types.h"
+      },
+      {
+        "blanks": 9,
+        "code": 33,
+        "comments": 1,
+        "file_name": "jemalloc_internal_macros.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/jemalloc_internal_macros.h"
+      },
+      {
+        "blanks": 12,
+        "code": 42,
+        "comments": 13,
+        "file_name": "util.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/util.h"
+      },
+      {
+        "blanks": 26,
+        "code": 189,
+        "comments": 33,
+        "file_name": "mutex.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/mutex.h"
+      },
+      {
+        "blanks": 13,
+        "code": 25,
+        "comments": 21,
+        "file_name": "base_structs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/base_structs.h"
+      },
+      {
+        "blanks": 3,
+        "code": 7,
+        "comments": 0,
+        "file_name": "extent_mmap.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/extent_mmap.h"
+      },
+      {
+        "blanks": 9,
+        "code": 117,
+        "comments": 1,
+        "file_name": "atomic_gcc_atomic.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/atomic_gcc_atomic.h"
+      },
+      {
+        "blanks": 7,
+        "code": 33,
+        "comments": 0,
+        "file_name": "spin.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/spin.h"
+      },
+      {
+        "blanks": 31,
+        "code": 166,
+        "comments": 40,
+        "file_name": "arena_stats.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/arena_stats.h"
+      },
+      {
+        "blanks": 6,
+        "code": 14,
+        "comments": 13,
+        "file_name": "base_types.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/base_types.h"
+      },
+      {
+        "blanks": 6,
+        "code": 27,
+        "comments": 1,
+        "file_name": "nstime.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/nstime.h"
+      },
+      {
+        "blanks": 5,
+        "code": 21,
+        "comments": 0,
+        "file_name": "large_externs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/large_externs.h"
+      },
+      {
+        "blanks": 25,
+        "code": 130,
+        "comments": 17,
+        "file_name": "jemalloc_internal_inlines_a.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/jemalloc_internal_inlines_a.h"
+      },
+      {
+        "blanks": 11,
+        "code": 17,
+        "comments": 23,
+        "file_name": "bin_stats.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/bin_stats.h"
+      },
+      {
+        "blanks": 14,
+        "code": 325,
+        "comments": 52,
+        "file_name": "ph.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/ph.h"
+      },
+      {
+        "blanks": 8,
+        "code": 57,
+        "comments": 18,
+        "file_name": "prof_inlines_a.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/prof_inlines_a.h"
+      },
+      {
+        "blanks": 5,
+        "code": 46,
+        "comments": 5,
+        "file_name": "assert.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/assert.h"
+      },
+      {
+        "blanks": 70,
+        "code": 359,
+        "comments": 4,
+        "file_name": "extent_inlines.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/extent_inlines.h"
+      },
+      {
+        "blanks": 21,
+        "code": 142,
+        "comments": 2,
+        "file_name": "bit_util.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/bit_util.h"
+      },
+      {
+        "blanks": 3,
+        "code": 7,
+        "comments": 0,
+        "file_name": "tsd_types.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/tsd_types.h"
+      },
+      {
+        "blanks": 37,
+        "code": 81,
+        "comments": 83,
+        "file_name": "prof_structs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/prof_structs.h"
+      },
+      {
+        "blanks": 30,
+        "code": 193,
+        "comments": 34,
+        "file_name": "jemalloc_internal_inlines_c.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/jemalloc_internal_inlines_c.h"
+      },
+      {
+        "blanks": 8,
+        "code": 48,
+        "comments": 3,
+        "file_name": "tsd_tls.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/tsd_tls.h"
+      },
+      {
+        "blanks": 20,
+        "code": 129,
+        "comments": 36,
+        "file_name": "jemalloc_internal_types.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/jemalloc_internal_types.h"
+      },
+      {
+        "blanks": 5,
+        "code": 22,
+        "comments": 3,
+        "file_name": "stats.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/stats.h"
+      },
+      {
+        "blanks": 20,
+        "code": 66,
+        "comments": 2,
+        "file_name": "ql.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/ql.h"
+      },
+      {
+        "blanks": 19,
+        "code": 810,
+        "comments": 177,
+        "file_name": "rb.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/rb.h"
+      },
+      {
+        "blanks": 6,
+        "code": 21,
+        "comments": 14,
+        "file_name": "div.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/div.h"
+      },
+      {
+        "blanks": 14,
+        "code": 33,
+        "comments": 30,
+        "file_name": "atomic.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/atomic.h"
+      },
+      {
+        "blanks": 17,
+        "code": 42,
+        "comments": 47,
+        "file_name": "bin.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/bin.h"
+      },
+      {
+        "blanks": 35,
+        "code": 280,
+        "comments": 54,
+        "file_name": "bitmap.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/bitmap.h"
+      },
+      {
+        "blanks": 26,
+        "code": 70,
+        "comments": 123,
+        "file_name": "extent_structs.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/extent_structs.h"
+      },
+      {
+        "blanks": 22,
+        "code": 64,
+        "comments": 143,
+        "file_name": "arena_structs_b.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/arena_structs_b.h"
+      },
+      {
+        "blanks": 69,
+        "code": 228,
+        "comments": 21,
+        "file_name": "hash.h",
+        "path": "deps/jemalloc/include/jemalloc/internal/hash.h"
+      }
+    ]
+  },
+  {
+    "language": "CMake",
+    "blanks": 43,
+    "code": 168,
+    "comments": 3,
+    "reports": [
+      {
+        "blanks": 9,
+        "code": 38,
+        "comments": 2,
+        "file_name": "CMakeLists.txt",
+        "path": "deps/hiredis/examples/CMakeLists.txt"
+      },
+      {
+        "blanks": 34,
+        "code": 130,
+        "comments": 1,
+        "file_name": "CMakeLists.txt",
+        "path": "deps/hiredis/CMakeLists.txt"
+      }
+    ]
+  },
+  {
+    "language": "C++",
+    "blanks": 48,
+    "code": 224,
+    "comments": 14,
+    "reports": [
+      {
+        "blanks": 16,
+        "code": 30,
+        "comments": 0,
+        "file_name": "example-qt.cpp",
+        "path": "deps/hiredis/examples/example-qt.cpp"
+      },
+      {
+        "blanks": 27,
+        "code": 103,
+        "comments": 11,
+        "file_name": "jemalloc_cpp.cpp",
+        "path": "deps/jemalloc/src/jemalloc_cpp.cpp"
+      },
+      {
+        "blanks": 2,
+        "code": 9,
+        "comments": 0,
+        "file_name": "test_threads_main.cpp",
+        "path": "deps/jemalloc/msvc/test_threads/test_threads_main.cpp"
+      },
+      {
+        "blanks": 3,
+        "code": 82,
+        "comments": 3,
+        "file_name": "test_threads.cpp",
+        "path": "deps/jemalloc/msvc/test_threads/test_threads.cpp"
+      }
+    ]
+  },
+  {
+    "language": "C++ Header",
+    "blanks": 1,
+    "code": 5,
+    "comments": 3,
+    "reports": [
+      {
+        "blanks": 1,
+        "code": 5,
+        "comments": 3,
+        "file_name": "lua.hpp",
+        "path": "deps/lua/etc/lua.hpp"
+      }
+    ]
+  },
+  {
+    "language": "CSS",
+    "blanks": 16,
+    "code": 91,
+    "comments": 0,
+    "reports": [
+      {
+        "blanks": 3,
+        "code": 21,
+        "comments": 0,
+        "file_name": "manual.css",
+        "path": "deps/lua/doc/manual.css"
+      },
+      {
+        "blanks": 13,
+        "code": 70,
+        "comments": 0,
+        "file_name": "lua.css",
+        "path": "deps/lua/doc/lua.css"
+      }
+    ]
+  },
+  {
+    "language": "HTML",
+    "blanks": 875,
+    "code": 8774,
+    "comments": 9,
+    "reports": [
+      {
+        "blanks": 2,
+        "code": 168,
+        "comments": 2,
+        "file_name": "lua.html",
+        "path": "deps/lua/doc/lua.html"
+      },
+      {
+        "blanks": 5,
+        "code": 35,
+        "comments": 0,
+        "file_name": "readme.html",
+        "path": "deps/lua/doc/readme.html"
+      },
+      {
+        "blanks": 2,
+        "code": 141,
+        "comments": 2,
+        "file_name": "luac.html",
+        "path": "deps/lua/doc/luac.html"
+      },
+      {
+        "blanks": 25,
+        "code": 469,
+        "comments": 3,
+        "file_name": "contents.html",
+        "path": "deps/lua/doc/contents.html"
+      },
+      {
+        "blanks": 841,
+        "code": 7961,
+        "comments": 2,
+        "file_name": "manual.html",
+        "path": "deps/lua/doc/manual.html"
+      }
+    ]
+  },
+  {
+    "language": "Lua",
+    "blanks": 69,
+    "code": 385,
+    "comments": 71,
+    "reports": [
+      {
+        "blanks": 7,
+        "code": 27,
+        "comments": 7,
+        "file_name": "strict.lua",
+        "path": "deps/lua/etc/strict.lua"
+      },
+      {
+        "blanks": 1,
+        "code": 9,
+        "comments": 2,
+        "file_name": "table.lua",
+        "path": "deps/lua/test/table.lua"
+      },
+      {
+        "blanks": 2,
+        "code": 13,
+        "comments": 1,
+        "file_name": "cf.lua",
+        "path": "deps/lua/test/cf.lua"
+      },
+      {
+        "blanks": 6,
+        "code": 22,
+        "comments": 4,
+        "file_name": "factorial.lua",
+        "path": "deps/lua/test/factorial.lua"
+      },
+      {
+        "blanks": 2,
+        "code": 8,
+        "comments": 2,
+        "file_name": "readonly.lua",
+        "path": "deps/lua/test/readonly.lua"
+      },
+      {
+        "blanks": 1,
+        "code": 9,
+        "comments": 3,
+        "file_name": "globals.lua",
+        "path": "deps/lua/test/globals.lua"
+      },
+      {
+        "blanks": 6,
+        "code": 54,
+        "comments": 6,
+        "file_name": "sort.lua",
+        "path": "deps/lua/test/sort.lua"
+      },
+      {
+        "blanks": 1,
+        "code": 1,
+        "comments": 1,
+        "file_name": "hello.lua",
+        "path": "deps/lua/test/hello.lua"
+      },
+      {
+        "blanks": 2,
+        "code": 4,
+        "comments": 1,
+        "file_name": "printf.lua",
+        "path": "deps/lua/test/printf.lua"
+      },
+      {
+        "blanks": 3,
+        "code": 22,
+        "comments": 4,
+        "file_name": "sieve.lua",
+        "path": "deps/lua/test/sieve.lua"
+      },
+      {
+        "blanks": 4,
+        "code": 32,
+        "comments": 4,
+        "file_name": "fib.lua",
+        "path": "deps/lua/test/fib.lua"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "echo.lua",
+        "path": "deps/lua/test/echo.lua"
+      },
+      {
+        "blanks": 1,
+        "code": 4,
+        "comments": 2,
+        "file_name": "luac.lua",
+        "path": "deps/lua/test/luac.lua"
+      },
+      {
+        "blanks": 14,
+        "code": 79,
+        "comments": 18,
+        "file_name": "life.lua",
+        "path": "deps/lua/test/life.lua"
+      },
+      {
+        "blanks": 2,
+        "code": 3,
+        "comments": 2,
+        "file_name": "env.lua",
+        "path": "deps/lua/test/env.lua"
+      },
+      {
+        "blanks": 2,
+        "code": 10,
+        "comments": 1,
+        "file_name": "fibfor.lua",
+        "path": "deps/lua/test/fibfor.lua"
+      },
+      {
+        "blanks": 3,
+        "code": 26,
+        "comments": 3,
+        "file_name": "trace-calls.lua",
+        "path": "deps/lua/test/trace-calls.lua"
+      },
+      {
+        "blanks": 5,
+        "code": 30,
+        "comments": 3,
+        "file_name": "trace-globals.lua",
+        "path": "deps/lua/test/trace-globals.lua"
+      },
+      {
+        "blanks": 5,
+        "code": 18,
+        "comments": 4,
+        "file_name": "bisect.lua",
+        "path": "deps/lua/test/bisect.lua"
+      },
+      {
+        "blanks": 1,
+        "code": 11,
+        "comments": 2,
+        "file_name": "xd.lua",
+        "path": "deps/lua/test/xd.lua"
+      }
+    ]
+  },
+  {
+    "language": "Makefile",
+    "blanks": 260,
+    "code": 967,
+    "comments": 121,
+    "reports": [
+      {
+        "blanks": 7,
+        "code": 13,
+        "comments": 0,
+        "file_name": "Makefile",
+        "path": "deps/hdr_histogram/Makefile"
+      },
+      {
+        "blanks": 36,
+        "code": 135,
+        "comments": 12,
+        "file_name": "Makefile",
+        "path": "deps/lua/src/Makefile"
+      },
+      {
+        "blanks": 63,
+        "code": 305,
+        "comments": 55,
+        "file_name": "Makefile",
+        "path": "src/Makefile"
+      },
+      {
+        "blanks": 9,
+        "code": 33,
+        "comments": 2,
+        "file_name": "Makefile",
+        "path": "deps/lua/etc/Makefile"
+      },
+      {
+        "blanks": 22,
+        "code": 77,
+        "comments": 29,
+        "file_name": "Makefile",
+        "path": "deps/lua/Makefile"
+      },
+      {
+        "blanks": 24,
+        "code": 41,
+        "comments": 2,
+        "file_name": "Makefile",
+        "path": "src/modules/Makefile"
+      },
+      {
+        "blanks": 6,
+        "code": 15,
+        "comments": 0,
+        "file_name": "Makefile",
+        "path": "deps/linenoise/Makefile"
+      },
+      {
+        "blanks": 55,
+        "code": 242,
+        "comments": 11,
+        "file_name": "Makefile",
+        "path": "deps/hiredis/Makefile"
+      },
+      {
+        "blanks": 23,
+        "code": 63,
+        "comments": 8,
+        "file_name": "Makefile",
+        "path": "deps/Makefile"
+      },
+      {
+        "blanks": 11,
+        "code": 37,
+        "comments": 1,
+        "file_name": "Makefile",
+        "path": "tests/modules/Makefile"
+      },
+      {
+        "blanks": 4,
+        "code": 6,
+        "comments": 1,
+        "file_name": "Makefile",
+        "path": "Makefile"
+      }
+    ]
+  },
+  {
+    "language": "Markdown",
+    "blanks": 644,
+    "code": 0,
+    "comments": 1721,
+    "reports": [
+      {
+        "blanks": 4,
+        "code": 0,
+        "comments": 6,
+        "file_name": "README.md",
+        "path": "deps/hdr_histogram/README.md"
+      },
+      {
+        "blanks": 24,
+        "code": 0,
+        "comments": 63,
+        "file_name": "TLS.md",
+        "path": "TLS.md"
+      },
+      {
+        "blanks": 21,
+        "code": 0,
+        "comments": 61,
+        "file_name": "README.md",
+        "path": "deps/README.md"
+      },
+      {
+        "blanks": 71,
+        "code": 0,
+        "comments": 176,
+        "file_name": "README.markdown",
+        "path": "deps/linenoise/README.markdown"
+      },
+      {
+        "blanks": 73,
+        "code": 0,
+        "comments": 272,
+        "file_name": "CHANGELOG.md",
+        "path": "deps/hiredis/CHANGELOG.md"
+      },
+      {
+        "blanks": 134,
+        "code": 0,
+        "comments": 391,
+        "file_name": "README.md",
+        "path": "deps/hiredis/README.md"
+      },
+      {
+        "blanks": 137,
+        "code": 0,
+        "comments": 350,
+        "file_name": "README.md",
+        "path": "README.md"
+      },
+      {
+        "blanks": 4,
+        "code": 0,
+        "comments": 12,
+        "file_name": "README.md",
+        "path": "utils/graphs/commits-over-time/README.md"
+      },
+      {
+        "blanks": 3,
+        "code": 0,
+        "comments": 11,
+        "file_name": "README.md",
+        "path": "utils/srandmember/README.md"
+      },
+      {
+        "blanks": 137,
+        "code": 0,
+        "comments": 286,
+        "file_name": "INSTALL.md",
+        "path": "deps/jemalloc/INSTALL.md"
+      },
+      {
+        "blanks": 36,
+        "code": 0,
+        "comments": 93,
+        "file_name": "TUNING.md",
+        "path": "deps/jemalloc/TUNING.md"
+      }
+    ]
+  },
+  {
+    "language": "Pan",
+    "blanks": 1,
+    "code": 43,
+    "comments": 0,
+    "reports": [
+      {
+        "blanks": 1,
+        "code": 43,
+        "comments": 0,
+        "file_name": "redis_init_script.tpl",
+        "path": "utils/redis_init_script.tpl"
+      }
+    ]
+  },
+  {
+    "language": "Python",
+    "blanks": 31,
+    "code": 171,
+    "comments": 17,
+    "reports": [
+      {
+        "blanks": 19,
+        "code": 77,
+        "comments": 11,
+        "file_name": "gen_travis.py",
+        "path": "deps/jemalloc/scripts/gen_travis.py"
+      },
+      {
+        "blanks": 12,
+        "code": 94,
+        "comments": 6,
+        "file_name": "gen_run_tests.py",
+        "path": "deps/jemalloc/scripts/gen_run_tests.py"
+      }
+    ]
+  },
+  {
+    "language": "Ruby",
+    "blanks": 78,
+    "code": 639,
+    "comments": 78,
+    "reports": [
+      {
+        "blanks": 13,
+        "code": 112,
+        "comments": 4,
+        "file_name": "redis-trib.rb",
+        "path": "src/redis-trib.rb"
+      },
+      {
+        "blanks": 3,
+        "code": 47,
+        "comments": 12,
+        "file_name": "gendoc.rb",
+        "path": "src/modules/gendoc.rb"
+      },
+      {
+        "blanks": 3,
+        "code": 39,
+        "comments": 10,
+        "file_name": "redis-sha1.rb",
+        "path": "utils/redis-sha1.rb"
+      },
+      {
+        "blanks": 3,
+        "code": 25,
+        "comments": 7,
+        "file_name": "redis-copy.rb",
+        "path": "utils/redis-copy.rb"
+      },
+      {
+        "blanks": 16,
+        "code": 99,
+        "comments": 8,
+        "file_name": "generate-command-help.rb",
+        "path": "utils/generate-command-help.rb"
+      },
+      {
+        "blanks": 2,
+        "code": 21,
+        "comments": 4,
+        "file_name": "hll-err.rb",
+        "path": "utils/hyperloglog/hll-err.rb"
+      },
+      {
+        "blanks": 4,
+        "code": 69,
+        "comments": 15,
+        "file_name": "hll-gnuplot-graph.rb",
+        "path": "utils/hyperloglog/hll-gnuplot-graph.rb"
+      },
+      {
+        "blanks": 2,
+        "code": 20,
+        "comments": 1,
+        "file_name": "showfreq.rb",
+        "path": "utils/srandmember/showfreq.rb"
+      },
+      {
+        "blanks": 3,
+        "code": 29,
+        "comments": 1,
+        "file_name": "showdist.rb",
+        "path": "utils/srandmember/showdist.rb"
+      },
+      {
+        "blanks": 29,
+        "code": 178,
+        "comments": 16,
+        "file_name": "test-lru.rb",
+        "path": "utils/lru/test-lru.rb"
+      }
+    ]
+  },
+  {
+    "language": "Shell",
+    "blanks": 164,
+    "code": 1013,
+    "comments": 248,
+    "reports": [
+      {
+        "blanks": 2,
+        "code": 11,
+        "comments": 1,
+        "file_name": "runtest-sentinel",
+        "path": "runtest-sentinel"
+      },
+      {
+        "blanks": 2,
+        "code": 11,
+        "comments": 1,
+        "file_name": "runtest",
+        "path": "runtest"
+      },
+      {
+        "blanks": 0,
+        "code": 13,
+        "comments": 1,
+        "file_name": "mkreleasehdr.sh",
+        "path": "src/mkreleasehdr.sh"
+      },
+      {
+        "blanks": 12,
+        "code": 63,
+        "comments": 3,
+        "file_name": "test.sh",
+        "path": "deps/hiredis/test.sh"
+      },
+      {
+        "blanks": 0,
+        "code": 8,
+        "comments": 1,
+        "file_name": "update-jemalloc.sh",
+        "path": "deps/update-jemalloc.sh"
+      },
+      {
+        "blanks": 3,
+        "code": 30,
+        "comments": 1,
+        "file_name": "runtest-moduleapi",
+        "path": "runtest-moduleapi"
+      },
+      {
+        "blanks": 2,
+        "code": 14,
+        "comments": 8,
+        "file_name": "whatisdoing.sh",
+        "path": "utils/whatisdoing.sh"
+      },
+      {
+        "blanks": 3,
+        "code": 24,
+        "comments": 1,
+        "file_name": "03_test_release.sh",
+        "path": "utils/releasetools/03_test_release.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 11,
+        "comments": 1,
+        "file_name": "04_release_hash.sh",
+        "path": "utils/releasetools/04_release_hash.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 12,
+        "comments": 1,
+        "file_name": "01_create_tarball.sh",
+        "path": "utils/releasetools/01_create_tarball.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 21,
+        "comments": 1,
+        "file_name": "02_upload_tarball.sh",
+        "path": "utils/releasetools/02_upload_tarball.sh"
+      },
+      {
+        "blanks": 9,
+        "code": 41,
+        "comments": 8,
+        "file_name": "gen-test-certs.sh",
+        "path": "utils/gen-test-certs.sh"
+      },
+      {
+        "blanks": 4,
+        "code": 35,
+        "comments": 11,
+        "file_name": "redis_init_script",
+        "path": "utils/redis_init_script"
+      },
+      {
+        "blanks": 2,
+        "code": 14,
+        "comments": 1,
+        "file_name": "autogen.sh",
+        "path": "deps/jemalloc/autogen.sh"
+      },
+      {
+        "blanks": 36,
+        "code": 157,
+        "comments": 98,
+        "file_name": "install_server.sh",
+        "path": "utils/install_server.sh"
+      },
+      {
+        "blanks": 0,
+        "code": 1,
+        "comments": 0,
+        "file_name": "run_tests.sh",
+        "path": "deps/jemalloc/run_tests.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "extent.sh",
+        "path": "deps/jemalloc/test/integration/extent.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "xallocx.sh",
+        "path": "deps/jemalloc/test/integration/xallocx.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "mallocx.sh",
+        "path": "deps/jemalloc/test/integration/mallocx.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "prof_tctx.sh",
+        "path": "deps/jemalloc/test/unit/prof_tctx.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "junk_free.sh",
+        "path": "deps/jemalloc/test/unit/junk_free.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "junk.sh",
+        "path": "deps/jemalloc/test/unit/junk.sh"
+      },
+      {
+        "blanks": 5,
+        "code": 14,
+        "comments": 8,
+        "file_name": "jemalloc.sh",
+        "path": "deps/jemalloc/include/jemalloc/jemalloc.sh"
+      },
+      {
+        "blanks": 7,
+        "code": 30,
+        "comments": 8,
+        "file_name": "jemalloc_mangle.sh",
+        "path": "deps/jemalloc/include/jemalloc/jemalloc_mangle.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "junk_alloc.sh",
+        "path": "deps/jemalloc/test/unit/junk_alloc.sh"
+      },
+      {
+        "blanks": 4,
+        "code": 15,
+        "comments": 3,
+        "file_name": "jemalloc_rename.sh",
+        "path": "deps/jemalloc/include/jemalloc/jemalloc_rename.sh"
+      },
+      {
+        "blanks": 2,
+        "code": 3,
+        "comments": 1,
+        "file_name": "prof_gdump.sh",
+        "path": "deps/jemalloc/test/unit/prof_gdump.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "prof_thread_name.sh",
+        "path": "deps/jemalloc/test/unit/prof_thread_name.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "prof_accum.sh",
+        "path": "deps/jemalloc/test/unit/prof_accum.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "zero.sh",
+        "path": "deps/jemalloc/test/unit/zero.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 1,
+        "comments": 1,
+        "file_name": "decay.sh",
+        "path": "deps/jemalloc/test/unit/decay.sh"
+      },
+      {
+        "blanks": 3,
+        "code": 4,
+        "comments": 1,
+        "file_name": "prof_idump.sh",
+        "path": "deps/jemalloc/test/unit/prof_idump.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "prof_active.sh",
+        "path": "deps/jemalloc/test/unit/prof_active.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "prof_reset.sh",
+        "path": "deps/jemalloc/test/unit/prof_reset.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 1,
+        "comments": 2,
+        "file_name": "pack.sh",
+        "path": "deps/jemalloc/test/unit/pack.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 1,
+        "comments": 1,
+        "file_name": "arena_reset_prof.sh",
+        "path": "deps/jemalloc/test/unit/arena_reset_prof.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 3,
+        "comments": 1,
+        "file_name": "private_namespace.sh",
+        "path": "deps/jemalloc/include/jemalloc/internal/private_namespace.sh"
+      },
+      {
+        "blanks": 5,
+        "code": 27,
+        "comments": 19,
+        "file_name": "private_symbols.sh",
+        "path": "deps/jemalloc/include/jemalloc/internal/private_symbols.sh"
+      },
+      {
+        "blanks": 13,
+        "code": 66,
+        "comments": 22,
+        "file_name": "smoothstep.sh",
+        "path": "deps/jemalloc/include/jemalloc/internal/smoothstep.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 4,
+        "comments": 1,
+        "file_name": "public_namespace.sh",
+        "path": "deps/jemalloc/include/jemalloc/internal/public_namespace.sh"
+      },
+      {
+        "blanks": 1,
+        "code": 4,
+        "comments": 1,
+        "file_name": "public_unnamespace.sh",
+        "path": "deps/jemalloc/include/jemalloc/internal/public_unnamespace.sh"
+      },
+      {
+        "blanks": 25,
+        "code": 312,
+        "comments": 24,
+        "file_name": "size_classes.sh",
+        "path": "deps/jemalloc/include/jemalloc/internal/size_classes.sh"
+      },
+      {
+        "blanks": 2,
+        "code": 15,
+        "comments": 4,
+        "file_name": "notify.sh",
+        "path": "tests/sentinel/tests/includes/notify.sh"
+      },
+      {
+        "blanks": 2,
+        "code": 11,
+        "comments": 1,
+        "file_name": "runtest-cluster",
+        "path": "runtest-cluster"
+      }
+    ]
+  },
+  {
+    "language": "TCL",
+    "blanks": 3149,
+    "code": 22233,
+    "comments": 1723,
+    "reports": [
+      {
+        "blanks": 14,
+        "code": 107,
+        "comments": 9,
+        "file_name": "speed-regression.tcl",
+        "path": "utils/speed-regression.tcl"
+      },
+      {
+        "blanks": 3,
+        "code": 89,
+        "comments": 4,
+        "file_name": "genhtml.tcl",
+        "path": "utils/graphs/commits-over-time/genhtml.tcl"
+      },
+      {
+        "blanks": 10,
+        "code": 34,
+        "comments": 6,
+        "file_name": "cluster_fail_time.tcl",
+        "path": "utils/cluster_fail_time.tcl"
+      },
+      {
+        "blanks": 8,
+        "code": 23,
+        "comments": 4,
+        "file_name": "changelog.tcl",
+        "path": "utils/releasetools/changelog.tcl"
+      },
+      {
+        "blanks": 2,
+        "code": 15,
+        "comments": 5,
+        "file_name": "build-static-symbols.tcl",
+        "path": "utils/build-static-symbols.tcl"
+      },
+      {
+        "blanks": 3,
+        "code": 14,
+        "comments": 0,
+        "file_name": "gen_write_load.tcl",
+        "path": "tests/helpers/gen_write_load.tcl"
+      },
+      {
+        "blanks": 3,
+        "code": 9,
+        "comments": 0,
+        "file_name": "bg_complex_data.tcl",
+        "path": "tests/helpers/bg_complex_data.tcl"
+      },
+      {
+        "blanks": 8,
+        "code": 37,
+        "comments": 9,
+        "file_name": "bg_block_op.tcl",
+        "path": "tests/helpers/bg_block_op.tcl"
+      },
+      {
+        "blanks": 2,
+        "code": 11,
+        "comments": 2,
+        "file_name": "tmpfile.tcl",
+        "path": "tests/support/tmpfile.tcl"
+      },
+      {
+        "blanks": 2,
+        "code": 17,
+        "comments": 0,
+        "file_name": "cli.tcl",
+        "path": "tests/support/cli.tcl"
+      },
+      {
+        "blanks": 29,
+        "code": 249,
+        "comments": 50,
+        "file_name": "cluster.tcl",
+        "path": "tests/support/cluster.tcl"
+      },
+      {
+        "blanks": 2,
+        "code": 17,
+        "comments": 0,
+        "file_name": "benchmark.tcl",
+        "path": "tests/support/benchmark.tcl"
+      },
+      {
+        "blanks": 28,
+        "code": 269,
+        "comments": 40,
+        "file_name": "redis.tcl",
+        "path": "tests/support/redis.tcl"
+      },
+      {
+        "blanks": 26,
+        "code": 172,
+        "comments": 10,
+        "file_name": "test.tcl",
+        "path": "tests/support/test.tcl"
+      },
+      {
+        "blanks": 0,
+        "code": 0,
+        "comments": 1,
+        "file_name": "03-runtime-reconf.tcl",
+        "path": "tests/sentinel/tests/03-runtime-reconf.tcl"
+      },
+      {
+        "blanks": 4,
+        "code": 17,
+        "comments": 3,
+        "file_name": "run.tcl",
+        "path": "tests/sentinel/run.tcl"
+      },
+      {
+        "blanks": 0,
+        "code": 0,
+        "comments": 5,
+        "file_name": "04-slave-selection.tcl",
+        "path": "tests/sentinel/tests/04-slave-selection.tcl"
+      },
+      {
+        "blanks": 9,
+        "code": 67,
+        "comments": 8,
+        "file_name": "02-slaves-reconf.tcl",
+        "path": "tests/sentinel/tests/02-slaves-reconf.tcl"
+      },
+      {
+        "blanks": 6,
+        "code": 28,
+        "comments": 1,
+        "file_name": "06-ckquorum.tcl",
+        "path": "tests/sentinel/tests/06-ckquorum.tcl"
+      },
+      {
+        "blanks": 6,
+        "code": 31,
+        "comments": 2,
+        "file_name": "01-conf-update.tcl",
+        "path": "tests/sentinel/tests/01-conf-update.tcl"
+      },
+      {
+        "blanks": 7,
+        "code": 66,
+        "comments": 1,
+        "file_name": "init-tests.tcl",
+        "path": "tests/sentinel/tests/includes/init-tests.tcl"
+      },
+      {
+        "blanks": 6,
+        "code": 38,
+        "comments": 1,
+        "file_name": "05-manual.tcl",
+        "path": "tests/sentinel/tests/05-manual.tcl"
+      },
+      {
+        "blanks": 55,
+        "code": 571,
+        "comments": 55,
+        "file_name": "util.tcl",
+        "path": "tests/support/util.tcl"
+      },
+      {
+        "blanks": 9,
+        "code": 67,
+        "comments": 4,
+        "file_name": "07-down-conditions.tcl",
+        "path": "tests/sentinel/tests/07-down-conditions.tcl"
+      },
+      {
+        "blanks": 19,
+        "code": 99,
+        "comments": 8,
+        "file_name": "00-base.tcl",
+        "path": "tests/sentinel/tests/00-base.tcl"
+      },
+      {
+        "blanks": 3,
+        "code": 35,
+        "comments": 1,
+        "file_name": "logging.tcl",
+        "path": "tests/integration/logging.tcl"
+      },
+      {
+        "blanks": 15,
+        "code": 46,
+        "comments": 11,
+        "file_name": "oom-score-adj.tcl",
+        "path": "tests/unit/oom-score-adj.tcl"
+      },
+      {
+        "blanks": 14,
+        "code": 109,
+        "comments": 11,
+        "file_name": "replication-3.tcl",
+        "path": "tests/integration/replication-3.tcl"
+      },
+      {
+        "blanks": 55,
+        "code": 524,
+        "comments": 66,
+        "file_name": "instances.tcl",
+        "path": "tests/instances.tcl"
+      },
+      {
+        "blanks": 7,
+        "code": 22,
+        "comments": 7,
+        "file_name": "aof-race.tcl",
+        "path": "tests/integration/aof-race.tcl"
+      },
+      {
+        "blanks": 75,
+        "code": 454,
+        "comments": 71,
+        "file_name": "server.tcl",
+        "path": "tests/support/server.tcl"
+      },
+      {
+        "blanks": 6,
+        "code": 28,
+        "comments": 1,
+        "file_name": "convert-zipmap-hash-on-load.tcl",
+        "path": "tests/integration/convert-zipmap-hash-on-load.tcl"
+      },
+      {
+        "blanks": 25,
+        "code": 178,
+        "comments": 29,
+        "file_name": "psync2-pingoff.tcl",
+        "path": "tests/integration/psync2-pingoff.tcl"
+      },
+      {
+        "blanks": 7,
+        "code": 48,
+        "comments": 3,
+        "file_name": "block-repl.tcl",
+        "path": "tests/integration/block-repl.tcl"
+      },
+      {
+        "blanks": 8,
+        "code": 67,
+        "comments": 7,
+        "file_name": "psync2-reg.tcl",
+        "path": "tests/integration/psync2-reg.tcl"
+      },
+      {
+        "blanks": 21,
+        "code": 150,
+        "comments": 22,
+        "file_name": "corrupt-dump-fuzzer.tcl",
+        "path": "tests/integration/corrupt-dump-fuzzer.tcl"
+      },
+      {
+        "blanks": 17,
+        "code": 127,
+        "comments": 2,
+        "file_name": "replication-4.tcl",
+        "path": "tests/integration/replication-4.tcl"
+      },
+      {
+        "blanks": 54,
+        "code": 309,
+        "comments": 27,
+        "file_name": "pubsub.tcl",
+        "path": "tests/unit/pubsub.tcl"
+      },
+      {
+        "blanks": 16,
+        "code": 113,
+        "comments": 19,
+        "file_name": "replication-psync.tcl",
+        "path": "tests/integration/replication-psync.tcl"
+      },
+      {
+        "blanks": 7,
+        "code": 82,
+        "comments": 1,
+        "file_name": "replication-2.tcl",
+        "path": "tests/integration/replication-2.tcl"
+      },
+      {
+        "blanks": 42,
+        "code": 279,
+        "comments": 52,
+        "file_name": "psync2.tcl",
+        "path": "tests/integration/psync2.tcl"
+      },
+      {
+        "blanks": 8,
+        "code": 63,
+        "comments": 0,
+        "file_name": "keyspace_events.tcl",
+        "path": "tests/unit/moduleapi/keyspace_events.tcl"
+      },
+      {
+        "blanks": 3,
+        "code": 32,
+        "comments": 0,
+        "file_name": "pendingquerybuf.tcl",
+        "path": "tests/unit/pendingquerybuf.tcl"
+      },
+      {
+        "blanks": 32,
+        "code": 221,
+        "comments": 22,
+        "file_name": "aof.tcl",
+        "path": "tests/integration/aof.tcl"
+      },
+      {
+        "blanks": 9,
+        "code": 34,
+        "comments": 3,
+        "file_name": "defrag.tcl",
+        "path": "tests/unit/moduleapi/defrag.tcl"
+      },
+      {
+        "blanks": 6,
+        "code": 34,
+        "comments": 0,
+        "file_name": "quit.tcl",
+        "path": "tests/unit/quit.tcl"
+      },
+      {
+        "blanks": 5,
+        "code": 40,
+        "comments": 2,
+        "file_name": "list-2.tcl",
+        "path": "tests/unit/type/list-2.tcl"
+      },
+      {
+        "blanks": 24,
+        "code": 132,
+        "comments": 7,
+        "file_name": "hooks.tcl",
+        "path": "tests/unit/moduleapi/hooks.tcl"
+      },
+      {
+        "blanks": 4,
+        "code": 117,
+        "comments": 1,
+        "file_name": "list-3.tcl",
+        "path": "tests/unit/type/list-3.tcl"
+      },
+      {
+        "blanks": 13,
+        "code": 137,
+        "comments": 3,
+        "file_name": "info.tcl",
+        "path": "tests/unit/info.tcl"
+      },
+      {
+        "blanks": 14,
+        "code": 64,
+        "comments": 11,
+        "file_name": "infotest.tcl",
+        "path": "tests/unit/moduleapi/infotest.tcl"
+      },
+      {
+        "blanks": 0,
+        "code": 6,
+        "comments": 0,
+        "file_name": "printver.tcl",
+        "path": "tests/unit/printver.tcl"
+      },
+      {
+        "blanks": 23,
+        "code": 137,
+        "comments": 4,
+        "file_name": "incr.tcl",
+        "path": "tests/unit/type/incr.tcl"
+      },
+      {
+        "blanks": 51,
+        "code": 428,
+        "comments": 38,
+        "file_name": "tracking.tcl",
+        "path": "tests/unit/tracking.tcl"
+      },
+      {
+        "blanks": 19,
+        "code": 101,
+        "comments": 8,
+        "file_name": "slowlog.tcl",
+        "path": "tests/unit/slowlog.tcl"
+      },
+      {
+        "blanks": 1,
+        "code": 38,
+        "comments": 0,
+        "file_name": "lazyfree.tcl",
+        "path": "tests/unit/lazyfree.tcl"
+      },
+      {
+        "blanks": 12,
+        "code": 109,
+        "comments": 0,
+        "file_name": "protocol.tcl",
+        "path": "tests/unit/protocol.tcl"
+      },
+      {
+        "blanks": 15,
+        "code": 138,
+        "comments": 15,
+        "file_name": "redis-benchmark.tcl",
+        "path": "tests/integration/redis-benchmark.tcl"
+      },
+      {
+        "blanks": 53,
+        "code": 234,
+        "comments": 8,
+        "file_name": "redis-cli.tcl",
+        "path": "tests/integration/redis-cli.tcl"
+      },
+      {
+        "blanks": 0,
+        "code": 3,
+        "comments": 2,
+        "file_name": "list-common.tcl",
+        "path": "tests/unit/type/list-common.tcl"
+      },
+      {
+        "blanks": 11,
+        "code": 54,
+        "comments": 3,
+        "file_name": "auth.tcl",
+        "path": "tests/unit/auth.tcl"
+      },
+      {
+        "blanks": 69,
+        "code": 523,
+        "comments": 38,
+        "file_name": "multi.tcl",
+        "path": "tests/unit/multi.tcl"
+      },
+      {
+        "blanks": 23,
+        "code": 258,
+        "comments": 45,
+        "file_name": "maxmemory.tcl",
+        "path": "tests/unit/maxmemory.tcl"
+      },
+      {
+        "blanks": 31,
+        "code": 234,
+        "comments": 30,
+        "file_name": "rdb.tcl",
+        "path": "tests/integration/rdb.tcl"
+      },
+      {
+        "blanks": 59,
+        "code": 672,
+        "comments": 85,
+        "file_name": "test_helper.tcl",
+        "path": "tests/test_helper.tcl"
+      },
+      {
+        "blanks": 32,
+        "code": 241,
+        "comments": 27,
+        "file_name": "expire.tcl",
+        "path": "tests/unit/expire.tcl"
+      },
+      {
+        "blanks": 17,
+        "code": 41,
+        "comments": 13,
+        "file_name": "auth.tcl",
+        "path": "tests/unit/moduleapi/auth.tcl"
+      },
+      {
+        "blanks": 22,
+        "code": 149,
+        "comments": 15,
+        "file_name": "introspection.tcl",
+        "path": "tests/unit/introspection.tcl"
+      },
+      {
+        "blanks": 24,
+        "code": 206,
+        "comments": 2,
+        "file_name": "bitfield.tcl",
+        "path": "tests/unit/bitfield.tcl"
+      },
+      {
+        "blanks": 18,
+        "code": 135,
+        "comments": 18,
+        "file_name": "obuf-limits.tcl",
+        "path": "tests/unit/obuf-limits.tcl"
+      },
+      {
+        "blanks": 18,
+        "code": 64,
+        "comments": 2,
+        "file_name": "commandfilter.tcl",
+        "path": "tests/unit/moduleapi/commandfilter.tcl"
+      },
+      {
+        "blanks": 63,
+        "code": 602,
+        "comments": 26,
+        "file_name": "stream.tcl",
+        "path": "tests/unit/type/stream.tcl"
+      },
+      {
+        "blanks": 10,
+        "code": 34,
+        "comments": 0,
+        "file_name": "getkeys.tcl",
+        "path": "tests/unit/moduleapi/getkeys.tcl"
+      },
+      {
+        "blanks": 44,
+        "code": 333,
+        "comments": 2,
+        "file_name": "dump.tcl",
+        "path": "tests/unit/dump.tcl"
+      },
+      {
+        "blanks": 0,
+        "code": 21,
+        "comments": 0,
+        "file_name": "limits.tcl",
+        "path": "tests/unit/limits.tcl"
+      },
+      {
+        "blanks": 20,
+        "code": 116,
+        "comments": 5,
+        "file_name": "propagate.tcl",
+        "path": "tests/unit/moduleapi/propagate.tcl"
+      },
+      {
+        "blanks": 6,
+        "code": 25,
+        "comments": 1,
+        "file_name": "test_lazyfree.tcl",
+        "path": "tests/unit/moduleapi/test_lazyfree.tcl"
+      },
+      {
+        "blanks": 28,
+        "code": 89,
+        "comments": 1,
+        "file_name": "tls.tcl",
+        "path": "tests/unit/tls.tcl"
+      },
+      {
+        "blanks": 73,
+        "code": 525,
+        "comments": 33,
+        "file_name": "set.tcl",
+        "path": "tests/unit/type/set.tcl"
+      },
+      {
+        "blanks": 7,
+        "code": 40,
+        "comments": 10,
+        "file_name": "shutdown.tcl",
+        "path": "tests/unit/shutdown.tcl"
+      },
+      {
+        "blanks": 36,
+        "code": 276,
+        "comments": 11,
+        "file_name": "other.tcl",
+        "path": "tests/unit/other.tcl"
+      },
+      {
+        "blanks": 19,
+        "code": 73,
+        "comments": 1,
+        "file_name": "blockedclient.tcl",
+        "path": "tests/unit/moduleapi/blockedclient.tcl"
+      },
+      {
+        "blanks": 22,
+        "code": 181,
+        "comments": 10,
+        "file_name": "hyperloglog.tcl",
+        "path": "tests/unit/hyperloglog.tcl"
+      },
+      {
+        "blanks": 14,
+        "code": 36,
+        "comments": 7,
+        "file_name": "timer.tcl",
+        "path": "tests/unit/moduleapi/timer.tcl"
+      },
+      {
+        "blanks": 12,
+        "code": 42,
+        "comments": 4,
+        "file_name": "datatype.tcl",
+        "path": "tests/unit/moduleapi/datatype.tcl"
+      },
+      {
+        "blanks": 8,
+        "code": 70,
+        "comments": 1,
+        "file_name": "latency-monitor.tcl",
+        "path": "tests/unit/latency-monitor.tcl"
+      },
+      {
+        "blanks": 9,
+        "code": 42,
+        "comments": 1,
+        "file_name": "scan.tcl",
+        "path": "tests/unit/moduleapi/scan.tcl"
+      },
+      {
+        "blanks": 27,
+        "code": 165,
+        "comments": 8,
+        "file_name": "pause.tcl",
+        "path": "tests/unit/pause.tcl"
+      },
+      {
+        "blanks": 6,
+        "code": 24,
+        "comments": 1,
+        "file_name": "fork.tcl",
+        "path": "tests/unit/moduleapi/fork.tcl"
+      },
+      {
+        "blanks": 16,
+        "code": 334,
+        "comments": 1,
+        "file_name": "bitops.tcl",
+        "path": "tests/unit/bitops.tcl"
+      },
+      {
+        "blanks": 78,
+        "code": 385,
+        "comments": 18,
+        "file_name": "string.tcl",
+        "path": "tests/unit/type/string.tcl"
+      },
+      {
+        "blanks": 16,
+        "code": 88,
+        "comments": 5,
+        "file_name": "misc.tcl",
+        "path": "tests/unit/moduleapi/misc.tcl"
+      },
+      {
+        "blanks": 51,
+        "code": 431,
+        "comments": 0,
+        "file_name": "keyspace.tcl",
+        "path": "tests/unit/keyspace.tcl"
+      },
+      {
+        "blanks": 8,
+        "code": 71,
+        "comments": 0,
+        "file_name": "introspection-2.tcl",
+        "path": "tests/unit/introspection-2.tcl"
+      },
+      {
+        "blanks": 16,
+        "code": 183,
+        "comments": 14,
+        "file_name": "aofrw.tcl",
+        "path": "tests/unit/aofrw.tcl"
+      },
+      {
+        "blanks": 66,
+        "code": 512,
+        "comments": 16,
+        "file_name": "hash.tcl",
+        "path": "tests/unit/type/hash.tcl"
+      },
+      {
+        "blanks": 6,
+        "code": 52,
+        "comments": 0,
+        "file_name": "wait.tcl",
+        "path": "tests/unit/wait.tcl"
+      },
+      {
+        "blanks": 24,
+        "code": 210,
+        "comments": 5,
+        "file_name": "blockonkeys.tcl",
+        "path": "tests/unit/moduleapi/blockonkeys.tcl"
+      },
+      {
+        "blanks": 4,
+        "code": 22,
+        "comments": 3,
+        "file_name": "run.tcl",
+        "path": "tests/cluster/run.tcl"
+      },
+      {
+        "blanks": 98,
+        "code": 671,
+        "comments": 107,
+        "file_name": "replication.tcl",
+        "path": "tests/integration/replication.tcl"
+      },
+      {
+        "blanks": 7,
+        "code": 30,
+        "comments": 3,
+        "file_name": "09-pubsub.tcl",
+        "path": "tests/cluster/tests/09-pubsub.tcl"
+      },
+      {
+        "blanks": 13,
+        "code": 107,
+        "comments": 25,
+        "file_name": "cluster.tcl",
+        "path": "tests/cluster/cluster.tcl"
+      },
+      {
+        "blanks": 2,
+        "code": 10,
+        "comments": 4,
+        "file_name": "onlydots.tcl",
+        "path": "tests/cluster/tests/helpers/onlydots.tcl"
+      },
+      {
+        "blanks": 43,
+        "code": 264,
+        "comments": 23,
+        "file_name": "scan.tcl",
+        "path": "tests/unit/scan.tcl"
+      },
+      {
+        "blanks": 12,
+        "code": 46,
+        "comments": 4,
+        "file_name": "18-cluster-nodes-slots.tcl",
+        "path": "tests/cluster/tests/18-cluster-nodes-slots.tcl"
+      },
+      {
+        "blanks": 12,
+        "code": 46,
+        "comments": 1,
+        "file_name": "11-manual-takeover.tcl",
+        "path": "tests/cluster/tests/11-manual-takeover.tcl"
+      },
+      {
+        "blanks": 35,
+        "code": 281,
+        "comments": 2,
+        "file_name": "sort.tcl",
+        "path": "tests/unit/sort.tcl"
+      },
+      {
+        "blanks": 21,
+        "code": 130,
+        "comments": 30,
+        "file_name": "04-resharding.tcl",
+        "path": "tests/cluster/tests/04-resharding.tcl"
+      },
+      {
+        "blanks": 41,
+        "code": 398,
+        "comments": 14,
+        "file_name": "acl.tcl",
+        "path": "tests/unit/acl.tcl"
+      },
+      {
+        "blanks": 14,
+        "code": 50,
+        "comments": 1,
+        "file_name": "02-failover.tcl",
+        "path": "tests/cluster/tests/02-failover.tcl"
+      },
+      {
+        "blanks": 39,
+        "code": 404,
+        "comments": 53,
+        "file_name": "memefficiency.tcl",
+        "path": "tests/unit/memefficiency.tcl"
+      },
+      {
+        "blanks": 39,
+        "code": 144,
+        "comments": 9,
+        "file_name": "10-manual-failover.tcl",
+        "path": "tests/cluster/tests/10-manual-failover.tcl"
+      },
+      {
+        "blanks": 8,
+        "code": 42,
+        "comments": 0,
+        "file_name": "15-cluster-slots.tcl",
+        "path": "tests/cluster/tests/15-cluster-slots.tcl"
+      },
+      {
+        "blanks": 9,
+        "code": 26,
+        "comments": 3,
+        "file_name": "01-faildet.tcl",
+        "path": "tests/cluster/tests/01-faildet.tcl"
+      },
+      {
+        "blanks": 16,
+        "code": 93,
+        "comments": 6,
+        "file_name": "03-failover-loop.tcl",
+        "path": "tests/cluster/tests/03-failover-loop.tcl"
+      },
+      {
+        "blanks": 31,
+        "code": 127,
+        "comments": 13,
+        "file_name": "05-slave-selection.tcl",
+        "path": "tests/cluster/tests/05-slave-selection.tcl"
+      },
+      {
+        "blanks": 14,
+        "code": 45,
+        "comments": 2,
+        "file_name": "13-no-failover-option.tcl",
+        "path": "tests/cluster/tests/13-no-failover-option.tcl"
+      },
+      {
+        "blanks": 7,
+        "code": 35,
+        "comments": 3,
+        "file_name": "18-info.tcl",
+        "path": "tests/cluster/tests/18-info.tcl"
+      },
+      {
+        "blanks": 14,
+        "code": 55,
+        "comments": 10,
+        "file_name": "17-diskless-load-swapdb.tcl",
+        "path": "tests/cluster/tests/17-diskless-load-swapdb.tcl"
+      },
+      {
+        "blanks": 12,
+        "code": 58,
+        "comments": 1,
+        "file_name": "16-transactions-on-replica.tcl",
+        "path": "tests/cluster/tests/16-transactions-on-replica.tcl"
+      },
+      {
+        "blanks": 14,
+        "code": 45,
+        "comments": 14,
+        "file_name": "06-slave-stop-cond.tcl",
+        "path": "tests/cluster/tests/06-slave-stop-cond.tcl"
+      },
+      {
+        "blanks": 19,
+        "code": 73,
+        "comments": 11,
+        "file_name": "07-replica-migration.tcl",
+        "path": "tests/cluster/tests/07-replica-migration.tcl"
+      },
+      {
+        "blanks": 7,
+        "code": 49,
+        "comments": 3,
+        "file_name": "00-base.tcl",
+        "path": "tests/cluster/tests/00-base.tcl"
+      },
+      {
+        "blanks": 13,
+        "code": 108,
+        "comments": 11,
+        "file_name": "testrdb.tcl",
+        "path": "tests/unit/moduleapi/testrdb.tcl"
+      },
+      {
+        "blanks": 6,
+        "code": 59,
+        "comments": 5,
+        "file_name": "init-tests.tcl",
+        "path": "tests/cluster/tests/includes/init-tests.tcl"
+      },
+      {
+        "blanks": 18,
+        "code": 62,
+        "comments": 10,
+        "file_name": "08-update-msg.tcl",
+        "path": "tests/cluster/tests/08-update-msg.tcl"
+      },
+      {
+        "blanks": 21,
+        "code": 77,
+        "comments": 19,
+        "file_name": "14-consistency-check.tcl",
+        "path": "tests/cluster/tests/14-consistency-check.tcl"
+      },
+      {
+        "blanks": 9,
+        "code": 50,
+        "comments": 9,
+        "file_name": "12-replica-migration-2.tcl",
+        "path": "tests/cluster/tests/12-replica-migration-2.tcl"
+      },
+      {
+        "blanks": 58,
+        "code": 378,
+        "comments": 23,
+        "file_name": "geo.tcl",
+        "path": "tests/unit/geo.tcl"
+      },
+      {
+        "blanks": 65,
+        "code": 780,
+        "comments": 16,
+        "file_name": "scripting.tcl",
+        "path": "tests/unit/scripting.tcl"
+      },
+      {
+        "blanks": 161,
+        "code": 970,
+        "comments": 26,
+        "file_name": "list.tcl",
+        "path": "tests/unit/type/list.tcl"
+      },
+      {
+        "blanks": 208,
+        "code": 1299,
+        "comments": 50,
+        "file_name": "zset.tcl",
+        "path": "tests/unit/type/zset.tcl"
+      },
+      {
+        "blanks": 73,
+        "code": 533,
+        "comments": 52,
+        "file_name": "stream-cgroups.tcl",
+        "path": "tests/unit/type/stream-cgroups.tcl"
+      },
+      {
+        "blanks": 52,
+        "code": 443,
+        "comments": 16,
+        "file_name": "corrupt-dump.tcl",
+        "path": "tests/integration/corrupt-dump.tcl"
+      }
+    ]
+  },
+  {
+    "language": "Plain Text",
+    "blanks": 26,
+    "code": 0,
+    "comments": 159,
+    "reports": [
+      {
+        "blanks": 7,
+        "code": 0,
+        "comments": 34,
+        "file_name": "LICENSE.txt",
+        "path": "deps/hdr_histogram/LICENSE.txt"
+      },
+      {
+        "blanks": 12,
+        "code": 0,
+        "comments": 109,
+        "file_name": "COPYING.txt",
+        "path": "deps/hdr_histogram/COPYING.txt"
+      },
+      {
+        "blanks": 7,
+        "code": 0,
+        "comments": 16,
+        "file_name": "ReadMe.txt",
+        "path": "deps/jemalloc/msvc/ReadMe.txt"
+      }
+    ]
+  },
+  {
+    "language": "Visual Studio Project",
+    "blanks": 0,
+    "code": 1348,
+    "comments": 0,
+    "reports": [
+      {
+        "blanks": 0,
+        "code": 327,
+        "comments": 0,
+        "file_name": "test_threads.vcxproj",
+        "path": "deps/jemalloc/msvc/projects/vc2015/test_threads/test_threads.vcxproj"
+      },
+      {
+        "blanks": 0,
+        "code": 348,
+        "comments": 0,
+        "file_name": "jemalloc.vcxproj",
+        "path": "deps/jemalloc/msvc/projects/vc2015/jemalloc/jemalloc.vcxproj"
+      },
+      {
+        "blanks": 0,
+        "code": 326,
+        "comments": 0,
+        "file_name": "test_threads.vcxproj",
+        "path": "deps/jemalloc/msvc/projects/vc2017/test_threads/test_threads.vcxproj"
+      },
+      {
+        "blanks": 0,
+        "code": 347,
+        "comments": 0,
+        "file_name": "jemalloc.vcxproj",
+        "path": "deps/jemalloc/msvc/projects/vc2017/jemalloc/jemalloc.vcxproj"
+      }
+    ]
+  },
+  {
+    "language": "Visual Studio Solution",
+    "blanks": 2,
+    "code": 124,
+    "comments": 0,
+    "reports": [
+      {
+        "blanks": 1,
+        "code": 62,
+        "comments": 0,
+        "file_name": "jemalloc_vc2017.sln",
+        "path": "deps/jemalloc/msvc/jemalloc_vc2017.sln"
+      },
+      {
+        "blanks": 1,
+        "code": 62,
+        "comments": 0,
+        "file_name": "jemalloc_vc2015.sln",
+        "path": "deps/jemalloc/msvc/jemalloc_vc2015.sln"
+      }
+    ]
+  },
+  {
+    "language": "XSL",
+    "blanks": 0,
+    "code": 10,
+    "comments": 0,
+    "reports": [
+      {
+        "blanks": 0,
+        "code": 10,
+        "comments": 0,
+        "file_name": "stylesheet.xsl",
+        "path": "deps/jemalloc/doc/stylesheet.xsl"
+      }
+    ]
+  },
+  {
+    "language": "YAML",
+    "blanks": 4,
+    "code": 17,
+    "comments": 3,
+    "reports": [
+      {
+        "blanks": 4,
+        "code": 17,
+        "comments": 3,
+        "file_name": "appveyor.yml",
+        "path": "deps/hiredis/appveyor.yml"
+      }
+    ]
+  }
+]

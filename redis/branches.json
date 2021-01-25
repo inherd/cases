@@ -1,0 +1,713 @@
+[
+  {
+    "name": "unstable",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2021-01-25 09:05:25",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1611565525
+  },
+  {
+    "name": "origin/5.0",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-10-26 08:10:01",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1603699801
+  },
+  {
+    "name": "origin/6.0",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2021-01-11 13:29:57",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1610371797
+  },
+  {
+    "name": "origin/6.2",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2021-01-12 14:21:03",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1610461263
+  },
+  {
+    "name": "origin/acl-log",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-02-04 12:19:40",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1580818780
+  },
+  {
+    "name": "origin/conduct",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-07-10 13:22:58",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1594387378
+  },
+  {
+    "name": "origin/csc2",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-02-14 13:29:00",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1581686940
+  },
+  {
+    "name": "origin/faster-info",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-04-07 10:07:09",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1586254029
+  },
+  {
+    "name": "origin/faster-rdb-loading",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-04-09 14:25:30",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1586442330
+  },
+  {
+    "name": "origin/fix-double-multi",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-03-31 10:09:38",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1585649378
+  },
+  {
+    "name": "origin/free_clients_during_loading",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-05-14 08:02:57",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1589443377
+  },
+  {
+    "name": "origin/HEAD",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2021-01-25 09:05:25",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1611565525
+  },
+  {
+    "name": "origin/meaningful-offset",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-03-25 14:43:34",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1585147414
+  },
+  {
+    "name": "origin/no-mo-first",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-05-27 15:08:51",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1590592131
+  },
+  {
+    "name": "origin/no-mo-second",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-05-27 10:42:43",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1590576163
+  },
+  {
+    "name": "origin/nordb",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-03-04 16:58:05",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1583341085
+  },
+  {
+    "name": "origin/o1-bpop",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-04-08 10:55:57",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1586343357
+  },
+  {
+    "name": "origin/o1-bpop-5.0",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-04-08 10:55:57",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1586343357
+  },
+  {
+    "name": "origin/precise-timeout",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-03-26 14:52:16",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1585234336
+  },
+  {
+    "name": "origin/precise-timeout-2",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-03-30 13:22:55",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1585574575
+  },
+  {
+    "name": "origin/psync2-test-improvement",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-05-16 16:03:28",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1589645008
+  },
+  {
+    "name": "origin/stream-propagation-fix",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-04-17 13:46:43",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1587131203
+  },
+  {
+    "name": "origin/stream-propagation-fix-2",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-04-17 14:32:29",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1587133949
+  },
+  {
+    "name": "origin/threaded-core-commands",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-06-10 09:06:24",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1591779984
+  },
+  {
+    "name": "origin/tracking-noloop",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-04-22 09:45:34",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1587548734
+  },
+  {
+    "name": "origin/unstable",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2021-01-25 09:05:25",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1611565525
+  },
+  {
+    "name": "origin/unstable_hmset_args",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2020-08-18 21:28:55",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1597786135
+  },
+  {
+    "name": "origin/2.2",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2011-10-17 08:57:18",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1318841838
+  },
+  {
+    "name": "origin/2.4",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2012-11-28 17:50:19",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1354125019
+  },
+  {
+    "name": "origin/2.6",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2014-02-25 14:18:43",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1393337923
+  },
+  {
+    "name": "origin/2.8",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2019-09-02 09:49:45",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1567417785
+  },
+  {
+    "name": "origin/3.0",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2017-01-30 15:34:08",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1485790448
+  },
+  {
+    "name": "origin/3.2",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2019-07-31 08:36:23",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1564562183
+  },
+  {
+    "name": "origin/4.0",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2019-07-31 08:36:23",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1564562183
+  },
+  {
+    "name": "origin/acl-api-pr",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2019-11-20 16:35:51",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1574267751
+  },
+  {
+    "name": "origin/antiaffinity",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2017-12-18 14:46:39",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1513608399
+  },
+  {
+    "name": "origin/aofrdb",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2016-08-24 13:39:39",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1472045979
+  },
+  {
+    "name": "origin/argv-accounting",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2018-10-02 14:10:23",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1538489423
+  },
+  {
+    "name": "origin/arm",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2017-02-19 15:07:08",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1487516828
+  },
+  {
+    "name": "origin/client-unblock",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2018-06-27 11:52:46",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1530100366
+  },
+  {
+    "name": "origin/cow-pipe",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2016-09-19 12:11:17",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1474287077
+  },
+  {
+    "name": "origin/current-client-fix",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-02-26 17:31:06",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1424971866
+  },
+  {
+    "name": "origin/dict-clustered-entries",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2016-09-07 15:51:11",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1473263471
+  },
+  {
+    "name": "origin/dictc",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-02-11 09:45:01",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1423647901
+  },
+  {
+    "name": "origin/dynamic-hz",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2018-07-23 12:21:04",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1532348464
+  },
+  {
+    "name": "origin/fix-expires-6537",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2019-11-06 08:57:29",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1573030649
+  },
+  {
+    "name": "origin/freelist",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2014-05-08 10:20:38",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1399544438
+  },
+  {
+    "name": "origin/issue_2175",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2014-12-03 09:38:56",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1417599536
+  },
+  {
+    "name": "origin/latency",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2014-07-09 14:45:40",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1404917140
+  },
+  {
+    "name": "origin/lazyfree",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-10-05 10:24:13",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1444040653
+  },
+  {
+    "name": "origin/ldb",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-11-18 09:23:49",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1447838629
+  },
+  {
+    "name": "origin/less-mstime",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-05-04 10:01:39",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1430733699
+  },
+  {
+    "name": "origin/less-mstime-28",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-05-04 10:01:39",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1430733699
+  },
+  {
+    "name": "origin/localtime",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2018-07-04 14:50:22",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1530715822
+  },
+  {
+    "name": "origin/memsync",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2014-10-29 11:48:22",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1414583302
+  },
+  {
+    "name": "origin/module-block-on-keys",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2019-10-31 16:45:07",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1572540307
+  },
+  {
+    "name": "origin/module-blocking-commands",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2016-10-07 14:35:06",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1475850906
+  },
+  {
+    "name": "origin/module-io-context",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2016-10-06 16:26:02",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1475771162
+  },
+  {
+    "name": "origin/modules-get-client-info-by-id",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2019-10-16 08:27:35",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1571214455
+  },
+  {
+    "name": "origin/modules-replication",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2017-11-23 12:05:00",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1511438700
+  },
+  {
+    "name": "origin/multi-if",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-03-07 00:24:44",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1425687884
+  },
+  {
+    "name": "origin/new-keyspace",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2018-06-15 11:14:57",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1529061297
+  },
+  {
+    "name": "origin/nosync",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-02-04 11:21:54",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1423048914
+  },
+  {
+    "name": "origin/onepass-bulk",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2014-04-22 17:00:23",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1398186023
+  },
+  {
+    "name": "origin/queue-in-multi",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2018-10-09 09:01:41",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1539075701
+  },
+  {
+    "name": "origin/rdb-script-aux",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2017-11-29 16:11:46",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1511971906
+  },
+  {
+    "name": "origin/rdb9",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2017-11-29 10:39:19",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1511951959
+  },
+  {
+    "name": "origin/rdbchanges",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-01-08 08:08:55",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1420704535
+  },
+  {
+    "name": "origin/rssmaxmemory",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2014-11-17 14:10:03",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1416233403
+  },
+  {
+    "name": "origin/sharedapi",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2018-12-20 16:44:51",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1545324291
+  },
+  {
+    "name": "origin/siphash",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2017-02-21 16:07:28",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1487693248
+  },
+  {
+    "name": "origin/slave-diskless",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-07-22 10:45:14",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1437561914
+  },
+  {
+    "name": "origin/slave-script-timeout",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2018-08-31 14:43:38",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1535726618
+  },
+  {
+    "name": "origin/strcompr",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2014-04-04 15:09:52",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1396624192
+  },
+  {
+    "name": "origin/wait-aof",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2018-02-28 11:31:50",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1519817510
+  },
+  {
+    "name": "origin/waitpid-fix",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-11-30 11:05:59",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1448881559
+  },
+  {
+    "name": "origin/zaddnx",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2015-05-29 09:34:43",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1432892083
+  },
+  {
+    "name": "origin/ziplist-improvements",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2017-01-27 15:54:20",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1485532460
+  },
+  {
+    "name": "origin/zunion",
+    "author": "antirez",
+    "committer": "antirez",
+    "first_commit_str": "2009-03-22 09:30:00",
+    "last_commit_str": "2014-06-06 16:59:17",
+    "first_commit_date": 1237714200,
+    "last_commit_date": 1402073957
+  }
+]
