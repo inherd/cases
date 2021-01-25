@@ -1,4 +1,4 @@
 # Coco cases
 
-[Bilibili](/bilibili)
+[Bilibili](./bilibili)
 
