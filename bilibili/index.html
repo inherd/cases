@@ -1,0 +1,37 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coco Reporter - {{title}}</title>
+  <style>
+    #packing, #nested-treemap, #timeline {
+      width: 1200px;
+      height: auto;
+    }
+
+    #timeline svg {
+      font: 12px sans-serif;
+      line-height: 20px;
+    }
+  </style>
+</head>
+<body>
+<h1>Coco Reporter</h1>
+<h2>Branch History</h2>
+<div id="timeline"></div>
+<h2>Package by Size 1</h2>
+<div id="packing"></div>
+<h2>Package by Size 2</h2>
+<div id="nested-treemap"></div>
+
+<!--<script src="d3.min.js" ></script>-->
+<script src="https://cdn.bootcdn.net/ajax/libs/d3/6.3.1/d3.min.js"></script>
+
+<script src="packing.js"></script>
+<script src="nested-treemap.js"></script>
+<script src="timeline.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
