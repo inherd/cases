@@ -5,3 +5,5 @@
 [Element Plus](./element-plus)
 
 [Redis](./redis)
+
+[Nginx](./nginx)
