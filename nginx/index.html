@@ -1,0 +1,107 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="public/images/favicon.ico">
+  <title>Coco Reporter - {{title}}</title>
+  <style>
+    #circle-packing, #nested-treemap, #branch-timeline, #members-lifecycle {
+      width: 1200px;
+      height: auto;
+      position: relative;
+    }
+
+    #branch-timeline svg,
+    #members-lifecycle svg {
+      font: 10px sans-serif;
+      line-height: 20px;
+      font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    }
+
+    #commits-tree text {
+      font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    }
+
+    /*  for hour heatmap*/
+    rect.bordered {
+      stroke: #E6E6E6;
+      stroke-width: 4px;
+    }
+
+    text.mono {
+      font-size: 10pt;
+      font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      fill: #aaa;
+    }
+
+    text.axis-workweek {
+      fill: #000;
+    }
+
+    text.axis-worktime {
+      fill: #000;
+    }
+
+    /* tooltip */
+
+    div.tooltip {
+      position: absolute;
+      text-align: center;
+    }
+
+    /* menu */
+    .contextMenu {
+      stroke: #00557d;
+      fill: #ffffff;
+    }
+
+    .menuEntry {
+      cursor: pointer;
+    }
+
+    .menuEntry text {
+      font-size: 12px;
+      stroke: #00557d;
+    }
+  </style>
+</head>
+<body>
+<h1>Coco Reporter</h1>
+<h2>Branch History</h2>
+<div id="branch-timeline"></div>
+<h2>Package by Size 1</h2>
+<div id="circle-packing"></div>
+<h2>Package by Size 2</h2>
+<div id="nested-treemap"></div>
+
+<h2>Member Lifecycle</h2>
+<div id="members-lifecycle"></div>
+
+<h2>Hour Heatmap</h2>
+<div id="hour-heatmap"></div>
+<h2>Hour Heatmap (Half Year)</h2>
+<div id="hour-heatmap-half-year"></div>
+<h2>Hour Heatmap (Three Month)</h2>
+<div id="hour-heatmap-three-month"></div>
+<h2>Commits Tree</h2>
+<div id="commits-tree"></div>
+
+<script src="public/js/libs/d3.min.js"></script>
+
+<script src="public/js/code-support.js"></script>
+<script src="public/js/dom-support.js"></script>
+<script src="public/js/menu-support.js"></script>
+<script src="public/js/time-support.js"></script>
+
+<script src="public/js/graph/circle-packing.js"></script>
+<script src="public/js/graph/nested-treemap.js"></script>
+<script src="public/js/graph/branch-timeline.js"></script>
+<script src="public/js/graph/commits-tree.js"></script>
+<script src="public/js/graph/hour-heatmap.js"></script>
+<script src="public/js/graph/members-lifecycle.js"></script>
+
+<script src="public/js/index.js"></script>
+</body>
+</html>
