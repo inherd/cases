@@ -7,3 +7,11 @@
 [Redis](./redis)
 
 [Nginx](./nginx)
+
+
+## Todo
+
+ - auto deploy pipeline
+ - coco explore multiple static project
+
+
