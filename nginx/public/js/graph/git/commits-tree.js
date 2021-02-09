@@ -68,6 +68,7 @@ let renderCommitsTree = function (data) {
   for (let value in shaMap) {
     tree.push(shaMap[value]);
   }
+  let branch_num = Object.keys(branchMap).length;
 
   let xGap = 11;
   let yGap = 20;
@@ -75,7 +76,7 @@ let renderCommitsTree = function (data) {
   let radius = 5;
   let shaMargin = 60;
 
-  let width = 1440;
+  let width = GraphConfig.width;
   let svg = d3.select("#commits-tree").append("svg")
   svg.style('height', (tree.length + 1) * yGap + 2 * radius + 'px')
   svg.style('width', width);
@@ -169,7 +170,7 @@ let renderCommitsTree = function (data) {
     .append('text')
     .attr('font-size', 12)
     .attr('x', function (commit) {
-      return 200;
+      return branch_num * 20;
     })
     .attr('y', function (commit, idx) {
       return 5 + commit.idx * yGap;

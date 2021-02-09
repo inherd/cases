@@ -1,4 +1,3 @@
-
 let MenuHandle = {
   copyText: function (text) {
     let ta = document.createElement("textarea");
@@ -13,14 +12,18 @@ let MenuHandle = {
 }
 
 let MenuSupport = {
-  menuFactory: function (x, y, menuItems, data, svgId, width, height) {
+  menuFactory: function (x, y, menuItems, data, svg, offsetOptions) {
     d3.select(".contextMenu").remove();
 
     // Draw the menu
-    d3.select(svgId)
-      .append('g')
+    svg.append('g')
       .attr('class', "contextMenu")
-      .attr('transform', 'translate(' + (width - 600) + ',-' + (height + 100) + ')')
+      .attr('transform', function (d) {
+        if (!!offsetOptions && offsetOptions.width) {
+          return 'translate(' + offsetOptions.width + ',' + offsetOptions.height + ')'
+        }
+        return 'translate(0, 10)';
+      })
       .selectAll('tmp')
       .data(menuItems).enter()
       .append('g').attr('class', "menuEntry")
@@ -61,8 +64,23 @@ let MenuSupport = {
         d3.select(".contextMenu").remove();
       });
   },
-  createContextMenu: function (event, d, menuItems, width, height, svgId) {
-    MenuSupport.menuFactory(event.pageX - width / 2, event.pageY - height / 1.5, menuItems, d, svgId, width, height);
+  createContextMenu: function (event, d, menuItems, svg, offsetOptions) {
+    MenuSupport.menuFactory(event.layerX, event.layerY, menuItems, d, svg, offsetOptions);
     event.preventDefault();
-  }
+  },
+  defaultMenuItems: [
+    {
+      title: 'Copy Path',
+      action: (d) => {
+        MenuHandle.copyText(d.data.path);
+      }
+    },
+    {
+      title: 'Open In Idea (Todo)',
+      action: (d) => {
+        // todo: add identify idea projects support
+        window.open("jetbrains://open?url=" + d.data.path);
+      }
+    }
+  ]
 }

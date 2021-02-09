@@ -15,7 +15,7 @@
 
     #branch-timeline svg,
     #members-lifecycle svg {
-      font: 10px sans-serif;
+      font: 12px sans-serif;
       line-height: 20px;
       font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     }
@@ -24,14 +24,14 @@
       font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     }
 
-    /*  for hour heatmap*/
+    /* hour heatmap: for */
     rect.bordered {
       stroke: #E6E6E6;
       stroke-width: 4px;
     }
 
     text.mono {
-      font-size: 10pt;
+      font-size: 12px;
       font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
       fill: #aaa;
     }
@@ -51,7 +51,7 @@
       text-align: center;
     }
 
-    /* menu */
+    /* circle-packing: menu */
     .contextMenu {
       stroke: #00557d;
       fill: #ffffff;
@@ -65,12 +65,46 @@
       font-size: 12px;
       stroke: #00557d;
     }
+
+    /*  hour-heatmap: layout */
+    .grid2x2 {
+      display: flex;
+      flex-flow: row wrap;
+      list-style: none;
+    }
+
+    .grid2x2 > div {
+      flex-basis: calc(50% - 20px);
+      width: 50%;
+      height: auto;
+    }
+
+    /* learning-curve: line chart */
+    .line {
+      fill: none;
+      stroke: steelblue;
+      stroke-width: 2px;
+    }
+
+    /* tag history line */
+    .dot-line {
+      fill: none;
+      stroke: black;
+      stroke-width: 2px;
+    }
   </style>
 </head>
 <body>
 <h1>Coco Reporter</h1>
-<h2>Branch History</h2>
+<h2>Branches History</h2>
 <div id="branch-timeline"></div>
+<h2>Tags History</h2>
+<select id="tags-timeline-select"></select>
+<div id="tags-timeline"></div>
+
+<h2>Learning Curve</h2>
+<div id="learning-curve"></div>
+
 <h2>Package by Size 1</h2>
 <div id="circle-packing"></div>
 <h2>Package by Size 2</h2>
@@ -79,28 +113,43 @@
 <h2>Member Lifecycle</h2>
 <div id="members-lifecycle"></div>
 
-<h2>Hour Heatmap</h2>
-<div id="hour-heatmap"></div>
-<h2>Hour Heatmap (Half Year)</h2>
-<div id="hour-heatmap-half-year"></div>
-<h2>Hour Heatmap (Three Month)</h2>
-<div id="hour-heatmap-three-month"></div>
+<div class="grid2x2">
+  <div>
+    <h2>Hour Heatmap</h2>
+    <div id="hour-heatmap"></div>
+  </div>
+  <div>
+    <h2>Hour Heatmap (Half Year)</h2>
+    <div id="hour-heatmap-half-year"></div>
+  </div>
+  <div>
+    <h2>Hour Heatmap (Three Month)</h2>
+    <div id="hour-heatmap-three-month"></div>
+  </div>
+</div>
+
 <h2>Commits Tree</h2>
 <div id="commits-tree"></div>
 
 <script src="public/js/libs/d3.min.js"></script>
 
-<script src="public/js/code-support.js"></script>
-<script src="public/js/dom-support.js"></script>
-<script src="public/js/menu-support.js"></script>
-<script src="public/js/time-support.js"></script>
+<script src="public/js/graph-config.js"></script>
 
-<script src="public/js/graph/circle-packing.js"></script>
-<script src="public/js/graph/nested-treemap.js"></script>
-<script src="public/js/graph/branch-timeline.js"></script>
-<script src="public/js/graph/commits-tree.js"></script>
-<script src="public/js/graph/hour-heatmap.js"></script>
-<script src="public/js/graph/members-lifecycle.js"></script>
+<script src="public/js/support/code-support.js"></script>
+<script src="public/js/support/dom-support.js"></script>
+<script src="public/js/support/menu-support.js"></script>
+<script src="public/js/support/time-support.js"></script>
+<script src="public/js/support/commit-convert.js"></script>
+
+<script src="public/js/graph/cloc/circle-packing.js"></script>
+<script src="public/js/graph/cloc/nested-treemap.js"></script>
+
+<script src="public/js/graph/git/branch-timeline.js"></script>
+<script src="public/js/graph/git/commits-tree.js"></script>
+<script src="public/js/graph/git/hour-heatmap.js"></script>
+<script src="public/js/graph/git/members-lifecycle.js"></script>
+<script src="public/js/graph/git/learning-curve.js"></script>
+<script src="public/js/graph/git/tags-timeline.js"></script>
 
 <script src="public/js/index.js"></script>
 </body>

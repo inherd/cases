@@ -22,8 +22,9 @@ function renderPacking(originData) {
         .sort((a, b) => b.value - a.value))
   }
 
-  let width = 1200;
+  let width = GraphConfig.height;
   let height = width;
+
   let color = d3.scaleLinear()
     .domain([0, 5])
     .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
@@ -35,8 +36,9 @@ function renderPacking(originData) {
   let view;
 
   const svg = d3.select("#circle-packing").append("svg")
-    .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
-    .style("display", "block")
+    .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`);
+
+  svg.style("display", "block")
     // .style("margin", "0 -14px")
     .style("background", color(0))
     .style("cursor", "pointer")
@@ -56,7 +58,15 @@ function renderPacking(originData) {
     .on("mouseout", function () {
       d3.select(this).attr("stroke", null);
     })
-    .on("click", (event, d) => focus !== d && (zoom(d), event.stopPropagation()));
+    .on("click", (event, d) => focus !== d && (zoom(d), event.stopPropagation()))
+    .on("contextmenu", (event, d) => {
+      console.log(event, d);
+      MenuSupport.createContextMenu(event, d, MenuSupport.defaultMenuItems, svg, {
+        width: -width / 2,
+        height: -height / 2
+      });
+      event.stopPropagation();
+    })
 
   const label = svg.append("g")
     .style("font", "18px sans-serif")

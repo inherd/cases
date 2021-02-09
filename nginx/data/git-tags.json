@@ -1,0 +1,3200 @@
+[
+  {
+    "name": "release-1.19.6",
+    "display_name": "release-1.19.6",
+    "commit_id": "87c50688",
+    "date": 1608043299
+  },
+  {
+    "name": "release-1.19.5",
+    "display_name": "release-1.19.5",
+    "commit_id": "5d288436",
+    "date": 1606230394
+  },
+  {
+    "name": "release-1.19.4",
+    "display_name": "release-1.19.4",
+    "commit_id": "4c417820",
+    "date": 1603811360
+  },
+  {
+    "name": "release-1.19.3",
+    "display_name": "release-1.19.3",
+    "commit_id": "9a84b407",
+    "date": 1601389930
+  },
+  {
+    "name": "release-1.19.2",
+    "display_name": "release-1.19.2",
+    "commit_id": "9995ee3d",
+    "date": 1597157550
+  },
+  {
+    "name": "release-1.19.1",
+    "display_name": "release-1.19.1",
+    "commit_id": "48731d51",
+    "date": 1594137365
+  },
+  {
+    "name": "release-1.19.0",
+    "display_name": "release-1.19.0",
+    "commit_id": "ff443e74",
+    "date": 1590505220
+  },
+  {
+    "name": "release-1.18.0",
+    "display_name": "release-1.18.0",
+    "commit_id": "1e1e56db",
+    "date": 1587478141
+  },
+  {
+    "name": "release-1.17.10",
+    "display_name": "release-1.17.10",
+    "commit_id": "4f5067cf",
+    "date": 1586873966
+  },
+  {
+    "name": "release-1.17.9",
+    "display_name": "release-1.17.9",
+    "commit_id": "f1ca5b09",
+    "date": 1583247861
+  },
+  {
+    "name": "release-1.17.8",
+    "display_name": "release-1.17.8",
+    "commit_id": "c8c3cfc1",
+    "date": 1579613981
+  },
+  {
+    "name": "release-1.17.7",
+    "display_name": "release-1.17.7",
+    "commit_id": "7657ab5a",
+    "date": 1577199609
+  },
+  {
+    "name": "release-1.17.6",
+    "display_name": "release-1.17.6",
+    "commit_id": "330db7c8",
+    "date": 1574173138
+  },
+  {
+    "name": "release-1.17.5",
+    "display_name": "release-1.17.5",
+    "commit_id": "08e88102",
+    "date": 1571757368
+  },
+  {
+    "name": "release-1.17.4",
+    "display_name": "release-1.17.4",
+    "commit_id": "a116f584",
+    "date": 1569337728
+  },
+  {
+    "name": "release-1.17.3",
+    "display_name": "release-1.17.3",
+    "commit_id": "c832cc56",
+    "date": 1565700356
+  },
+  {
+    "name": "release-1.17.2",
+    "display_name": "release-1.17.2",
+    "commit_id": "2262b7d9",
+    "date": 1563883307
+  },
+  {
+    "name": "release-1.17.1",
+    "display_name": "release-1.17.1",
+    "commit_id": "e902daab",
+    "date": 1561465185
+  },
+  {
+    "name": "release-1.17.0",
+    "display_name": "release-1.17.0",
+    "commit_id": "191dccea",
+    "date": 1558448637
+  },
+  {
+    "name": "release-1.16.1",
+    "display_name": "release-1.16.1",
+    "commit_id": "47d98eb2",
+    "date": 1565700702
+  },
+  {
+    "name": "release-1.16.0",
+    "display_name": "release-1.16.0",
+    "commit_id": "e5650ef9",
+    "date": 1556025177
+  },
+  {
+    "name": "release-1.15.12",
+    "display_name": "release-1.15.12",
+    "commit_id": "dbdbcbc5",
+    "date": 1555426498
+  },
+  {
+    "name": "release-1.15.11",
+    "display_name": "release-1.15.11",
+    "commit_id": "f53bfa3b",
+    "date": 1554814830
+  },
+  {
+    "name": "release-1.15.10",
+    "display_name": "release-1.15.10",
+    "commit_id": "467f662a",
+    "date": 1553609214
+  },
+  {
+    "name": "release-1.15.9",
+    "display_name": "release-1.15.9",
+    "commit_id": "ab33916d",
+    "date": 1551194962
+  },
+  {
+    "name": "release-1.15.8",
+    "display_name": "release-1.15.8",
+    "commit_id": "708ece1b",
+    "date": 1545749583
+  },
+  {
+    "name": "release-1.15.7",
+    "display_name": "release-1.15.7",
+    "commit_id": "100e5b00",
+    "date": 1543329620
+  },
+  {
+    "name": "release-1.15.6",
+    "display_name": "release-1.15.6",
+    "commit_id": "1258a8fe",
+    "date": 1541511128
+  },
+  {
+    "name": "release-1.15.5",
+    "display_name": "release-1.15.5",
+    "commit_id": "72efd884",
+    "date": 1538493231
+  },
+  {
+    "name": "release-1.15.4",
+    "display_name": "release-1.15.4",
+    "commit_id": "d1fc829a",
+    "date": 1537888299
+  },
+  {
+    "name": "release-1.15.3",
+    "display_name": "release-1.15.3",
+    "commit_id": "f17e2861",
+    "date": 1535470560
+  },
+  {
+    "name": "release-1.15.2",
+    "display_name": "release-1.15.2",
+    "commit_id": "6f271628",
+    "date": 1532437859
+  },
+  {
+    "name": "release-1.15.1",
+    "display_name": "release-1.15.1",
+    "commit_id": "fe978323",
+    "date": 1530630463
+  },
+  {
+    "name": "release-1.15.0",
+    "display_name": "release-1.15.0",
+    "commit_id": "ad29dc1e",
+    "date": 1528206445
+  },
+  {
+    "name": "release-1.14.2",
+    "display_name": "release-1.14.2",
+    "commit_id": "d4ceac14",
+    "date": 1543935144
+  },
+  {
+    "name": "release-1.14.1",
+    "display_name": "release-1.14.1",
+    "commit_id": "515613f5",
+    "date": 1541512366
+  },
+  {
+    "name": "release-1.14.0",
+    "display_name": "release-1.14.0",
+    "commit_id": "908ffac6",
+    "date": 1523978555
+  },
+  {
+    "name": "release-1.13.12",
+    "display_name": "release-1.13.12",
+    "commit_id": "23da7705",
+    "date": 1523369469
+  },
+  {
+    "name": "release-1.13.11",
+    "display_name": "release-1.13.11",
+    "commit_id": "395bad9d",
+    "date": 1522766289
+  },
+  {
+    "name": "release-1.13.10",
+    "display_name": "release-1.13.10",
+    "commit_id": "9904ed30",
+    "date": 1521561510
+  },
+  {
+    "name": "release-1.13.9",
+    "display_name": "release-1.13.9",
+    "commit_id": "4eebc7c2",
+    "date": 1519135728
+  },
+  {
+    "name": "release-1.13.8",
+    "display_name": "release-1.13.8",
+    "commit_id": "d0f853ab",
+    "date": 1514304071
+  },
+  {
+    "name": "release-1.13.7",
+    "display_name": "release-1.13.7",
+    "commit_id": "039db021",
+    "date": 1511276983
+  },
+  {
+    "name": "release-1.13.6",
+    "display_name": "release-1.13.6",
+    "commit_id": "5fc9da34",
+    "date": 1507648970
+  },
+  {
+    "name": "release-1.13.5",
+    "display_name": "release-1.13.5",
+    "commit_id": "02882271",
+    "date": 1504623571
+  },
+  {
+    "name": "release-1.13.4",
+    "display_name": "release-1.13.4",
+    "commit_id": "403c1692",
+    "date": 1502204411
+  },
+  {
+    "name": "release-1.13.3",
+    "display_name": "release-1.13.3",
+    "commit_id": "1efcf806",
+    "date": 1499779110
+  },
+  {
+    "name": "release-1.13.2",
+    "display_name": "release-1.13.2",
+    "commit_id": "f0acb061",
+    "date": 1498574657
+  },
+  {
+    "name": "release-1.13.1",
+    "display_name": "release-1.13.1",
+    "commit_id": "1746d9ce",
+    "date": 1496156122
+  },
+  {
+    "name": "release-1.13.0",
+    "display_name": "release-1.13.0",
+    "commit_id": "ffb71651",
+    "date": 1493129901
+  },
+  {
+    "name": "release-1.12.2",
+    "display_name": "release-1.12.2",
+    "commit_id": "0780a2e4",
+    "date": 1508246197
+  },
+  {
+    "name": "release-1.12.1",
+    "display_name": "release-1.12.1",
+    "commit_id": "07b2f95b",
+    "date": 1499779444
+  },
+  {
+    "name": "release-1.12.0",
+    "display_name": "release-1.12.0",
+    "commit_id": "e7478a86",
+    "date": 1492008360
+  },
+  {
+    "name": "release-1.11.13",
+    "display_name": "release-1.11.13",
+    "commit_id": "0a21060a",
+    "date": 1491318117
+  },
+  {
+    "name": "release-1.11.12",
+    "display_name": "release-1.11.12",
+    "commit_id": "01936785",
+    "date": 1490367905
+  },
+  {
+    "name": "release-1.11.11",
+    "display_name": "release-1.11.11",
+    "commit_id": "9bbd3e99",
+    "date": 1490108662
+  },
+  {
+    "name": "release-1.11.10",
+    "display_name": "release-1.11.10",
+    "commit_id": "dd137804",
+    "date": 1487086564
+  },
+  {
+    "name": "release-1.11.9",
+    "display_name": "release-1.11.9",
+    "commit_id": "dbc01769",
+    "date": 1485266538
+  },
+  {
+    "name": "release-1.11.8",
+    "display_name": "release-1.11.8",
+    "commit_id": "3a1bfeb6",
+    "date": 1482848587
+  },
+  {
+    "name": "release-1.11.7",
+    "display_name": "release-1.11.7",
+    "commit_id": "9610de99",
+    "date": 1481642483
+  },
+  {
+    "name": "release-1.11.6",
+    "display_name": "release-1.11.6",
+    "commit_id": "0ab3ace7",
+    "date": 1479222706
+  },
+  {
+    "name": "release-1.11.5",
+    "display_name": "release-1.11.5",
+    "commit_id": "892b5ef5",
+    "date": 1476198180
+  },
+  {
+    "name": "release-1.11.4",
+    "display_name": "release-1.11.4",
+    "commit_id": "19c822b4",
+    "date": 1473781163
+  },
+  {
+    "name": "release-1.11.3",
+    "display_name": "release-1.11.3",
+    "commit_id": "f82309f2",
+    "date": 1469541538
+  },
+  {
+    "name": "release-1.11.2",
+    "display_name": "release-1.11.2",
+    "commit_id": "7472be1c",
+    "date": 1467734174
+  },
+  {
+    "name": "release-1.11.1",
+    "display_name": "release-1.11.1",
+    "commit_id": "2040fd3e",
+    "date": 1464702229
+  },
+  {
+    "name": "release-1.11.0",
+    "display_name": "release-1.11.0",
+    "commit_id": "54d0eb28",
+    "date": 1464105281
+  },
+  {
+    "name": "release-1.10.3",
+    "display_name": "release-1.10.3",
+    "commit_id": "e6e29ba3",
+    "date": 1485874870
+  },
+  {
+    "name": "release-1.10.2",
+    "display_name": "release-1.10.2",
+    "commit_id": "8eaef1e1",
+    "date": 1476802992
+  },
+  {
+    "name": "release-1.10.1",
+    "display_name": "release-1.10.1",
+    "commit_id": "8529f6e1",
+    "date": 1464702421
+  },
+  {
+    "name": "release-1.10.0",
+    "display_name": "release-1.10.0",
+    "commit_id": "4d4db5e4",
+    "date": 1461677478
+  },
+  {
+    "name": "release-1.9.15",
+    "display_name": "release-1.9.15",
+    "commit_id": "cebe714c",
+    "date": 1461081757
+  },
+  {
+    "name": "release-1.9.14",
+    "display_name": "release-1.9.14",
+    "commit_id": "8e5e85c3",
+    "date": 1459868228
+  },
+  {
+    "name": "release-1.9.13",
+    "display_name": "release-1.9.13",
+    "commit_id": "cb43e888",
+    "date": 1459264170
+  },
+  {
+    "name": "release-1.9.12",
+    "display_name": "release-1.9.12",
+    "commit_id": "0b12ba66",
+    "date": 1456325602
+  },
+  {
+    "name": "release-1.9.11",
+    "display_name": "release-1.9.11",
+    "commit_id": "a9a48eb5",
+    "date": 1455027116
+  },
+  {
+    "name": "release-1.9.10",
+    "display_name": "release-1.9.10",
+    "commit_id": "2101693a",
+    "date": 1453818460
+  },
+  {
+    "name": "release-1.9.9",
+    "display_name": "release-1.9.9",
+    "commit_id": "33e64489",
+    "date": 1449672440
+  },
+  {
+    "name": "release-1.9.8",
+    "display_name": "release-1.9.8",
+    "commit_id": "2e0a0ef3",
+    "date": 1449587811
+  },
+  {
+    "name": "release-1.9.7",
+    "display_name": "release-1.9.7",
+    "commit_id": "e8001738",
+    "date": 1447771856
+  },
+  {
+    "name": "release-1.9.6",
+    "display_name": "release-1.9.6",
+    "commit_id": "9746cfe4",
+    "date": 1445953649
+  },
+  {
+    "name": "release-1.9.5",
+    "display_name": "release-1.9.5",
+    "commit_id": "999b7146",
+    "date": 1442932581
+  },
+  {
+    "name": "release-1.9.4",
+    "display_name": "release-1.9.4",
+    "commit_id": "52dcce1e",
+    "date": 1439910977
+  },
+  {
+    "name": "release-1.9.3",
+    "display_name": "release-1.9.3",
+    "commit_id": "f89c2cb0",
+    "date": 1436892365
+  },
+  {
+    "name": "release-1.9.2",
+    "display_name": "release-1.9.2",
+    "commit_id": "4b4d9904",
+    "date": 1434466179
+  },
+  {
+    "name": "release-1.9.1",
+    "display_name": "release-1.9.1",
+    "commit_id": "927c813b",
+    "date": 1432648190
+  },
+  {
+    "name": "release-1.9.0",
+    "display_name": "release-1.9.0",
+    "commit_id": "42f05fcc",
+    "date": 1430235077
+  },
+  {
+    "name": "release-1.8.1",
+    "display_name": "release-1.8.1",
+    "commit_id": "7baa6bc8",
+    "date": 1453819170
+  },
+  {
+    "name": "release-1.8.0",
+    "display_name": "release-1.8.0",
+    "commit_id": "032f4b95",
+    "date": 1429625518
+  },
+  {
+    "name": "release-1.7.12",
+    "display_name": "release-1.7.12",
+    "commit_id": "2c305f36",
+    "date": 1428420933
+  },
+  {
+    "name": "release-1.7.11",
+    "display_name": "release-1.7.11",
+    "commit_id": "ad5668c2",
+    "date": 1427211934
+  },
+  {
+    "name": "release-1.7.10",
+    "display_name": "release-1.7.10",
+    "commit_id": "338a711d",
+    "date": 1423578812
+  },
+  {
+    "name": "release-1.7.9",
+    "display_name": "release-1.7.9",
+    "commit_id": "9e62622a",
+    "date": 1419348517
+  },
+  {
+    "name": "release-1.7.8",
+    "display_name": "release-1.7.8",
+    "commit_id": "c4b3d114",
+    "date": 1417525334
+  },
+  {
+    "name": "release-1.7.7",
+    "display_name": "release-1.7.7",
+    "commit_id": "2f9cd927",
+    "date": 1414508686
+  },
+  {
+    "name": "release-1.7.6",
+    "display_name": "release-1.7.6",
+    "commit_id": "2dbcee68",
+    "date": 1412083232
+  },
+  {
+    "name": "release-1.7.5",
+    "display_name": "release-1.7.5",
+    "commit_id": "c37635d4",
+    "date": 1410869943
+  },
+  {
+    "name": "release-1.7.4",
+    "display_name": "release-1.7.4",
+    "commit_id": "3cd4c9a5",
+    "date": 1407237184
+  },
+  {
+    "name": "release-1.7.3",
+    "display_name": "release-1.7.3",
+    "commit_id": "1ef8beef",
+    "date": 1404825758
+  },
+  {
+    "name": "release-1.7.2",
+    "display_name": "release-1.7.2",
+    "commit_id": "f5cdb95e",
+    "date": 1403009485
+  },
+  {
+    "name": "release-1.7.1",
+    "display_name": "release-1.7.1",
+    "commit_id": "904c8298",
+    "date": 1401199088
+  },
+  {
+    "name": "release-1.7.0",
+    "display_name": "release-1.7.0",
+    "commit_id": "469e0e60",
+    "date": 1398344062
+  },
+  {
+    "name": "release-1.6.3",
+    "display_name": "release-1.6.3",
+    "commit_id": "3a0faa4f",
+    "date": 1428421897
+  },
+  {
+    "name": "release-1.6.2",
+    "display_name": "release-1.6.2",
+    "commit_id": "0228b64d",
+    "date": 1410870198
+  },
+  {
+    "name": "release-1.6.1",
+    "display_name": "release-1.6.1",
+    "commit_id": "613d073e",
+    "date": 1407237514
+  },
+  {
+    "name": "release-1.6.0",
+    "display_name": "release-1.6.0",
+    "commit_id": "cb3743e4",
+    "date": 1398343944
+  },
+  {
+    "name": "release-1.5.13",
+    "display_name": "release-1.5.13",
+    "commit_id": "ac55ec42",
+    "date": 1396966521
+  },
+  {
+    "name": "release-1.5.12",
+    "display_name": "release-1.5.12",
+    "commit_id": "ee90bdbe",
+    "date": 1395148115
+  },
+  {
+    "name": "release-1.5.11",
+    "display_name": "release-1.5.11",
+    "commit_id": "3f73504f",
+    "date": 1393933163
+  },
+  {
+    "name": "release-1.5.10",
+    "display_name": "release-1.5.10",
+    "commit_id": "747e2fae",
+    "date": 1391516806
+  },
+  {
+    "name": "release-1.5.9",
+    "display_name": "release-1.5.9",
+    "commit_id": "42b3dfe6",
+    "date": 1390398179
+  },
+  {
+    "name": "release-1.5.8",
+    "display_name": "release-1.5.8",
+    "commit_id": "83c6b3eb",
+    "date": 1387287986
+  },
+  {
+    "name": "release-1.5.7",
+    "display_name": "release-1.5.7",
+    "commit_id": "78767cab",
+    "date": 1384855427
+  },
+  {
+    "name": "release-1.5.6",
+    "display_name": "release-1.5.6",
+    "commit_id": "0906c482",
+    "date": 1380635091
+  },
+  {
+    "name": "release-1.5.5",
+    "display_name": "release-1.5.5",
+    "commit_id": "db1842c9",
+    "date": 1379424660
+  },
+  {
+    "name": "release-1.5.4",
+    "display_name": "release-1.5.4",
+    "commit_id": "de3bac8d",
+    "date": 1377610635
+  },
+  {
+    "name": "release-1.5.3",
+    "display_name": "release-1.5.3",
+    "commit_id": "c1da5d8f",
+    "date": 1375190875
+  },
+  {
+    "name": "release-1.5.2",
+    "display_name": "release-1.5.2",
+    "commit_id": "4ed9f446",
+    "date": 1372768130
+  },
+  {
+    "name": "release-1.5.1",
+    "display_name": "release-1.5.1",
+    "commit_id": "30f1f87c",
+    "date": 1370352112
+  },
+  {
+    "name": "release-1.5.0",
+    "display_name": "release-1.5.0",
+    "commit_id": "5837d1e9",
+    "date": 1367833956
+  },
+  {
+    "name": "release-1.4.7",
+    "display_name": "release-1.4.7",
+    "commit_id": "2b361e29",
+    "date": 1395148629
+  },
+  {
+    "name": "release-1.4.6",
+    "display_name": "release-1.4.6",
+    "commit_id": "1b222b2b",
+    "date": 1393933604
+  },
+  {
+    "name": "release-1.4.5",
+    "display_name": "release-1.4.5",
+    "commit_id": "3582f68d",
+    "date": 1392125083
+  },
+  {
+    "name": "release-1.4.4",
+    "display_name": "release-1.4.4",
+    "commit_id": "9e511be9",
+    "date": 1384860324
+  },
+  {
+    "name": "release-1.4.3",
+    "display_name": "release-1.4.3",
+    "commit_id": "17fcef15",
+    "date": 1381234033
+  },
+  {
+    "name": "release-1.4.2",
+    "display_name": "release-1.4.2",
+    "commit_id": "a8343f4e",
+    "date": 1374065481
+  },
+  {
+    "name": "release-1.4.1",
+    "display_name": "release-1.4.1",
+    "commit_id": "81993025",
+    "date": 1367835627
+  },
+  {
+    "name": "release-1.4.0",
+    "display_name": "release-1.4.0",
+    "commit_id": "f28c9ade",
+    "date": 1366811974
+  },
+  {
+    "name": "release-1.3.16",
+    "display_name": "release-1.3.16",
+    "commit_id": "5eed4a4c",
+    "date": 1366121111
+  },
+  {
+    "name": "release-1.3.15",
+    "display_name": "release-1.3.15",
+    "commit_id": "e874f222",
+    "date": 1364302982
+  },
+  {
+    "name": "release-1.3.14",
+    "display_name": "release-1.3.14",
+    "commit_id": "dca09a6d",
+    "date": 1362494158
+  },
+  {
+    "name": "release-1.3.13",
+    "display_name": "release-1.3.13",
+    "commit_id": "4bff05b0",
+    "date": 1361286888
+  },
+  {
+    "name": "release-1.3.12",
+    "display_name": "release-1.3.12",
+    "commit_id": "1d1702c0",
+    "date": 1360073201
+  },
+  {
+    "name": "release-1.3.11",
+    "display_name": "release-1.3.11",
+    "commit_id": "aadc8d07",
+    "date": 1357823824
+  },
+  {
+    "name": "release-1.3.10",
+    "display_name": "release-1.3.10",
+    "commit_id": "f8ddfcd2",
+    "date": 1356445425
+  },
+  {
+    "name": "release-1.3.9",
+    "display_name": "release-1.3.9",
+    "commit_id": "8310b3cc",
+    "date": 1354024534
+  },
+  {
+    "name": "release-1.3.8",
+    "display_name": "release-1.3.8",
+    "commit_id": "26d89d7a",
+    "date": 1351604063
+  },
+  {
+    "name": "release-1.3.7",
+    "display_name": "release-1.3.7",
+    "commit_id": "aa4462c0",
+    "date": 1349184817
+  },
+  {
+    "name": "release-1.3.6",
+    "display_name": "release-1.3.6",
+    "commit_id": "ec19b460",
+    "date": 1347446496
+  },
+  {
+    "name": "release-1.3.5",
+    "display_name": "release-1.3.5",
+    "commit_id": "b41442a1",
+    "date": 1345554302
+  },
+  {
+    "name": "release-1.3.4",
+    "display_name": "release-1.3.4",
+    "commit_id": "ed069c57",
+    "date": 1343738317
+  },
+  {
+    "name": "release-1.3.3",
+    "display_name": "release-1.3.3",
+    "commit_id": "71b9d9fa",
+    "date": 1341922810
+  },
+  {
+    "name": "release-1.3.2",
+    "display_name": "release-1.3.2",
+    "commit_id": "3962d752",
+    "date": 1340718383
+  },
+  {
+    "name": "release-1.3.1",
+    "display_name": "release-1.3.1",
+    "commit_id": "c8af4cb5",
+    "date": 1338904049
+  },
+  {
+    "name": "release-1.3.0",
+    "display_name": "release-1.3.0",
+    "commit_id": "2fe7e28f",
+    "date": 1337091829
+  },
+  {
+    "name": "release-1.2.9",
+    "display_name": "release-1.2.9",
+    "commit_id": "e8e6ee94",
+    "date": 1368441711
+  },
+  {
+    "name": "release-1.2.8",
+    "display_name": "release-1.2.8",
+    "commit_id": "248869cf",
+    "date": 1364906061
+  },
+  {
+    "name": "release-1.2.7",
+    "display_name": "release-1.2.7",
+    "commit_id": "4046770c",
+    "date": 1360676416
+  },
+  {
+    "name": "release-1.2.6",
+    "display_name": "release-1.2.6",
+    "commit_id": "3117b3de",
+    "date": 1355235863
+  },
+  {
+    "name": "release-1.2.5",
+    "display_name": "release-1.2.5",
+    "commit_id": "e5cffc28",
+    "date": 1352813699
+  },
+  {
+    "name": "release-1.2.4",
+    "display_name": "release-1.2.4",
+    "commit_id": "29d6c26a",
+    "date": 1348580563
+  },
+  {
+    "name": "release-1.2.3",
+    "display_name": "release-1.2.3",
+    "commit_id": "8acb1664",
+    "date": 1344342956
+  },
+  {
+    "name": "release-1.2.2",
+    "display_name": "release-1.2.2",
+    "commit_id": "0b678657",
+    "date": 1341312511
+  },
+  {
+    "name": "release-1.2.0",
+    "display_name": "release-1.2.0",
+    "commit_id": "63f324c4",
+    "date": 1335186407
+  },
+  {
+    "name": "release-1.1.19",
+    "display_name": "release-1.1.19",
+    "commit_id": "f03dca18",
+    "date": 1334234566
+  },
+  {
+    "name": "release-1.1.18",
+    "display_name": "release-1.1.18",
+    "commit_id": "79ee1c56",
+    "date": 1332941369
+  },
+  {
+    "name": "release-1.1.17",
+    "display_name": "release-1.1.17",
+    "commit_id": "927d3d05",
+    "date": 1331811138
+  },
+  {
+    "name": "release-1.1.16",
+    "display_name": "release-1.1.16",
+    "commit_id": "3cf981ca",
+    "date": 1330523118
+  },
+  {
+    "name": "release-1.1.15",
+    "display_name": "release-1.1.15",
+    "commit_id": "71720fe5",
+    "date": 1329312366
+  },
+  {
+    "name": "release-1.1.14",
+    "display_name": "release-1.1.14",
+    "commit_id": "f7fa2be1",
+    "date": 1327931530
+  },
+  {
+    "name": "release-1.1.13",
+    "display_name": "release-1.1.13",
+    "commit_id": "e90834be",
+    "date": 1326726877
+  },
+  {
+    "name": "release-1.1.12",
+    "display_name": "release-1.1.12",
+    "commit_id": "a29bb40e",
+    "date": 1324911917
+  },
+  {
+    "name": "release-1.1.11",
+    "display_name": "release-1.1.11",
+    "commit_id": "a98f9d80",
+    "date": 1323699469
+  },
+  {
+    "name": "release-1.1.10",
+    "display_name": "release-1.1.10",
+    "commit_id": "682a3555",
+    "date": 1322647250
+  },
+  {
+    "name": "release-1.1.9",
+    "display_name": "release-1.1.9",
+    "commit_id": "10520c36",
+    "date": 1322492558
+  },
+  {
+    "name": "release-1.1.8",
+    "display_name": "release-1.1.8",
+    "commit_id": "632c91ff",
+    "date": 1321285074
+  },
+  {
+    "name": "release-1.1.7",
+    "display_name": "release-1.1.7",
+    "commit_id": "54d80ce9",
+    "date": 1320072766
+  },
+  {
+    "name": "release-1.1.6",
+    "display_name": "release-1.1.6",
+    "commit_id": "fb0c2f71",
+    "date": 1318864223
+  },
+  {
+    "name": "release-1.1.5",
+    "display_name": "release-1.1.5",
+    "commit_id": "7913b78d",
+    "date": 1317825851
+  },
+  {
+    "name": "release-1.1.4",
+    "display_name": "release-1.1.4",
+    "commit_id": "5b530726",
+    "date": 1316517504
+  },
+  {
+    "name": "release-1.1.3",
+    "display_name": "release-1.1.3",
+    "commit_id": "40e5ee41",
+    "date": 1316012443
+  },
+  {
+    "name": "release-1.1.2",
+    "display_name": "release-1.1.2",
+    "commit_id": "427b357f",
+    "date": 1315228467
+  },
+  {
+    "name": "release-1.1.1",
+    "display_name": "release-1.1.1",
+    "commit_id": "20eec6fe",
+    "date": 1314021368
+  },
+  {
+    "name": "release-1.1.0",
+    "display_name": "release-1.1.0",
+    "commit_id": "cb1a3a4a",
+    "date": 1312210060
+  },
+  {
+    "name": "release-1.0.15",
+    "display_name": "release-1.0.15",
+    "commit_id": "ea950e0c",
+    "date": 1334235653
+  },
+  {
+    "name": "release-1.0.14",
+    "display_name": "release-1.0.14",
+    "commit_id": "52097451",
+    "date": 1331812253
+  },
+  {
+    "name": "release-1.0.13",
+    "display_name": "release-1.0.13",
+    "commit_id": "793d64e8",
+    "date": 1330960789
+  },
+  {
+    "name": "release-1.0.12",
+    "display_name": "release-1.0.12",
+    "commit_id": "7cc09e48",
+    "date": 1328537339
+  },
+  {
+    "name": "release-1.0.11",
+    "display_name": "release-1.0.11",
+    "commit_id": "0845420f",
+    "date": 1323957879
+  },
+  {
+    "name": "release-1.0.10",
+    "display_name": "release-1.0.10",
+    "commit_id": "198dae60",
+    "date": 1321345443
+  },
+  {
+    "name": "release-1.0.9",
+    "display_name": "release-1.0.9",
+    "commit_id": "7280c996",
+    "date": 1320159079
+  },
+  {
+    "name": "release-1.0.8",
+    "display_name": "release-1.0.8",
+    "commit_id": "7082f0be",
+    "date": 1317448842
+  },
+  {
+    "name": "release-1.0.7",
+    "display_name": "release-1.0.7",
+    "commit_id": "6b62ba18",
+    "date": 1317396923
+  },
+  {
+    "name": "release-1.0.6",
+    "display_name": "release-1.0.6",
+    "commit_id": "e2809fe9",
+    "date": 1314628103
+  },
+  {
+    "name": "release-1.0.5",
+    "display_name": "release-1.0.5",
+    "commit_id": "4603ced0",
+    "date": 1311082717
+  },
+  {
+    "name": "release-1.0.4",
+    "display_name": "release-1.0.4",
+    "commit_id": "b81cf1be",
+    "date": 1306920598
+  },
+  {
+    "name": "release-1.0.3",
+    "display_name": "release-1.0.3",
+    "commit_id": "15068869",
+    "date": 1306335050
+  },
+  {
+    "name": "release-1.0.2",
+    "display_name": "release-1.0.2",
+    "commit_id": "0cc2e4f8",
+    "date": 1305030472
+  },
+  {
+    "name": "release-1.0.1",
+    "display_name": "release-1.0.1",
+    "commit_id": "3c50cb42",
+    "date": 1304424724
+  },
+  {
+    "name": "release-1.0.0",
+    "display_name": "release-1.0.0",
+    "commit_id": "53dd30ee",
+    "date": 1302599072
+  },
+  {
+    "name": "release-0.9.7",
+    "display_name": "release-0.9.7",
+    "commit_id": "1e316a2a",
+    "date": 1301921422
+  },
+  {
+    "name": "release-0.9.6",
+    "display_name": "release-0.9.6",
+    "commit_id": "ee9cb97d",
+    "date": 1300721606
+  },
+  {
+    "name": "release-0.9.5",
+    "display_name": "release-0.9.5",
+    "commit_id": "b35063df",
+    "date": 1298281437
+  },
+  {
+    "name": "release-0.9.4",
+    "display_name": "release-0.9.4",
+    "commit_id": "e1d17195",
+    "date": 1295607879
+  },
+  {
+    "name": "release-0.9.3",
+    "display_name": "release-0.9.3",
+    "commit_id": "9836212c",
+    "date": 1292238352
+  },
+  {
+    "name": "release-0.9.2",
+    "display_name": "release-0.9.2",
+    "commit_id": "5c744fd5",
+    "date": 1291635390
+  },
+  {
+    "name": "release-0.9.1",
+    "display_name": "release-0.9.1",
+    "commit_id": "c14f6502",
+    "date": 1291122632
+  },
+  {
+    "name": "release-0.9.0",
+    "display_name": "release-0.9.0",
+    "commit_id": "ef6c25bc",
+    "date": 1291044571
+  },
+  {
+    "name": "release-0.7.69",
+    "display_name": "release-0.7.69",
+    "commit_id": "0e51718e",
+    "date": 1311085225
+  },
+  {
+    "name": "release-0.7.68",
+    "display_name": "release-0.7.68",
+    "commit_id": "2aeed174",
+    "date": 1292356083
+  },
+  {
+    "name": "release-0.7.67",
+    "display_name": "release-0.7.67",
+    "commit_id": "bee99062",
+    "date": 1276595700
+  },
+  {
+    "name": "release-0.7.66",
+    "display_name": "release-0.7.66",
+    "commit_id": "e6ffda0d",
+    "date": 1275914491
+  },
+  {
+    "name": "release-0.7.65",
+    "display_name": "release-0.7.65",
+    "commit_id": "0b76bf60",
+    "date": 1265040555
+  },
+  {
+    "name": "release-0.7.64",
+    "display_name": "release-0.7.64",
+    "commit_id": "a563b0ea",
+    "date": 1258385386
+  },
+  {
+    "name": "release-0.7.63",
+    "display_name": "release-0.7.63",
+    "commit_id": "7cab2e24",
+    "date": 1256579856
+  },
+  {
+    "name": "release-0.7.62",
+    "display_name": "release-0.7.62",
+    "commit_id": "545030e9",
+    "date": 1252933794
+  },
+  {
+    "name": "release-0.7.61",
+    "display_name": "release-0.7.61",
+    "commit_id": "f76a9723",
+    "date": 1245663427
+  },
+  {
+    "name": "release-0.7.60",
+    "display_name": "release-0.7.60",
+    "commit_id": "999663a1",
+    "date": 1245059751
+  },
+  {
+    "name": "release-0.8.55",
+    "display_name": "release-0.8.55",
+    "commit_id": "ce9f32ff",
+    "date": 1311083987
+  },
+  {
+    "name": "release-0.8.54",
+    "display_name": "release-0.8.54",
+    "commit_id": "f7c8f9cd",
+    "date": 1292324148
+  },
+  {
+    "name": "release-0.8.53",
+    "display_name": "release-0.8.53",
+    "commit_id": "78ecd1e9",
+    "date": 1287403406
+  },
+  {
+    "name": "release-0.8.52",
+    "display_name": "release-0.8.52",
+    "commit_id": "1ce92659",
+    "date": 1285657198
+  },
+  {
+    "name": "release-0.8.51",
+    "display_name": "release-0.8.51",
+    "commit_id": "51fff69f",
+    "date": 1285592920
+  },
+  {
+    "name": "release-0.8.50",
+    "display_name": "release-0.8.50",
+    "commit_id": "fbfdf46f",
+    "date": 1283439558
+  },
+  {
+    "name": "release-0.8.49",
+    "display_name": "release-0.8.49",
+    "commit_id": "b295cc1d",
+    "date": 1281342253
+  },
+  {
+    "name": "release-0.8.48",
+    "display_name": "release-0.8.48",
+    "commit_id": "59743602",
+    "date": 1280848256
+  },
+  {
+    "name": "release-0.8.47",
+    "display_name": "release-0.8.47",
+    "commit_id": "2580e033",
+    "date": 1280333808
+  },
+  {
+    "name": "release-0.8.46",
+    "display_name": "release-0.8.46",
+    "commit_id": "c6e81203",
+    "date": 1279539090
+  },
+  {
+    "name": "release-0.8.45",
+    "display_name": "release-0.8.45",
+    "commit_id": "94b95bc6",
+    "date": 1279022376
+  },
+  {
+    "name": "release-0.8.44",
+    "display_name": "release-0.8.44",
+    "commit_id": "6b14b94f",
+    "date": 1278343435
+  },
+  {
+    "name": "release-0.8.43",
+    "display_name": "release-0.8.43",
+    "commit_id": "469d9665",
+    "date": 1277910703
+  },
+  {
+    "name": "release-0.8.42",
+    "display_name": "release-0.8.42",
+    "commit_id": "35ad6844",
+    "date": 1277115384
+  },
+  {
+    "name": "release-0.8.41",
+    "display_name": "release-0.8.41",
+    "commit_id": "8e05cd04",
+    "date": 1276595106
+  },
+  {
+    "name": "release-0.8.40",
+    "display_name": "release-0.8.40",
+    "commit_id": "dc78a71a",
+    "date": 1275914312
+  },
+  {
+    "name": "release-0.8.39",
+    "display_name": "release-0.8.39",
+    "commit_id": "cffd2393",
+    "date": 1275318604
+  },
+  {
+    "name": "release-0.8.38",
+    "display_name": "release-0.8.38",
+    "commit_id": "cc42a8c4",
+    "date": 1274705269
+  },
+  {
+    "name": "release-0.8.37",
+    "display_name": "release-0.8.37",
+    "commit_id": "c7a4da8c",
+    "date": 1274076532
+  },
+  {
+    "name": "release-0.8.36",
+    "display_name": "release-0.8.36",
+    "commit_id": "5ed8f680",
+    "date": 1271957841
+  },
+  {
+    "name": "release-0.8.35",
+    "display_name": "release-0.8.35",
+    "commit_id": "4d3dcdf3",
+    "date": 1270136651
+  },
+  {
+    "name": "release-0.8.34",
+    "display_name": "release-0.8.34",
+    "commit_id": "25328024",
+    "date": 1267635609
+  },
+  {
+    "name": "release-0.8.33",
+    "display_name": "release-0.8.33",
+    "commit_id": "6d954473",
+    "date": 1265031391
+  },
+  {
+    "name": "release-0.8.32",
+    "display_name": "release-0.8.32",
+    "commit_id": "45ec8919",
+    "date": 1263224144
+  },
+  {
+    "name": "release-0.8.31",
+    "display_name": "release-0.8.31",
+    "commit_id": "96d1fba3",
+    "date": 1261583071
+  },
+  {
+    "name": "release-0.8.30",
+    "display_name": "release-0.8.30",
+    "commit_id": "4d1ae063",
+    "date": 1260887649
+  },
+  {
+    "name": "release-0.8.29",
+    "display_name": "release-0.8.29",
+    "commit_id": "7a575978",
+    "date": 1259587692
+  },
+  {
+    "name": "release-0.8.28",
+    "display_name": "release-0.8.28",
+    "commit_id": "5ccc7f7a",
+    "date": 1258991592
+  },
+  {
+    "name": "release-0.8.27",
+    "display_name": "release-0.8.27",
+    "commit_id": "f23dad17",
+    "date": 1258476797
+  },
+  {
+    "name": "release-0.8.26",
+    "display_name": "release-0.8.26",
+    "commit_id": "98ab188d",
+    "date": 1258399537
+  },
+  {
+    "name": "release-0.8.25",
+    "display_name": "release-0.8.25",
+    "commit_id": "1e213440",
+    "date": 1258379230
+  },
+  {
+    "name": "release-0.8.24",
+    "display_name": "release-0.8.24",
+    "commit_id": "6d7ba452",
+    "date": 1257951197
+  },
+  {
+    "name": "release-0.8.23",
+    "display_name": "release-0.8.23",
+    "commit_id": "2cc20bfe",
+    "date": 1257937522
+  },
+  {
+    "name": "release-0.8.22",
+    "display_name": "release-0.8.22",
+    "commit_id": "b9e859af",
+    "date": 1257274357
+  },
+  {
+    "name": "release-0.8.21",
+    "display_name": "release-0.8.21",
+    "commit_id": "c7e16442",
+    "date": 1256566165
+  },
+  {
+    "name": "release-0.8.20",
+    "display_name": "release-0.8.20",
+    "commit_id": "7974bbea",
+    "date": 1255525045
+  },
+  {
+    "name": "release-0.8.19",
+    "display_name": "release-0.8.19",
+    "commit_id": "e5928654",
+    "date": 1254845982
+  },
+  {
+    "name": "release-0.8.18",
+    "display_name": "release-0.8.18",
+    "commit_id": "f3f5a579",
+    "date": 1254833090
+  },
+  {
+    "name": "release-0.8.17",
+    "display_name": "release-0.8.17",
+    "commit_id": "b44171a2",
+    "date": 1254143289
+  },
+  {
+    "name": "release-0.8.16",
+    "display_name": "release-0.8.16",
+    "commit_id": "ace3a333",
+    "date": 1253630121
+  },
+  {
+    "name": "release-0.8.15",
+    "display_name": "release-0.8.15",
+    "commit_id": "1e484b67",
+    "date": 1252933637
+  },
+  {
+    "name": "release-0.8.14",
+    "display_name": "release-0.8.14",
+    "commit_id": "00495ef3",
+    "date": 1252311945
+  },
+  {
+    "name": "release-0.8.13",
+    "display_name": "release-0.8.13",
+    "commit_id": "98531bab",
+    "date": 1251730956
+  },
+  {
+    "name": "release-0.8.12",
+    "display_name": "release-0.8.12",
+    "commit_id": "70c46d7f",
+    "date": 1251718336
+  },
+  {
+    "name": "release-0.8.11",
+    "display_name": "release-0.8.11",
+    "commit_id": "23729b8c",
+    "date": 1251465666
+  },
+  {
+    "name": "release-0.8.10",
+    "display_name": "release-0.8.10",
+    "commit_id": "3bf0806e",
+    "date": 1251112236
+  },
+  {
+    "name": "release-0.8.9",
+    "display_name": "release-0.8.9",
+    "commit_id": "a0b6c193",
+    "date": 1250531996
+  },
+  {
+    "name": "release-0.8.8",
+    "display_name": "release-0.8.8",
+    "commit_id": "476c676c",
+    "date": 1249892787
+  },
+  {
+    "name": "release-0.8.7",
+    "display_name": "release-0.8.7",
+    "commit_id": "0526f461",
+    "date": 1248708241
+  },
+  {
+    "name": "release-0.8.6",
+    "display_name": "release-0.8.6",
+    "commit_id": "a3d9b6ee",
+    "date": 1248078271
+  },
+  {
+    "name": "release-0.8.5",
+    "display_name": "release-0.8.5",
+    "commit_id": "f556fa41",
+    "date": 1247485679
+  },
+  {
+    "name": "release-0.8.4",
+    "display_name": "release-0.8.4",
+    "commit_id": "1f981c57",
+    "date": 1245662244
+  },
+  {
+    "name": "release-0.8.3",
+    "display_name": "release-0.8.3",
+    "commit_id": "e6272a75",
+    "date": 1245408995
+  },
+  {
+    "name": "release-0.8.2",
+    "display_name": "release-0.8.2",
+    "commit_id": "450eadd0",
+    "date": 1245053711
+  },
+  {
+    "name": "release-0.8.1",
+    "display_name": "release-0.8.1",
+    "commit_id": "212415b0",
+    "date": 1244465749
+  },
+  {
+    "name": "release-0.8.0",
+    "display_name": "release-0.8.0",
+    "commit_id": "c77b0d3b",
+    "date": 1243959746
+  },
+  {
+    "name": "release-0.7.59",
+    "display_name": "release-0.7.59",
+    "commit_id": "c547023e",
+    "date": 1243245608
+  },
+  {
+    "name": "release-0.7.58",
+    "display_name": "release-0.7.58",
+    "commit_id": "f3ce1023",
+    "date": 1242652457
+  },
+  {
+    "name": "release-0.7.57",
+    "display_name": "release-0.7.57",
+    "commit_id": "0863b2c2",
+    "date": 1242130310
+  },
+  {
+    "name": "release-0.7.56",
+    "display_name": "release-0.7.56",
+    "commit_id": "d75a3de2",
+    "date": 1242049346
+  },
+  {
+    "name": "release-0.7.55",
+    "display_name": "release-0.7.55",
+    "commit_id": "e4dabee3",
+    "date": 1241602137
+  },
+  {
+    "name": "release-0.7.54",
+    "display_name": "release-0.7.54",
+    "commit_id": "b95d3685",
+    "date": 1241203978
+  },
+  {
+    "name": "release-0.7.53",
+    "display_name": "release-0.7.53",
+    "commit_id": "300cc18f",
+    "date": 1240833721
+  },
+  {
+    "name": "release-0.7.52",
+    "display_name": "release-0.7.52",
+    "commit_id": "93720e49",
+    "date": 1240208179
+  },
+  {
+    "name": "release-0.7.51",
+    "display_name": "release-0.7.51",
+    "commit_id": "d970fa2a",
+    "date": 1239528925
+  },
+  {
+    "name": "release-0.7.50",
+    "display_name": "release-0.7.50",
+    "commit_id": "36b51963",
+    "date": 1239018274
+  },
+  {
+    "name": "release-0.7.49",
+    "display_name": "release-0.7.49",
+    "commit_id": "522ceb60",
+    "date": 1239014573
+  },
+  {
+    "name": "release-0.7.48",
+    "display_name": "release-0.7.48",
+    "commit_id": "d16b5f61",
+    "date": 1239012922
+  },
+  {
+    "name": "release-0.7.47",
+    "display_name": "release-0.7.47",
+    "commit_id": "a3915f4a",
+    "date": 1238592034
+  },
+  {
+    "name": "release-0.7.46",
+    "display_name": "release-0.7.46",
+    "commit_id": "dc96bdcd",
+    "date": 1238410976
+  },
+  {
+    "name": "release-0.7.45",
+    "display_name": "release-0.7.45",
+    "commit_id": "497a3551",
+    "date": 1238401976
+  },
+  {
+    "name": "release-0.7.44",
+    "display_name": "release-0.7.44",
+    "commit_id": "75e8e2e4",
+    "date": 1237814859
+  },
+  {
+    "name": "release-0.7.43",
+    "display_name": "release-0.7.43",
+    "commit_id": "58a66901",
+    "date": 1237380383
+  },
+  {
+    "name": "release-0.7.42",
+    "display_name": "release-0.7.42",
+    "commit_id": "c5402d10",
+    "date": 1237188189
+  },
+  {
+    "name": "release-0.7.41",
+    "display_name": "release-0.7.41",
+    "commit_id": "6170ddd5",
+    "date": 1236777369
+  },
+  {
+    "name": "release-0.7.40",
+    "display_name": "release-0.7.40",
+    "commit_id": "c2414227",
+    "date": 1236588863
+  },
+  {
+    "name": "release-0.7.39",
+    "display_name": "release-0.7.39",
+    "commit_id": "d1630400",
+    "date": 1235997789
+  },
+  {
+    "name": "release-0.7.38",
+    "display_name": "release-0.7.38",
+    "commit_id": "d52c9099",
+    "date": 1235404883
+  },
+  {
+    "name": "release-0.7.37",
+    "display_name": "release-0.7.37",
+    "commit_id": "a15e4f3e",
+    "date": 1235227358
+  },
+  {
+    "name": "release-0.7.36",
+    "display_name": "release-0.7.36",
+    "commit_id": "11628b92",
+    "date": 1235201177
+  },
+  {
+    "name": "release-0.7.35",
+    "display_name": "release-0.7.35",
+    "commit_id": "a7667b0e",
+    "date": 1234792723
+  },
+  {
+    "name": "release-0.7.34",
+    "display_name": "release-0.7.34",
+    "commit_id": "ff2631ed",
+    "date": 1234284628
+  },
+  {
+    "name": "release-0.7.33",
+    "display_name": "release-0.7.33",
+    "commit_id": "316c9def",
+    "date": 1233572411
+  },
+  {
+    "name": "release-0.7.32",
+    "display_name": "release-0.7.32",
+    "commit_id": "ddb8d6aa",
+    "date": 1232980886
+  },
+  {
+    "name": "release-0.7.31",
+    "display_name": "release-0.7.31",
+    "commit_id": "53d2a365",
+    "date": 1232373421
+  },
+  {
+    "name": "release-0.7.30",
+    "display_name": "release-0.7.30",
+    "commit_id": "9757f8b6",
+    "date": 1230135700
+  },
+  {
+    "name": "release-0.7.29",
+    "display_name": "release-0.7.29",
+    "commit_id": "26f010d0",
+    "date": 1230123021
+  },
+  {
+    "name": "release-0.7.28",
+    "display_name": "release-0.7.28",
+    "commit_id": "d4d1371c",
+    "date": 1229951183
+  },
+  {
+    "name": "release-0.7.27",
+    "display_name": "release-0.7.27",
+    "commit_id": "dd778355",
+    "date": 1229340608
+  },
+  {
+    "name": "release-0.7.26",
+    "display_name": "release-0.7.26",
+    "commit_id": "547775c0",
+    "date": 1228761162
+  },
+  {
+    "name": "release-0.7.25",
+    "display_name": "release-0.7.25",
+    "commit_id": "2286ef49",
+    "date": 1228747396
+  },
+  {
+    "name": "release-0.7.24",
+    "display_name": "release-0.7.24",
+    "commit_id": "b9af2d69",
+    "date": 1228143282
+  },
+  {
+    "name": "release-0.7.23",
+    "display_name": "release-0.7.23",
+    "commit_id": "fab39ba0",
+    "date": 1227791134
+  },
+  {
+    "name": "release-0.7.22",
+    "display_name": "release-0.7.22",
+    "commit_id": "51f674db",
+    "date": 1227199656
+  },
+  {
+    "name": "release-0.7.21",
+    "display_name": "release-0.7.21",
+    "commit_id": "b123aa70",
+    "date": 1226433898
+  },
+  {
+    "name": "release-0.7.20",
+    "display_name": "release-0.7.20",
+    "commit_id": "980f8080",
+    "date": 1226334645
+  },
+  {
+    "name": "release-0.7.19",
+    "display_name": "release-0.7.19",
+    "commit_id": "7fa45ec4",
+    "date": 1223910971
+  },
+  {
+    "name": "release-0.7.18",
+    "display_name": "release-0.7.18",
+    "commit_id": "b584394f",
+    "date": 1223903908
+  },
+  {
+    "name": "release-0.7.17",
+    "display_name": "release-0.7.17",
+    "commit_id": "6bed3286",
+    "date": 1221497970
+  },
+  {
+    "name": "release-0.7.16",
+    "display_name": "release-0.7.16",
+    "commit_id": "63f9ddd8",
+    "date": 1220866961
+  },
+  {
+    "name": "release-0.7.15",
+    "display_name": "release-0.7.15",
+    "commit_id": "268fba40",
+    "date": 1220862982
+  },
+  {
+    "name": "release-0.7.14",
+    "display_name": "release-0.7.14",
+    "commit_id": "b95e0d3a",
+    "date": 1220283116
+  },
+  {
+    "name": "release-0.7.13",
+    "display_name": "release-0.7.13",
+    "commit_id": "742f2a0a",
+    "date": 1219771147
+  },
+  {
+    "name": "release-0.7.12",
+    "display_name": "release-0.7.12",
+    "commit_id": "be05893f",
+    "date": 1219767223
+  },
+  {
+    "name": "release-0.7.11",
+    "display_name": "release-0.7.11",
+    "commit_id": "b8d89b96",
+    "date": 1219069370
+  },
+  {
+    "name": "release-0.7.10",
+    "display_name": "release-0.7.10",
+    "commit_id": "25102e1b",
+    "date": 1218646411
+  },
+  {
+    "name": "release-0.7.9",
+    "display_name": "release-0.7.9",
+    "commit_id": "2e3bedb0",
+    "date": 1218555248
+  },
+  {
+    "name": "release-0.7.8",
+    "display_name": "release-0.7.8",
+    "commit_id": "56410399",
+    "date": 1217864794
+  },
+  {
+    "name": "release-0.7.7",
+    "display_name": "release-0.7.7",
+    "commit_id": "90de8083",
+    "date": 1217422503
+  },
+  {
+    "name": "release-0.7.6",
+    "display_name": "release-0.7.6",
+    "commit_id": "41659e55",
+    "date": 1215423801
+  },
+  {
+    "name": "release-0.7.5",
+    "display_name": "release-0.7.5",
+    "commit_id": "08dd322f",
+    "date": 1214896920
+  },
+  {
+    "name": "release-0.7.4",
+    "display_name": "release-0.7.4",
+    "commit_id": "6e7bd057",
+    "date": 1214829529
+  },
+  {
+    "name": "release-0.7.3",
+    "display_name": "release-0.7.3",
+    "commit_id": "46795842",
+    "date": 1214217297
+  },
+  {
+    "name": "release-0.7.2",
+    "display_name": "release-0.7.2",
+    "commit_id": "552364cd",
+    "date": 1213607062
+  },
+  {
+    "name": "release-0.7.1",
+    "display_name": "release-0.7.1",
+    "commit_id": "a2023212",
+    "date": 1211794350
+  },
+  {
+    "name": "release-0.7.0",
+    "display_name": "release-0.7.0",
+    "commit_id": "8ee0bc7d",
+    "date": 1211193281
+  },
+  {
+    "name": "release-0.5.38",
+    "display_name": "release-0.5.38",
+    "commit_id": "af4e25d5",
+    "date": 1252934236
+  },
+  {
+    "name": "release-0.5.37",
+    "display_name": "release-0.5.37",
+    "commit_id": "e5a00d2d",
+    "date": 1215432542
+  },
+  {
+    "name": "release-0.5.36",
+    "display_name": "release-0.5.36",
+    "commit_id": "35412f42",
+    "date": 1209899833
+  },
+  {
+    "name": "release-0.5.35",
+    "display_name": "release-0.5.35",
+    "commit_id": "6c89188c",
+    "date": 1199814130
+  },
+  {
+    "name": "release-0.5.34",
+    "display_name": "release-0.5.34",
+    "commit_id": "f534af8e",
+    "date": 1197542966
+  },
+  {
+    "name": "release-0.5.33",
+    "display_name": "release-0.5.33",
+    "commit_id": "e4afbf04",
+    "date": 1194445916
+  },
+  {
+    "name": "release-0.5.32",
+    "display_name": "release-0.5.32",
+    "commit_id": "041918ff",
+    "date": 1190607080
+  },
+  {
+    "name": "release-0.5.31",
+    "display_name": "release-0.5.31",
+    "commit_id": "2f5ac9e3",
+    "date": 1187182046
+  },
+  {
+    "name": "release-0.5.30",
+    "display_name": "release-0.5.30",
+    "commit_id": "0ee22835",
+    "date": 1185786874
+  },
+  {
+    "name": "release-0.5.29",
+    "display_name": "release-0.5.29",
+    "commit_id": "b3809c9d",
+    "date": 1185177539
+  },
+  {
+    "name": "release-0.5.28",
+    "display_name": "release-0.5.28",
+    "commit_id": "b5c9f564",
+    "date": 1184666477
+  },
+  {
+    "name": "release-0.5.27",
+    "display_name": "release-0.5.27",
+    "commit_id": "318e478f",
+    "date": 1183964034
+  },
+  {
+    "name": "release-0.5.26",
+    "display_name": "release-0.5.26",
+    "commit_id": "77f59ad9",
+    "date": 1182107275
+  },
+  {
+    "name": "release-0.6.39",
+    "display_name": "release-0.6.39",
+    "commit_id": "4a733f48",
+    "date": 1252934001
+  },
+  {
+    "name": "release-0.6.38",
+    "display_name": "release-0.6.38",
+    "commit_id": "4bdb2ea7",
+    "date": 1245665515
+  },
+  {
+    "name": "release-0.6.37",
+    "display_name": "release-0.6.37",
+    "commit_id": "dca47d57",
+    "date": 1242664197
+  },
+  {
+    "name": "release-0.6.36",
+    "display_name": "release-0.6.36",
+    "commit_id": "49e25081",
+    "date": 1238654930
+  },
+  {
+    "name": "release-0.6.35",
+    "display_name": "release-0.6.35",
+    "commit_id": "4311274a",
+    "date": 1232983907
+  },
+  {
+    "name": "release-0.6.34",
+    "display_name": "release-0.6.34",
+    "commit_id": "fec6ed10",
+    "date": 1227799971
+  },
+  {
+    "name": "release-0.6.33",
+    "display_name": "release-0.6.33",
+    "commit_id": "00d667e9",
+    "date": 1227202004
+  },
+  {
+    "name": "release-0.6.32",
+    "display_name": "release-0.6.32",
+    "commit_id": "43e7f7a2",
+    "date": 1215431051
+  },
+  {
+    "name": "release-0.6.31",
+    "display_name": "release-0.6.31",
+    "commit_id": "25d38a38",
+    "date": 1210585723
+  },
+  {
+    "name": "release-0.6.30",
+    "display_name": "release-0.6.30",
+    "commit_id": "39345988",
+    "date": 1209472599
+  },
+  {
+    "name": "release-0.6.29",
+    "display_name": "release-0.6.29",
+    "commit_id": "2e98654a",
+    "date": 1205849515
+  },
+  {
+    "name": "release-0.6.28",
+    "display_name": "release-0.6.28",
+    "commit_id": "f55f26e0",
+    "date": 1205388632
+  },
+  {
+    "name": "release-0.6.27",
+    "display_name": "release-0.6.27",
+    "commit_id": "01e0b002",
+    "date": 1205328430
+  },
+  {
+    "name": "release-0.6.26",
+    "display_name": "release-0.6.26",
+    "commit_id": "05f84b48",
+    "date": 1202743345
+  },
+  {
+    "name": "release-0.6.25",
+    "display_name": "release-0.6.25",
+    "commit_id": "c5077f15",
+    "date": 1199795495
+  },
+  {
+    "name": "release-0.6.24",
+    "display_name": "release-0.6.24",
+    "commit_id": "0af21e27",
+    "date": 1198781033
+  },
+  {
+    "name": "release-0.6.23",
+    "display_name": "release-0.6.23",
+    "commit_id": "24c42267",
+    "date": 1198767597
+  },
+  {
+    "name": "release-0.6.22",
+    "display_name": "release-0.6.22",
+    "commit_id": "ad0d9622",
+    "date": 1198082678
+  },
+  {
+    "name": "release-0.6.21",
+    "display_name": "release-0.6.21",
+    "commit_id": "a38832ce",
+    "date": 1196702328
+  },
+  {
+    "name": "release-0.6.20",
+    "display_name": "release-0.6.20",
+    "commit_id": "2bd56d8f",
+    "date": 1196277203
+  },
+  {
+    "name": "release-0.6.19",
+    "display_name": "release-0.6.19",
+    "commit_id": "06cc1c33",
+    "date": 1196182394
+  },
+  {
+    "name": "release-0.6.18",
+    "display_name": "release-0.6.18",
+    "commit_id": "4215974b",
+    "date": 1196180411
+  },
+  {
+    "name": "release-0.6.17",
+    "display_name": "release-0.6.17",
+    "commit_id": "bdbdc326",
+    "date": 1195139062
+  },
+  {
+    "name": "release-0.6.16",
+    "display_name": "release-0.6.16",
+    "commit_id": "ee93a01f",
+    "date": 1193665301
+  },
+  {
+    "name": "release-0.6.15",
+    "display_name": "release-0.6.15",
+    "commit_id": "c0e8f517",
+    "date": 1193051815
+  },
+  {
+    "name": "release-0.6.14",
+    "display_name": "release-0.6.14",
+    "commit_id": "603e2fa3",
+    "date": 1192447451
+  },
+  {
+    "name": "release-0.6.13",
+    "display_name": "release-0.6.13",
+    "commit_id": "60c9c29b",
+    "date": 1190607001
+  },
+  {
+    "name": "release-0.6.12",
+    "display_name": "release-0.6.12",
+    "commit_id": "5a0c4c34",
+    "date": 1190385370
+  },
+  {
+    "name": "release-0.6.11",
+    "display_name": "release-0.6.11",
+    "commit_id": "2a401312",
+    "date": 1189516548
+  },
+  {
+    "name": "release-0.6.10",
+    "display_name": "release-0.6.10",
+    "commit_id": "af13fa0c",
+    "date": 1188815399
+  },
+  {
+    "name": "release-0.6.9",
+    "display_name": "release-0.6.9",
+    "commit_id": "a1c63f9f",
+    "date": 1188318168
+  },
+  {
+    "name": "release-0.6.8",
+    "display_name": "release-0.6.8",
+    "commit_id": "daa4df7d",
+    "date": 1187615132
+  },
+  {
+    "name": "release-0.6.7",
+    "display_name": "release-0.6.7",
+    "commit_id": "5a6a70d8",
+    "date": 1187181866
+  },
+  {
+    "name": "release-0.6.6",
+    "display_name": "release-0.6.6",
+    "commit_id": "459c70c1",
+    "date": 1185786797
+  },
+  {
+    "name": "release-0.6.5",
+    "display_name": "release-0.6.5",
+    "commit_id": "f4e0cce3",
+    "date": 1185177428
+  },
+  {
+    "name": "release-0.6.4",
+    "display_name": "release-0.6.4",
+    "commit_id": "f5cf66b6",
+    "date": 1184666257
+  },
+  {
+    "name": "release-0.6.3",
+    "display_name": "release-0.6.3",
+    "commit_id": "1c1212a3",
+    "date": 1184239316
+  },
+  {
+    "name": "release-0.6.2",
+    "display_name": "release-0.6.2",
+    "commit_id": "72bf9f24",
+    "date": 1183964087
+  },
+  {
+    "name": "release-0.6.1",
+    "display_name": "release-0.6.1",
+    "commit_id": "a2ecd39a",
+    "date": 1182107613
+  },
+  {
+    "name": "release-0.6.0",
+    "display_name": "release-0.6.0",
+    "commit_id": "ec14509b",
+    "date": 1181799702
+  },
+  {
+    "name": "release-0.5.25",
+    "display_name": "release-0.5.25",
+    "commit_id": "ab022512",
+    "date": 1181587375
+  },
+  {
+    "name": "release-0.5.24",
+    "display_name": "release-0.5.24",
+    "commit_id": "d0c6abf4",
+    "date": 1181109905
+  },
+  {
+    "name": "release-0.5.23",
+    "display_name": "release-0.5.23",
+    "commit_id": "2959a4d3",
+    "date": 1180965476
+  },
+  {
+    "name": "release-0.5.22",
+    "display_name": "release-0.5.22",
+    "commit_id": "053bbb1f",
+    "date": 1180440468
+  },
+  {
+    "name": "release-0.5.21",
+    "display_name": "release-0.5.21",
+    "commit_id": "629ffcee",
+    "date": 1180362722
+  },
+  {
+    "name": "release-0.5.20",
+    "display_name": "release-0.5.20",
+    "commit_id": "04db0b35",
+    "date": 1178547865
+  },
+  {
+    "name": "release-0.5.19",
+    "display_name": "release-0.5.19",
+    "commit_id": "3fca075a",
+    "date": 1177395659
+  },
+  {
+    "name": "release-0.5.18",
+    "display_name": "release-0.5.18",
+    "commit_id": "b058bd36",
+    "date": 1177006613
+  },
+  {
+    "name": "release-0.5.17",
+    "display_name": "release-0.5.17",
+    "commit_id": "d9769aca",
+    "date": 1175510684
+  },
+  {
+    "name": "release-0.5.16",
+    "display_name": "release-0.5.16",
+    "commit_id": "9a418b3c",
+    "date": 1174919520
+  },
+  {
+    "name": "release-0.5.15",
+    "display_name": "release-0.5.15",
+    "commit_id": "59ed7a5a",
+    "date": 1174311864
+  },
+  {
+    "name": "release-0.5.14",
+    "display_name": "release-0.5.14",
+    "commit_id": "878ecafe",
+    "date": 1172234226
+  },
+  {
+    "name": "release-0.5.13",
+    "display_name": "release-0.5.13",
+    "commit_id": "183d5862",
+    "date": 1171891554
+  },
+  {
+    "name": "release-0.5.12",
+    "display_name": "release-0.5.12",
+    "commit_id": "423abe56",
+    "date": 1171292360
+  },
+  {
+    "name": "release-0.5.11",
+    "display_name": "release-0.5.11",
+    "commit_id": "32997968",
+    "date": 1170684171
+  },
+  {
+    "name": "release-0.5.10",
+    "display_name": "release-0.5.10",
+    "commit_id": "92990ae4",
+    "date": 1169762968
+  },
+  {
+    "name": "release-0.5.9",
+    "display_name": "release-0.5.9",
+    "commit_id": "4b07807e",
+    "date": 1169742891
+  },
+  {
+    "name": "release-0.5.8",
+    "display_name": "release-0.5.8",
+    "commit_id": "7b6e0ea0",
+    "date": 1169223239
+  },
+  {
+    "name": "release-0.5.7",
+    "display_name": "release-0.5.7",
+    "commit_id": "9c54772c",
+    "date": 1168883351
+  },
+  {
+    "name": "release-0.5.6",
+    "display_name": "release-0.5.6",
+    "commit_id": "db219f57",
+    "date": 1168362522
+  },
+  {
+    "name": "release-0.5.5",
+    "display_name": "release-0.5.5",
+    "commit_id": "b09918e5",
+    "date": 1166985178
+  },
+  {
+    "name": "release-0.5.4",
+    "display_name": "release-0.5.4",
+    "commit_id": "3b39afd8",
+    "date": 1166138051
+  },
+  {
+    "name": "release-0.5.3",
+    "display_name": "release-0.5.3",
+    "commit_id": "d36ed747",
+    "date": 1166022415
+  },
+  {
+    "name": "release-0.5.2",
+    "display_name": "release-0.5.2",
+    "commit_id": "92b85e3b",
+    "date": 1165850607
+  },
+  {
+    "name": "release-0.5.1",
+    "display_name": "release-0.5.1",
+    "commit_id": "f6bf928a",
+    "date": 1165831205
+  },
+  {
+    "name": "release-0.5.0",
+    "display_name": "release-0.5.0",
+    "commit_id": "e4103d70",
+    "date": 1165251413
+  },
+  {
+    "name": "release-0.4.14",
+    "display_name": "release-0.4.14",
+    "commit_id": "0582451d",
+    "date": 1164637724
+  },
+  {
+    "name": "release-0.4.13",
+    "display_name": "release-0.4.13",
+    "commit_id": "53e2e131",
+    "date": 1163620931
+  },
+  {
+    "name": "release-0.4.12",
+    "display_name": "release-0.4.12",
+    "commit_id": "6566faf6",
+    "date": 1162308523
+  },
+  {
+    "name": "release-0.4.11",
+    "display_name": "release-0.4.11",
+    "commit_id": "167f525b",
+    "date": 1161793765
+  },
+  {
+    "name": "release-0.4.10",
+    "display_name": "release-0.4.10",
+    "commit_id": "c4ed8df8",
+    "date": 1161609927
+  },
+  {
+    "name": "release-0.4.9",
+    "display_name": "release-0.4.9",
+    "commit_id": "a1b4b73b",
+    "date": 1160754199
+  },
+  {
+    "name": "release-0.4.8",
+    "display_name": "release-0.4.8",
+    "commit_id": "4fcb2103",
+    "date": 1160579482
+  },
+  {
+    "name": "release-0.4.7",
+    "display_name": "release-0.4.7",
+    "commit_id": "957bbd5d",
+    "date": 1160496629
+  },
+  {
+    "name": "release-0.4.6",
+    "display_name": "release-0.4.6",
+    "commit_id": "0abf7125",
+    "date": 1160144624
+  },
+  {
+    "name": "release-0.4.5",
+    "display_name": "release-0.4.5",
+    "commit_id": "b0571a81",
+    "date": 1159801643
+  },
+  {
+    "name": "release-0.4.4",
+    "display_name": "release-0.4.4",
+    "commit_id": "cfc11e1a",
+    "date": 1159789461
+  },
+  {
+    "name": "release-0.4.3",
+    "display_name": "release-0.4.3",
+    "commit_id": "45531cf6",
+    "date": 1159273394
+  },
+  {
+    "name": "release-0.4.2",
+    "display_name": "release-0.4.2",
+    "commit_id": "9b4f532a",
+    "date": 1158247749
+  },
+  {
+    "name": "release-0.4.1",
+    "display_name": "release-0.4.1",
+    "commit_id": "c1b63c46",
+    "date": 1158240484
+  },
+  {
+    "name": "release-0.4.0",
+    "display_name": "release-0.4.0",
+    "commit_id": "25362ec5",
+    "date": 1156934357
+  },
+  {
+    "name": "release-0.3.61",
+    "display_name": "release-0.3.61",
+    "commit_id": "a381a75e",
+    "date": 1156784268
+  },
+  {
+    "name": "release-0.3.60",
+    "display_name": "release-0.3.60",
+    "commit_id": "22d4b4d8",
+    "date": 1155910674
+  },
+  {
+    "name": "release-0.3.59",
+    "display_name": "release-0.3.59",
+    "commit_id": "214292c0",
+    "date": 1155733773
+  },
+  {
+    "name": "release-0.3.58",
+    "display_name": "release-0.3.58",
+    "commit_id": "61903390",
+    "date": 1155568178
+  },
+  {
+    "name": "release-0.3.57",
+    "display_name": "release-0.3.57",
+    "commit_id": "7f930f05",
+    "date": 1155153585
+  },
+  {
+    "name": "release-0.3.56",
+    "display_name": "release-0.3.56",
+    "commit_id": "f95ec569",
+    "date": 1154707444
+  },
+  {
+    "name": "release-0.3.55",
+    "display_name": "release-0.3.55",
+    "commit_id": "e6594c2c",
+    "date": 1154099777
+  },
+  {
+    "name": "release-0.3.54",
+    "display_name": "release-0.3.54",
+    "commit_id": "32b62367",
+    "date": 1152624019
+  },
+  {
+    "name": "release-0.3.53",
+    "display_name": "release-0.3.53",
+    "commit_id": "a816e7ca",
+    "date": 1152289999
+  },
+  {
+    "name": "release-0.3.52",
+    "display_name": "release-0.3.52",
+    "commit_id": "66f29ec6",
+    "date": 1151945360
+  },
+  {
+    "name": "release-0.3.51",
+    "display_name": "release-0.3.51",
+    "commit_id": "c74ac9ed",
+    "date": 1151669972
+  },
+  {
+    "name": "release-0.3.50",
+    "display_name": "release-0.3.50",
+    "commit_id": "80dc756e",
+    "date": 1151510426
+  },
+  {
+    "name": "release-0.3.49",
+    "display_name": "release-0.3.49",
+    "commit_id": "76fd80f9",
+    "date": 1149084705
+  },
+  {
+    "name": "release-0.3.48",
+    "display_name": "release-0.3.48",
+    "commit_id": "5543319d",
+    "date": 1148923692
+  },
+  {
+    "name": "release-0.3.47",
+    "display_name": "release-0.3.47",
+    "commit_id": "dc9bb5e6",
+    "date": 1148396098
+  },
+  {
+    "name": "release-0.3.46",
+    "display_name": "release-0.3.46",
+    "commit_id": "1e668fef",
+    "date": 1147358627
+  },
+  {
+    "name": "release-0.3.45",
+    "display_name": "release-0.3.45",
+    "commit_id": "cc791866",
+    "date": 1146932936
+  },
+  {
+    "name": "release-0.3.44",
+    "display_name": "release-0.3.44",
+    "commit_id": "e7df0360",
+    "date": 1146756766
+  },
+  {
+    "name": "release-0.3.43",
+    "display_name": "release-0.3.43",
+    "commit_id": "e8af9cb6",
+    "date": 1146064868
+  },
+  {
+    "name": "release-0.3.42",
+    "display_name": "release-0.3.42",
+    "commit_id": "d3255703",
+    "date": 1146045167
+  },
+  {
+    "name": "release-0.3.41",
+    "display_name": "release-0.3.41",
+    "commit_id": "fe9970fb",
+    "date": 1145621204
+  },
+  {
+    "name": "release-0.3.40",
+    "display_name": "release-0.3.40",
+    "commit_id": "1ff27cb0",
+    "date": 1145460656
+  },
+  {
+    "name": "release-0.3.39",
+    "display_name": "release-0.3.39",
+    "commit_id": "b83a7d4d",
+    "date": 1145303741
+  },
+  {
+    "name": "release-0.3.38",
+    "display_name": "release-0.3.38",
+    "commit_id": "c0f7531c",
+    "date": 1145008418
+  },
+  {
+    "name": "release-0.3.37",
+    "display_name": "release-0.3.37",
+    "commit_id": "88da0722",
+    "date": 1144418884
+  },
+  {
+    "name": "release-0.3.36",
+    "display_name": "release-0.3.36",
+    "commit_id": "1375fdd9",
+    "date": 1144244454
+  },
+  {
+    "name": "release-0.3.35",
+    "display_name": "release-0.3.35",
+    "commit_id": "30e2091b",
+    "date": 1143548687
+  },
+  {
+    "name": "release-0.3.34",
+    "display_name": "release-0.3.34",
+    "commit_id": "71a087a4",
+    "date": 1142929241
+  },
+  {
+    "name": "release-0.3.33",
+    "display_name": "release-0.3.33",
+    "commit_id": "232fb0db",
+    "date": 1142416384
+  },
+  {
+    "name": "release-0.3.32",
+    "display_name": "release-0.3.32",
+    "commit_id": "30a4c8b4",
+    "date": 1142059230
+  },
+  {
+    "name": "release-0.3.31",
+    "display_name": "release-0.3.31",
+    "commit_id": "539580ab",
+    "date": 1141995112
+  },
+  {
+    "name": "release-0.3.30",
+    "display_name": "release-0.3.30",
+    "commit_id": "d25f11e2",
+    "date": 1140637299
+  },
+  {
+    "name": "release-0.3.29",
+    "display_name": "release-0.3.29",
+    "commit_id": "b8a6f1ec",
+    "date": 1140454097
+  },
+  {
+    "name": "release-0.3.28",
+    "display_name": "release-0.3.28",
+    "commit_id": "d6c4d646",
+    "date": 1140103606
+  },
+  {
+    "name": "release-0.3.27",
+    "display_name": "release-0.3.27",
+    "commit_id": "24ce46a2",
+    "date": 1139412792
+  },
+  {
+    "name": "release-0.3.26",
+    "display_name": "release-0.3.26",
+    "commit_id": "1f69eb2c",
+    "date": 1138971528
+  },
+  {
+    "name": "release-0.3.25",
+    "display_name": "release-0.3.25",
+    "commit_id": "ea369c0a",
+    "date": 1138824111
+  },
+  {
+    "name": "release-0.3.24",
+    "display_name": "release-0.3.24",
+    "commit_id": "328bccfb",
+    "date": 1138818135
+  },
+  {
+    "name": "release-0.3.23",
+    "display_name": "release-0.3.23",
+    "commit_id": "1e47f167",
+    "date": 1138118907
+  },
+  {
+    "name": "release-0.3.22",
+    "display_name": "release-0.3.22",
+    "commit_id": "29a2f51b",
+    "date": 1137528272
+  },
+  {
+    "name": "release-0.3.21",
+    "display_name": "release-0.3.21",
+    "commit_id": "c7231ce9",
+    "date": 1137423413
+  },
+  {
+    "name": "release-0.3.20",
+    "display_name": "release-0.3.20",
+    "commit_id": "15a72baf",
+    "date": 1136993217
+  },
+  {
+    "name": "release-0.3.19",
+    "display_name": "release-0.3.19",
+    "commit_id": "082164b4",
+    "date": 1135779832
+  },
+  {
+    "name": "release-0.3.18",
+    "display_name": "release-0.3.18",
+    "commit_id": "8dc3ead9",
+    "date": 1135616868
+  },
+  {
+    "name": "release-0.3.17",
+    "display_name": "release-0.3.17",
+    "commit_id": "70f1073e",
+    "date": 1134921764
+  },
+  {
+    "name": "release-0.3.16",
+    "display_name": "release-0.3.16",
+    "commit_id": "37fb8349",
+    "date": 1134745628
+  },
+  {
+    "name": "release-0.3.15",
+    "display_name": "release-0.3.15",
+    "commit_id": "1f6d0503",
+    "date": 1133967091
+  },
+  {
+    "name": "release-0.3.14",
+    "display_name": "release-0.3.14",
+    "commit_id": "9a264579",
+    "date": 1133801945
+  },
+  {
+    "name": "release-0.3.13",
+    "display_name": "release-0.3.13",
+    "commit_id": "e122c436",
+    "date": 1133788689
+  },
+  {
+    "name": "release-0.3.12",
+    "display_name": "release-0.3.12",
+    "commit_id": "31ae2b33",
+    "date": 1132999871
+  },
+  {
+    "name": "release-0.3.11",
+    "display_name": "release-0.3.11",
+    "commit_id": "085e379e",
+    "date": 1132066197
+  },
+  {
+    "name": "release-0.3.10",
+    "display_name": "release-0.3.10",
+    "commit_id": "f56f40e7",
+    "date": 1132061452
+  },
+  {
+    "name": "release-0.3.9",
+    "display_name": "release-0.3.9",
+    "commit_id": "8fdface7",
+    "date": 1131608693
+  },
+  {
+    "name": "release-0.3.8",
+    "display_name": "release-0.3.8",
+    "commit_id": "28d1d570",
+    "date": 1131557155
+  },
+  {
+    "name": "release-0.3.7",
+    "display_name": "release-0.3.7",
+    "commit_id": "3c598754",
+    "date": 1130427973
+  },
+  {
+    "name": "release-0.3.6",
+    "display_name": "release-0.3.6",
+    "commit_id": "0d42898b",
+    "date": 1130166581
+  },
+  {
+    "name": "release-0.3.5",
+    "display_name": "release-0.3.5",
+    "commit_id": "1ed865f8",
+    "date": 1129921938
+  },
+  {
+    "name": "release-0.3.4",
+    "display_name": "release-0.3.4",
+    "commit_id": "752bcc88",
+    "date": 1129728868
+  },
+  {
+    "name": "release-0.3.3",
+    "display_name": "release-0.3.3",
+    "commit_id": "06ca21df",
+    "date": 1129725238
+  },
+  {
+    "name": "release-0.3.2",
+    "display_name": "release-0.3.2",
+    "commit_id": "0c76a9c5",
+    "date": 1129125036
+  },
+  {
+    "name": "release-0.3.1",
+    "display_name": "release-0.3.1",
+    "commit_id": "25779bc1",
+    "date": 1128949181
+  },
+  {
+    "name": "release-0.3.0",
+    "display_name": "release-0.3.0",
+    "commit_id": "40f2aa55",
+    "date": 1128691852
+  },
+  {
+    "name": "release-0.2.6",
+    "display_name": "release-0.2.6",
+    "commit_id": "f85d61c2",
+    "date": 1128523581
+  },
+  {
+    "name": "release-0.2.5",
+    "display_name": "release-0.2.5",
+    "commit_id": "67cd1506",
+    "date": 1128422333
+  },
+  {
+    "name": "release-0.2.4",
+    "display_name": "release-0.2.4",
+    "commit_id": "4e375369",
+    "date": 1128343994
+  },
+  {
+    "name": "release-0.2.3",
+    "display_name": "release-0.2.3",
+    "commit_id": "f49ea2ee",
+    "date": 1128096154
+  },
+  {
+    "name": "release-0.2.2",
+    "display_name": "release-0.2.2",
+    "commit_id": "7db278ad",
+    "date": 1128091285
+  },
+  {
+    "name": "release-0.2.1",
+    "display_name": "release-0.2.1",
+    "commit_id": "29cd04f0",
+    "date": 1127486629
+  },
+  {
+    "name": "release-0.2.0",
+    "display_name": "release-0.2.0",
+    "commit_id": "28ebccc1",
+    "date": 1127473342
+  },
+  {
+    "name": "release-0.1.45",
+    "display_name": "release-0.1.45",
+    "commit_id": "2bf9b16b",
+    "date": 1126190169
+  },
+  {
+    "name": "release-0.1.44",
+    "display_name": "release-0.1.44",
+    "commit_id": "2b4916a1",
+    "date": 1126022972
+  },
+  {
+    "name": "release-0.1.43",
+    "display_name": "release-0.1.43",
+    "commit_id": "9e65f1b2",
+    "date": 1125399307
+  },
+  {
+    "name": "release-0.1.42",
+    "display_name": "release-0.1.42",
+    "commit_id": "42cb06ce",
+    "date": 1124811414
+  },
+  {
+    "name": "release-0.1.41",
+    "display_name": "release-0.1.41",
+    "commit_id": "b6169bb8",
+    "date": 1124441657
+  },
+  {
+    "name": "release-0.1.40",
+    "display_name": "release-0.1.40",
+    "commit_id": "6fef5fa6",
+    "date": 1122284498
+  },
+  {
+    "name": "release-0.1.39",
+    "display_name": "release-0.1.39",
+    "commit_id": "0ac48dad",
+    "date": 1121345513
+  },
+  {
+    "name": "release-0.1.38",
+    "display_name": "release-0.1.38",
+    "commit_id": "d1ef9dfd",
+    "date": 1120833260
+  },
+  {
+    "name": "release-0.1.37",
+    "display_name": "release-0.1.37",
+    "commit_id": "1bc05e18",
+    "date": 1119534066
+  },
+  {
+    "name": "release-0.1.36",
+    "display_name": "release-0.1.36",
+    "commit_id": "1604c711",
+    "date": 1118860421
+  },
+  {
+    "name": "release-0.1.35",
+    "display_name": "release-0.1.35",
+    "commit_id": "4a5e4edd",
+    "date": 1118159791
+  },
+  {
+    "name": "release-0.1.34",
+    "display_name": "release-0.1.34",
+    "commit_id": "21383258",
+    "date": 1117131160
+  },
+  {
+    "name": "release-0.1.33",
+    "display_name": "release-0.1.33",
+    "commit_id": "1993d130",
+    "date": 1116850065
+  },
+  {
+    "name": "release-0.1.32",
+    "display_name": "release-0.1.32",
+    "commit_id": "7177a8f4",
+    "date": 1116509122
+  },
+  {
+    "name": "release-0.1.31",
+    "display_name": "release-0.1.31",
+    "commit_id": "b075a90c",
+    "date": 1116251600
+  },
+  {
+    "name": "release-0.1.30",
+    "display_name": "release-0.1.30",
+    "commit_id": "4d345881",
+    "date": 1116096123
+  },
+  {
+    "name": "release-0.1.29",
+    "display_name": "release-0.1.29",
+    "commit_id": "23fb5dfb",
+    "date": 1115909886
+  },
+  {
+    "name": "release-0.1.28",
+    "display_name": "release-0.1.28",
+    "commit_id": "1d5893bc",
+    "date": 1112973535
+  },
+  {
+    "name": "release-0.1.27",
+    "display_name": "release-0.1.27",
+    "commit_id": "79cedaf8",
+    "date": 1112020982
+  },
+  {
+    "name": "release-0.1.26",
+    "display_name": "release-0.1.26",
+    "commit_id": "67ce201b",
+    "date": 1111507366
+  },
+  {
+    "name": "release-0.1.25",
+    "display_name": "release-0.1.25",
+    "commit_id": "56dc8346",
+    "date": 1111235917
+  },
+  {
+    "name": "release-0.1.24",
+    "display_name": "release-0.1.24",
+    "commit_id": "34e977c4",
+    "date": 1109945217
+  },
+  {
+    "name": "release-0.1.23",
+    "display_name": "release-0.1.23",
+    "commit_id": "d8c58d10",
+    "date": 1109690436
+  },
+  {
+    "name": "release-0.1.22",
+    "display_name": "release-0.1.22",
+    "commit_id": "f414a54f",
+    "date": 1109248149
+  },
+  {
+    "name": "release-0.1.21",
+    "display_name": "release-0.1.21",
+    "commit_id": "4571d4da",
+    "date": 1109083213
+  },
+  {
+    "name": "release-0.1.20",
+    "display_name": "release-0.1.20",
+    "commit_id": "55357119",
+    "date": 1108641576
+  },
+  {
+    "name": "release-0.1.19",
+    "display_name": "release-0.1.19",
+    "commit_id": "15e18d10",
+    "date": 1108561236
+  },
+  {
+    "name": "release-0.1.18",
+    "display_name": "release-0.1.18",
+    "commit_id": "d87e4d87",
+    "date": 1107959467
+  },
+  {
+    "name": "release-0.1.17",
+    "display_name": "release-0.1.17",
+    "commit_id": "7283a577",
+    "date": 1107459217
+  },
+  {
+    "name": "release-0.1.16",
+    "display_name": "release-0.1.16",
+    "commit_id": "65dafe2f",
+    "date": 1106656055
+  },
+  {
+    "name": "release-0.1.15",
+    "display_name": "release-0.1.15",
+    "commit_id": "6165dfb2",
+    "date": 1106140256
+  },
+  {
+    "name": "release-0.1.14",
+    "display_name": "release-0.1.14",
+    "commit_id": "44db6ebb",
+    "date": 1106053438
+  },
+  {
+    "name": "release-0.1.13",
+    "display_name": "release-0.1.13",
+    "commit_id": "d8802484",
+    "date": 1103632230
+  },
+  {
+    "name": "release-0.1.12",
+    "display_name": "release-0.1.12",
+    "commit_id": "f473f817",
+    "date": 1102344308
+  },
+  {
+    "name": "release-0.1.11",
+    "display_name": "release-0.1.11",
+    "commit_id": "c44cd3f3",
+    "date": 1102012846
+  },
+  {
+    "name": "release-0.1.10",
+    "display_name": "release-0.1.10",
+    "commit_id": "fd643b06",
+    "date": 1101461639
+  },
+  {
+    "name": "release-0.1.9",
+    "display_name": "release-0.1.9",
+    "commit_id": "6fa6907c",
+    "date": 1101399451
+  },
+  {
+    "name": "release-0.1.8",
+    "display_name": "release-0.1.8",
+    "commit_id": "6eb79a69",
+    "date": 1100980340
+  },
+  {
+    "name": "release-0.1.7",
+    "display_name": "release-0.1.7",
+    "commit_id": "65501020",
+    "date": 1100270109
+  },
+  {
+    "name": "release-0.1.6",
+    "display_name": "release-0.1.6",
+    "commit_id": "0c597749",
+    "date": 1100206689
+  },
+  {
+    "name": "release-0.1.5",
+    "display_name": "release-0.1.5",
+    "commit_id": "9e4d204e",
+    "date": 1100182034
+  },
+  {
+    "name": "release-0.1.4",
+    "display_name": "release-0.1.4",
+    "commit_id": "fe0f1546",
+    "date": 1098772044
+  },
+  {
+    "name": "release-0.1.3",
+    "display_name": "release-0.1.3",
+    "commit_id": "dd9fb2b1",
+    "date": 1098718163
+  },
+  {
+    "name": "release-0.1.2",
+    "display_name": "release-0.1.2",
+    "commit_id": "1ce72a5b",
+    "date": 1098372878
+  },
+  {
+    "name": "release-0.1.1",
+    "display_name": "release-0.1.1",
+    "commit_id": "f877c8b1",
+    "date": 1097507223
+  },
+  {
+    "name": "release-0.1.0",
+    "display_name": "release-0.1.0",
+    "commit_id": "d9743a06",
+    "date": 1096902246
+  }
+]

@@ -1,8 +1,12 @@
 function renderNestedTreemap(originData) {
-  const color = d3.scaleSequential([8, 0], d3.interpolateMagma);
+  let color = d3.scaleLinear()
+    .domain([0, 4])
+    .range(["hsl(0,0%,100%)", "hsl(197,73%,45%)"])
+    .interpolate(d3.interpolateHcl);
+
   const format = d3.format(",d");
-  const width = 1200;
-  const height = 960;
+  const width = GraphConfig.width;
+  const height = GraphConfig.height;
   const x = d3.scaleLinear().rangeRound([0, width]);
   const y = d3.scaleLinear().rangeRound([0, height]);
 
@@ -38,22 +42,6 @@ function renderNestedTreemap(originData) {
   let group = svg.append("g")
     .call(render, treemap(data));
 
-  const menuItems = [
-    {
-      title: 'Copy Path',
-      action: (d) => {
-        MenuHandle.copyText(d.data.path);
-      }
-    },
-    {
-      title: 'Open In Idea (Todo)',
-      action: (d) => {
-        // todo: add identify idea projects support
-        window.open("jetbrains://open?url=" + d.data.path);
-      }
-    }
-  ];
-
   function render(group, root) {
     const shadow = DOM.uid("shadow");
 
@@ -75,7 +63,7 @@ function renderNestedTreemap(originData) {
       .join("g")
       .attr("transform", d => `translate(${d.x0},${d.y0})`)
       .on("contextmenu", (event, d) => {
-        MenuSupport.createContextMenu(event, d, menuItems, width, height, '#graphSvg');
+        MenuSupport.createContextMenu(event, d, MenuSupport.defaultMenuItems, svg);
       })
 
     node.append("title")
