@@ -1,20 +1,10 @@
-function buildYearOptions(date) {
-  let startDate = new Date(date);
-  let startYear = startDate.getFullYear();
-  let currentYear = new Date().getFullYear();
-
-  let yearOptions = [];
-  for (let i = startYear; i <= currentYear; i++) {
-    yearOptions.push(i);
+function renderTagsTimeline(originData) {
+  let data = [];
+  for (let i = originData.length - 1; i >= 0; i--) {
+    let datum = originData[i]
+    datum.date = datum.date * 1000;
+    data.push(datum);
   }
-  return yearOptions;
-}
-
-function renderTagsTimeline(data) {
-  data = data.reverse();
-  data.forEach(function (d) {
-    d.date = d.date * 1000;
-  });
 
   let yearOptions = buildYearOptions(data[0].date);
 
@@ -33,7 +23,7 @@ function renderTagsTimeline(data) {
   // When the button is changed, run the updateChart function
   d3.select("#tags-timeline-select").on("change", function (d) {
     let selectedOption = d3.select(this).property("value")
-    let selectYear = new Date(selectedOption, 0, 0, 0, 0, 0, 0);
+    let selectYear = new Date(selectedOption, 0, 1);
     let selectDate = data.filter((d) => d.date > selectYear);
     render(selectDate)
   })
@@ -50,11 +40,6 @@ function renderTagsTimeline(data) {
       .append("div")
       .style("opacity", 0)
       .attr("class", "tooltip")
-      .style("background-color", "#ddd")
-      .style("border", "solid")
-      .style("border-width", "2px")
-      .style("border-radius", "5px")
-      .style("padding", "5px")
 
     let svg = d3.select("#tags-timeline").append("svg")
       .attr("width", width + margin.left + margin.right)
@@ -63,14 +48,21 @@ function renderTagsTimeline(data) {
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     let x = d3.scaleLinear()
-      .domain([0, selectData.length])
+      .domain([0, selectData.length + 1])
       .range([0, width]);
 
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x));
 
-    let startDate = selectData[0].date;
+    let first_year;
+    if (selectData.length > 0) {
+      first_year = new Date(selectData[0].date).getFullYear();
+    } else {
+      first_year = new Date().getFullYear();
+    }
+
+    let startDate = new Date(first_year, 0, 1);
     let y = d3.scaleTime()
       .domain([startDate, Date.now()])
       .range([height, 0]);
@@ -83,7 +75,7 @@ function renderTagsTimeline(data) {
         return x(d.date);
       })
       .y(function (d) {
-        return y(d.index);
+        return y(d.index + 1);
       });
 
     let g = svg.append('g');
@@ -102,7 +94,7 @@ function renderTagsTimeline(data) {
           return y(d.date)
         })
         .attr("x2", function (d) {
-          return x(d.index)
+          return x(d.index + 1)
         })
         .attr("y2", function (d) {
           return y(d.date)
@@ -115,7 +107,7 @@ function renderTagsTimeline(data) {
 
     let mousemove = function (event, d) {
       tooltip
-        .html("tag: " + d.name + "<br/> time: " + standardFormatDate(d.date))
+        .html("tag: " + d.name + "<br/>time: " + standardFormatDate(d.date) + "<br/> id: " + d.commit_id)
         .style("left", event.pageX + 20 + "px")
         .style("top", event.pageY + "px")
     }
@@ -124,38 +116,43 @@ function renderTagsTimeline(data) {
       g.selectAll("#tooltip_path").remove();
     }
 
+    let color = d3.scaleLinear()
+      .domain([0, 5])
+      .range(["#F00", "#000"]);
+
     g.selectAll("dot")
       .data(selectData)
       .enter()
       .append("circle")
       .attr("cx", function (d, i) {
         d.index = i;
-        return x(i);
+        return x(i + 1);
       })
       .attr("cy", function (d) {
         return y(d.date);
       })
       .attr("r", 3)
-      .style("fill", "#69b3a2")
+      .style("fill", function (d) {
+        return color(d.share_index);
+      })
       .on("mouseover", mouseover)
       .on("mousemove", mousemove)
       .on("mouseleave", mouseleave)
 
     // limit display tags number
-    if (selectData.length <= 20) {
+    if (selectData.length <= 50) {
       g.selectAll("dot")
         .data(selectData)
         .enter()
         .append("text")
         .text((d) => d.name)
         .attr("x", function (d) {
-          return x(d.index);
+          return x(d.index + 1);
         })
         .attr("y", function (d) {
           return y(d.date) - 10;
         })
         .style("text-anchor", "middle")
-        .style("font-size", "12px")
     }
   }
 

@@ -31,17 +31,39 @@ d3.json("data/git.json").then(function (json) {
   renderBranches(data)
 });
 
-d3.json("data/git-tags.json").then(function (json) {
-  renderTagsTimeline(json);
+d3.json("data/git-tags.json").then(function (data) {
+  if (data.length <= 0) {
+    throw Error("not tags");
+  }
+
+  renderTagsTimeline(data);
 });
 
 d3.json("data/git-commits.json").then(function (data) {
-  renderCommitsTree(data);
+  d3.json("data/git.json").then(function (branches) {
+    renderBranchTree(data, branches);
+  });
 
-  renderMembersTimeline(commit_to_author_map(data));
+  renderMembersTimeline(commits_by_authors(data));
 
-  renderHeatmapChart("#hour-heatmap", commit_to_hours_data(data));
-  renderHeatmapChart("#hour-heatmap-half-year", commit_to_hours_data(data, {before_month: 6}));
-  renderHeatmapChart("#hour-heatmap-three-month", commit_to_hours_data(data, {before_month: 3}));
-  renderLearningCurve(range_commits_by_users(data, 30));
+  renderLearningCurve(commits_by_users_with_range(data, 30));
+
+  renderHeatmapChart(commits_by_hours(data), "#hour-heatmap");
+  renderHeatmapChart(commits_by_hours(data, {before_month: 6}), "#hour-heatmap-half-year");
+  renderHeatmapChart(commits_by_hours(data, {before_month: 3}), "#hour-heatmap-three-month");
+
+  let commitByDays = commit_by_days(data);
+
+  renderCommitCalendar(commitByDays, "#commit-calendar");
+  renderTimeInteractiveLine(commitByDays, '#commit-contributions', 'value');
+
+  let lineData = commitByDays.filter(d => d.total_line > 0);
+  renderTimeInteractiveLine(lineData, '#line-history', 'total_line');
+
+  let commitByWeeks = commit_by_weeks(data);
+  renderCodeFrequency(commitByWeeks);
+});
+
+d3.json("data/struct_analysis.json").then(function (data) {
+  visualizationStruct(data);
 });

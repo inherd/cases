@@ -8,6 +8,12 @@ ${formatDate(d.start)} - ${formatDate(d.end)}
 `
 }
 
+let simplifyBranchName = function (name) {
+  return name
+    .replace("origin/", "")
+  ;
+}
+
 function renderBranches(csv) {
   let data = csv.map(d => {
     return {
@@ -22,7 +28,7 @@ function renderBranches(csv) {
 
   let margin = {
     top: 30,
-    right: 30,
+    right: 150,
     bottom: 30,
     left: 30
   }
@@ -39,16 +45,10 @@ function renderBranches(csv) {
 
   let createTooltip = function (el) {
     el
-      .style("position", "absolute")
+      .attr("class", "tooltip")
       .style("pointer-events", "none")
       .style("top", 0)
       .style("opacity", 0)
-      .style("background", "white")
-      .style("border-radius", "5px")
-      .style("box-shadow", "0 0 10px rgba(0,0,0,.25)")
-      .style("padding", "10px")
-      .style("line-height", "1.3")
-      .style("font", "12px sans-serif")
   }
 
   let getRect = function (d) {
@@ -68,7 +68,7 @@ function renderBranches(csv) {
 
     el
       .append("text")
-      .text(d.name)
+      .text(simplifyBranchName(d.name))
       .attr("x", isLabelRight ? sx - 5 : sx + w + 5)
       .attr("y", 2.5)
       .attr("fill", "black")
@@ -83,7 +83,7 @@ function renderBranches(csv) {
     .tickPadding(2)
     .tickFormat(formatDate);
 
-  let names = d3.group(data, d => d.name);
+  let names = d3.group(data, d => simplifyBranchName(d.name));
   let color = d3.scaleOrdinal(d3.schemeSet2).domain(names)
 
   const svg = d3.select("#branch-timeline").append("svg")

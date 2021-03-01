@@ -6,18 +6,60 @@
     "comments": 4898,
     "reports": [
       {
-        "blanks": 18,
-        "code": 38,
+        "blanks": 15,
+        "code": 25,
         "comments": 4,
-        "file_name": "ngx_event_posted.c",
-        "path": "src/event/ngx_event_posted.c"
+        "file_name": "ngx_alloc.c",
+        "path": "src/os/win32/ngx_alloc.c"
       },
       {
-        "blanks": 38,
-        "code": 77,
+        "blanks": 52,
+        "code": 148,
+        "comments": 6,
+        "file_name": "ngx_event_connectex.c",
+        "path": "src/event/ngx_event_connectex.c"
+      },
+      {
+        "blanks": 118,
+        "code": 376,
+        "comments": 18,
+        "file_name": "ngx_event_accept.c",
+        "path": "src/event/ngx_event_accept.c"
+      },
+      {
+        "blanks": 252,
+        "code": 642,
+        "comments": 18,
+        "file_name": "ngx_files.c",
+        "path": "src/os/win32/ngx_files.c"
+      },
+      {
+        "blanks": 23,
+        "code": 44,
+        "comments": 16,
+        "file_name": "ngx_time.c",
+        "path": "src/os/win32/ngx_time.c"
+      },
+      {
+        "blanks": 106,
+        "code": 293,
+        "comments": 17,
+        "file_name": "ngx_poll_module.c",
+        "path": "src/event/modules/ngx_poll_module.c"
+      },
+      {
+        "blanks": 24,
+        "code": 63,
+        "comments": 12,
+        "file_name": "ngx_event_log.c",
+        "path": "src/os/win32/ngx_event_log.c"
+      },
+      {
+        "blanks": 36,
+        "code": 94,
         "comments": 11,
-        "file_name": "ngx_event_timer.c",
-        "path": "src/event/ngx_event_timer.c"
+        "file_name": "ngx_wsarecv_chain.c",
+        "path": "src/os/win32/ngx_wsarecv_chain.c"
       },
       {
         "blanks": 110,
@@ -25,6 +67,27 @@
         "comments": 5,
         "file_name": "ngx_select_module.c",
         "path": "src/event/modules/ngx_select_module.c"
+      },
+      {
+        "blanks": 69,
+        "code": 220,
+        "comments": 40,
+        "file_name": "ngx_win32_init.c",
+        "path": "src/os/win32/ngx_win32_init.c"
+      },
+      {
+        "blanks": 143,
+        "code": 407,
+        "comments": 11,
+        "file_name": "ngx_devpoll_module.c",
+        "path": "src/event/modules/ngx_devpoll_module.c"
+      },
+      {
+        "blanks": 166,
+        "code": 466,
+        "comments": 18,
+        "file_name": "ngx_eventport_module.c",
+        "path": "src/event/modules/ngx_eventport_module.c"
       },
       {
         "blanks": 101,
@@ -55,116 +118,25 @@
         "path": "src/event/modules/ngx_kqueue_module.c"
       },
       {
-        "blanks": 57,
-        "code": 161,
-        "comments": 9,
-        "file_name": "ngx_event_acceptex.c",
-        "path": "src/event/ngx_event_acceptex.c"
-      },
-      {
-        "blanks": 119,
-        "code": 292,
-        "comments": 20,
-        "file_name": "ngx_event_connect.c",
-        "path": "src/event/ngx_event_connect.c"
-      },
-      {
-        "blanks": 184,
-        "code": 462,
-        "comments": 17,
-        "file_name": "ngx_event_udp.c",
-        "path": "src/event/ngx_event_udp.c"
-      },
-      {
-        "blanks": 270,
-        "code": 747,
-        "comments": 34,
-        "file_name": "ngx_epoll_module.c",
-        "path": "src/event/modules/ngx_epoll_module.c"
-      },
-      {
-        "blanks": 118,
-        "code": 376,
-        "comments": 18,
-        "file_name": "ngx_event_accept.c",
-        "path": "src/event/ngx_event_accept.c"
-      },
-      {
-        "blanks": 52,
-        "code": 148,
-        "comments": 6,
-        "file_name": "ngx_event_connectex.c",
-        "path": "src/event/ngx_event_connectex.c"
-      },
-      {
-        "blanks": 306,
-        "code": 803,
-        "comments": 33,
-        "file_name": "ngx_event_pipe.c",
-        "path": "src/event/ngx_event_pipe.c"
-      },
-      {
-        "blanks": 359,
-        "code": 947,
-        "comments": 30,
-        "file_name": "ngx_event.c",
-        "path": "src/event/ngx_event.c"
-      },
-      {
         "blanks": 16,
-        "code": 33,
-        "comments": 11,
-        "file_name": "ngx_errno.c",
-        "path": "src/os/win32/ngx_errno.c"
+        "code": 29,
+        "comments": 4,
+        "file_name": "ngx_socket.c",
+        "path": "src/os/win32/ngx_socket.c"
       },
       {
-        "blanks": 54,
-        "code": 112,
-        "comments": 19,
-        "file_name": "ngx_wsasend.c",
-        "path": "src/os/win32/ngx_wsasend.c"
+        "blanks": 38,
+        "code": 64,
+        "comments": 14,
+        "file_name": "ngx_socket.c",
+        "path": "src/os/unix/ngx_socket.c"
       },
       {
-        "blanks": 106,
-        "code": 293,
-        "comments": 17,
-        "file_name": "ngx_poll_module.c",
-        "path": "src/event/modules/ngx_poll_module.c"
-      },
-      {
-        "blanks": 143,
-        "code": 407,
-        "comments": 11,
-        "file_name": "ngx_devpoll_module.c",
-        "path": "src/event/modules/ngx_devpoll_module.c"
-      },
-      {
-        "blanks": 106,
-        "code": 265,
-        "comments": 9,
-        "file_name": "ngx_http_copy_filter_module.c",
-        "path": "src/http/ngx_http_copy_filter_module.c"
-      },
-      {
-        "blanks": 166,
-        "code": 466,
-        "comments": 18,
-        "file_name": "ngx_eventport_module.c",
-        "path": "src/event/modules/ngx_eventport_module.c"
-      },
-      {
-        "blanks": 55,
-        "code": 143,
-        "comments": 15,
-        "file_name": "ngx_wsarecv.c",
-        "path": "src/os/win32/ngx_wsarecv.c"
-      },
-      {
-        "blanks": 95,
-        "code": 261,
-        "comments": 11,
-        "file_name": "ngx_http_secure_link_module.c",
-        "path": "src/http/modules/ngx_http_secure_link_module.c"
+        "blanks": 18,
+        "code": 31,
+        "comments": 21,
+        "file_name": "ngx_thread_id.c",
+        "path": "src/os/unix/ngx_thread_id.c"
       },
       {
         "blanks": 61,
@@ -174,25 +146,18 @@
         "path": "src/os/win32/ngx_process.c"
       },
       {
-        "blanks": 179,
-        "code": 492,
+        "blanks": 55,
+        "code": 143,
         "comments": 15,
-        "file_name": "ngx_http_upstream_hash_module.c",
-        "path": "src/http/modules/ngx_http_upstream_hash_module.c"
+        "file_name": "ngx_wsarecv.c",
+        "path": "src/os/win32/ngx_wsarecv.c"
       },
       {
-        "blanks": 165,
-        "code": 441,
-        "comments": 16,
-        "file_name": "ngx_http_realip_module.c",
-        "path": "src/http/modules/ngx_http_realip_module.c"
-      },
-      {
-        "blanks": 141,
-        "code": 352,
-        "comments": 9,
-        "file_name": "ngx_http_upstream_random_module.c",
-        "path": "src/http/modules/ngx_http_upstream_random_module.c"
+        "blanks": 68,
+        "code": 161,
+        "comments": 19,
+        "file_name": "ngx_readv_chain.c",
+        "path": "src/os/unix/ngx_readv_chain.c"
       },
       {
         "blanks": 8,
@@ -202,39 +167,39 @@
         "path": "src/os/win32/ngx_user.c"
       },
       {
-        "blanks": 667,
-        "code": 2065,
-        "comments": 46,
-        "file_name": "ngx_event_openssl_stapling.c",
-        "path": "src/event/ngx_event_openssl_stapling.c"
+        "blanks": 28,
+        "code": 58,
+        "comments": 4,
+        "file_name": "ngx_alloc.c",
+        "path": "src/os/unix/ngx_alloc.c"
       },
       {
-        "blanks": 442,
-        "code": 1928,
-        "comments": 77,
-        "file_name": "ngx_http_parse.c",
-        "path": "src/http/ngx_http_parse.c"
+        "blanks": 51,
+        "code": 135,
+        "comments": 12,
+        "file_name": "ngx_darwin_init.c",
+        "path": "src/os/unix/ngx_darwin_init.c"
       },
       {
-        "blanks": 267,
-        "code": 763,
-        "comments": 13,
-        "file_name": "ngx_process_cycle.c",
-        "path": "src/os/win32/ngx_process_cycle.c"
-      },
-      {
-        "blanks": 453,
-        "code": 1202,
-        "comments": 30,
-        "file_name": "ngx_http_charset_filter_module.c",
-        "path": "src/http/modules/ngx_http_charset_filter_module.c"
-      },
-      {
-        "blanks": 176,
-        "code": 888,
+        "blanks": 278,
+        "code": 666,
         "comments": 8,
-        "file_name": "ngx_http_autoindex_module.c",
-        "path": "src/http/modules/ngx_http_autoindex_module.c"
+        "file_name": "ngx_files.c",
+        "path": "src/os/unix/ngx_files.c"
+      },
+      {
+        "blanks": 63,
+        "code": 153,
+        "comments": 12,
+        "file_name": "ngx_solaris_sendfilev_chain.c",
+        "path": "src/os/unix/ngx_solaris_sendfilev_chain.c"
+      },
+      {
+        "blanks": 57,
+        "code": 153,
+        "comments": 6,
+        "file_name": "ngx_writev_chain.c",
+        "path": "src/os/unix/ngx_writev_chain.c"
       },
       {
         "blanks": 37,
@@ -244,11 +209,25 @@
         "path": "src/os/win32/ngx_udp_wsarecv.c"
       },
       {
-        "blanks": 449,
-        "code": 1193,
-        "comments": 33,
-        "file_name": "ngx_http_image_filter_module.c",
-        "path": "src/http/modules/ngx_http_image_filter_module.c"
+        "blanks": 270,
+        "code": 747,
+        "comments": 34,
+        "file_name": "ngx_epoll_module.c",
+        "path": "src/event/modules/ngx_epoll_module.c"
+      },
+      {
+        "blanks": 267,
+        "code": 763,
+        "comments": 13,
+        "file_name": "ngx_process_cycle.c",
+        "path": "src/os/win32/ngx_process_cycle.c"
+      },
+      {
+        "blanks": 32,
+        "code": 57,
+        "comments": 15,
+        "file_name": "ngx_time.c",
+        "path": "src/os/unix/ngx_time.c"
       },
       {
         "blanks": 7,
@@ -258,25 +237,18 @@
         "path": "src/os/win32/ngx_dlopen.c"
       },
       {
-        "blanks": 429,
-        "code": 1237,
-        "comments": 15,
-        "file_name": "ngx_http_geo_module.c",
-        "path": "src/http/modules/ngx_http_geo_module.c"
+        "blanks": 57,
+        "code": 126,
+        "comments": 18,
+        "file_name": "ngx_recv.c",
+        "path": "src/os/unix/ngx_recv.c"
       },
       {
-        "blanks": 36,
-        "code": 83,
-        "comments": 15,
-        "file_name": "ngx_service.c",
-        "path": "src/os/win32/ngx_service.c"
-      },
-      {
-        "blanks": 77,
-        "code": 192,
-        "comments": 23,
-        "file_name": "ngx_wsasend_chain.c",
-        "path": "src/os/win32/ngx_wsasend_chain.c"
+        "blanks": 14,
+        "code": 38,
+        "comments": 4,
+        "file_name": "ngx_udp_send.c",
+        "path": "src/os/unix/ngx_udp_send.c"
       },
       {
         "blanks": 8,
@@ -293,480 +265,11 @@
         "path": "src/os/win32/ngx_thread.c"
       },
       {
-        "blanks": 323,
-        "code": 792,
-        "comments": 55,
-        "file_name": "ngx_http_gzip_filter_module.c",
-        "path": "src/http/modules/ngx_http_gzip_filter_module.c"
-      },
-      {
-        "blanks": 333,
-        "code": 1021,
-        "comments": 26,
-        "file_name": "ngx_http_ssl_module.c",
-        "path": "src/http/modules/ngx_http_ssl_module.c"
-      },
-      {
-        "blanks": 38,
-        "code": 91,
-        "comments": 32,
-        "file_name": "ngx_shmem.c",
-        "path": "src/os/win32/ngx_shmem.c"
-      },
-      {
-        "blanks": 16,
-        "code": 29,
-        "comments": 4,
-        "file_name": "ngx_socket.c",
-        "path": "src/os/win32/ngx_socket.c"
-      },
-      {
-        "blanks": 302,
-        "code": 828,
-        "comments": 19,
-        "file_name": "ngx_http_dav_module.c",
-        "path": "src/http/modules/ngx_http_dav_module.c"
-      },
-      {
-        "blanks": 192,
-        "code": 530,
-        "comments": 13,
-        "file_name": "ngx_http_memcached_module.c",
-        "path": "src/http/modules/ngx_http_memcached_module.c"
-      },
-      {
-        "blanks": 24,
-        "code": 63,
-        "comments": 12,
-        "file_name": "ngx_event_log.c",
-        "path": "src/os/win32/ngx_event_log.c"
-      },
-      {
-        "blanks": 498,
-        "code": 1376,
-        "comments": 35,
-        "file_name": "ngx_http_log_module.c",
-        "path": "src/http/modules/ngx_http_log_module.c"
-      },
-      {
-        "blanks": 1395,
-        "code": 3717,
-        "comments": 216,
-        "file_name": "ngx_event_openssl.c",
-        "path": "src/event/ngx_event_openssl.c"
-      },
-      {
-        "blanks": 252,
-        "code": 642,
-        "comments": 18,
-        "file_name": "ngx_files.c",
-        "path": "src/os/win32/ngx_files.c"
-      },
-      {
-        "blanks": 37,
-        "code": 894,
-        "comments": 37,
-        "file_name": "ngx_http_range_filter_module.c",
-        "path": "src/http/modules/ngx_http_range_filter_module.c"
-      },
-      {
-        "blanks": 504,
-        "code": 1536,
-        "comments": 15,
-        "file_name": "ngx_http_scgi_module.c",
-        "path": "src/http/modules/ngx_http_scgi_module.c"
-      },
-      {
-        "blanks": 37,
-        "code": 210,
-        "comments": 7,
-        "file_name": "ngx_http_v2_huff_encode.c",
-        "path": "src/http/v2/ngx_http_v2_huff_encode.c"
-      },
-      {
-        "blanks": 69,
-        "code": 220,
-        "comments": 40,
-        "file_name": "ngx_win32_init.c",
-        "path": "src/os/win32/ngx_win32_init.c"
-      },
-      {
-        "blanks": 169,
-        "code": 500,
-        "comments": 13,
-        "file_name": "ngx_http_referer_module.c",
-        "path": "src/http/modules/ngx_http_referer_module.c"
-      },
-      {
         "blanks": 36,
-        "code": 88,
-        "comments": 16,
-        "file_name": "ngx_http_empty_gif_module.c",
-        "path": "src/http/modules/ngx_http_empty_gif_module.c"
-      },
-      {
-        "blanks": 87,
-        "code": 337,
-        "comments": 4,
-        "file_name": "ngx_http_auth_basic_module.c",
-        "path": "src/http/modules/ngx_http_auth_basic_module.c"
-      },
-      {
-        "blanks": 250,
-        "code": 755,
-        "comments": 14,
-        "file_name": "ngx_http_rewrite_module.c",
-        "path": "src/http/modules/ngx_http_rewrite_module.c"
-      },
-      {
-        "blanks": 82,
-        "code": 277,
-        "comments": 4,
-        "file_name": "ngx_http_v2_table.c",
-        "path": "src/http/v2/ngx_http_v2_table.c"
-      },
-      {
-        "blanks": 30,
-        "code": 2628,
-        "comments": 56,
-        "file_name": "ngx_http_v2_huff_decode.c",
-        "path": "src/http/v2/ngx_http_v2_huff_decode.c"
-      },
-      {
-        "blanks": 18,
-        "code": 40,
-        "comments": 4,
-        "file_name": "ngx_http_v2_encode.c",
-        "path": "src/http/v2/ngx_http_v2_encode.c"
-      },
-      {
-        "blanks": 110,
-        "code": 279,
+        "code": 83,
         "comments": 15,
-        "file_name": "ngx_http_try_files_module.c",
-        "path": "src/http/modules/ngx_http_try_files_module.c"
-      },
-      {
-        "blanks": 139,
-        "code": 376,
-        "comments": 25,
-        "file_name": "ngx_http_index_module.c",
-        "path": "src/http/modules/ngx_http_index_module.c"
-      },
-      {
-        "blanks": 69,
-        "code": 192,
-        "comments": 5,
-        "file_name": "ngx_http_not_modified_filter_module.c",
-        "path": "src/http/modules/ngx_http_not_modified_filter_module.c"
-      },
-      {
-        "blanks": 154,
-        "code": 447,
-        "comments": 9,
-        "file_name": "ngx_http_v2_module.c",
-        "path": "src/http/v2/ngx_http_v2_module.c"
-      },
-      {
-        "blanks": 74,
-        "code": 186,
-        "comments": 4,
-        "file_name": "ngx_http_mirror_module.c",
-        "path": "src/http/modules/ngx_http_mirror_module.c"
-      },
-      {
-        "blanks": 676,
-        "code": 2042,
-        "comments": 22,
-        "file_name": "ngx_http_variables.c",
-        "path": "src/http/ngx_http_variables.c"
-      },
-      {
-        "blanks": 1183,
-        "code": 3513,
-        "comments": 253,
-        "file_name": "ngx_http_grpc_module.c",
-        "path": "src/http/modules/ngx_http_grpc_module.c"
-      },
-      {
-        "blanks": 87,
-        "code": 231,
-        "comments": 7,
-        "file_name": "ngx_http_upstream_zone_module.c",
-        "path": "src/http/modules/ngx_http_upstream_zone_module.c"
-      },
-      {
-        "blanks": 142,
-        "code": 404,
-        "comments": 4,
-        "file_name": "ngx_http_slice_filter_module.c",
-        "path": "src/http/modules/ngx_http_slice_filter_module.c"
-      },
-      {
-        "blanks": 574,
-        "code": 1584,
-        "comments": 18,
-        "file_name": "ngx_http_v2_filter_module.c",
-        "path": "src/http/v2/ngx_http_v2_filter_module.c"
-      },
-      {
-        "blanks": 271,
-        "code": 724,
-        "comments": 23,
-        "file_name": "ngx_http_sub_filter_module.c",
-        "path": "src/http/modules/ngx_http_sub_filter_module.c"
-      },
-      {
-        "blanks": 92,
-        "code": 233,
-        "comments": 6,
-        "file_name": "ngx_http_gzip_static_module.c",
-        "path": "src/http/modules/ngx_http_gzip_static_module.c"
-      },
-      {
-        "blanks": 179,
-        "code": 463,
-        "comments": 70,
-        "file_name": "ngx_http_browser_module.c",
-        "path": "src/http/modules/ngx_http_browser_module.c"
-      },
-      {
-        "blanks": 302,
-        "code": 835,
-        "comments": 20,
-        "file_name": "ngx_http_xslt_filter_module.c",
-        "path": "src/http/modules/ngx_http_xslt_filter_module.c"
-      },
-      {
-        "blanks": 70,
-        "code": 161,
-        "comments": 12,
-        "file_name": "ngx_http_degradation_module.c",
-        "path": "src/http/modules/ngx_http_degradation_module.c"
-      },
-      {
-        "blanks": 118,
-        "code": 300,
-        "comments": 26,
-        "file_name": "ngx_http_auth_request_module.c",
-        "path": "src/http/modules/ngx_http_auth_request_module.c"
-      },
-      {
-        "blanks": 63,
-        "code": 179,
-        "comments": 4,
-        "file_name": "ngx_http_split_clients_module.c",
-        "path": "src/http/modules/ngx_http_split_clients_module.c"
-      },
-      {
-        "blanks": 66,
-        "code": 176,
-        "comments": 12,
-        "file_name": "ngx_http_addition_filter_module.c",
-        "path": "src/http/modules/ngx_http_addition_filter_module.c"
-      },
-      {
-        "blanks": 1306,
-        "code": 3623,
-        "comments": 46,
-        "file_name": "ngx_http_v2.c",
-        "path": "src/http/v2/ngx_http_v2.c"
-      },
-      {
-        "blanks": 242,
-        "code": 676,
-        "comments": 7,
-        "file_name": "ngx_http_geoip_module.c",
-        "path": "src/http/modules/ngx_http_geoip_module.c"
-      },
-      {
-        "blanks": 327,
-        "code": 791,
-        "comments": 17,
-        "file_name": "ngx_http_perl_module.c",
-        "path": "src/http/modules/perl/ngx_http_perl_module.c"
-      },
-      {
-        "blanks": 205,
-        "code": 543,
-        "comments": 10,
-        "file_name": "ngx_http_limit_conn_module.c",
-        "path": "src/http/modules/ngx_http_limit_conn_module.c"
-      },
-      {
-        "blanks": 15,
-        "code": 25,
-        "comments": 4,
-        "file_name": "ngx_alloc.c",
-        "path": "src/os/win32/ngx_alloc.c"
-      },
-      {
-        "blanks": 78,
-        "code": 194,
-        "comments": 6,
-        "file_name": "ngx_http_upstream_ip_hash_module.c",
-        "path": "src/http/modules/ngx_http_upstream_ip_hash_module.c"
-      },
-      {
-        "blanks": 70,
-        "code": 186,
-        "comments": 4,
-        "file_name": "ngx_http_flv_module.c",
-        "path": "src/http/modules/ngx_http_flv_module.c"
-      },
-      {
-        "blanks": 1666,
-        "code": 4760,
-        "comments": 93,
-        "file_name": "ngx_http_upstream.c",
-        "path": "src/http/ngx_http_upstream.c"
-      },
-      {
-        "blanks": 111,
-        "code": 347,
-        "comments": 5,
-        "file_name": "ngx_http_access_module.c",
-        "path": "src/http/modules/ngx_http_access_module.c"
-      },
-      {
-        "blanks": 36,
-        "code": 94,
-        "comments": 11,
-        "file_name": "ngx_wsarecv_chain.c",
-        "path": "src/os/win32/ngx_wsarecv_chain.c"
-      },
-      {
-        "blanks": 23,
-        "code": 44,
-        "comments": 16,
-        "file_name": "ngx_time.c",
-        "path": "src/os/win32/ngx_time.c"
-      },
-      {
-        "blanks": 300,
-        "code": 774,
-        "comments": 23,
-        "file_name": "ngx_http_limit_req_module.c",
-        "path": "src/http/modules/ngx_http_limit_req_module.c"
-      },
-      {
-        "blanks": 227,
-        "code": 614,
-        "comments": 12,
-        "file_name": "ngx_http_upstream_round_robin.c",
-        "path": "src/http/ngx_http_upstream_round_robin.c"
-      },
-      {
-        "blanks": 75,
-        "code": 179,
-        "comments": 5,
-        "file_name": "ngx_http_postpone_filter_module.c",
-        "path": "src/http/ngx_http_postpone_filter_module.c"
-      },
-      {
-        "blanks": 83,
-        "code": 273,
-        "comments": 11,
-        "file_name": "ngx_http_write_filter_module.c",
-        "path": "src/http/ngx_http_write_filter_module.c"
-      },
-      {
-        "blanks": 494,
-        "code": 1363,
-        "comments": 4,
-        "file_name": "ngx_http_script.c",
-        "path": "src/http/ngx_http_script.c"
-      },
-      {
-        "blanks": 346,
-        "code": 883,
-        "comments": 42,
-        "file_name": "ngx_http_request_body.c",
-        "path": "src/http/ngx_http_request_body.c"
-      },
-      {
-        "blanks": 991,
-        "code": 2824,
-        "comments": 66,
-        "file_name": "ngx_http_fastcgi_module.c",
-        "path": "src/http/modules/ngx_http_fastcgi_module.c"
-      },
-      {
-        "blanks": 57,
-        "code": 126,
-        "comments": 18,
-        "file_name": "ngx_recv.c",
-        "path": "src/os/unix/ngx_recv.c"
-      },
-      {
-        "blanks": 61,
-        "code": 160,
-        "comments": 5,
-        "file_name": "ngx_http_stub_status_module.c",
-        "path": "src/http/modules/ngx_http_stub_status_module.c"
-      },
-      {
-        "blanks": 88,
-        "code": 248,
-        "comments": 5,
-        "file_name": "ngx_http_chunked_filter_module.c",
-        "path": "src/http/modules/ngx_http_chunked_filter_module.c"
-      },
-      {
-        "blanks": 32,
-        "code": 57,
-        "comments": 15,
-        "file_name": "ngx_time.c",
-        "path": "src/os/unix/ngx_time.c"
-      },
-      {
-        "blanks": 748,
-        "code": 1953,
-        "comments": 37,
-        "file_name": "ngx_http_file_cache.c",
-        "path": "src/http/ngx_http_file_cache.c"
-      },
-      {
-        "blanks": 208,
-        "code": 635,
-        "comments": 13,
-        "file_name": "ngx_http_special_response.c",
-        "path": "src/http/ngx_http_special_response.c"
-      },
-      {
-        "blanks": 502,
-        "code": 1492,
-        "comments": 81,
-        "file_name": "ngx_http.c",
-        "path": "src/http/ngx_http.c"
-      },
-      {
-        "blanks": 14,
-        "code": 38,
-        "comments": 4,
-        "file_name": "ngx_udp_send.c",
-        "path": "src/os/unix/ngx_udp_send.c"
-      },
-      {
-        "blanks": 80,
-        "code": 199,
-        "comments": 9,
-        "file_name": "ngx_http_static_module.c",
-        "path": "src/http/modules/ngx_http_static_module.c"
-      },
-      {
-        "blanks": 63,
-        "code": 153,
-        "comments": 12,
-        "file_name": "ngx_solaris_sendfilev_chain.c",
-        "path": "src/os/unix/ngx_solaris_sendfilev_chain.c"
-      },
-      {
-        "blanks": 858,
-        "code": 2662,
-        "comments": 89,
-        "file_name": "ngx_http_mp4_module.c",
-        "path": "src/http/modules/ngx_http_mp4_module.c"
+        "file_name": "ngx_service.c",
+        "path": "src/os/win32/ngx_service.c"
       },
       {
         "blanks": 81,
@@ -776,312 +279,46 @@
         "path": "src/os/unix/ngx_freebsd_sendfile_chain.c"
       },
       {
-        "blanks": 161,
-        "code": 384,
-        "comments": 17,
-        "file_name": "ngx_http_upstream_keepalive_module.c",
-        "path": "src/http/modules/ngx_http_upstream_keepalive_module.c"
-      },
-      {
-        "blanks": 85,
-        "code": 220,
-        "comments": 9,
-        "file_name": "ngx_http_upstream_least_conn_module.c",
-        "path": "src/http/modules/ngx_http_upstream_least_conn_module.c"
-      },
-      {
-        "blanks": 1029,
-        "code": 2744,
-        "comments": 101,
-        "file_name": "ngx_http_request.c",
-        "path": "src/http/ngx_http_request.c"
-      },
-      {
-        "blanks": 148,
-        "code": 437,
-        "comments": 4,
-        "file_name": "ngx_http_map_module.c",
-        "path": "src/http/modules/ngx_http_map_module.c"
-      },
-      {
-        "blanks": 195,
-        "code": 470,
-        "comments": 22,
-        "file_name": "ngx_http_gunzip_filter_module.c",
-        "path": "src/http/modules/ngx_http_gunzip_filter_module.c"
-      },
-      {
-        "blanks": 57,
-        "code": 153,
-        "comments": 6,
-        "file_name": "ngx_writev_chain.c",
-        "path": "src/os/unix/ngx_writev_chain.c"
-      },
-      {
-        "blanks": 571,
-        "code": 2347,
-        "comments": 15,
-        "file_name": "ngx_http_ssi_filter_module.c",
-        "path": "src/http/modules/ngx_http_ssi_filter_module.c"
-      },
-      {
-        "blanks": 28,
-        "code": 58,
-        "comments": 4,
-        "file_name": "ngx_alloc.c",
-        "path": "src/os/unix/ngx_alloc.c"
-      },
-      {
-        "blanks": 87,
-        "code": 225,
-        "comments": 5,
-        "file_name": "ngx_http_random_index_module.c",
-        "path": "src/http/modules/ngx_http_random_index_module.c"
-      },
-      {
-        "blanks": 211,
-        "code": 643,
-        "comments": 13,
-        "file_name": "ngx_http_headers_filter_module.c",
-        "path": "src/http/modules/ngx_http_headers_filter_module.c"
-      },
-      {
-        "blanks": 18,
-        "code": 55,
-        "comments": 4,
-        "file_name": "ngx_solaris_init.c",
-        "path": "src/os/unix/ngx_solaris_init.c"
-      },
-      {
-        "blanks": 22,
-        "code": 42,
-        "comments": 8,
-        "file_name": "ngx_udp_recv.c",
-        "path": "src/os/unix/ngx_udp_recv.c"
-      },
-      {
-        "blanks": 259,
-        "code": 720,
-        "comments": 4,
-        "file_name": "ngx_stream_script.c",
-        "path": "src/stream/ngx_stream_script.c"
-      },
-      {
-        "blanks": 235,
-        "code": 667,
-        "comments": 25,
-        "file_name": "ngx_http_userid_filter_module.c",
-        "path": "src/http/modules/ngx_http_userid_filter_module.c"
-      },
-      {
-        "blanks": 192,
-        "code": 517,
-        "comments": 6,
-        "file_name": "ngx_stream_upstream.c",
-        "path": "src/stream/ngx_stream_upstream.c"
-      },
-      {
-        "blanks": 66,
-        "code": 234,
-        "comments": 6,
-        "file_name": "ngx_stream_write_filter_module.c",
-        "path": "src/stream/ngx_stream_write_filter_module.c"
-      },
-      {
-        "blanks": 37,
-        "code": 103,
-        "comments": 4,
-        "file_name": "ngx_posix_init.c",
-        "path": "src/os/unix/ngx_posix_init.c"
-      },
-      {
-        "blanks": 10,
-        "code": 14,
-        "comments": 4,
-        "file_name": "ngx_dlopen.c",
-        "path": "src/os/unix/ngx_dlopen.c"
-      },
-      {
-        "blanks": 177,
-        "code": 493,
-        "comments": 15,
-        "file_name": "ngx_stream_upstream_hash_module.c",
-        "path": "src/stream/ngx_stream_upstream_hash_module.c"
-      },
-      {
-        "blanks": 232,
-        "code": 642,
-        "comments": 11,
-        "file_name": "ngx_stream_upstream_round_robin.c",
-        "path": "src/stream/ngx_stream_upstream_round_robin.c"
-      },
-      {
-        "blanks": 142,
-        "code": 461,
-        "comments": 27,
-        "file_name": "ngx_http_header_filter_module.c",
-        "path": "src/http/ngx_http_header_filter_module.c"
-      },
-      {
-        "blanks": 159,
-        "code": 463,
-        "comments": 29,
-        "file_name": "ngx_stream.c",
-        "path": "src/stream/ngx_stream.c"
-      },
-      {
-        "blanks": 596,
-        "code": 1881,
-        "comments": 16,
-        "file_name": "ngx_http_uwsgi_module.c",
-        "path": "src/http/modules/ngx_http_uwsgi_module.c"
-      },
-      {
-        "blanks": 214,
-        "code": 593,
-        "comments": 7,
-        "file_name": "ngx_stream_geoip_module.c",
-        "path": "src/stream/ngx_stream_geoip_module.c"
-      },
-      {
-        "blanks": 63,
-        "code": 176,
-        "comments": 14,
-        "file_name": "ngx_channel.c",
-        "path": "src/os/unix/ngx_channel.c"
-      },
-      {
-        "blanks": 319,
-        "code": 953,
-        "comments": 6,
-        "file_name": "ngx_stream_variables.c",
-        "path": "src/stream/ngx_stream_variables.c"
-      },
-      {
-        "blanks": 39,
-        "code": 73,
+        "blanks": 77,
+        "code": 192,
         "comments": 23,
-        "file_name": "ngx_setproctitle.c",
-        "path": "src/os/unix/ngx_setproctitle.c"
-      },
-      {
-        "blanks": 56,
-        "code": 140,
-        "comments": 20,
-        "file_name": "ngx_file_aio_read.c",
-        "path": "src/os/unix/ngx_file_aio_read.c"
-      },
-      {
-        "blanks": 106,
-        "code": 286,
-        "comments": 9,
-        "file_name": "ngx_stream_realip_module.c",
-        "path": "src/stream/ngx_stream_realip_module.c"
+        "file_name": "ngx_wsasend_chain.c",
+        "path": "src/os/win32/ngx_wsasend_chain.c"
       },
       {
         "blanks": 16,
-        "code": 40,
-        "comments": 4,
-        "file_name": "ngx_linux_init.c",
-        "path": "src/os/unix/ngx_linux_init.c"
+        "code": 33,
+        "comments": 11,
+        "file_name": "ngx_errno.c",
+        "path": "src/os/win32/ngx_errno.c"
       },
       {
-        "blanks": 577,
-        "code": 1727,
-        "comments": 48,
-        "file_name": "ngx_stream_proxy_module.c",
-        "path": "src/stream/ngx_stream_proxy_module.c"
-      },
-      {
-        "blanks": 146,
-        "code": 508,
-        "comments": 10,
-        "file_name": "ngx_stream_ssl_preread_module.c",
-        "path": "src/stream/ngx_stream_ssl_preread_module.c"
-      },
-      {
-        "blanks": 279,
-        "code": 786,
-        "comments": 21,
-        "file_name": "ngx_stream_ssl_module.c",
-        "path": "src/stream/ngx_stream_ssl_module.c"
-      },
-      {
-        "blanks": 61,
-        "code": 153,
-        "comments": 4,
-        "file_name": "ngx_stream_return_module.c",
-        "path": "src/stream/ngx_stream_return_module.c"
-      },
-      {
-        "blanks": 147,
-        "code": 437,
-        "comments": 4,
-        "file_name": "ngx_stream_map_module.c",
-        "path": "src/stream/ngx_stream_map_module.c"
-      },
-      {
-        "blanks": 410,
-        "code": 1184,
-        "comments": 15,
-        "file_name": "ngx_stream_geo_module.c",
-        "path": "src/stream/ngx_stream_geo_module.c"
-      },
-      {
-        "blanks": 420,
-        "code": 1153,
-        "comments": 23,
-        "file_name": "ngx_stream_log_module.c",
-        "path": "src/stream/ngx_stream_log_module.c"
+        "blanks": 38,
+        "code": 91,
+        "comments": 32,
+        "file_name": "ngx_shmem.c",
+        "path": "src/os/win32/ngx_shmem.c"
       },
       {
         "blanks": 54,
-        "code": 118,
-        "comments": 34,
-        "file_name": "ngx_darwin_sendfile_chain.c",
-        "path": "src/os/unix/ngx_darwin_sendfile_chain.c"
+        "code": 112,
+        "comments": 19,
+        "file_name": "ngx_wsasend.c",
+        "path": "src/os/win32/ngx_wsasend.c"
       },
       {
-        "blanks": 84,
-        "code": 217,
-        "comments": 9,
-        "file_name": "ngx_stream_upstream_least_conn_module.c",
-        "path": "src/stream/ngx_stream_upstream_least_conn_module.c"
-      },
-      {
-        "blanks": 34,
-        "code": 88,
+        "blanks": 18,
+        "code": 38,
         "comments": 4,
-        "file_name": "ngx_shmem.c",
-        "path": "src/os/unix/ngx_shmem.c"
+        "file_name": "ngx_event_posted.c",
+        "path": "src/event/ngx_event_posted.c"
       },
       {
-        "blanks": 391,
-        "code": 4743,
-        "comments": 51,
-        "file_name": "ngx_http_core_module.c",
-        "path": "src/http/ngx_http_core_module.c"
-      },
-      {
-        "blanks": 86,
-        "code": 229,
-        "comments": 7,
-        "file_name": "ngx_stream_upstream_zone_module.c",
-        "path": "src/stream/ngx_stream_upstream_zone_module.c"
-      },
-      {
-        "blanks": 105,
-        "code": 266,
-        "comments": 14,
-        "file_name": "ngx_stream_handler.c",
-        "path": "src/stream/ngx_stream_handler.c"
-      },
-      {
-        "blanks": 1252,
-        "code": 3675,
-        "comments": 78,
-        "file_name": "ngx_http_proxy_module.c",
-        "path": "src/http/modules/ngx_http_proxy_module.c"
+        "blanks": 38,
+        "code": 77,
+        "comments": 11,
+        "file_name": "ngx_event_timer.c",
+        "path": "src/event/ngx_event_timer.c"
       },
       {
         "blanks": 23,
@@ -1091,88 +328,46 @@
         "path": "src/os/unix/ngx_errno.c"
       },
       {
-        "blanks": 62,
-        "code": 178,
-        "comments": 4,
-        "file_name": "ngx_stream_split_clients_module.c",
-        "path": "src/stream/ngx_stream_split_clients_module.c"
-      },
-      {
-        "blanks": 227,
-        "code": 668,
-        "comments": 21,
-        "file_name": "ngx_stream_core_module.c",
-        "path": "src/stream/ngx_stream_core_module.c"
-      },
-      {
-        "blanks": 25,
-        "code": 47,
-        "comments": 4,
-        "file_name": "ngx_user.c",
-        "path": "src/os/unix/ngx_user.c"
-      },
-      {
-        "blanks": 18,
-        "code": 31,
-        "comments": 21,
-        "file_name": "ngx_thread_id.c",
-        "path": "src/os/unix/ngx_thread_id.c"
-      },
-      {
-        "blanks": 38,
-        "code": 64,
-        "comments": 14,
-        "file_name": "ngx_socket.c",
-        "path": "src/os/unix/ngx_socket.c"
-      },
-      {
-        "blanks": 139,
-        "code": 354,
-        "comments": 9,
-        "file_name": "ngx_stream_upstream_random_module.c",
-        "path": "src/stream/ngx_stream_upstream_random_module.c"
-      },
-      {
-        "blanks": 56,
+        "blanks": 57,
         "code": 161,
         "comments": 9,
-        "file_name": "ngx_stream_set_module.c",
-        "path": "src/stream/ngx_stream_set_module.c"
+        "file_name": "ngx_event_acceptex.c",
+        "path": "src/event/ngx_event_acceptex.c"
       },
       {
-        "blanks": 107,
-        "code": 341,
-        "comments": 5,
-        "file_name": "ngx_stream_access_module.c",
-        "path": "src/stream/ngx_stream_access_module.c"
+        "blanks": 184,
+        "code": 462,
+        "comments": 17,
+        "file_name": "ngx_event_udp.c",
+        "path": "src/event/ngx_event_udp.c"
       },
       {
-        "blanks": 20,
-        "code": 49,
-        "comments": 4,
-        "file_name": "ngx_send.c",
-        "path": "src/os/unix/ngx_send.c"
+        "blanks": 119,
+        "code": 292,
+        "comments": 20,
+        "file_name": "ngx_event_connect.c",
+        "path": "src/event/ngx_event_connect.c"
       },
       {
-        "blanks": 68,
-        "code": 161,
-        "comments": 19,
-        "file_name": "ngx_readv_chain.c",
-        "path": "src/os/unix/ngx_readv_chain.c"
+        "blanks": 306,
+        "code": 803,
+        "comments": 33,
+        "file_name": "ngx_event_pipe.c",
+        "path": "src/event/ngx_event_pipe.c"
       },
       {
-        "blanks": 51,
-        "code": 135,
-        "comments": 12,
-        "file_name": "ngx_darwin_init.c",
-        "path": "src/os/unix/ngx_darwin_init.c"
+        "blanks": 359,
+        "code": 947,
+        "comments": 30,
+        "file_name": "ngx_event.c",
+        "path": "src/event/ngx_event.c"
       },
       {
-        "blanks": 200,
-        "code": 527,
-        "comments": 10,
-        "file_name": "ngx_stream_limit_conn_module.c",
-        "path": "src/stream/ngx_stream_limit_conn_module.c"
+        "blanks": 106,
+        "code": 265,
+        "comments": 9,
+        "file_name": "ngx_http_copy_filter_module.c",
+        "path": "src/http/ngx_http_copy_filter_module.c"
       },
       {
         "blanks": 91,
@@ -1189,11 +384,11 @@
         "path": "src/os/unix/ngx_daemon.c"
       },
       {
-        "blanks": 278,
-        "code": 666,
-        "comments": 8,
-        "file_name": "ngx_files.c",
-        "path": "src/os/unix/ngx_files.c"
+        "blanks": 147,
+        "code": 473,
+        "comments": 28,
+        "file_name": "ngx_process.c",
+        "path": "src/os/unix/ngx_process.c"
       },
       {
         "blanks": 69,
@@ -1203,11 +398,11 @@
         "path": "src/os/unix/ngx_freebsd_init.c"
       },
       {
-        "blanks": 123,
-        "code": 330,
-        "comments": 29,
-        "file_name": "ngx_mail.c",
-        "path": "src/mail/ngx_mail.c"
+        "blanks": 292,
+        "code": 887,
+        "comments": 40,
+        "file_name": "ngx_process_cycle.c",
+        "path": "src/os/unix/ngx_process_cycle.c"
       },
       {
         "blanks": 22,
@@ -1217,18 +412,11 @@
         "path": "src/os/unix/ngx_thread_cond.c"
       },
       {
-        "blanks": 80,
-        "code": 227,
+        "blanks": 43,
+        "code": 101,
         "comments": 4,
-        "file_name": "ngx_mail_smtp_module.c",
-        "path": "src/mail/ngx_mail_smtp_module.c"
-      },
-      {
-        "blanks": 81,
-        "code": 237,
-        "comments": 4,
-        "file_name": "ngx_mail_pop3_module.c",
-        "path": "src/mail/ngx_mail_pop3_module.c"
+        "file_name": "ngx_linux_aio_read.c",
+        "path": "src/os/unix/ngx_linux_aio_read.c"
       },
       {
         "blanks": 27,
@@ -1238,55 +426,6 @@
         "path": "src/os/unix/ngx_thread_mutex.c"
       },
       {
-        "blanks": 64,
-        "code": 189,
-        "comments": 4,
-        "file_name": "ngx_mail_imap_module.c",
-        "path": "src/mail/ngx_mail_imap_module.c"
-      },
-      {
-        "blanks": 169,
-        "code": 496,
-        "comments": 13,
-        "file_name": "ngx_mail_core_module.c",
-        "path": "src/mail/ngx_mail_core_module.c"
-      },
-      {
-        "blanks": 258,
-        "code": 647,
-        "comments": 10,
-        "file_name": "ngx_mail_smtp_handler.c",
-        "path": "src/mail/ngx_mail_smtp_handler.c"
-      },
-      {
-        "blanks": 43,
-        "code": 101,
-        "comments": 4,
-        "file_name": "ngx_linux_aio_read.c",
-        "path": "src/os/unix/ngx_linux_aio_read.c"
-      },
-      {
-        "blanks": 129,
-        "code": 338,
-        "comments": 5,
-        "file_name": "ngx_mail_imap_handler.c",
-        "path": "src/mail/ngx_mail_imap_handler.c"
-      },
-      {
-        "blanks": 161,
-        "code": 510,
-        "comments": 17,
-        "file_name": "ngx_mail_ssl_module.c",
-        "path": "src/mail/ngx_mail_ssl_module.c"
-      },
-      {
-        "blanks": 296,
-        "code": 894,
-        "comments": 17,
-        "file_name": "ngx_mail_proxy_module.c",
-        "path": "src/mail/ngx_mail_proxy_module.c"
-      },
-      {
         "blanks": 13,
         "code": 37,
         "comments": 3,
@@ -1294,46 +433,39 @@
         "path": "src/os/unix/ngx_setaffinity.c"
       },
       {
-        "blanks": 147,
-        "code": 473,
-        "comments": 28,
-        "file_name": "ngx_process.c",
-        "path": "src/os/unix/ngx_process.c"
+        "blanks": 442,
+        "code": 1928,
+        "comments": 77,
+        "file_name": "ngx_http_parse.c",
+        "path": "src/http/ngx_http_parse.c"
       },
       {
-        "blanks": 146,
-        "code": 363,
-        "comments": 6,
-        "file_name": "ngx_mail_pop3_handler.c",
-        "path": "src/mail/ngx_mail_pop3_handler.c"
+        "blanks": 667,
+        "code": 2065,
+        "comments": 46,
+        "file_name": "ngx_event_openssl_stapling.c",
+        "path": "src/event/ngx_event_openssl_stapling.c"
       },
       {
-        "blanks": 292,
-        "code": 887,
-        "comments": 40,
-        "file_name": "ngx_process_cycle.c",
-        "path": "src/os/unix/ngx_process_cycle.c"
+        "blanks": 37,
+        "code": 210,
+        "comments": 7,
+        "file_name": "ngx_http_v2_huff_encode.c",
+        "path": "src/http/v2/ngx_http_v2_huff_encode.c"
       },
       {
-        "blanks": 13,
-        "code": 34,
-        "comments": 5,
-        "file_name": "ngx_murmurhash.c",
-        "path": "src/core/ngx_murmurhash.c"
+        "blanks": 95,
+        "code": 261,
+        "comments": 11,
+        "file_name": "ngx_http_secure_link_module.c",
+        "path": "src/http/modules/ngx_http_secure_link_module.c"
       },
       {
-        "blanks": 70,
-        "code": 850,
-        "comments": 12,
-        "file_name": "ngx_mail_parse.c",
-        "path": "src/mail/ngx_mail_parse.c"
-      },
-      {
-        "blanks": 35,
-        "code": 75,
-        "comments": 16,
-        "file_name": "ngx_google_perftools_module.c",
-        "path": "src/misc/ngx_google_perftools_module.c"
+        "blanks": 179,
+        "code": 492,
+        "comments": 15,
+        "file_name": "ngx_http_upstream_hash_module.c",
+        "path": "src/http/modules/ngx_http_upstream_hash_module.c"
       },
       {
         "blanks": 118,
@@ -1343,11 +475,879 @@
         "path": "src/os/unix/ngx_linux_sendfile_chain.c"
       },
       {
-        "blanks": 255,
-        "code": 614,
+        "blanks": 165,
+        "code": 441,
+        "comments": 16,
+        "file_name": "ngx_http_realip_module.c",
+        "path": "src/http/modules/ngx_http_realip_module.c"
+      },
+      {
+        "blanks": 141,
+        "code": 352,
+        "comments": 9,
+        "file_name": "ngx_http_upstream_random_module.c",
+        "path": "src/http/modules/ngx_http_upstream_random_module.c"
+      },
+      {
+        "blanks": 30,
+        "code": 2628,
+        "comments": 56,
+        "file_name": "ngx_http_v2_huff_decode.c",
+        "path": "src/http/v2/ngx_http_v2_huff_decode.c"
+      },
+      {
+        "blanks": 82,
+        "code": 277,
+        "comments": 4,
+        "file_name": "ngx_http_v2_table.c",
+        "path": "src/http/v2/ngx_http_v2_table.c"
+      },
+      {
+        "blanks": 18,
+        "code": 40,
+        "comments": 4,
+        "file_name": "ngx_http_v2_encode.c",
+        "path": "src/http/v2/ngx_http_v2_encode.c"
+      },
+      {
+        "blanks": 154,
+        "code": 447,
+        "comments": 9,
+        "file_name": "ngx_http_v2_module.c",
+        "path": "src/http/v2/ngx_http_v2_module.c"
+      },
+      {
+        "blanks": 676,
+        "code": 2042,
+        "comments": 22,
+        "file_name": "ngx_http_variables.c",
+        "path": "src/http/ngx_http_variables.c"
+      },
+      {
+        "blanks": 176,
+        "code": 888,
+        "comments": 8,
+        "file_name": "ngx_http_autoindex_module.c",
+        "path": "src/http/modules/ngx_http_autoindex_module.c"
+      },
+      {
+        "blanks": 453,
+        "code": 1202,
+        "comments": 30,
+        "file_name": "ngx_http_charset_filter_module.c",
+        "path": "src/http/modules/ngx_http_charset_filter_module.c"
+      },
+      {
+        "blanks": 1395,
+        "code": 3717,
+        "comments": 216,
+        "file_name": "ngx_event_openssl.c",
+        "path": "src/event/ngx_event_openssl.c"
+      },
+      {
+        "blanks": 574,
+        "code": 1584,
+        "comments": 18,
+        "file_name": "ngx_http_v2_filter_module.c",
+        "path": "src/http/v2/ngx_http_v2_filter_module.c"
+      },
+      {
+        "blanks": 449,
+        "code": 1193,
+        "comments": 33,
+        "file_name": "ngx_http_image_filter_module.c",
+        "path": "src/http/modules/ngx_http_image_filter_module.c"
+      },
+      {
+        "blanks": 429,
+        "code": 1237,
         "comments": 15,
-        "file_name": "ngx_mail_handler.c",
-        "path": "src/mail/ngx_mail_handler.c"
+        "file_name": "ngx_http_geo_module.c",
+        "path": "src/http/modules/ngx_http_geo_module.c"
+      },
+      {
+        "blanks": 192,
+        "code": 530,
+        "comments": 13,
+        "file_name": "ngx_http_memcached_module.c",
+        "path": "src/http/modules/ngx_http_memcached_module.c"
+      },
+      {
+        "blanks": 1666,
+        "code": 4760,
+        "comments": 93,
+        "file_name": "ngx_http_upstream.c",
+        "path": "src/http/ngx_http_upstream.c"
+      },
+      {
+        "blanks": 20,
+        "code": 49,
+        "comments": 4,
+        "file_name": "ngx_send.c",
+        "path": "src/os/unix/ngx_send.c"
+      },
+      {
+        "blanks": 25,
+        "code": 47,
+        "comments": 4,
+        "file_name": "ngx_user.c",
+        "path": "src/os/unix/ngx_user.c"
+      },
+      {
+        "blanks": 1306,
+        "code": 3623,
+        "comments": 46,
+        "file_name": "ngx_http_v2.c",
+        "path": "src/http/v2/ngx_http_v2.c"
+      },
+      {
+        "blanks": 323,
+        "code": 792,
+        "comments": 55,
+        "file_name": "ngx_http_gzip_filter_module.c",
+        "path": "src/http/modules/ngx_http_gzip_filter_module.c"
+      },
+      {
+        "blanks": 302,
+        "code": 828,
+        "comments": 19,
+        "file_name": "ngx_http_dav_module.c",
+        "path": "src/http/modules/ngx_http_dav_module.c"
+      },
+      {
+        "blanks": 333,
+        "code": 1021,
+        "comments": 26,
+        "file_name": "ngx_http_ssl_module.c",
+        "path": "src/http/modules/ngx_http_ssl_module.c"
+      },
+      {
+        "blanks": 22,
+        "code": 42,
+        "comments": 8,
+        "file_name": "ngx_udp_recv.c",
+        "path": "src/os/unix/ngx_udp_recv.c"
+      },
+      {
+        "blanks": 498,
+        "code": 1376,
+        "comments": 35,
+        "file_name": "ngx_http_log_module.c",
+        "path": "src/http/modules/ngx_http_log_module.c"
+      },
+      {
+        "blanks": 504,
+        "code": 1536,
+        "comments": 15,
+        "file_name": "ngx_http_scgi_module.c",
+        "path": "src/http/modules/ngx_http_scgi_module.c"
+      },
+      {
+        "blanks": 227,
+        "code": 614,
+        "comments": 12,
+        "file_name": "ngx_http_upstream_round_robin.c",
+        "path": "src/http/ngx_http_upstream_round_robin.c"
+      },
+      {
+        "blanks": 37,
+        "code": 894,
+        "comments": 37,
+        "file_name": "ngx_http_range_filter_module.c",
+        "path": "src/http/modules/ngx_http_range_filter_module.c"
+      },
+      {
+        "blanks": 18,
+        "code": 55,
+        "comments": 4,
+        "file_name": "ngx_solaris_init.c",
+        "path": "src/os/unix/ngx_solaris_init.c"
+      },
+      {
+        "blanks": 75,
+        "code": 179,
+        "comments": 5,
+        "file_name": "ngx_http_postpone_filter_module.c",
+        "path": "src/http/ngx_http_postpone_filter_module.c"
+      },
+      {
+        "blanks": 494,
+        "code": 1363,
+        "comments": 4,
+        "file_name": "ngx_http_script.c",
+        "path": "src/http/ngx_http_script.c"
+      },
+      {
+        "blanks": 37,
+        "code": 103,
+        "comments": 4,
+        "file_name": "ngx_posix_init.c",
+        "path": "src/os/unix/ngx_posix_init.c"
+      },
+      {
+        "blanks": 346,
+        "code": 883,
+        "comments": 42,
+        "file_name": "ngx_http_request_body.c",
+        "path": "src/http/ngx_http_request_body.c"
+      },
+      {
+        "blanks": 748,
+        "code": 1953,
+        "comments": 37,
+        "file_name": "ngx_http_file_cache.c",
+        "path": "src/http/ngx_http_file_cache.c"
+      },
+      {
+        "blanks": 10,
+        "code": 14,
+        "comments": 4,
+        "file_name": "ngx_dlopen.c",
+        "path": "src/os/unix/ngx_dlopen.c"
+      },
+      {
+        "blanks": 83,
+        "code": 273,
+        "comments": 11,
+        "file_name": "ngx_http_write_filter_module.c",
+        "path": "src/http/ngx_http_write_filter_module.c"
+      },
+      {
+        "blanks": 1029,
+        "code": 2744,
+        "comments": 101,
+        "file_name": "ngx_http_request.c",
+        "path": "src/http/ngx_http_request.c"
+      },
+      {
+        "blanks": 63,
+        "code": 176,
+        "comments": 14,
+        "file_name": "ngx_channel.c",
+        "path": "src/os/unix/ngx_channel.c"
+      },
+      {
+        "blanks": 56,
+        "code": 140,
+        "comments": 20,
+        "file_name": "ngx_file_aio_read.c",
+        "path": "src/os/unix/ngx_file_aio_read.c"
+      },
+      {
+        "blanks": 39,
+        "code": 73,
+        "comments": 23,
+        "file_name": "ngx_setproctitle.c",
+        "path": "src/os/unix/ngx_setproctitle.c"
+      },
+      {
+        "blanks": 16,
+        "code": 40,
+        "comments": 4,
+        "file_name": "ngx_linux_init.c",
+        "path": "src/os/unix/ngx_linux_init.c"
+      },
+      {
+        "blanks": 502,
+        "code": 1492,
+        "comments": 81,
+        "file_name": "ngx_http.c",
+        "path": "src/http/ngx_http.c"
+      },
+      {
+        "blanks": 1183,
+        "code": 3513,
+        "comments": 253,
+        "file_name": "ngx_http_grpc_module.c",
+        "path": "src/http/modules/ngx_http_grpc_module.c"
+      },
+      {
+        "blanks": 208,
+        "code": 635,
+        "comments": 13,
+        "file_name": "ngx_http_special_response.c",
+        "path": "src/http/ngx_http_special_response.c"
+      },
+      {
+        "blanks": 571,
+        "code": 2347,
+        "comments": 15,
+        "file_name": "ngx_http_ssi_filter_module.c",
+        "path": "src/http/modules/ngx_http_ssi_filter_module.c"
+      },
+      {
+        "blanks": 34,
+        "code": 88,
+        "comments": 4,
+        "file_name": "ngx_shmem.c",
+        "path": "src/os/unix/ngx_shmem.c"
+      },
+      {
+        "blanks": 54,
+        "code": 118,
+        "comments": 34,
+        "file_name": "ngx_darwin_sendfile_chain.c",
+        "path": "src/os/unix/ngx_darwin_sendfile_chain.c"
+      },
+      {
+        "blanks": 70,
+        "code": 186,
+        "comments": 4,
+        "file_name": "ngx_http_flv_module.c",
+        "path": "src/http/modules/ngx_http_flv_module.c"
+      },
+      {
+        "blanks": 142,
+        "code": 461,
+        "comments": 27,
+        "file_name": "ngx_http_header_filter_module.c",
+        "path": "src/http/ngx_http_header_filter_module.c"
+      },
+      {
+        "blanks": 63,
+        "code": 179,
+        "comments": 4,
+        "file_name": "ngx_http_split_clients_module.c",
+        "path": "src/http/modules/ngx_http_split_clients_module.c"
+      },
+      {
+        "blanks": 66,
+        "code": 176,
+        "comments": 12,
+        "file_name": "ngx_http_addition_filter_module.c",
+        "path": "src/http/modules/ngx_http_addition_filter_module.c"
+      },
+      {
+        "blanks": 205,
+        "code": 543,
+        "comments": 10,
+        "file_name": "ngx_http_limit_conn_module.c",
+        "path": "src/http/modules/ngx_http_limit_conn_module.c"
+      },
+      {
+        "blanks": 78,
+        "code": 194,
+        "comments": 6,
+        "file_name": "ngx_http_upstream_ip_hash_module.c",
+        "path": "src/http/modules/ngx_http_upstream_ip_hash_module.c"
+      },
+      {
+        "blanks": 74,
+        "code": 186,
+        "comments": 4,
+        "file_name": "ngx_http_mirror_module.c",
+        "path": "src/http/modules/ngx_http_mirror_module.c"
+      },
+      {
+        "blanks": 111,
+        "code": 347,
+        "comments": 5,
+        "file_name": "ngx_http_access_module.c",
+        "path": "src/http/modules/ngx_http_access_module.c"
+      },
+      {
+        "blanks": 118,
+        "code": 300,
+        "comments": 26,
+        "file_name": "ngx_http_auth_request_module.c",
+        "path": "src/http/modules/ngx_http_auth_request_module.c"
+      },
+      {
+        "blanks": 300,
+        "code": 774,
+        "comments": 23,
+        "file_name": "ngx_http_limit_req_module.c",
+        "path": "src/http/modules/ngx_http_limit_req_module.c"
+      },
+      {
+        "blanks": 169,
+        "code": 500,
+        "comments": 13,
+        "file_name": "ngx_http_referer_module.c",
+        "path": "src/http/modules/ngx_http_referer_module.c"
+      },
+      {
+        "blanks": 327,
+        "code": 791,
+        "comments": 17,
+        "file_name": "ngx_http_perl_module.c",
+        "path": "src/http/modules/perl/ngx_http_perl_module.c"
+      },
+      {
+        "blanks": 36,
+        "code": 88,
+        "comments": 16,
+        "file_name": "ngx_http_empty_gif_module.c",
+        "path": "src/http/modules/ngx_http_empty_gif_module.c"
+      },
+      {
+        "blanks": 69,
+        "code": 192,
+        "comments": 5,
+        "file_name": "ngx_http_not_modified_filter_module.c",
+        "path": "src/http/modules/ngx_http_not_modified_filter_module.c"
+      },
+      {
+        "blanks": 110,
+        "code": 279,
+        "comments": 15,
+        "file_name": "ngx_http_try_files_module.c",
+        "path": "src/http/modules/ngx_http_try_files_module.c"
+      },
+      {
+        "blanks": 87,
+        "code": 337,
+        "comments": 4,
+        "file_name": "ngx_http_auth_basic_module.c",
+        "path": "src/http/modules/ngx_http_auth_basic_module.c"
+      },
+      {
+        "blanks": 70,
+        "code": 161,
+        "comments": 12,
+        "file_name": "ngx_http_degradation_module.c",
+        "path": "src/http/modules/ngx_http_degradation_module.c"
+      },
+      {
+        "blanks": 139,
+        "code": 376,
+        "comments": 25,
+        "file_name": "ngx_http_index_module.c",
+        "path": "src/http/modules/ngx_http_index_module.c"
+      },
+      {
+        "blanks": 250,
+        "code": 755,
+        "comments": 14,
+        "file_name": "ngx_http_rewrite_module.c",
+        "path": "src/http/modules/ngx_http_rewrite_module.c"
+      },
+      {
+        "blanks": 142,
+        "code": 404,
+        "comments": 4,
+        "file_name": "ngx_http_slice_filter_module.c",
+        "path": "src/http/modules/ngx_http_slice_filter_module.c"
+      },
+      {
+        "blanks": 271,
+        "code": 724,
+        "comments": 23,
+        "file_name": "ngx_http_sub_filter_module.c",
+        "path": "src/http/modules/ngx_http_sub_filter_module.c"
+      },
+      {
+        "blanks": 107,
+        "code": 341,
+        "comments": 5,
+        "file_name": "ngx_stream_access_module.c",
+        "path": "src/stream/ngx_stream_access_module.c"
+      },
+      {
+        "blanks": 179,
+        "code": 463,
+        "comments": 70,
+        "file_name": "ngx_http_browser_module.c",
+        "path": "src/http/modules/ngx_http_browser_module.c"
+      },
+      {
+        "blanks": 56,
+        "code": 161,
+        "comments": 9,
+        "file_name": "ngx_stream_set_module.c",
+        "path": "src/stream/ngx_stream_set_module.c"
+      },
+      {
+        "blanks": 302,
+        "code": 835,
+        "comments": 20,
+        "file_name": "ngx_http_xslt_filter_module.c",
+        "path": "src/http/modules/ngx_http_xslt_filter_module.c"
+      },
+      {
+        "blanks": 88,
+        "code": 248,
+        "comments": 5,
+        "file_name": "ngx_http_chunked_filter_module.c",
+        "path": "src/http/modules/ngx_http_chunked_filter_module.c"
+      },
+      {
+        "blanks": 61,
+        "code": 160,
+        "comments": 5,
+        "file_name": "ngx_http_stub_status_module.c",
+        "path": "src/http/modules/ngx_http_stub_status_module.c"
+      },
+      {
+        "blanks": 80,
+        "code": 199,
+        "comments": 9,
+        "file_name": "ngx_http_static_module.c",
+        "path": "src/http/modules/ngx_http_static_module.c"
+      },
+      {
+        "blanks": 200,
+        "code": 527,
+        "comments": 10,
+        "file_name": "ngx_stream_limit_conn_module.c",
+        "path": "src/stream/ngx_stream_limit_conn_module.c"
+      },
+      {
+        "blanks": 85,
+        "code": 220,
+        "comments": 9,
+        "file_name": "ngx_http_upstream_least_conn_module.c",
+        "path": "src/http/modules/ngx_http_upstream_least_conn_module.c"
+      },
+      {
+        "blanks": 161,
+        "code": 384,
+        "comments": 17,
+        "file_name": "ngx_http_upstream_keepalive_module.c",
+        "path": "src/http/modules/ngx_http_upstream_keepalive_module.c"
+      },
+      {
+        "blanks": 858,
+        "code": 2662,
+        "comments": 89,
+        "file_name": "ngx_http_mp4_module.c",
+        "path": "src/http/modules/ngx_http_mp4_module.c"
+      },
+      {
+        "blanks": 148,
+        "code": 437,
+        "comments": 4,
+        "file_name": "ngx_http_map_module.c",
+        "path": "src/http/modules/ngx_http_map_module.c"
+      },
+      {
+        "blanks": 391,
+        "code": 4743,
+        "comments": 51,
+        "file_name": "ngx_http_core_module.c",
+        "path": "src/http/ngx_http_core_module.c"
+      },
+      {
+        "blanks": 195,
+        "code": 470,
+        "comments": 22,
+        "file_name": "ngx_http_gunzip_filter_module.c",
+        "path": "src/http/modules/ngx_http_gunzip_filter_module.c"
+      },
+      {
+        "blanks": 211,
+        "code": 643,
+        "comments": 13,
+        "file_name": "ngx_http_headers_filter_module.c",
+        "path": "src/http/modules/ngx_http_headers_filter_module.c"
+      },
+      {
+        "blanks": 87,
+        "code": 225,
+        "comments": 5,
+        "file_name": "ngx_http_random_index_module.c",
+        "path": "src/http/modules/ngx_http_random_index_module.c"
+      },
+      {
+        "blanks": 87,
+        "code": 231,
+        "comments": 7,
+        "file_name": "ngx_http_upstream_zone_module.c",
+        "path": "src/http/modules/ngx_http_upstream_zone_module.c"
+      },
+      {
+        "blanks": 235,
+        "code": 667,
+        "comments": 25,
+        "file_name": "ngx_http_userid_filter_module.c",
+        "path": "src/http/modules/ngx_http_userid_filter_module.c"
+      },
+      {
+        "blanks": 242,
+        "code": 676,
+        "comments": 7,
+        "file_name": "ngx_http_geoip_module.c",
+        "path": "src/http/modules/ngx_http_geoip_module.c"
+      },
+      {
+        "blanks": 123,
+        "code": 330,
+        "comments": 29,
+        "file_name": "ngx_mail.c",
+        "path": "src/mail/ngx_mail.c"
+      },
+      {
+        "blanks": 259,
+        "code": 720,
+        "comments": 4,
+        "file_name": "ngx_stream_script.c",
+        "path": "src/stream/ngx_stream_script.c"
+      },
+      {
+        "blanks": 92,
+        "code": 233,
+        "comments": 6,
+        "file_name": "ngx_http_gzip_static_module.c",
+        "path": "src/http/modules/ngx_http_gzip_static_module.c"
+      },
+      {
+        "blanks": 192,
+        "code": 517,
+        "comments": 6,
+        "file_name": "ngx_stream_upstream.c",
+        "path": "src/stream/ngx_stream_upstream.c"
+      },
+      {
+        "blanks": 66,
+        "code": 234,
+        "comments": 6,
+        "file_name": "ngx_stream_write_filter_module.c",
+        "path": "src/stream/ngx_stream_write_filter_module.c"
+      },
+      {
+        "blanks": 80,
+        "code": 227,
+        "comments": 4,
+        "file_name": "ngx_mail_smtp_module.c",
+        "path": "src/mail/ngx_mail_smtp_module.c"
+      },
+      {
+        "blanks": 596,
+        "code": 1881,
+        "comments": 16,
+        "file_name": "ngx_http_uwsgi_module.c",
+        "path": "src/http/modules/ngx_http_uwsgi_module.c"
+      },
+      {
+        "blanks": 139,
+        "code": 354,
+        "comments": 9,
+        "file_name": "ngx_stream_upstream_random_module.c",
+        "path": "src/stream/ngx_stream_upstream_random_module.c"
+      },
+      {
+        "blanks": 169,
+        "code": 496,
+        "comments": 13,
+        "file_name": "ngx_mail_core_module.c",
+        "path": "src/mail/ngx_mail_core_module.c"
+      },
+      {
+        "blanks": 81,
+        "code": 237,
+        "comments": 4,
+        "file_name": "ngx_mail_pop3_module.c",
+        "path": "src/mail/ngx_mail_pop3_module.c"
+      },
+      {
+        "blanks": 64,
+        "code": 189,
+        "comments": 4,
+        "file_name": "ngx_mail_imap_module.c",
+        "path": "src/mail/ngx_mail_imap_module.c"
+      },
+      {
+        "blanks": 296,
+        "code": 894,
+        "comments": 17,
+        "file_name": "ngx_mail_proxy_module.c",
+        "path": "src/mail/ngx_mail_proxy_module.c"
+      },
+      {
+        "blanks": 177,
+        "code": 493,
+        "comments": 15,
+        "file_name": "ngx_stream_upstream_hash_module.c",
+        "path": "src/stream/ngx_stream_upstream_hash_module.c"
+      },
+      {
+        "blanks": 232,
+        "code": 642,
+        "comments": 11,
+        "file_name": "ngx_stream_upstream_round_robin.c",
+        "path": "src/stream/ngx_stream_upstream_round_robin.c"
+      },
+      {
+        "blanks": 214,
+        "code": 593,
+        "comments": 7,
+        "file_name": "ngx_stream_geoip_module.c",
+        "path": "src/stream/ngx_stream_geoip_module.c"
+      },
+      {
+        "blanks": 258,
+        "code": 647,
+        "comments": 10,
+        "file_name": "ngx_mail_smtp_handler.c",
+        "path": "src/mail/ngx_mail_smtp_handler.c"
+      },
+      {
+        "blanks": 161,
+        "code": 510,
+        "comments": 17,
+        "file_name": "ngx_mail_ssl_module.c",
+        "path": "src/mail/ngx_mail_ssl_module.c"
+      },
+      {
+        "blanks": 129,
+        "code": 338,
+        "comments": 5,
+        "file_name": "ngx_mail_imap_handler.c",
+        "path": "src/mail/ngx_mail_imap_handler.c"
+      },
+      {
+        "blanks": 159,
+        "code": 463,
+        "comments": 29,
+        "file_name": "ngx_stream.c",
+        "path": "src/stream/ngx_stream.c"
+      },
+      {
+        "blanks": 319,
+        "code": 953,
+        "comments": 6,
+        "file_name": "ngx_stream_variables.c",
+        "path": "src/stream/ngx_stream_variables.c"
+      },
+      {
+        "blanks": 106,
+        "code": 286,
+        "comments": 9,
+        "file_name": "ngx_stream_realip_module.c",
+        "path": "src/stream/ngx_stream_realip_module.c"
+      },
+      {
+        "blanks": 577,
+        "code": 1727,
+        "comments": 48,
+        "file_name": "ngx_stream_proxy_module.c",
+        "path": "src/stream/ngx_stream_proxy_module.c"
+      },
+      {
+        "blanks": 61,
+        "code": 153,
+        "comments": 4,
+        "file_name": "ngx_stream_return_module.c",
+        "path": "src/stream/ngx_stream_return_module.c"
+      },
+      {
+        "blanks": 279,
+        "code": 786,
+        "comments": 21,
+        "file_name": "ngx_stream_ssl_module.c",
+        "path": "src/stream/ngx_stream_ssl_module.c"
+      },
+      {
+        "blanks": 1252,
+        "code": 3675,
+        "comments": 78,
+        "file_name": "ngx_http_proxy_module.c",
+        "path": "src/http/modules/ngx_http_proxy_module.c"
+      },
+      {
+        "blanks": 70,
+        "code": 850,
+        "comments": 12,
+        "file_name": "ngx_mail_parse.c",
+        "path": "src/mail/ngx_mail_parse.c"
+      },
+      {
+        "blanks": 147,
+        "code": 437,
+        "comments": 4,
+        "file_name": "ngx_stream_map_module.c",
+        "path": "src/stream/ngx_stream_map_module.c"
+      },
+      {
+        "blanks": 146,
+        "code": 508,
+        "comments": 10,
+        "file_name": "ngx_stream_ssl_preread_module.c",
+        "path": "src/stream/ngx_stream_ssl_preread_module.c"
+      },
+      {
+        "blanks": 991,
+        "code": 2824,
+        "comments": 66,
+        "file_name": "ngx_http_fastcgi_module.c",
+        "path": "src/http/modules/ngx_http_fastcgi_module.c"
+      },
+      {
+        "blanks": 420,
+        "code": 1153,
+        "comments": 23,
+        "file_name": "ngx_stream_log_module.c",
+        "path": "src/stream/ngx_stream_log_module.c"
+      },
+      {
+        "blanks": 84,
+        "code": 217,
+        "comments": 9,
+        "file_name": "ngx_stream_upstream_least_conn_module.c",
+        "path": "src/stream/ngx_stream_upstream_least_conn_module.c"
+      },
+      {
+        "blanks": 86,
+        "code": 229,
+        "comments": 7,
+        "file_name": "ngx_stream_upstream_zone_module.c",
+        "path": "src/stream/ngx_stream_upstream_zone_module.c"
+      },
+      {
+        "blanks": 410,
+        "code": 1184,
+        "comments": 15,
+        "file_name": "ngx_stream_geo_module.c",
+        "path": "src/stream/ngx_stream_geo_module.c"
+      },
+      {
+        "blanks": 105,
+        "code": 266,
+        "comments": 14,
+        "file_name": "ngx_stream_handler.c",
+        "path": "src/stream/ngx_stream_handler.c"
+      },
+      {
+        "blanks": 146,
+        "code": 363,
+        "comments": 6,
+        "file_name": "ngx_mail_pop3_handler.c",
+        "path": "src/mail/ngx_mail_pop3_handler.c"
+      },
+      {
+        "blanks": 62,
+        "code": 178,
+        "comments": 4,
+        "file_name": "ngx_stream_split_clients_module.c",
+        "path": "src/stream/ngx_stream_split_clients_module.c"
+      },
+      {
+        "blanks": 227,
+        "code": 668,
+        "comments": 21,
+        "file_name": "ngx_stream_core_module.c",
+        "path": "src/stream/ngx_stream_core_module.c"
+      },
+      {
+        "blanks": 357,
+        "code": 1196,
+        "comments": 21,
+        "file_name": "ngx_mail_auth_http_module.c",
+        "path": "src/mail/ngx_mail_auth_http_module.c"
+      },
+      {
+        "blanks": 35,
+        "code": 75,
+        "comments": 16,
+        "file_name": "ngx_google_perftools_module.c",
+        "path": "src/misc/ngx_google_perftools_module.c"
+      },
+      {
+        "blanks": 19,
+        "code": 39,
+        "comments": 5,
+        "file_name": "ngx_list.c",
+        "path": "src/core/ngx_list.c"
       },
       {
         "blanks": 177,
@@ -1357,18 +1357,200 @@
         "path": "src/core/ngx_thread_pool.c"
       },
       {
+        "blanks": 255,
+        "code": 614,
+        "comments": 15,
+        "file_name": "ngx_mail_handler.c",
+        "path": "src/mail/ngx_mail_handler.c"
+      },
+      {
+        "blanks": 265,
+        "code": 543,
+        "comments": 9,
+        "file_name": "ngx_slab.c",
+        "path": "src/core/ngx_slab.c"
+      },
+      {
+        "blanks": 204,
+        "code": 530,
+        "comments": 18,
+        "file_name": "ngx_log.c",
+        "path": "src/core/ngx_log.c"
+      },
+      {
+        "blanks": 78,
+        "code": 179,
+        "comments": 13,
+        "file_name": "ngx_crypt.c",
+        "path": "src/core/ngx_crypt.c"
+      },
+      {
+        "blanks": 40,
+        "code": 85,
+        "comments": 16,
+        "file_name": "ngx_array.c",
+        "path": "src/core/ngx_array.c"
+      },
+      {
+        "blanks": 106,
+        "code": 277,
+        "comments": 21,
+        "file_name": "ngx_rbtree.c",
+        "path": "src/core/ngx_rbtree.c"
+      },
+      {
+        "blanks": 20,
+        "code": 29,
+        "comments": 4,
+        "file_name": "ngx_spinlock.c",
+        "path": "src/core/ngx_spinlock.c"
+      },
+      {
+        "blanks": 82,
+        "code": 207,
+        "comments": 25,
+        "file_name": "ngx_buf.c",
+        "path": "src/core/ngx_buf.c"
+      },
+      {
+        "blanks": 405,
+        "code": 1074,
+        "comments": 16,
+        "file_name": "ngx_inet.c",
+        "path": "src/core/ngx_inet.c"
+      },
+      {
+        "blanks": 294,
+        "code": 813,
+        "comments": 21,
+        "file_name": "ngx_file.c",
+        "path": "src/core/ngx_file.c"
+      },
+      {
+        "blanks": 72,
+        "code": 189,
+        "comments": 16,
+        "file_name": "ngx_parse_time.c",
+        "path": "src/core/ngx_parse_time.c"
+      },
+      {
+        "blanks": 354,
+        "code": 1109,
+        "comments": 23,
+        "file_name": "ngx_conf_file.c",
+        "path": "src/core/ngx_conf_file.c"
+      },
+      {
+        "blanks": 265,
+        "code": 708,
+        "comments": 36,
+        "file_name": "ngx_hash.c",
+        "path": "src/core/ngx_hash.c"
+      },
+      {
+        "blanks": 118,
+        "code": 298,
+        "comments": 6,
+        "file_name": "ngx_proxy_protocol.c",
+        "path": "src/core/ngx_proxy_protocol.c"
+      },
+      {
+        "blanks": 54,
+        "code": 221,
+        "comments": 19,
+        "file_name": "ngx_sha1.c",
+        "path": "src/core/ngx_sha1.c"
+      },
+      {
+        "blanks": 58,
+        "code": 194,
+        "comments": 31,
+        "file_name": "ngx_md5.c",
+        "path": "src/core/ngx_md5.c"
+      },
+      {
+        "blanks": 361,
+        "code": 1118,
+        "comments": 44,
+        "file_name": "ngx_connection.c",
+        "path": "src/core/ngx_connection.c"
+      },
+      {
+        "blanks": 548,
+        "code": 1420,
+        "comments": 118,
+        "file_name": "ngx_string.c",
+        "path": "src/core/ngx_string.c"
+      },
+      {
+        "blanks": 131,
+        "code": 280,
+        "comments": 57,
+        "file_name": "ngx_times.c",
+        "path": "src/core/ngx_times.c"
+      },
+      {
+        "blanks": 1341,
+        "code": 3231,
+        "comments": 108,
+        "file_name": "ngx_resolver.c",
+        "path": "src/core/ngx_resolver.c"
+      },
+      {
+        "blanks": 56,
+        "code": 223,
+        "comments": 4,
+        "file_name": "ngx_parse.c",
+        "path": "src/core/ngx_parse.c"
+      },
+      {
+        "blanks": 397,
+        "code": 1195,
+        "comments": 32,
+        "file_name": "nginx.c",
+        "path": "src/core/nginx.c"
+      },
+      {
+        "blanks": 41,
+        "code": 84,
+        "comments": 4,
+        "file_name": "ngx_rwlock.c",
+        "path": "src/core/ngx_rwlock.c"
+      },
+      {
+        "blanks": 103,
+        "code": 263,
+        "comments": 12,
+        "file_name": "ngx_syslog.c",
+        "path": "src/core/ngx_syslog.c"
+      },
+      {
+        "blanks": 13,
+        "code": 34,
+        "comments": 5,
+        "file_name": "ngx_murmurhash.c",
+        "path": "src/core/ngx_murmurhash.c"
+      },
+      {
+        "blanks": 95,
+        "code": 211,
+        "comments": 4,
+        "file_name": "ngx_shmtx.c",
+        "path": "src/core/ngx_shmtx.c"
+      },
+      {
+        "blanks": 115,
+        "code": 308,
+        "comments": 12,
+        "file_name": "ngx_regex.c",
+        "path": "src/core/ngx_regex.c"
+      },
+      {
         "blanks": 125,
         "code": 340,
         "comments": 23,
         "file_name": "ngx_radix_tree.c",
         "path": "src/core/ngx_radix_tree.c"
-      },
-      {
-        "blanks": 26,
-        "code": 45,
-        "comments": 9,
-        "file_name": "ngx_queue.c",
-        "path": "src/core/ngx_queue.c"
       },
       {
         "blanks": 19,
@@ -1406,179 +1588,11 @@
         "path": "src/core/ngx_module.c"
       },
       {
-        "blanks": 357,
-        "code": 1196,
-        "comments": 21,
-        "file_name": "ngx_mail_auth_http_module.c",
-        "path": "src/mail/ngx_mail_auth_http_module.c"
-      },
-      {
-        "blanks": 78,
-        "code": 179,
-        "comments": 13,
-        "file_name": "ngx_crypt.c",
-        "path": "src/core/ngx_crypt.c"
-      },
-      {
-        "blanks": 204,
-        "code": 530,
-        "comments": 18,
-        "file_name": "ngx_log.c",
-        "path": "src/core/ngx_log.c"
-      },
-      {
-        "blanks": 106,
-        "code": 277,
-        "comments": 21,
-        "file_name": "ngx_rbtree.c",
-        "path": "src/core/ngx_rbtree.c"
-      },
-      {
-        "blanks": 56,
-        "code": 223,
-        "comments": 4,
-        "file_name": "ngx_parse.c",
-        "path": "src/core/ngx_parse.c"
-      },
-      {
-        "blanks": 265,
-        "code": 543,
+        "blanks": 26,
+        "code": 45,
         "comments": 9,
-        "file_name": "ngx_slab.c",
-        "path": "src/core/ngx_slab.c"
-      },
-      {
-        "blanks": 41,
-        "code": 84,
-        "comments": 4,
-        "file_name": "ngx_rwlock.c",
-        "path": "src/core/ngx_rwlock.c"
-      },
-      {
-        "blanks": 103,
-        "code": 263,
-        "comments": 12,
-        "file_name": "ngx_syslog.c",
-        "path": "src/core/ngx_syslog.c"
-      },
-      {
-        "blanks": 405,
-        "code": 1074,
-        "comments": 16,
-        "file_name": "ngx_inet.c",
-        "path": "src/core/ngx_inet.c"
-      },
-      {
-        "blanks": 294,
-        "code": 813,
-        "comments": 21,
-        "file_name": "ngx_file.c",
-        "path": "src/core/ngx_file.c"
-      },
-      {
-        "blanks": 54,
-        "code": 221,
-        "comments": 19,
-        "file_name": "ngx_sha1.c",
-        "path": "src/core/ngx_sha1.c"
-      },
-      {
-        "blanks": 58,
-        "code": 194,
-        "comments": 31,
-        "file_name": "ngx_md5.c",
-        "path": "src/core/ngx_md5.c"
-      },
-      {
-        "blanks": 354,
-        "code": 1109,
-        "comments": 23,
-        "file_name": "ngx_conf_file.c",
-        "path": "src/core/ngx_conf_file.c"
-      },
-      {
-        "blanks": 115,
-        "code": 308,
-        "comments": 12,
-        "file_name": "ngx_regex.c",
-        "path": "src/core/ngx_regex.c"
-      },
-      {
-        "blanks": 20,
-        "code": 29,
-        "comments": 4,
-        "file_name": "ngx_spinlock.c",
-        "path": "src/core/ngx_spinlock.c"
-      },
-      {
-        "blanks": 95,
-        "code": 211,
-        "comments": 4,
-        "file_name": "ngx_shmtx.c",
-        "path": "src/core/ngx_shmtx.c"
-      },
-      {
-        "blanks": 82,
-        "code": 207,
-        "comments": 25,
-        "file_name": "ngx_buf.c",
-        "path": "src/core/ngx_buf.c"
-      },
-      {
-        "blanks": 72,
-        "code": 189,
-        "comments": 16,
-        "file_name": "ngx_parse_time.c",
-        "path": "src/core/ngx_parse_time.c"
-      },
-      {
-        "blanks": 131,
-        "code": 280,
-        "comments": 57,
-        "file_name": "ngx_times.c",
-        "path": "src/core/ngx_times.c"
-      },
-      {
-        "blanks": 118,
-        "code": 298,
-        "comments": 6,
-        "file_name": "ngx_proxy_protocol.c",
-        "path": "src/core/ngx_proxy_protocol.c"
-      },
-      {
-        "blanks": 265,
-        "code": 708,
-        "comments": 36,
-        "file_name": "ngx_hash.c",
-        "path": "src/core/ngx_hash.c"
-      },
-      {
-        "blanks": 19,
-        "code": 39,
-        "comments": 5,
-        "file_name": "ngx_list.c",
-        "path": "src/core/ngx_list.c"
-      },
-      {
-        "blanks": 40,
-        "code": 85,
-        "comments": 16,
-        "file_name": "ngx_array.c",
-        "path": "src/core/ngx_array.c"
-      },
-      {
-        "blanks": 361,
-        "code": 1118,
-        "comments": 44,
-        "file_name": "ngx_connection.c",
-        "path": "src/core/ngx_connection.c"
-      },
-      {
-        "blanks": 1341,
-        "code": 3231,
-        "comments": 108,
-        "file_name": "ngx_resolver.c",
-        "path": "src/core/ngx_resolver.c"
+        "file_name": "ngx_queue.c",
+        "path": "src/core/ngx_queue.c"
       },
       {
         "blanks": 366,
@@ -1588,25 +1602,11 @@
         "path": "src/core/ngx_cycle.c"
       },
       {
-        "blanks": 397,
-        "code": 1195,
-        "comments": 32,
-        "file_name": "nginx.c",
-        "path": "src/core/nginx.c"
-      },
-      {
         "blanks": 337,
         "code": 826,
         "comments": 90,
         "file_name": "ngx_open_file_cache.c",
         "path": "src/core/ngx_open_file_cache.c"
-      },
-      {
-        "blanks": 548,
-        "code": 1420,
-        "comments": 118,
-        "file_name": "ngx_string.c",
-        "path": "src/core/ngx_string.c"
       }
     ]
   },
@@ -1617,11 +1617,11 @@
     "comments": 956,
     "reports": [
       {
-        "blanks": 26,
-        "code": 49,
-        "comments": 5,
-        "file_name": "ngx_event_connect.h",
-        "path": "src/event/ngx_event_connect.h"
+        "blanks": 16,
+        "code": 30,
+        "comments": 4,
+        "file_name": "ngx_event_posted.h",
+        "path": "src/event/ngx_event_posted.h"
       },
       {
         "blanks": 32,
@@ -1631,67 +1631,18 @@
         "path": "src/event/ngx_event_pipe.h"
       },
       {
+        "blanks": 15,
+        "code": 13,
+        "comments": 4,
+        "file_name": "ngx_dlopen.h",
+        "path": "src/os/win32/ngx_dlopen.h"
+      },
+      {
         "blanks": 9,
         "code": 9,
         "comments": 4,
         "file_name": "ngx_iocp_module.h",
         "path": "src/event/modules/ngx_iocp_module.h"
-      },
-      {
-        "blanks": 66,
-        "code": 240,
-        "comments": 4,
-        "file_name": "ngx_event_openssl.h",
-        "path": "src/event/ngx_event_openssl.h"
-      },
-      {
-        "blanks": 31,
-        "code": 50,
-        "comments": 9,
-        "file_name": "ngx_event_timer.h",
-        "path": "src/event/ngx_event_timer.h"
-      },
-      {
-        "blanks": 16,
-        "code": 30,
-        "comments": 4,
-        "file_name": "ngx_event_posted.h",
-        "path": "src/event/ngx_event_posted.h"
-      },
-      {
-        "blanks": 170,
-        "code": 259,
-        "comments": 112,
-        "file_name": "ngx_event.h",
-        "path": "src/event/ngx_event.h"
-      },
-      {
-        "blanks": 39,
-        "code": 73,
-        "comments": 4,
-        "file_name": "ngx_http_variables.h",
-        "path": "src/http/ngx_http_variables.h"
-      },
-      {
-        "blanks": 17,
-        "code": 23,
-        "comments": 4,
-        "file_name": "ngx_process_cycle.h",
-        "path": "src/os/win32/ngx_process_cycle.h"
-      },
-      {
-        "blanks": 11,
-        "code": 9,
-        "comments": 5,
-        "file_name": "ngx_user.h",
-        "path": "src/os/win32/ngx_user.h"
-      },
-      {
-        "blanks": 161,
-        "code": 421,
-        "comments": 36,
-        "file_name": "ngx_http_request.h",
-        "path": "src/http/ngx_http_request.h"
       },
       {
         "blanks": 12,
@@ -1701,6 +1652,20 @@
         "path": "src/os/win32/ngx_shmem.h"
       },
       {
+        "blanks": 34,
+        "code": 62,
+        "comments": 4,
+        "file_name": "ngx_darwin_config.h",
+        "path": "src/os/unix/ngx_darwin_config.h"
+      },
+      {
+        "blanks": 21,
+        "code": 35,
+        "comments": 5,
+        "file_name": "ngx_sunpro_atomic_sparc64.h",
+        "path": "src/os/unix/ngx_sunpro_atomic_sparc64.h"
+      },
+      {
         "blanks": 12,
         "code": 11,
         "comments": 4,
@@ -1708,18 +1673,25 @@
         "path": "src/os/win32/ngx_thread.h"
       },
       {
+        "blanks": 7,
+        "code": 5,
+        "comments": 4,
+        "file_name": "ngx_linux.h",
+        "path": "src/os/unix/ngx_linux.h"
+      },
+      {
+        "blanks": 13,
+        "code": 14,
+        "comments": 4,
+        "file_name": "ngx_dlopen.h",
+        "path": "src/os/unix/ngx_dlopen.h"
+      },
+      {
         "blanks": 76,
         "code": 167,
         "comments": 10,
         "file_name": "ngx_socket.h",
         "path": "src/os/win32/ngx_socket.h"
-      },
-      {
-        "blanks": 99,
-        "code": 164,
-        "comments": 8,
-        "file_name": "ngx_files.h",
-        "path": "src/os/win32/ngx_files.h"
       },
       {
         "blanks": 29,
@@ -1736,6 +1708,13 @@
         "path": "src/os/win32/ngx_errno.h"
       },
       {
+        "blanks": 99,
+        "code": 164,
+        "comments": 8,
+        "file_name": "ngx_files.h",
+        "path": "src/os/win32/ngx_files.h"
+      },
+      {
         "blanks": 17,
         "code": 30,
         "comments": 4,
@@ -1748,6 +1727,13 @@
         "comments": 4,
         "file_name": "ngx_alloc.h",
         "path": "src/os/win32/ngx_alloc.h"
+      },
+      {
+        "blanks": 23,
+        "code": 39,
+        "comments": 20,
+        "file_name": "ngx_gcc_atomic_sparc64.h",
+        "path": "src/os/unix/ngx_gcc_atomic_sparc64.h"
       },
       {
         "blanks": 18,
@@ -1764,11 +1750,116 @@
         "path": "src/os/win32/ngx_process.h"
       },
       {
-        "blanks": 70,
-        "code": 190,
+        "blanks": 17,
+        "code": 23,
+        "comments": 4,
+        "file_name": "ngx_process_cycle.h",
+        "path": "src/os/win32/ngx_process_cycle.h"
+      },
+      {
+        "blanks": 11,
+        "code": 9,
+        "comments": 5,
+        "file_name": "ngx_user.h",
+        "path": "src/os/win32/ngx_user.h"
+      },
+      {
+        "blanks": 11,
+        "code": 9,
+        "comments": 4,
+        "file_name": "ngx_user.h",
+        "path": "src/os/unix/ngx_user.h"
+      },
+      {
+        "blanks": 26,
+        "code": 49,
+        "comments": 5,
+        "file_name": "ngx_event_connect.h",
+        "path": "src/event/ngx_event_connect.h"
+      },
+      {
+        "blanks": 97,
+        "code": 157,
+        "comments": 32,
+        "file_name": "ngx_win32_config.h",
+        "path": "src/os/win32/ngx_win32_config.h"
+      },
+      {
+        "blanks": 66,
+        "code": 240,
+        "comments": 4,
+        "file_name": "ngx_event_openssl.h",
+        "path": "src/event/ngx_event_openssl.h"
+      },
+      {
+        "blanks": 31,
+        "code": 50,
+        "comments": 9,
+        "file_name": "ngx_event_timer.h",
+        "path": "src/event/ngx_event_timer.h"
+      },
+      {
+        "blanks": 18,
+        "code": 39,
+        "comments": 4,
+        "file_name": "ngx_process_cycle.h",
+        "path": "src/os/unix/ngx_process_cycle.h"
+      },
+      {
+        "blanks": 170,
+        "code": 259,
+        "comments": 112,
+        "file_name": "ngx_event.h",
+        "path": "src/event/ngx_event.h"
+      },
+      {
+        "blanks": 11,
+        "code": 14,
+        "comments": 4,
+        "file_name": "ngx_shmem.h",
+        "path": "src/os/unix/ngx_shmem.h"
+      },
+      {
+        "blanks": 161,
+        "code": 421,
+        "comments": 36,
+        "file_name": "ngx_http_request.h",
+        "path": "src/http/ngx_http_request.h"
+      },
+      {
+        "blanks": 44,
+        "code": 78,
         "comments": 7,
-        "file_name": "ngx_http_script.h",
-        "path": "src/http/ngx_http_script.h"
+        "file_name": "ngx_freebsd_config.h",
+        "path": "src/os/unix/ngx_freebsd_config.h"
+      },
+      {
+        "blanks": 19,
+        "code": 28,
+        "comments": 35,
+        "file_name": "ngx_gcc_atomic_amd64.h",
+        "path": "src/os/unix/ngx_gcc_atomic_amd64.h"
+      },
+      {
+        "blanks": 11,
+        "code": 19,
+        "comments": 4,
+        "file_name": "ngx_channel.h",
+        "path": "src/os/unix/ngx_channel.h"
+      },
+      {
+        "blanks": 23,
+        "code": 24,
+        "comments": 5,
+        "file_name": "ngx_setproctitle.h",
+        "path": "src/os/unix/ngx_setproctitle.h"
+      },
+      {
+        "blanks": 30,
+        "code": 37,
+        "comments": 4,
+        "file_name": "ngx_thread.h",
+        "path": "src/os/unix/ngx_thread.h"
       },
       {
         "blanks": 24,
@@ -1778,11 +1869,11 @@
         "path": "src/http/ngx_http_config.h"
       },
       {
-        "blanks": 97,
-        "code": 157,
-        "comments": 32,
-        "file_name": "ngx_win32_config.h",
-        "path": "src/os/win32/ngx_win32_config.h"
+        "blanks": 70,
+        "code": 190,
+        "comments": 7,
+        "file_name": "ngx_http_script.h",
+        "path": "src/http/ngx_http_script.h"
       },
       {
         "blanks": 44,
@@ -1799,11 +1890,18 @@
         "path": "src/http/ngx_http.h"
       },
       {
-        "blanks": 15,
-        "code": 13,
+        "blanks": 7,
+        "code": 5,
         "comments": 4,
-        "file_name": "ngx_dlopen.h",
-        "path": "src/os/win32/ngx_dlopen.h"
+        "file_name": "ngx_solaris.h",
+        "path": "src/os/unix/ngx_solaris.h"
+      },
+      {
+        "blanks": 141,
+        "code": 242,
+        "comments": 13,
+        "file_name": "ngx_files.h",
+        "path": "src/os/unix/ngx_files.h"
       },
       {
         "blanks": 17,
@@ -1813,11 +1911,11 @@
         "path": "src/http/v2/ngx_http_v2_module.h"
       },
       {
-        "blanks": 28,
-        "code": 44,
+        "blanks": 31,
+        "code": 36,
         "comments": 4,
-        "file_name": "ngx_http_ssl_module.h",
-        "path": "src/http/modules/ngx_http_ssl_module.h"
+        "file_name": "ngx_socket.h",
+        "path": "src/os/unix/ngx_socket.h"
       },
       {
         "blanks": 124,
@@ -1827,13 +1925,6 @@
         "path": "src/http/v2/ngx_http_v2.h"
       },
       {
-        "blanks": 27,
-        "code": 38,
-        "comments": 8,
-        "file_name": "ngx_http_perl_module.h",
-        "path": "src/http/modules/perl/ngx_http_perl_module.h"
-      },
-      {
         "blanks": 51,
         "code": 153,
         "comments": 6,
@@ -1841,32 +1932,11 @@
         "path": "src/http/ngx_http_cache.h"
       },
       {
-        "blanks": 37,
-        "code": 73,
-        "comments": 4,
-        "file_name": "ngx_http_ssi_filter_module.h",
-        "path": "src/http/modules/ngx_http_ssi_filter_module.h"
-      },
-      {
-        "blanks": 111,
-        "code": 324,
-        "comments": 5,
-        "file_name": "ngx_http_upstream.h",
-        "path": "src/http/ngx_http_upstream.h"
-      },
-      {
-        "blanks": 159,
-        "code": 407,
-        "comments": 14,
-        "file_name": "ngx_http_core_module.h",
-        "path": "src/http/ngx_http_core_module.h"
-      },
-      {
-        "blanks": 9,
-        "code": 10,
-        "comments": 4,
-        "file_name": "ngx_darwin.h",
-        "path": "src/os/unix/ngx_darwin.h"
+        "blanks": 124,
+        "code": 169,
+        "comments": 20,
+        "file_name": "ngx_atomic.h",
+        "path": "src/os/unix/ngx_atomic.h"
       },
       {
         "blanks": 16,
@@ -1876,11 +1946,25 @@
         "path": "src/os/unix/ngx_errno.h"
       },
       {
+        "blanks": 9,
+        "code": 10,
+        "comments": 4,
+        "file_name": "ngx_darwin.h",
+        "path": "src/os/unix/ngx_darwin.h"
+      },
+      {
         "blanks": 43,
         "code": 104,
         "comments": 4,
         "file_name": "ngx_posix_config.h",
         "path": "src/os/unix/ngx_posix_config.h"
+      },
+      {
+        "blanks": 111,
+        "code": 324,
+        "comments": 5,
+        "file_name": "ngx_http_upstream.h",
+        "path": "src/http/ngx_http_upstream.h"
       },
       {
         "blanks": 23,
@@ -1895,6 +1979,13 @@
         "comments": 10,
         "file_name": "ngx_alloc.h",
         "path": "src/os/unix/ngx_alloc.h"
+      },
+      {
+        "blanks": 39,
+        "code": 73,
+        "comments": 4,
+        "file_name": "ngx_http_variables.h",
+        "path": "src/http/ngx_http_variables.h"
       },
       {
         "blanks": 32,
@@ -1918,25 +2009,11 @@
         "path": "src/os/unix/ngx_setaffinity.h"
       },
       {
-        "blanks": 40,
-        "code": 83,
-        "comments": 5,
-        "file_name": "ngx_linux_config.h",
-        "path": "src/os/unix/ngx_linux_config.h"
-      },
-      {
-        "blanks": 39,
-        "code": 92,
-        "comments": 4,
-        "file_name": "ngx_stream_script.h",
-        "path": "src/stream/ngx_stream_script.h"
-      },
-      {
-        "blanks": 50,
-        "code": 103,
-        "comments": 6,
-        "file_name": "ngx_stream_upstream.h",
-        "path": "src/stream/ngx_stream_upstream.h"
+        "blanks": 159,
+        "code": 407,
+        "comments": 14,
+        "file_name": "ngx_http_core_module.h",
+        "path": "src/http/ngx_http_core_module.h"
       },
       {
         "blanks": 33,
@@ -1946,11 +2023,11 @@
         "path": "src/os/unix/ngx_os.h"
       },
       {
-        "blanks": 38,
-        "code": 71,
-        "comments": 4,
-        "file_name": "ngx_stream_variables.h",
-        "path": "src/stream/ngx_stream_variables.h"
+        "blanks": 40,
+        "code": 83,
+        "comments": 5,
+        "file_name": "ngx_linux_config.h",
+        "path": "src/os/unix/ngx_linux_config.h"
       },
       {
         "blanks": 9,
@@ -1960,27 +2037,6 @@
         "path": "src/os/unix/ngx_freebsd.h"
       },
       {
-        "blanks": 124,
-        "code": 169,
-        "comments": 20,
-        "file_name": "ngx_atomic.h",
-        "path": "src/os/unix/ngx_atomic.h"
-      },
-      {
-        "blanks": 101,
-        "code": 201,
-        "comments": 7,
-        "file_name": "ngx_stream.h",
-        "path": "src/stream/ngx_stream.h"
-      },
-      {
-        "blanks": 18,
-        "code": 39,
-        "comments": 4,
-        "file_name": "ngx_process_cycle.h",
-        "path": "src/os/unix/ngx_process_cycle.h"
-      },
-      {
         "blanks": 29,
         "code": 57,
         "comments": 4,
@@ -1988,18 +2044,11 @@
         "path": "src/os/unix/ngx_process.h"
       },
       {
-        "blanks": 43,
-        "code": 100,
-        "comments": 4,
-        "file_name": "ngx_stream_upstream_round_robin.h",
-        "path": "src/stream/ngx_stream_upstream_round_robin.h"
-      },
-      {
-        "blanks": 11,
-        "code": 9,
-        "comments": 4,
-        "file_name": "ngx_user.h",
-        "path": "src/os/unix/ngx_user.h"
+        "blanks": 27,
+        "code": 38,
+        "comments": 8,
+        "file_name": "ngx_http_perl_module.h",
+        "path": "src/http/modules/perl/ngx_http_perl_module.h"
       },
       {
         "blanks": 34,
@@ -2009,6 +2058,13 @@
         "path": "src/os/unix/ngx_gcc_atomic_ppc.h"
       },
       {
+        "blanks": 28,
+        "code": 44,
+        "comments": 4,
+        "file_name": "ngx_http_ssl_module.h",
+        "path": "src/http/modules/ngx_http_ssl_module.h"
+      },
+      {
         "blanks": 25,
         "code": 35,
         "comments": 4,
@@ -2016,39 +2072,18 @@
         "path": "src/stream/ngx_stream_ssl_module.h"
       },
       {
-        "blanks": 21,
-        "code": 35,
-        "comments": 5,
-        "file_name": "ngx_sunpro_atomic_sparc64.h",
-        "path": "src/os/unix/ngx_sunpro_atomic_sparc64.h"
-      },
-      {
-        "blanks": 34,
-        "code": 62,
+        "blanks": 37,
+        "code": 73,
         "comments": 4,
-        "file_name": "ngx_darwin_config.h",
-        "path": "src/os/unix/ngx_darwin_config.h"
+        "file_name": "ngx_http_ssi_filter_module.h",
+        "path": "src/http/modules/ngx_http_ssi_filter_module.h"
       },
       {
-        "blanks": 23,
-        "code": 39,
-        "comments": 20,
-        "file_name": "ngx_gcc_atomic_sparc64.h",
-        "path": "src/os/unix/ngx_gcc_atomic_sparc64.h"
-      },
-      {
-        "blanks": 7,
-        "code": 5,
+        "blanks": 43,
+        "code": 100,
         "comments": 4,
-        "file_name": "ngx_linux.h",
-        "path": "src/os/unix/ngx_linux.h"
-      },
-      {
-        "blanks": 13,
-        "code": 14,
-        "comments": 4,
-        "file_name": "ngx_dlopen.h",
-        "path": "src/os/unix/ngx_dlopen.h"
+        "file_name": "ngx_stream_upstream_round_robin.h",
+        "path": "src/stream/ngx_stream_upstream_round_robin.h"
       },
       {
         "blanks": 16,
@@ -2058,34 +2093,6 @@
         "path": "src/mail/ngx_mail_imap_module.h"
       },
       {
-        "blanks": 19,
-        "code": 28,
-        "comments": 35,
-        "file_name": "ngx_gcc_atomic_amd64.h",
-        "path": "src/os/unix/ngx_gcc_atomic_amd64.h"
-      },
-      {
-        "blanks": 23,
-        "code": 24,
-        "comments": 5,
-        "file_name": "ngx_setproctitle.h",
-        "path": "src/os/unix/ngx_setproctitle.h"
-      },
-      {
-        "blanks": 11,
-        "code": 19,
-        "comments": 4,
-        "file_name": "ngx_channel.h",
-        "path": "src/os/unix/ngx_channel.h"
-      },
-      {
-        "blanks": 11,
-        "code": 14,
-        "comments": 4,
-        "file_name": "ngx_shmem.h",
-        "path": "src/os/unix/ngx_shmem.h"
-      },
-      {
         "blanks": 115,
         "code": 290,
         "comments": 10,
@@ -2093,25 +2100,25 @@
         "path": "src/mail/ngx_mail.h"
       },
       {
-        "blanks": 30,
-        "code": 37,
-        "comments": 4,
-        "file_name": "ngx_thread.h",
-        "path": "src/os/unix/ngx_thread.h"
+        "blanks": 50,
+        "code": 103,
+        "comments": 6,
+        "file_name": "ngx_stream_upstream.h",
+        "path": "src/stream/ngx_stream_upstream.h"
       },
       {
-        "blanks": 44,
-        "code": 78,
-        "comments": 7,
-        "file_name": "ngx_freebsd_config.h",
-        "path": "src/os/unix/ngx_freebsd_config.h"
+        "blanks": 39,
+        "code": 92,
+        "comments": 4,
+        "file_name": "ngx_stream_script.h",
+        "path": "src/stream/ngx_stream_script.h"
       },
       {
-        "blanks": 7,
-        "code": 5,
+        "blanks": 38,
+        "code": 71,
         "comments": 4,
-        "file_name": "ngx_solaris.h",
-        "path": "src/os/unix/ngx_solaris.h"
+        "file_name": "ngx_stream_variables.h",
+        "path": "src/stream/ngx_stream_variables.h"
       },
       {
         "blanks": 15,
@@ -2121,18 +2128,11 @@
         "path": "src/mail/ngx_mail_pop3_module.h"
       },
       {
-        "blanks": 31,
-        "code": 36,
-        "comments": 4,
-        "file_name": "ngx_socket.h",
-        "path": "src/os/unix/ngx_socket.h"
-      },
-      {
-        "blanks": 25,
-        "code": 37,
-        "comments": 4,
-        "file_name": "ngx_mail_ssl_module.h",
-        "path": "src/mail/ngx_mail_ssl_module.h"
+        "blanks": 101,
+        "code": 201,
+        "comments": 7,
+        "file_name": "ngx_stream.h",
+        "path": "src/stream/ngx_stream.h"
       },
       {
         "blanks": 18,
@@ -2156,18 +2156,18 @@
         "path": "src/core/ngx_shmtx.h"
       },
       {
-        "blanks": 141,
-        "code": 242,
-        "comments": 13,
-        "file_name": "ngx_files.h",
-        "path": "src/os/unix/ngx_files.h"
+        "blanks": 13,
+        "code": 16,
+        "comments": 4,
+        "file_name": "ngx_proxy_protocol.h",
+        "path": "src/core/ngx_proxy_protocol.h"
       },
       {
-        "blanks": 10,
-        "code": 17,
-        "comments": 3,
-        "file_name": "ngx_syslog.h",
-        "path": "src/core/ngx_syslog.h"
+        "blanks": 25,
+        "code": 37,
+        "comments": 4,
+        "file_name": "ngx_mail_ssl_module.h",
+        "path": "src/mail/ngx_mail_ssl_module.h"
       },
       {
         "blanks": 22,
@@ -2177,46 +2177,11 @@
         "path": "src/core/ngx_regex.h"
       },
       {
-        "blanks": 17,
-        "code": 27,
+        "blanks": 29,
+        "code": 55,
         "comments": 8,
-        "file_name": "ngx_times.h",
-        "path": "src/core/ngx_times.h"
-      },
-      {
-        "blanks": 25,
-        "code": 43,
-        "comments": 4,
-        "file_name": "ngx_slab.h",
-        "path": "src/core/ngx_slab.h"
-      },
-      {
-        "blanks": 9,
-        "code": 8,
-        "comments": 4,
-        "file_name": "ngx_parse.h",
-        "path": "src/core/ngx_parse.h"
-      },
-      {
-        "blanks": 21,
-        "code": 35,
-        "comments": 27,
-        "file_name": "ngx_list.h",
-        "path": "src/core/ngx_list.h"
-      },
-      {
-        "blanks": 47,
-        "code": 98,
-        "comments": 4,
-        "file_name": "ngx_cycle.h",
-        "path": "src/core/ngx_cycle.h"
-      },
-      {
-        "blanks": 41,
-        "code": 77,
-        "comments": 4,
-        "file_name": "ngx_hash.h",
-        "path": "src/core/ngx_hash.h"
+        "file_name": "ngx_palloc.h",
+        "path": "src/core/ngx_palloc.h"
       },
       {
         "blanks": 30,
@@ -2226,11 +2191,11 @@
         "path": "src/core/ngx_crc32.h"
       },
       {
-        "blanks": 11,
-        "code": 13,
+        "blanks": 41,
+        "code": 77,
         "comments": 4,
-        "file_name": "ngx_md5.h",
-        "path": "src/core/ngx_md5.h"
+        "file_name": "ngx_hash.h",
+        "path": "src/core/ngx_hash.h"
       },
       {
         "blanks": 56,
@@ -2247,130 +2212,25 @@
         "path": "src/core/ngx_buf.h"
       },
       {
+        "blanks": 67,
+        "code": 211,
+        "comments": 5,
+        "file_name": "ngx_module.h",
+        "path": "src/core/ngx_module.h"
+      },
+      {
+        "blanks": 11,
+        "code": 13,
+        "comments": 4,
+        "file_name": "ngx_md5.h",
+        "path": "src/core/ngx_md5.h"
+      },
+      {
         "blanks": 11,
         "code": 13,
         "comments": 4,
         "file_name": "ngx_sha1.h",
         "path": "src/core/ngx_sha1.h"
-      },
-      {
-        "blanks": 65,
-        "code": 156,
-        "comments": 6,
-        "file_name": "ngx_connection.h",
-        "path": "src/core/ngx_connection.h"
-      },
-      {
-        "blanks": 9,
-        "code": 6,
-        "comments": 4,
-        "file_name": "ngx_murmurhash.h",
-        "path": "src/core/ngx_murmurhash.h"
-      },
-      {
-        "blanks": 17,
-        "code": 34,
-        "comments": 4,
-        "file_name": "ngx_radix_tree.h",
-        "path": "src/core/ngx_radix_tree.h"
-      },
-      {
-        "blanks": 14,
-        "code": 18,
-        "comments": 4,
-        "file_name": "ngx_thread_pool.h",
-        "path": "src/core/ngx_thread_pool.h"
-      },
-      {
-        "blanks": 38,
-        "code": 86,
-        "comments": 5,
-        "file_name": "ngx_open_file_cache.h",
-        "path": "src/core/ngx_open_file_cache.h"
-      },
-      {
-        "blanks": 79,
-        "code": 139,
-        "comments": 20,
-        "file_name": "ngx_string.h",
-        "path": "src/core/ngx_string.h"
-      },
-      {
-        "blanks": 16,
-        "code": 29,
-        "comments": 8,
-        "file_name": "ngx_array.h",
-        "path": "src/core/ngx_array.h"
-      },
-      {
-        "blanks": 33,
-        "code": 94,
-        "comments": 5,
-        "file_name": "ngx_inet.h",
-        "path": "src/core/ngx_inet.h"
-      },
-      {
-        "blanks": 28,
-        "code": 51,
-        "comments": 5,
-        "file_name": "ngx_rbtree.h",
-        "path": "src/core/ngx_rbtree.h"
-      },
-      {
-        "blanks": 64,
-        "code": 166,
-        "comments": 10,
-        "file_name": "ngx_resolver.h",
-        "path": "src/core/ngx_resolver.h"
-      },
-      {
-        "blanks": 50,
-        "code": 110,
-        "comments": 4,
-        "file_name": "ngx_file.h",
-        "path": "src/core/ngx_file.h"
-      },
-      {
-        "blanks": 9,
-        "code": 7,
-        "comments": 4,
-        "file_name": "ngx_crypt.h",
-        "path": "src/core/ngx_crypt.h"
-      },
-      {
-        "blanks": 83,
-        "code": 203,
-        "comments": 9,
-        "file_name": "ngx_conf_file.h",
-        "path": "src/core/ngx_conf_file.h"
-      },
-      {
-        "blanks": 44,
-        "code": 64,
-        "comments": 4,
-        "file_name": "ngx_queue.h",
-        "path": "src/core/ngx_queue.h"
-      },
-      {
-        "blanks": 19,
-        "code": 90,
-        "comments": 4,
-        "file_name": "ngx_core.h",
-        "path": "src/core/ngx_core.h"
-      },
-      {
-        "blanks": 80,
-        "code": 161,
-        "comments": 27,
-        "file_name": "ngx_log.h",
-        "path": "src/core/ngx_log.h"
-      },
-      {
-        "blanks": 29,
-        "code": 55,
-        "comments": 8,
-        "file_name": "ngx_palloc.h",
-        "path": "src/core/ngx_palloc.h"
       },
       {
         "blanks": 10,
@@ -2380,11 +2240,11 @@
         "path": "src/core/ngx_parse_time.h"
       },
       {
-        "blanks": 13,
-        "code": 16,
-        "comments": 4,
-        "file_name": "ngx_proxy_protocol.h",
-        "path": "src/core/ngx_proxy_protocol.h"
+        "blanks": 65,
+        "code": 156,
+        "comments": 6,
+        "file_name": "ngx_connection.h",
+        "path": "src/core/ngx_connection.h"
       },
       {
         "blanks": 9,
@@ -2401,11 +2261,151 @@
         "path": "src/core/ngx_crc.h"
       },
       {
-        "blanks": 67,
-        "code": 211,
+        "blanks": 19,
+        "code": 90,
+        "comments": 4,
+        "file_name": "ngx_core.h",
+        "path": "src/core/ngx_core.h"
+      },
+      {
+        "blanks": 9,
+        "code": 7,
+        "comments": 4,
+        "file_name": "ngx_crypt.h",
+        "path": "src/core/ngx_crypt.h"
+      },
+      {
+        "blanks": 83,
+        "code": 203,
+        "comments": 9,
+        "file_name": "ngx_conf_file.h",
+        "path": "src/core/ngx_conf_file.h"
+      },
+      {
+        "blanks": 28,
+        "code": 51,
         "comments": 5,
-        "file_name": "ngx_module.h",
-        "path": "src/core/ngx_module.h"
+        "file_name": "ngx_rbtree.h",
+        "path": "src/core/ngx_rbtree.h"
+      },
+      {
+        "blanks": 16,
+        "code": 29,
+        "comments": 8,
+        "file_name": "ngx_array.h",
+        "path": "src/core/ngx_array.h"
+      },
+      {
+        "blanks": 33,
+        "code": 94,
+        "comments": 5,
+        "file_name": "ngx_inet.h",
+        "path": "src/core/ngx_inet.h"
+      },
+      {
+        "blanks": 64,
+        "code": 166,
+        "comments": 10,
+        "file_name": "ngx_resolver.h",
+        "path": "src/core/ngx_resolver.h"
+      },
+      {
+        "blanks": 50,
+        "code": 110,
+        "comments": 4,
+        "file_name": "ngx_file.h",
+        "path": "src/core/ngx_file.h"
+      },
+      {
+        "blanks": 17,
+        "code": 34,
+        "comments": 4,
+        "file_name": "ngx_radix_tree.h",
+        "path": "src/core/ngx_radix_tree.h"
+      },
+      {
+        "blanks": 9,
+        "code": 6,
+        "comments": 4,
+        "file_name": "ngx_murmurhash.h",
+        "path": "src/core/ngx_murmurhash.h"
+      },
+      {
+        "blanks": 38,
+        "code": 86,
+        "comments": 5,
+        "file_name": "ngx_open_file_cache.h",
+        "path": "src/core/ngx_open_file_cache.h"
+      },
+      {
+        "blanks": 79,
+        "code": 139,
+        "comments": 20,
+        "file_name": "ngx_string.h",
+        "path": "src/core/ngx_string.h"
+      },
+      {
+        "blanks": 14,
+        "code": 18,
+        "comments": 4,
+        "file_name": "ngx_thread_pool.h",
+        "path": "src/core/ngx_thread_pool.h"
+      },
+      {
+        "blanks": 44,
+        "code": 64,
+        "comments": 4,
+        "file_name": "ngx_queue.h",
+        "path": "src/core/ngx_queue.h"
+      },
+      {
+        "blanks": 9,
+        "code": 8,
+        "comments": 4,
+        "file_name": "ngx_parse.h",
+        "path": "src/core/ngx_parse.h"
+      },
+      {
+        "blanks": 10,
+        "code": 17,
+        "comments": 3,
+        "file_name": "ngx_syslog.h",
+        "path": "src/core/ngx_syslog.h"
+      },
+      {
+        "blanks": 80,
+        "code": 161,
+        "comments": 27,
+        "file_name": "ngx_log.h",
+        "path": "src/core/ngx_log.h"
+      },
+      {
+        "blanks": 17,
+        "code": 27,
+        "comments": 8,
+        "file_name": "ngx_times.h",
+        "path": "src/core/ngx_times.h"
+      },
+      {
+        "blanks": 25,
+        "code": 43,
+        "comments": 4,
+        "file_name": "ngx_slab.h",
+        "path": "src/core/ngx_slab.h"
+      },
+      {
+        "blanks": 47,
+        "code": 98,
+        "comments": 4,
+        "file_name": "ngx_cycle.h",
+        "path": "src/core/ngx_cycle.h"
+      },
+      {
+        "blanks": 21,
+        "code": 35,
+        "comments": 27,
+        "file_name": "ngx_list.h",
+        "path": "src/core/ngx_list.h"
       }
     ]
   },

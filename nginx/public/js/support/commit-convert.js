@@ -1,4 +1,4 @@
-function commit_to_hours_data(data, options) {
+function commits_by_hours(data, options) {
   let startDate = 0;
   if (options && options.before_month) {
     let one_month = 30;
@@ -41,10 +41,11 @@ function commit_to_hours_data(data, options) {
   return hoursDate;
 }
 
-function commit_to_author_map(data) {
+function commits_by_authors(data) {
   let authors = [];
   let authorMap = {}
-  for (let datum of data) {
+  for (let i = data.length - 1; i >= 0; i--) {
+    let datum = data[i];
     if (!authorMap[datum.email]) {
       authorMap[datum.email] = {
         name: datum.author,
@@ -63,9 +64,101 @@ function commit_to_author_map(data) {
   return authors;
 }
 
-function range_commits_by_users(data, range) {
+function commit_by_days(data) {
+  let dayMap = {};
+
+  let last_date = data[data.length - 1].date * 1000;
+  let range = data[0].date * 1000;
+
+  while (range <= last_date) {
+    let day = standardFormatDate(range);
+    dayMap[day] = {
+      date: new Date(range),
+      value: 0,
+      total_line: 0,
+      commits: []
+    }
+
+    range = range + 24 * 60 * 60 * 1000;
+  }
+
+  let total_line = 0;
+  for (let i = 0; i < data.length; i++) {
+    let datum = data[i];
+    let day = formatDate(datum.date);
+    total_line = total_line + datum.total_added - datum.total_deleted;
+    if (dayMap[day]) {
+      dayMap[day].value++;
+      dayMap[day].commits.push(datum);
+    } else {
+      dayMap[day] = {
+        date: new Date(datum.date * 1000),
+        value: 1,
+        commits: [datum]
+      }
+    }
+
+    dayMap[day].total_line = total_line;
+  }
+
+  let result = [];
+  for (let key in dayMap) {
+    result.push(dayMap[key])
+  }
+
+  return result;
+}
+
+function commit_by_weeks(data) {
+  let weekMap = {};
+
+  let start_date = data[0].date * 1000;
+  let last_date = data[data.length - 1].date * 1000;
+  let range = data[0].date * 1000;
+  let index = 1;
+  while (range <= last_date) {
+    weekMap[index] = {
+      date: range,
+      index: index,
+      added: 0,
+      deleted: 0,
+      total: 0
+    }
+
+    range = range + 24 * 60 * 60 * 1000 * 7;
+    index++;
+  }
+
+  for (let i = data.length - 1; i >= 0; i--) {
+    let datum = data[i];
+    let week = Math.floor((datum.date * 1000 - start_date) / (24 * 60 * 60 * 1000 * 7)) + 1;
+    if (weekMap[week]) {
+      weekMap[week].added = weekMap[week].added + datum.total_added;
+      weekMap[week].deleted = weekMap[week].deleted + datum.total_deleted;
+      weekMap[week].total = weekMap[week].added - weekMap[week].deleted
+    } else {
+      weekMap[week] = {
+        date: weekMap[week].range,
+        index: weekMap[week].index,
+        added: datum.total_added,
+        deleted: datum.total_deleted,
+        total: datum.total_added - datum.total_deleted
+      }
+    }
+  }
+
+  let result = [];
+  for (let key in weekMap) {
+    result.push(weekMap[key])
+  }
+
+  return result;
+}
+
+function commits_by_users_with_range(data, range) {
   let usermap = {};
-  for (let datum of data.reverse()) {
+  for (let i = 0; i < data.length; i++) {
+    let datum = data[i];
     if (!usermap[datum.email]) {
       usermap[datum.email] = {
         name: datum.author,
