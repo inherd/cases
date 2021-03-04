@@ -4,48 +4,176 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="public/images/favicon.ico">
   <title>Coco Reporter - {{title}}</title>
+  <link rel="stylesheet" href="public/css/reset.css">
+  <link rel="stylesheet" href="public/css/tooltip.css">
+  <link rel="stylesheet" href="public/css/context-menu.css">
+  <link rel="stylesheet" href="public/css/layout.css">
   <style>
-    #packing, #nested-treemap, #timeline {
+    #commit-calendar {
+      width: 50%;
+    }
+
+    #code-flower,
+    #commit-contributions,
+    #line-history,
+    #pipeline,
+    #circle-packing, #nested-treemap, #branch-timeline, #members-lifecycle {
       width: 1200px;
       height: auto;
+      position: relative;
     }
 
-    #timeline svg {
+    #circle-packing text,
+    #branch-timeline svg,
+    #members-lifecycle svg,
+    .menu-entry rect,
+    .tooltip {
       font: 12px sans-serif;
       line-height: 20px;
+      font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     }
 
-    .contextMenu {
-      stroke: #00557d;
-      fill: #ffffff;
+    .nodetext {
+      z-index: 999;
     }
 
-    .menuEntry {
-      cursor: pointer;
+    #commits-tree text {
+      font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     }
 
-    .menuEntry text {
+    /* hour heatmap: for */
+    rect.bordered {
+      stroke: #E6E6E6;
+      stroke-width: 4px;
+    }
+
+    text.mono {
       font-size: 12px;
-      stroke: #00557d;
+      font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      fill: #aaa;
+    }
+
+    text.axis-workweek {
+      fill: #000;
+    }
+
+    text.axis-worktime {
+      fill: #000;
+    }
+
+    /* learning-curve: line chart */
+    .line {
+      fill: none;
+      stroke: steelblue;
+      stroke-width: 2px;
+    }
+
+    /* tag history line */
+    .dot-line {
+      fill: none;
+      stroke: black;
+      stroke-width: 2px;
+    }
+
+    .code-frequency .addition {
+      /*fill: #2cbe4e;*/
+      /*fill-opacity: 1;*/
+    }
+    .code-frequency .deletion {
+      /*fill: #cb2431;*/
+      /*fill-opacity: 1;*/
     }
   </style>
 </head>
 <body>
 <h1>Coco Reporter</h1>
-<h2>Branch History</h2>
-<div id="timeline"></div>
+
+<h1>Coding Skills</h1>
+<h2>Code Frequency</h2>
+<select id="code-frequency-select"></select>
+<div id="code-frequency"></div>
+<h3>Commit Contributions</h3>
+<div id="commit-contributions"></div>
+<h3>Line History</h3>
+<div id="line-history"></div>
+<h2>Commit Calendar</h2>
+
+<h1>Deploy Design</h1>
+<div id="commit-calendar"></div>
+<h2>Branches History</h2>
+<div id="branch-timeline"></div>
+<h2>Tags Timeline</h2>
+<select id="tags-timeline-select"></select>
+<div id="tags-timeline"></div>
+
+<h1>Tooling Usage</h1>
+<div id="pipeline"></div>
+
+<h1>Knowledge Transform</h1>
+<h2>Learning Curve</h2>
+<div id="learning-curve"></div>
+<h2>Member Lifecycle</h2>
+<div id="members-lifecycle"></div>
+
+<h1>Architecture Design(Physical Design)</h1>
 <h2>Package by Size 1</h2>
-<div id="packing"></div>
+<div id="circle-packing"></div>
 <h2>Package by Size 2</h2>
 <div id="nested-treemap"></div>
+<h2>Coder Flower</h2>
+<div id="code-flower"></div>
 
-<!--<script src="d3.min.js" ></script>-->
-<script src="https://cdn.bootcdn.net/ajax/libs/d3/6.3.1/d3.min.js"></script>
+<h1>Organizational Culture</h1>
+<div class="layout-grid2x2">
+  <div>
+    <h2>Hour Heatmap</h2>
+    <div id="hour-heatmap"></div>
+  </div>
+  <div>
+    <h2>Hour Heatmap (Half Year)</h2>
+    <div id="hour-heatmap-half-year"></div>
+  </div>
+  <div>
+    <h2>Hour Heatmap (Three Month)</h2>
+    <div id="hour-heatmap-three-month"></div>
+  </div>
+</div>
 
-<script src="packing.js"></script>
-<script src="nested-treemap.js"></script>
-<script src="timeline.js"></script>
-<script src="index.js"></script>
+<h2>Commits Tree</h2>
+<div id="commits-tree"></div>
+
+<script src="public/js/libs/d3.min.js"></script>
+
+<script src="public/js/graph-config.js"></script>
+
+<script src="public/js/support/code-support.js"></script>
+<script src="public/js/support/dom-support.js"></script>
+<script src="public/js/support/menu-support.js"></script>
+<script src="public/js/support/time-support.js"></script>
+<script src="public/js/support/commit-convert.js"></script>
+
+<script src="public/js/graph/cloc/circle-packing.js"></script>
+<script src="public/js/graph/cloc/nested-treemap.js"></script>
+<script src="public/js/graph/cloc/code-flower.js"></script>
+
+<script src="public/js/plugins/legend.js"></script>
+
+<script src="public/js/graph/git/branch-timeline.js"></script>
+<script src="public/js/graph/git/commits-tree.js"></script>
+<script src="public/js/graph/git/commit-hour-heatmap.js"></script>
+<script src="public/js/graph/git/tags-timeline.js"></script>
+
+<script src="public/js/graph/git/team-lifecycle.js"></script>
+<script src="public/js/graph/git/team-learning-curve.js"></script>
+<script src="public/js/graph/git/commit-calendar.js"></script>
+<script src="public/js/graph/git/commit-code-frequency.js"></script>
+<script src="public/js/graph/git/time-interactive-line.js"></script>
+
+<script src="public/js/graph/plugins/struct-visual.js"></script>
+<script src="public/js/graph/plugins/pipeline-visual.js"></script>
+
+<script src="public/js/index.js"></script>
 </body>
 </html>
