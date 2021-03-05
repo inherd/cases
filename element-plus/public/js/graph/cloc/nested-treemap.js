@@ -1,15 +1,19 @@
 function renderNestedTreemap(originData) {
-  const color = d3.scaleSequential([8, 0], d3.interpolateMagma);
+  let color = d3.scaleLinear()
+    .domain([0, 4])
+    .range(["hsl(0,0%,100%)", "hsl(197,73%,45%)"])
+    .interpolate(d3.interpolateHcl);
+
   const format = d3.format(",d");
-  const width = 1200;
-  const height = 960;
+  const width = GraphConfig.width;
+  const height = GraphConfig.height;
   const x = d3.scaleLinear().rangeRound([0, width]);
   const y = d3.scaleLinear().rangeRound([0, height]);
 
   var dMap = {}
 
   for (let datum of originData) {
-    let path = CodeUtil.convertPath(datum.path);
+    let path = CodeSupport.convertPath(datum.path);
     dMap["root." + path] = {
       name: "root." + path,
       path: datum.path,
@@ -29,7 +33,7 @@ function renderNestedTreemap(originData) {
         .sort((a, b) => b.value - a.value))
   }
 
-  let data = CodeUtil.hierarchy(Object.values(dMap));
+  let data = CodeSupport.hierarchy(Object.values(dMap));
 
   const svg = d3.select("#nested-treemap").append("svg")
     .attr("id", "graphSvg")
@@ -37,21 +41,6 @@ function renderNestedTreemap(originData) {
 
   let group = svg.append("g")
     .call(render, treemap(data));
-
-  const menuItems = [
-    {
-      title: 'First action',
-      action: (d) => {
-        console.log(d);
-      }
-    },
-    {
-      title: 'Second action',
-      action: (d) => {
-        console.log(d);
-      }
-    }
-  ];
 
   function render(group, root) {
     const shadow = DOM.uid("shadow");
@@ -74,7 +63,7 @@ function renderNestedTreemap(originData) {
       .join("g")
       .attr("transform", d => `translate(${d.x0},${d.y0})`)
       .on("contextmenu", (event, d) => {
-        Menu.createContextMenu(event, d, menuItems, width, height, '#graphSvg');
+        MenuSupport.createContextMenu(event, d, MenuSupport.defaultMenuItems, svg);
       })
 
     node.append("title")

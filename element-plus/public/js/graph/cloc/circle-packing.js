@@ -1,8 +1,8 @@
 function renderPacking(originData) {
-  var dMap = {}
+  let dMap = {};
 
   for (let datum of originData) {
-    let path = CodeUtil.convertPath(datum.path)
+    let path = CodeSupport.convertPath(datum.path)
 
     dMap["root." + path] = {
       name: "root." + path,
@@ -10,10 +10,10 @@ function renderPacking(originData) {
     }
   }
 
-  var jdata = Object.values(dMap)
-  var data = CodeUtil.hierarchy(jdata);
+  let jdata = Object.values(dMap)
+  let data = CodeSupport.hierarchy(jdata);
 
-  var pack = function (data) {
+  let pack = function (data) {
     return d3.pack()
       .size([width, height])
       .padding(3)
@@ -22,10 +22,10 @@ function renderPacking(originData) {
         .sort((a, b) => b.value - a.value))
   }
 
-  var width = 1200;
-  var height = width;
-  var format = d3.format(",d")
-  var color = d3.scaleLinear()
+  let width = GraphConfig.width;
+  let height = width;
+
+  let color = d3.scaleLinear()
     .domain([0, 5])
     .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
     .interpolate(d3.interpolateHcl)
@@ -35,13 +35,12 @@ function renderPacking(originData) {
   let focus = root;
   let view;
 
-  const svg = d3.select("#packing").append("svg")
-    .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
-    .style("display", "block")
-    // .style("margin", "0 -14px")
+  const svg = d3.select("#circle-packing").append("svg")
+    .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`);
+
+  svg.style("display", "block")
     .style("background", color(0))
     .style("cursor", "pointer")
-    .style("font", "14px sans-serif")
     .attr("text-anchor", "middle")
     .on("click", () => zoom(root));
 
@@ -57,10 +56,16 @@ function renderPacking(originData) {
     .on("mouseout", function () {
       d3.select(this).attr("stroke", null);
     })
-    .on("click", (event, d) => focus !== d && (zoom(d), event.stopPropagation()));
+    .on("click", (event, d) => focus !== d && (zoom(d), event.stopPropagation()))
+    .on("contextmenu", (event, d) => {
+      MenuSupport.createContextMenu(event, d, MenuSupport.defaultMenuItems, svg, {
+        width: -width / 2,
+        height: -height / 2
+      });
+      event.stopPropagation();
+    })
 
   const label = svg.append("g")
-    .style("font", "18px sans-serif")
     .attr("pointer-events", "none")
     .attr("text-anchor", "middle")
     .selectAll("text")
@@ -88,7 +93,6 @@ function renderPacking(originData) {
   }
 
   function zoom(d) {
-    const focus0 = focus;
     focus = d;
 
     label

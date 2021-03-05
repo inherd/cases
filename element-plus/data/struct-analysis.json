@@ -1,0 +1,1974 @@
+[
+  {
+    "name": "alias",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/webpack.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "examples",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "vue",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "child",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/route.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "component",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "name",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "path",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "cjs",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/build/build.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "exports",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "exports",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "file",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "file",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "format",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "format",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "paths",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "compilerOptions",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/md-loader/util.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "mode",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "config",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/webpack.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "devtool",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "entry",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "mode",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "mode",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "plugins",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "cssRule",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/webpack.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "test",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "use",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "defaultOpts",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/build/build.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "input",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "plugins",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "plugins",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": [
+      {
+        "name": "external",
+        "access": "",
+        "return_type": "",
+        "pure_return_type": ""
+      },
+      {
+        "name": "external",
+        "access": "",
+        "return_type": "",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "devServer",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/webpack.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "contentBase",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "hot",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "inline",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "overlay",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "publicPath",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "stats",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "diagnostics",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/jest.config.js",
+    "lang": "",
+    "parents": [],
+    "members": [],
+    "methods": []
+  },
+  {
+    "name": "Dialog",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/packages/utils/aria-dialog.ts",
+    "lang": "TypeScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "dialogNode",
+        "access": "+",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "focusAfterClosed",
+        "access": "+",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "focusFirst",
+        "access": "+",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "lastFocus",
+        "access": "+",
+        "data_type": "Nullable<Element>",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": [
+      {
+        "name": "addListeners",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "closeDialog",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "constructor",
+        "access": "+",
+        "return_type": "",
+        "pure_return_type": ""
+      },
+      {
+        "name": "removeListeners",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "trapFocus",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "ElementPlusError",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/packages/utils/error.ts",
+    "lang": "TypeScript",
+    "parents": [
+      "Error"
+    ],
+    "members": [],
+    "methods": [
+      {
+        "name": "constructor",
+        "access": "+",
+        "return_type": "string",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "ElMessageBoxComponent",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/packages/message-box/src/message-box.type.ts",
+    "lang": "TypeScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "action",
+        "access": "+",
+        "data_type": "Action",
+        "pure_data_type": ""
+      },
+      {
+        "name": "cancelButtonClass",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "cancelButtonLoading",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "cancelButtonText",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "confirmButtonClass",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "confirmButtonDisabled",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "confirmButtonLoading",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "confirmButtonText",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "customClass",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "dangerouslyUseHTMLString",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "editorErrorMessage",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "ElMessageBoxShortcutMethod",
+        "access": "+",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "iconClass",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "inputErrorMessage",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "inputPattern",
+        "access": "+",
+        "data_type": "RegExp",
+        "pure_data_type": ""
+      },
+      {
+        "name": "inputPlaceholder",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "inputType",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "inputValidator",
+        "access": "+",
+        "data_type": "MessageBoxInputValidator",
+        "pure_data_type": ""
+      },
+      {
+        "name": "inputValue",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "message",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "showCancelButton",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "showClose",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "showConfirmButton",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "showInput",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "title",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "title",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "type",
+        "access": "+",
+        "data_type": "MessageType",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": [
+      {
+        "name": "close",
+        "access": "+",
+        "return_type": "any",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "env",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/babel.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [],
+    "methods": []
+  },
+  {
+    "name": "ErrorComponent",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/route.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "template",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "esm",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/build/build.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "file",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "file",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "format",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "format",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "paths",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "exports",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/build/common.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "moduleFileExtensions",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "noElPrefixFile",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "overrides",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "plugins",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "presets",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "roots",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "testEnvironment",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "finalOptions",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/md-loader/util.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "compiler",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "filename",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "source",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "globals",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/jest.config.js",
+    "lang": "",
+    "parents": [],
+    "members": [],
+    "methods": []
+  },
+  {
+    "name": "guideRoute",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/route.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "children",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "component",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "path",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "redirect",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "indexRoute",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/route.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "component",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "meta",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "name",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "path",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "inputOptions",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/build/build.component.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "input",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "plugins",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": [
+      {
+        "name": "external",
+        "access": "",
+        "return_type": "",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "LOAD_DOCS_MAP",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/route.config.js",
+    "lang": "",
+    "parents": [],
+    "members": [],
+    "methods": []
+  },
+  {
+    "name": "LOAD_MAP",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/route.config.js",
+    "lang": "",
+    "parents": [],
+    "members": [],
+    "methods": []
+  },
+  {
+    "name": "LoadingComponent",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/route.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "template",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "Menu",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/packages/utils/menu/menu-bar.ts",
+    "lang": "TypeScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "domNode",
+        "access": "+",
+        "data_type": "RendererNode",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": [
+      {
+        "name": "constructor",
+        "access": "+",
+        "return_type": "RendererNode",
+        "pure_return_type": ""
+      },
+      {
+        "name": "init",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "MenuItem",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/packages/utils/menu/menu-item.ts",
+    "lang": "TypeScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "domNode",
+        "access": "+",
+        "data_type": "HTMLElement",
+        "pure_data_type": ""
+      },
+      {
+        "name": "submenu",
+        "access": "+",
+        "data_type": "SubMenu",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": [
+      {
+        "name": "addListeners",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "constructor",
+        "access": "+",
+        "return_type": "HTMLElement",
+        "pure_return_type": ""
+      },
+      {
+        "name": "init",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "meta",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/route.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "description",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "title",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "module",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/webpack.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "rules",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "rules",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "Node",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/packages/tree/src/model/node.ts",
+    "lang": "TypeScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "canFocus",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "checked",
+        "access": "+",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "checked",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "childNodes",
+        "access": "+",
+        "data_type": "Node[]",
+        "pure_data_type": ""
+      },
+      {
+        "name": "children",
+        "access": "+",
+        "data_type": "Node[]",
+        "pure_data_type": ""
+      },
+      {
+        "name": "childrenData",
+        "access": "+",
+        "data_type": "ChildrenData",
+        "pure_data_type": ""
+      },
+      {
+        "name": "data",
+        "access": "+",
+        "data_type": "TreeNodeData",
+        "pure_data_type": ""
+      },
+      {
+        "name": "expanded",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "id",
+        "access": "+",
+        "data_type": "number",
+        "pure_data_type": ""
+      },
+      {
+        "name": "indeterminate",
+        "access": "+",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "indeterminate",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "isCurrent",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "isLeaf",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "isLeafByUser",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "label",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "level",
+        "access": "+",
+        "data_type": "number",
+        "pure_data_type": ""
+      },
+      {
+        "name": "loaded",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "loaded",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "loading",
+        "access": "+",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "loading",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "parent",
+        "access": "+",
+        "data_type": "Node",
+        "pure_data_type": ""
+      },
+      {
+        "name": "pathLabels",
+        "access": "+",
+        "data_type": "string[]",
+        "pure_data_type": ""
+      },
+      {
+        "name": "pathNodes",
+        "access": "+",
+        "data_type": "Node[]",
+        "pure_data_type": ""
+      },
+      {
+        "name": "pathValues",
+        "access": "+",
+        "data_type": "CascaderNodePathValue",
+        "pure_data_type": ""
+      },
+      {
+        "name": "store",
+        "access": "+",
+        "data_type": "TreeStore",
+        "pure_data_type": ""
+      },
+      {
+        "name": "text",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "text",
+        "access": "+",
+        "data_type": "string",
+        "pure_data_type": ""
+      },
+      {
+        "name": "uid",
+        "access": "+",
+        "data_type": "number",
+        "pure_data_type": ""
+      },
+      {
+        "name": "value",
+        "access": "+",
+        "data_type": "CascaderNodeValue",
+        "pure_data_type": ""
+      },
+      {
+        "name": "visible",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": [
+      {
+        "name": "appendChild",
+        "access": "+",
+        "return_type": "CascaderOption",
+        "pure_return_type": ""
+      },
+      {
+        "name": "broadcast",
+        "access": "+",
+        "return_type": "unknown[]",
+        "pure_return_type": ""
+      },
+      {
+        "name": "calcText",
+        "access": "+",
+        "return_type": "string",
+        "pure_return_type": ""
+      },
+      {
+        "name": "constructor",
+        "access": "+",
+        "return_type": "",
+        "pure_return_type": ""
+      },
+      {
+        "name": "constructor",
+        "access": "+",
+        "return_type": "TreeNodeOptions",
+        "pure_return_type": ""
+      },
+      {
+        "name": "contains",
+        "access": "+",
+        "return_type": "boolean",
+        "pure_return_type": ""
+      },
+      {
+        "name": "disabled",
+        "access": "+",
+        "return_type": "boolean",
+        "pure_return_type": ""
+      },
+      {
+        "name": "doCheck",
+        "access": "+",
+        "return_type": "boolean",
+        "pure_return_type": ""
+      },
+      {
+        "name": "emit",
+        "access": "+",
+        "return_type": "unknown[]",
+        "pure_return_type": ""
+      },
+      {
+        "name": "getChildren",
+        "access": "+",
+        "return_type": "TreeNodeData",
+        "pure_return_type": ""
+      },
+      {
+        "name": "initialize",
+        "access": "+",
+        "return_type": "",
+        "pure_return_type": ""
+      },
+      {
+        "name": "insertChild",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "isDisabled",
+        "access": "+",
+        "return_type": "boolean",
+        "pure_return_type": ""
+      },
+      {
+        "name": "isLeaf",
+        "access": "+",
+        "return_type": "boolean",
+        "pure_return_type": ""
+      },
+      {
+        "name": "key",
+        "access": "+",
+        "return_type": "TreeKey",
+        "pure_return_type": ""
+      },
+      {
+        "name": "label",
+        "access": "+",
+        "return_type": "string",
+        "pure_return_type": ""
+      },
+      {
+        "name": "loadData",
+        "access": "+",
+        "return_type": "TreeNodeLoadedDefaultProps",
+        "pure_return_type": ""
+      },
+      {
+        "name": "nextSibling",
+        "access": "+",
+        "return_type": "Nullable<Node>",
+        "pure_return_type": ""
+      },
+      {
+        "name": "onChildCheck",
+        "access": "+",
+        "return_type": "",
+        "pure_return_type": ""
+      },
+      {
+        "name": "onParentCheck",
+        "access": "+",
+        "return_type": "boolean",
+        "pure_return_type": ""
+      },
+      {
+        "name": "previousSibling",
+        "access": "+",
+        "return_type": "Nullable<Node>",
+        "pure_return_type": ""
+      },
+      {
+        "name": "remove",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "setCheckState",
+        "access": "+",
+        "return_type": "boolean",
+        "pure_return_type": ""
+      },
+      {
+        "name": "setData",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "updateChildren",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "valueByOption",
+        "access": "+",
+        "return_type": "",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "optimization",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/webpack.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "minimize",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "minimizer",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "output",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/webpack.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "filename",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "filename",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "globalObject",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "library",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "libraryTarget",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "path",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "path",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "publicPath",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "publicPath",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "umdNamedDefine",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "resolve",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/webpack.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "extensions",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "extensions",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "resourceRoute",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/website/route.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "component",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "meta",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "name",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "path",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  },
+  {
+    "name": "rules",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/commitlint.config.js",
+    "lang": "",
+    "parents": [],
+    "members": [],
+    "methods": []
+  },
+  {
+    "name": "Store",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/packages/cascader-panel/src/store.ts",
+    "lang": "TypeScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "allNodes",
+        "access": "+",
+        "data_type": "Node[]",
+        "pure_data_type": ""
+      },
+      {
+        "name": "leafNodes",
+        "access": "+",
+        "data_type": "Node[]",
+        "pure_data_type": ""
+      },
+      {
+        "name": "nodes",
+        "access": "+",
+        "data_type": "Node[]",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": [
+      {
+        "name": "appendNode",
+        "access": "+",
+        "return_type": "Node",
+        "pure_return_type": ""
+      },
+      {
+        "name": "appendNodes",
+        "access": "+",
+        "return_type": "Node",
+        "pure_return_type": ""
+      },
+      {
+        "name": "constructor",
+        "access": "+",
+        "return_type": "CascaderConfig",
+        "pure_return_type": ""
+      },
+      {
+        "name": "getFlattedNodes",
+        "access": "+",
+        "return_type": "boolean",
+        "pure_return_type": ""
+      },
+      {
+        "name": "getNodeByValue",
+        "access": "+",
+        "return_type": "",
+        "pure_return_type": ""
+      },
+      {
+        "name": "getNodes",
+        "access": "+",
+        "return_type": "",
+        "pure_return_type": ""
+      },
+      {
+        "name": "getSameNode",
+        "access": "+",
+        "return_type": "Nullable<Node>",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "SubMenu",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/packages/utils/menu/submenu.ts",
+    "lang": "TypeScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "domNode",
+        "access": "+",
+        "data_type": "ParentNode",
+        "pure_data_type": ""
+      },
+      {
+        "name": "parent",
+        "access": "+",
+        "data_type": "ParentNode",
+        "pure_data_type": ""
+      },
+      {
+        "name": "subIndex",
+        "access": "+",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "subMenuItems",
+        "access": "+",
+        "data_type": "NodeList",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": [
+      {
+        "name": "constructor",
+        "access": "+",
+        "return_type": "ParentNode",
+        "pure_return_type": ""
+      },
+      {
+        "name": "gotoSubIndex",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "init",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "TableLayout",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/packages/table/src/table-layout.ts",
+    "lang": "TypeScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "appendHeight",
+        "access": "+",
+        "data_type": "Ref<null",
+        "pure_data_type": ""
+      },
+      {
+        "name": "bodyHeight",
+        "access": "+",
+        "data_type": "Ref<null",
+        "pure_data_type": ""
+      },
+      {
+        "name": "bodyWidth",
+        "access": "+",
+        "data_type": "Ref<null",
+        "pure_data_type": ""
+      },
+      {
+        "name": "columns",
+        "access": "+",
+        "data_type": "TableColumnCtx[]",
+        "pure_data_type": ""
+      },
+      {
+        "name": "fit",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "fixedBodyHeight",
+        "access": "+",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "fixedWidth",
+        "access": "+",
+        "data_type": "Ref<null",
+        "pure_data_type": ""
+      },
+      {
+        "name": "footerHeight",
+        "access": "+",
+        "data_type": "Ref<null",
+        "pure_data_type": ""
+      },
+      {
+        "name": "gutterWidth",
+        "access": "+",
+        "data_type": "number",
+        "pure_data_type": ""
+      },
+      {
+        "name": "headerHeight",
+        "access": "+",
+        "data_type": "Ref<null",
+        "pure_data_type": ""
+      },
+      {
+        "name": "height",
+        "access": "+",
+        "data_type": "Ref<null",
+        "pure_data_type": ""
+      },
+      {
+        "name": "observers",
+        "access": "+",
+        "data_type": "TableHeader[]",
+        "pure_data_type": ""
+      },
+      {
+        "name": "rightFixedWidth",
+        "access": "+",
+        "data_type": "Ref<null",
+        "pure_data_type": ""
+      },
+      {
+        "name": "scrollX",
+        "access": "+",
+        "data_type": "Ref<boolean>",
+        "pure_data_type": ""
+      },
+      {
+        "name": "scrollY",
+        "access": "+",
+        "data_type": "Ref<boolean>",
+        "pure_data_type": ""
+      },
+      {
+        "name": "showHeader",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "store",
+        "access": "+",
+        "data_type": "Store",
+        "pure_data_type": ""
+      },
+      {
+        "name": "table",
+        "access": "+",
+        "data_type": "Table",
+        "pure_data_type": ""
+      },
+      {
+        "name": "tableHeight",
+        "access": "+",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "tableHeight",
+        "access": "+",
+        "data_type": "Ref<null",
+        "pure_data_type": ""
+      },
+      {
+        "name": "viewportHeight",
+        "access": "+",
+        "data_type": "Ref<null",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": [
+      {
+        "name": "constructor",
+        "access": "+",
+        "return_type": "AnyObject",
+        "pure_return_type": ""
+      },
+      {
+        "name": "getFlattenColumns",
+        "access": "+",
+        "return_type": "TableColumnCtx[]",
+        "pure_return_type": ""
+      },
+      {
+        "name": "setHeight",
+        "access": "+",
+        "return_type": "string",
+        "pure_return_type": ""
+      },
+      {
+        "name": "setMaxHeight",
+        "access": "+",
+        "return_type": "string",
+        "pure_return_type": ""
+      },
+      {
+        "name": "updateElsHeight",
+        "access": "+",
+        "return_type": "",
+        "pure_return_type": ""
+      },
+      {
+        "name": "updateScrollY",
+        "access": "+",
+        "return_type": "",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "transform",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/jest.config.js",
+    "lang": "",
+    "parents": [],
+    "members": [],
+    "methods": []
+  },
+  {
+    "name": "TreeStore",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/packages/tree/src/model/tree-store.ts",
+    "lang": "TypeScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "autoExpandParent",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "checkDescendants",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "checkStrictly",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "currentNode",
+        "access": "+",
+        "data_type": "Node",
+        "pure_data_type": ""
+      },
+      {
+        "name": "currentNodeKey",
+        "access": "+",
+        "data_type": "TreeKey",
+        "pure_data_type": ""
+      },
+      {
+        "name": "data",
+        "access": "+",
+        "data_type": "TreeData",
+        "pure_data_type": ""
+      },
+      {
+        "name": "defaultCheckedKeys",
+        "access": "+",
+        "data_type": "TreeKey[]",
+        "pure_data_type": ""
+      },
+      {
+        "name": "defaultExpandAll",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "defaultExpandedKeys",
+        "access": "+",
+        "data_type": "TreeKey[]",
+        "pure_data_type": ""
+      },
+      {
+        "name": "filterNodeMethod",
+        "access": "+",
+        "data_type": "FilterNodeMethodFunction",
+        "pure_data_type": ""
+      },
+      {
+        "name": "key",
+        "access": "+",
+        "data_type": "TreeKey",
+        "pure_data_type": ""
+      },
+      {
+        "name": "lazy",
+        "access": "+",
+        "data_type": "boolean",
+        "pure_data_type": ""
+      },
+      {
+        "name": "load",
+        "access": "+",
+        "data_type": "LoadFunction",
+        "pure_data_type": ""
+      },
+      {
+        "name": "nodesMap",
+        "access": "+",
+        "data_type": "TreeStoreNodesMap",
+        "pure_data_type": ""
+      },
+      {
+        "name": "props",
+        "access": "+",
+        "data_type": "TreeOptionProps",
+        "pure_data_type": ""
+      },
+      {
+        "name": "root",
+        "access": "+",
+        "data_type": "Node",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": [
+      {
+        "name": "_initDefaultCheckedNode",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "_initDefaultCheckedNodes",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "append",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "constructor",
+        "access": "+",
+        "return_type": "TreeStoreOptions",
+        "pure_return_type": ""
+      },
+      {
+        "name": "deregisterNode",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "filter",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "getCheckedNodes",
+        "access": "+",
+        "return_type": "TreeNodeData[]",
+        "pure_return_type": ""
+      },
+      {
+        "name": "getNode",
+        "access": "+",
+        "return_type": "Node",
+        "pure_return_type": ""
+      },
+      {
+        "name": "initialize",
+        "access": "+",
+        "return_type": "",
+        "pure_return_type": ""
+      },
+      {
+        "name": "insertAfter",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "insertBefore",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "registerNode",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "remove",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "setDefaultCheckedKey",
+        "access": "+",
+        "return_type": "void",
+        "pure_return_type": ""
+      },
+      {
+        "name": "traverse",
+        "access": "+",
+        "return_type": "",
+        "pure_return_type": ""
+      }
+    ]
+  },
+  {
+    "name": "utils",
+    "id": 0,
+    "file": "/Users/fdhuang/clone/element-plus/babel.config.js",
+    "lang": "JavaScript",
+    "parents": [],
+    "members": [
+      {
+        "name": "ignore",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "plugins",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      },
+      {
+        "name": "presets",
+        "access": "",
+        "data_type": "",
+        "pure_data_type": ""
+      }
+    ],
+    "methods": []
+  }
+]

@@ -1,12 +1,5 @@
 // based on https://observablehq.com/@tezzutezzu/world-history-timeline
-let formatDate = function (d) {
-  let date = new Date(d * 1000);
-  let year = date.getUTCFullYear();
-  let month = date.getUTCMonth() + 1;
-  let day = date.getUTCDate();
-  return year + "-" + month + "-" + day
-};
-let getTooltipContent = function (d) {
+let getMemberTooltipContent = function (d) {
   return `<b>${d.name}</b>
 <br/>
 <b style="color:${d.color.darker()}">${d.name}</b>
@@ -15,23 +8,18 @@ ${formatDate(d.start)} - ${formatDate(d.end)}
 `
 }
 
-function renderBranches(csv) {
-  let data = csv.map(d => {
-    return {
-      ...d,
-      start: d.start,
-      end: d.end
-    }
-  }).sort((a, b) => a.start - b.start);
+function renderMembersTimeline(data) {
+  let id = "#members-lifecycle";
+  let elementId = "members-lifecycle"
 
-  let height = csv.length * 30;
-  let width = 1000;
+  let height = data.length * 20;
+  let width = 1200;
 
   let margin = {
     top: 30,
-    right: 30,
+    right: 120,
     bottom: 30,
-    left: 30
+    left: 120
   }
 
   let y = d3.scaleBand()
@@ -46,16 +34,10 @@ function renderBranches(csv) {
 
   let createTooltip = function (el) {
     el
-      .style("position", "absolute")
+      .attr("class", "tooltip")
       .style("pointer-events", "none")
       .style("top", 0)
       .style("opacity", 0)
-      .style("background", "white")
-      .style("border-radius", "5px")
-      .style("box-shadow", "0 0 10px rgba(0,0,0,.25)")
-      .style("padding", "10px")
-      .style("line-height", "1.3")
-      .style("font", "11px sans-serif")
   }
 
   let getRect = function (d) {
@@ -93,7 +75,7 @@ function renderBranches(csv) {
   let names = d3.group(data, d => d.name);
   let color = d3.scaleOrdinal(d3.schemeSet2).domain(names)
 
-  const svg = d3.select("#timeline").append("svg")
+  const svg = d3.select(id).append("svg")
     .attr("viewBox", `0 0 ${width} ${height}`)
 
   const g = svg.append("g").attr("transform", (d, i) => `translate(${margin.left} ${margin.top})`);
@@ -118,7 +100,7 @@ function renderBranches(csv) {
 
       tooltip
         .style("opacity", 1)
-        .html(getTooltipContent(d))
+        .html(getMemberTooltipContent(d))
     })
     .on("mouseleave", function (event, d) {
       d3.select(this).select("rect").attr("fill", d.color)
@@ -135,7 +117,6 @@ function renderBranches(csv) {
     .attr("transform", (d, i) => `translate(${margin.left} ${height - margin.bottom})`)
     .call(axisBottom)
 
-
   svg.on("mousemove", function (event, d) {
     let [x, y] = d3.pointer(event);
     line.attr("transform", `translate(${x} 0)`);
@@ -147,8 +128,7 @@ function renderBranches(csv) {
       .style("top", y + "px")
   })
 
-
-  let element = document.getElementById("timeline");
+  let element = document.getElementById(elementId);
   element.appendChild(svg.node());
   element.appendChild(tooltip.node());
   element.groups = groups;
