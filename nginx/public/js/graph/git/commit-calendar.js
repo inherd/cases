@@ -15,7 +15,7 @@ function renderCommitCalendar(data, elementId = "#commit-calendar") {
   let weekday;
 
   let cellSize = 10;
-  let width = GraphConfig.screen_width;
+  let width = GraphConfig.width;
   let height = cellSize * (weekday === "weekday" ? 7 : 9)
   let timeWeek = weekday === "sunday" ? d3.utcSunday : d3.utcMonday;
   let countDay = weekday === "sunday" ? i => i : i => (i + 6) % 7;
@@ -46,7 +46,7 @@ function renderCommitCalendar(data, elementId = "#commit-calendar") {
         return d;
       }
     },
-    d3.select(elementId)
+    d3.select(elementId).append("svg")
   )
 
   let years = d3.groups(data, d => d.date.getUTCFullYear()).reverse();

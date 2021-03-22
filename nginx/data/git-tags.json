@@ -1,5 +1,12 @@
 [
   {
+    "name": "release-1.19.7",
+    "display_name": "release-1.19.7",
+    "commit_id": "0945da0b",
+    "date": 1613491038,
+    "share_index": 1
+  },
+  {
     "name": "release-1.19.6",
     "display_name": "release-1.19.6",
     "commit_id": "87c50688",

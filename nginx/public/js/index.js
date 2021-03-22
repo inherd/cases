@@ -14,6 +14,7 @@ d3.json("data/cloc.json").then(function (json) {
 
   renderPacking(data["reports"])
   renderNestedTreemap(data["reports"])
+  renderCodeFlower(data["reports"], '#code-flower');
 });
 
 d3.json("data/git.json").then(function (json) {
@@ -64,6 +65,61 @@ d3.json("data/git-commits.json").then(function (data) {
   renderCodeFrequency(commitByWeeks);
 });
 
-d3.json("data/struct_analysis.json").then(function (data) {
+d3.json("data/struct.json").then(function (data) {
   visualizationStruct(data);
+});
+
+d3.json("data/git-file-history.json").then(function (data) {
+  data.width = GraphConfig.width;
+
+  let options = ["-", "circles", "normal"];
+  d3.select("#file-history-select")
+    .selectAll('myOptions')
+    .data(options)
+    .enter()
+    .append('option')
+    .text(d => d)
+    .attr("value", d => d)
+
+  d3.select("#file-history-select").on("change", function (d) {
+    let isCircles = false;
+    if (d.target.value === "-") {
+      return;
+    }
+    if (d.target.value === "circles") {
+      isCircles = true;
+    }
+
+    let layout = calculateCodeLayout(data, isCircles);
+    d3.select("#file-explorer").html("");
+    renderCodeExplorer(layout, '#file-explorer');
+  })
+});
+
+d3.json("data/pipeline.json").then(function (data) {
+  if (!!data) {
+    let pipeline = [];
+    let first_pipeline = data[0];
+    for (let stage of first_pipeline.stages) {
+      let jobs = [];
+      for (let sub_stage of stage.sub_stages) {
+        jobs.push({
+          name: sub_stage.name,
+          desc: sub_stage.jobs,
+        });
+      }
+      if (jobs.length === 0) {
+        jobs.push({
+          name: "",
+          desc: jobs,
+        });
+      }
+      pipeline.push({
+        name: stage.name,
+        children: jobs,
+      })
+    }
+
+    visualizationPipeline(pipeline, '#pipeline');
+  }
 });
